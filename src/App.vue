@@ -1,12 +1,10 @@
-<script setup>
-
-</script>
-
 <template>
-  <nav class="flex items-center justify-between flex-wrap bg-stone-100 p-6">
+  <nav class="navbar flex items-center justify-between flex-wrap p-3 absolute top-0 left-0 w-full z-10">
   <div class="flex items-center flex-shrink-0 text-white mr-6">
-    <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
-    <span class="font-semibold text-xl tracking-tight">Tailwind CSS</span>
+    <a href="" class="flex items-center">  
+      <RouterLink to="/"> <img src="../src/assets/PaulasRengøringlogo.png" class="h-10 mr-3 md:h-12 lg:h-20 lg:ml-3" alt="" /></RouterLink>
+      <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+    </a>
   </div>
   <div class="block lg:hidden">
     <RouterLink to="/">
@@ -17,30 +15,30 @@
   </div>
   <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
     <div class="text-xs lg:flex-grow">
-      <ul class="flex flex-row space-x-6 mr-2 text-gray-500 text-xs md:text-sm md:mr-2 lg:mr-2 md:space-x-10 lg:space-x-12 lg:ml-10 lg:text-xs">
+      <ul class="flex flex-row space-x-6 mr-2 text-white text-xs md:text-sm md:mr-2 lg:mr-2 md:space-x-10 lg:space-x-12 lg:ml-10 lg:text-sm">
         <li>
-          <RouterLink to="/">HJEM</RouterLink>
+          <RouterLink to="/">Hjem</RouterLink>
         </li>
         <li>
-          <RouterLink to="guide">GUIDE</RouterLink>
+          <RouterLink to="guide">Guide</RouterLink>
         </li>
         <li>
-          <RouterLink to="services">JEG TILBYDER</RouterLink>
+          <RouterLink to="services">Jeg tilbyder</RouterLink>
         </li>
         <li>
-          <RouterLink to="about">OM FIRMAET</RouterLink>
+          <RouterLink to="about">Om firmaet</RouterLink>
         </li>
         <li>
-          <RouterLink to="prices">PRISER</RouterLink>
+          <RouterLink to="prices">Priser</RouterLink>
         </li>
         <li>
-          <RouterLink to="kontakt">KONTAKT</RouterLink>
+          <RouterLink to="kontakt">Kontakt</RouterLink>
         </li>
       </ul>
     </div>
     <div>
-      <button class="text-gray-500 bg-transparent hover:bg-transparent border-2 border-gray-300 font-semibold py-2 px-8 rounded-full lg:text-sm lg:text-gray-500">
-        BOOK EN TID
+      <button class="hover:bg-transparent bg-white font-semibold py-2 px-8 rounded-full text-xs text-black lg:text-xs lg:text-black lg:mr-3">
+        BOOK DIN TID
       </button>
     </div>
   </div>
@@ -53,5 +51,12 @@
 
 
 <style scoped>
-
+.navbar {
+  background-color: transparent; /* Set background color to transparent */
+}
 </style>
+
+
+<script setup>
+
+</script>
