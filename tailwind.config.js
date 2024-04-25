@@ -7,11 +7,12 @@ export default {
   theme: {
     extend: {},
     colors: {
-      'lightblue': '#cdd1dc',
-      'darkblue': '#969eb2',
+      'lightblue': '#e1e9f5',
+      'blue': '#bbcadd',
+      'darkblue': '#748ab2',
       'gray': '#7b7b7b',
       'darkgray': '#595959',
-      'white': '#ffffff',
+      'white': '#fdfdfd',
       'lightgray': '#f3f3f3',
       'beige': '#d4cec4',
       'darkbeige': '#bbb3a6',
