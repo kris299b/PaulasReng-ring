@@ -18,7 +18,7 @@
   </div>
   <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="menuItems">
     <div class="text-xs lg:flex-grow">
-      <ul class="flex flex-col space-x-6 mr-2 text-white text-xs md:text-sm md:mr-2 lg:flex-row lg:mr-2 md:space-x-10 lg:space-x-12 lg:ml-10 lg:text-sm">
+      <ul class="flex flex-col space-x-6 mr-2 text-white dark:text-white text-xs md:text-sm md:mr-2 lg:flex-row lg:mr-2 md:space-x-10 lg:space-x-12 lg:ml-10 lg:text-sm">
         <li>
           <RouterLink to="/">Hjem</RouterLink>
         </li>
@@ -40,7 +40,7 @@
       </ul>
     </div>
     <div>
-      <button class="hover:bg-transparent bg-darkblue dark:bg-darkblue font-semibold py-2 px-8 rounded-full text-xs text-white lg:text-white lg:text-xs lg:mr-3">
+      <button class="hover:bg-transparent bg-darkblue dark:bg-darkblue font-semibold py-2 px-8 rounded-full text-xs text-white dark:text-white lg:text-xs lg:mr-3">
         BOOK DIN TID
       </button>
     </div>
@@ -65,13 +65,13 @@
                   <h2 class="mb-6 text-xs font-semibold text-darkgray uppercase dark:text-darkgray">information</h2>
                   <ul class="text-xs text-darkgray dark:text-darkgray font-medium lg:text-xs">
                       <li class="mb-4">
-                          <a href="https://flowbite.com/" class="hover:underline">Guide</a>
+                          <a href="" class="hover:underline">Guide</a>
                       </li>
                       <li class="mb-4">
-                          <a href="https://tailwindcss.com/" class="hover:underline">Priser</a>
+                          <a href="" class="hover:underline">Priser</a>
                       </li>
                       <li>
-                          <a href="https://tailwindcss.com/" class="hover:underline">Om firmaet</a>
+                          <a href="" class="hover:underline">Om firmaet</a>
                       </li>
                   </ul>
               </div>
@@ -79,10 +79,13 @@
                   <h2 class="mt-5 mb-6 text-xs font-semibold text-darkgray uppercase dark:text-darkgray lg:mt-0">Nyttige links</h2>
                   <ul class="text-xs text-gray-500 dark:text-darkgray font-medium lg:text-xs">
                       <li class="mb-4">
-                          <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Jeg tilbyder</a>
+                          <a href="" class="hover:underline ">Jeg tilbyder</a>
+                      </li>
+                      <li class="mb-4">
+                          <a href="" class="hover:underline ">Privatlivs politik</a>
                       </li>
                       <li>
-                          <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Privatlivs politik</a>
+                          <a href="" class="hover:underline">Kontakt</a>
                       </li>
                   </ul>
               </div>
@@ -135,7 +138,7 @@
       </div>
     </div>  
     <div class="px-4 py-6 bg-lightblue dark:bg-lightblue md:flex md:items-center md:justify-between">
-        <div class="text-sm text-center text-darkgray dark:text-gray-300 lg:text-xs">
+        <div class="text-sm text-center text-darkgray dark:text-darkgray lg:text-xs">
           © 2024 Paulas rengøring. All Rights Reserved.
         </div> 
     </div>   
