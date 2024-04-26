@@ -40,8 +40,8 @@
       </ul>
     </div>
     <div>
-      <button class="hover:bg-transparent bg-darkblue dark:bg-darkblue font-semibold py-2 px-8 rounded-full text-xs text-white dark:text-white lg:text-xs lg:mr-3">
-        BOOK DIN TID
+      <button class="hover:bg-transparent bg-darkblue dark:bg-darkblue font-semibold py-2 px-8 rounded-full text-xs text-white dark:text-white lg:text-sm lg:mr-6">
+        Book din tid
       </button>
     </div>
   </div>
@@ -50,7 +50,7 @@
 
 
 <footer class="bg-lightgray dark:lightgray">
-    <div class="mx-4 px-4 py-20 bg-lightblue dark:bg-lightblue md:flex md:items-center md:justify-between lg:py-10 lg:mx-20">
+    <div class="mx-4 px-4 py-20 bg-darkblue dark:bg-darkblue md:flex md:items-center md:justify-between lg:py-10 lg:mx-20">
     </div> 
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
@@ -137,10 +137,8 @@
           </div>
       </div>
     </div>  
-    <div class="px-4 py-6 bg-lightblue dark:bg-lightblue md:flex md:items-center md:justify-between">
-        <div class="text-sm text-center text-darkgray dark:text-darkgray lg:text-xs">
-          © 2024 Paulas rengøring. All Rights Reserved.
-        </div> 
+    <div class="px-4 py-6 bg-darkblue dark:bg-darkblue md:flex md:items-center md:justify-between">
+        <span class="block text-sm text-center lg:text-center text-white dark:text-white"> © 2024 Paulas rengøring. All Rights Reserved.</span>
     </div>   
 </footer>
 
@@ -191,5 +189,6 @@ window.addEventListener('scroll', function() {
       navbar.classList.remove('scrolled');
     }
   });
+
 
 </script>
