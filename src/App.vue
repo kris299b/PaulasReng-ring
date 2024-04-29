@@ -1,6 +1,6 @@
 <template>
   
- <!-- Navbar -->
+<!-- Navbar -->
 <nav id="navbar" class="navbar flex items-center justify-between flex-wrap p-3 fixed top-0 left-0 w-full z-10 shadow-md">
   <div class="flex items-center flex-shrink-0 text-white mr-6">
     <a href="" class="flex items-center">  
@@ -18,24 +18,33 @@
   </div>
   <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="menuItems">
     <div class="text-xs lg:flex-grow">
-      <ul class="flex flex-col space-x-6 mr-2 text-white dark:text-white text-xs md:text-sm md:mr-2 lg:flex-row lg:mr-2 md:space-x-10 lg:space-x-12 lg:ml-10 lg:text-sm">
+      <ul class="flex flex-col space-x-6 mr-2 text-white dark:text-white text-xs md:text-sm md:mr-2 lg:flex-row lg:mr-2 md:space-x-10 lg:space-x-16 lg:ml-10 lg:text-sm">
         <li>
-          <RouterLink to="/">Hjem</RouterLink>
+          <RouterLink to="/" class="hover:font-semibold">Hjem</RouterLink>
         </li>
         <li>
-          <RouterLink to="guide">Guide</RouterLink>
+          <RouterLink to="guide" class="hover:font-semibold">Guide</RouterLink>
+        </li>
+        <div class="dropdown"> 
+          <button class="dropbtn flex justify-between"> <!-- Removed hover effect from button -->
+            Jeg tilbyder
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 lg:ml-2 lg:mt-1">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+            </svg>
+          </button>
+          <div class="dropdown-content">
+            <RouterLink to="privatecleaning" class="hover:font-semibold">Privatrengøring</RouterLink> <!-- Added hover effect -->
+            <RouterLink to="commercialcleaning" class="hover:font-semibold">Erhvervsrengøring</RouterLink> <!-- Added hover effect -->
+          </div>
+        </div>
+        <li>
+          <RouterLink to="about" class="hover:font-semibold">Om firmaet</RouterLink>
         </li>
         <li>
-          <RouterLink to="services">Jeg tilbyder</RouterLink>
+          <RouterLink to="prices" class="hover:font-semibold">Priser</RouterLink>
         </li>
         <li>
-          <RouterLink to="about">Om firmaet</RouterLink>
-        </li>
-        <li>
-          <RouterLink to="prices">Priser</RouterLink>
-        </li>
-        <li>
-          <RouterLink to="contact">Kontakt</RouterLink>
+          <RouterLink to="contact" class="hover:font-semibold">Kontakt</RouterLink>
         </li>
       </ul>
     </div>
@@ -46,6 +55,7 @@
     </div>
   </div>
 </nav>
+
 <RouterView />
 
 
@@ -166,6 +176,47 @@
 #navbar.scrolled {
     background-color: #bbcadd; 
   }
+
+  /* The dropdown container */
+.dropdown {
+  position: relative; 
+  display: inline-block; 
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 14px;
+  border: none;
+  outline: none;
+  margin: 0;
+  cursor: pointer; /* Add cursor pointer for better UX */
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  padding-top: 10px;
+  min-width: 120px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 6px 0px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 
 </style>
 

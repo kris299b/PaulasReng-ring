@@ -10,7 +10,7 @@
     </div>
     <div class="video-content z-10 pt-40 md:pt-80 lg:pt-40">
         <div>
-            <p class="text-white dark:text-white text-1xl md:text-xl lg:text-md lg:tracking-wider">PROFESSIONEL RENGØRING</p>
+            <p class="text-white dark:text-white text-1xl md:text-xl lg:text-md lg:pb-1 lg:tracking-wider">PROFESSIONEL RENGØRING</p>
             <h2 class="text-white dark:text-white pb-3 px-5 text-3xl md:text-4xl lg:text-5xl py-1">Jeg forstår vigtigheden af et rent miljø</h2>
         </div>
         <div class="flex flex-col space-y-4 px-24 text-sm pt-5 md:flex-row md:justify-center md:space-x-4 lg:flex-row lg:space-x-4 lg:space-y-0 lg:justify-center lg:text-md lg:pt-5">
@@ -24,8 +24,9 @@
     </div>
 </section>
 
-<!-- Værdisæt section -->
 
+
+<!-- Værdisæt section -->
 <div class="bg-white dark:bg-white px-5 columns-1 md:columns-2 lg:px-52 lg:columns-2 lg:gap-x-0 lg:pt-20">
     <div class="inline-block md:hidden lg:hidden pt-10">
         <img src="../assets/PaulasRengøring-værdibillede.jpg" alt="Værdisæt">
@@ -63,14 +64,14 @@
     </div>
     <div class="bg-lightgray dark:bg-lightgray px-5 lg:px-20">
         <p class="text-darkgray dark:darkgray text-sm pt-8 lg:text-sm lg:font-semibold lg:pt-20 lg:tracking-wider">GUIDE</p>
-        <h2 class="text-black dark:text-black pr-10 text-2xl font-semibold mt-3 pb-3 lg:mr-10 lg:text-4xl lg:font-normal lg:pt-0">Sådan får du mest mulig ud af din rengøringshjælp.</h2>
+        <h2 class="text-black dark:text-black pr-10 text-2xl font-semibold mt-3 pb-3 lg:mr-5 lg:text-4xl lg:font-normal lg:pt-0">Sådan får du mest mulig ud af din rengøringshjælp.</h2>
         <p class="text-black dark:text-black pb-3 lg:pt-4 lg:pr-20">There are many variations of passages of Lorem Ipsum available, but the majority 
         have suffered alteration.
         </p>
         <p class="text-black dark:text-black pb-8 lg:pt-2 lg:pr-20 lg:pb-10">By injected humour, or randomised words which don't look 
             even slightly believable. If you are going to use a passage of Lorem Ipsum, you need. 
         </p>
-        <div class="pb-10 lg:pb-10">
+        <div class="pb-10 lg:pb-20">
             <button class="bg-beige dark:bg-beige hover:beige text-black dark:text-black font-semibold py-2 px-8 rounded-full lg:text-md">
                 Læs mere
             </button>
@@ -91,17 +92,12 @@
 </div>
 
 <div class="bg-white dark:bg-white">
-    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 lg:gap-20 lg:px-40 lg:pb-20">
-        <div class="max-w-xs mb-10 ml-7 overflow-hidden shadow-lg bg-white dark:bg-white">
+    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 lg:gap-20 lg:px-40 lg:pb-10 ">
+        <div class="max-w-xs mb-10 ml-7 overflow-hidden shadow-lg bg-white dark:bg-white lg:p-10">
             <div class="px-6 py-4">
-                <div>
-                <h2 class="font-bold text-xl text-black dark:text-black">
-                    PRIVAT
-                </h2>
-            </div>
             <div>
-                <h2 class="font-bold text-xl pb-10 lg:mb-10 text-black dark:text-black">
-                    RENGØRING
+                <h2 class="font-bold text-xl text-black dark:text-black lg:pt-3 lg:pb-10">
+                    PRIVATRENGØRING
                 </h2>
             </div>
             <div class="space-y-5">
@@ -146,16 +142,11 @@
             </div>
             </div>
         </div>
-        <div class="max-w-xs mb-10 ml-7 overflow-hidden shadow-lg bg-white dark:bg-white">
+        <div class="max-w-xs mb-10 ml-7 overflow-hidden shadow-lg bg-white dark:bg-white lg:p-10">
             <div class="px-6 py-4">
                 <div>
-                <h2 class="font-bold text-xl text-black dark:text-black">
-                    ERHVERVS
-                </h2>
-            </div>
-            <div>
-                <h2 class="font-bold text-xl pb-10 lg:mb-10 text-black dark:text-black">
-                    RENGØRING
+                <h2 class="font-bold text-xl text-black dark:text-black lg:pt-3 lg:pb-10">
+                    ERHVERVSRENGØRING
                 </h2>
             </div>
             <div class="space-y-5">
@@ -204,7 +195,7 @@
 </div>
 
 <!-- Kontaktformular sektion -->
-<div class="bg-white dark:bg-white text-black dark:text-black px-5 pt-10 pb-10 text-lg lg:text-center lg:pt-10 lg:pb-12 lg:font-normal">
+<div class="bg-white dark:bg-white text-black dark:text-black px-5 pt-10 pb-10 text-lg lg:text-center lg:pb-12 lg:font-normal">
     <h2 class="text-lg text-left lg:text-center lg:text-4xl">
         Har du spørgsmål?
     </h2>
@@ -226,7 +217,7 @@
         <div class="max-w-sm overflow-hidden shadow-lg bg-white dark:bg-white">
             <div class="px-6 py-4">
                 <div class="text-darkgray lg:text-darkgray font-bold text-xl mb-2 lg:text-lg lg:text-center">ELSEBETH</div>
-                <p class="text-darkgray lg:text-darkgray text-base">
+                <p class="text-darkgray lg:text-darkgray lg:text-center text-base">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                 </p>
             </div>
@@ -234,7 +225,7 @@
         <div class="max-w-sm overflow-hidden shadow-lg bg-white dark:bg-white">
             <div class="px-6 py-4">
                 <div class="text-darkgray lg:text-darkgray font-bold text-xl mb-2 lg:text-lg lg:text-center">RUTH</div>
-                <p class="text-darkgray lg:text-darkgray text-base">
+                <p class="text-darkgray lg:text-darkgray lg:text-center text-base">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                 </p>
             </div>
@@ -242,7 +233,7 @@
         <div class="max-w-sm overflow-hidden shadow-lg bg-white dark:bg-white">
             <div class="px-6 py-4">
                 <div class="text-darkgray lg:text-darkgray font-bold text-xl mb-2 lg:text-lg lg:text-center">JETTE</div>
-                <p class="text-darkgray lg:text-darkgray text-base">
+                <p class="text-darkgray lg:text-darkgray lg:text-center text-base">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                 </p>
             </div>
