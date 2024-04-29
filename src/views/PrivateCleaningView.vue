@@ -52,7 +52,20 @@
     </div>
 </div>
 
+<!-- Servicefradrag-section -->
+<div class="bg:lightgray dark:bg-lightgray lg:text-center lg:pt-20 lg:pb-20 lg:text-2xl text-darkgray dark:text-darkgray">
+    <h2>Husk at din rengøringshjælp går ind under ''Servicefradrag'' </h2>
+    <p class="lg:text-center lg:pl-40 lg:pr-40 lg:pt-4 lg:text-sm">Når du køber privat rengøring, skal du huske at gemme alle dine kvitteringer. 
+        Du kan nemlig trække beløb fra på din selvangivelse under rubrikken 
+        ”servicefradrag”, det varierer en smule beløbsmæssigt fra indkomstår 
+        til indkomstår, hvor stort et beløb du kan trække fra.
+    </p>
+</div>
 
+<!-- Forløb-sektion -->
+<div class="bg:white dark:bg-white lg:text-center lg:pt-20 lg:pb-20 lg:text-2xl text-darkgray dark:text-darkgray">
+    FORLØBET HOS MIG
+</div>
 
 </template>
 
