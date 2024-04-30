@@ -16,7 +16,7 @@ export default {
       'lightgray': '#f3f3f3',
       'beige': '#d4cec4',
       'darkbeige': '#bbb3a6',
-      'black': '#000000',
+      'black': '#444444',
     }
   },
   fontFamily: {},
