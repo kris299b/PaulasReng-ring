@@ -14,11 +14,12 @@
             <h2 class="text-white dark:text-white pb-3 px-5 py-1 text-3xl md:text-4xl lg:text-5xl lg:font-semibold">Jeg forstår vigtigheden af et rent miljø</h2>
         </div>
         <div class="flex flex-col space-y-4 px-24 text-sm pt-5 md:flex-row md:justify-center md:space-x-4 lg:flex-row lg:space-x-4 lg:space-y-0 lg:justify-center lg:text-md lg:pt-5">
-            <button class="flex bg-transparent dark:bg-transparent border-2 border-white lg:border-white py-2 px-4 hover:beige text-white dark:text-white font-semibold lg:py-2 lg:px-8 rounded-full">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <button class="flex bg-transparent dark:bg-transparent border-2 border-white lg:border-white py-2 px-6 hover:beige text-white dark:text-white font-semibold lg:py-2 lg:px-8 rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 lg:w-6 lg:h-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
                 </svg>
-                <p class="lg:pl-2">Lad os tage en udforpligtende snak</p>
+                <p class="hidden md:inline-block lg:inline-block lg:pl-2">Lad os tage en udforpligtende snak</p>
+                <p class="inline-block md:hidden pl-2 text-md lg:hidden lg:pl-2">Lad os snakke</p>
             </button>
         </div>
     </div>
