@@ -16,7 +16,7 @@
       </svg>
     </button>
   </div>
-  <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="menuItems">
+  <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto nav-links" id="menuItems">
     <div class="text-xs lg:flex-grow">
       <ul class="flex flex-col space-x-6 mr-2 font-sans text-white dark:text-white text-xs md:text-sm md:mr-2 lg:flex-row lg:mr-2 md:space-x-10 lg:space-x-16 lg:ml-10 lg:text-sm">
         <li>
@@ -26,15 +26,15 @@
           <RouterLink to="guide" class="hover:font-semibold">Guide</RouterLink>
         </li>
         <div class="dropdown"> 
-          <button class="dropbtn flex justify-between"> <!-- Removed hover effect from button -->
+          <button class="dropbtn flex justify-between"> 
             Jeg tilbyder
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 lg:ml-2 lg:mt-1">
               <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
             </svg>
           </button>
           <div class="dropdown-content">
-            <RouterLink to="privatecleaning" class="hover:font-semibold">Privatrengøring</RouterLink> <!-- Added hover effect -->
-            <RouterLink to="commercialcleaning" class="hover:font-semibold">Erhvervsrengøring</RouterLink> <!-- Added hover effect -->
+            <RouterLink to="privatecleaning" class="hover:font-semibold">Privatrengøring</RouterLink> 
+            <RouterLink to="commercialcleaning" class="hover:font-semibold">Erhvervsrengøring</RouterLink> 
           </div>
         </div>
         <li>
@@ -251,6 +251,17 @@
   display: block;
 }
 
+/* Small screen */
+@media screen and (max-width: 915px) {
+  /*navbar white box */
+  .nav-links {
+    background-color: white;
+    height: 50vh; /* Make the box height equal to the viewport height */
+    padding: 20px 10px; /* Increase top and bottom padding */
+    border-radius: 5px; /* Optional: Add rounded corners */
+  }
+
+}
 
 </style>
 
@@ -275,5 +286,12 @@ window.addEventListener('scroll', function() {
     }
   });
 
+  document.addEventListener('DOMContentLoaded', function () {
+  const navbarToggle = document.getElementById('navbarToggle');
+  const navLinks = document.querySelector('.nav-links');
 
+  navbarToggle.addEventListener('click', function () {
+    navLinks.classList.toggle('active');
+  });
+});
 </script>
