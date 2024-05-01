@@ -5,18 +5,20 @@
     <div class="heroimage absolute top-0 left-0 w-full h-full overflow-hidden">
         <img class="min-w-full min-h-full absolute object-cover" src="../assets/privatrengøring.jpg" alt="Private-cleaning">
     </div>
-    <div class="image-content z-10 pt-40 md:pt-80 lg:pt-24">
+    <div class="image-content z-10 pt-40 md:pt-80 lg:pt-40">
         <div>
-            <p class="font-sans text-white dark:text-white text-1xl md:text-xl lg:text-md lg:pb-1 lg:tracking-wider">PRIVATRENGØRING</p>
+            <p class="font-sans text-white dark:text-white text-1xl md:text-xl lg:text-md lg:pb-1 lg:tracking-wider">PAULAS RENGØRING | PRIVATRENGØRING</p>
             <h2 class="font-sans text-white dark:text-white px-5 text-3xl md:text-4xl lg:pb-2 lg:font-semibold lg:text-5xl">Rengøringshjælp for dig i dit hjem.</h2>
         </div>
         <div class="font-sans flex flex-col space-y-4 px-24 text-sm pt-5 md:flex-row md:justify-center md:space-x-4 lg:flex-row lg:space-x-4 lg:space-y-0 lg:justify-center lg:text-md lg:pt-5">
-            <button class="flex bg-transparent dark:bg-transparent border-2 border-white lg:border-white py-2 px-4 hover:beige text-white dark:text-white font-semibold lg:py-2 lg:px-8 rounded-full">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
-                </svg>
-                <p class="lg:pl-2">Lad os snakke om dine ønsker og behov</p>
-            </button>
+            <RouterLink to="contact"> 
+                <button class="flex bg-transparent dark:bg-transparent border-2 border-white lg:border-white py-2 px-4 hover:beige text-white dark:text-white font-semibold lg:py-2 lg:px-8 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                    </svg>
+                    <p class="lg:pl-2">Lad os snakke om dine ønsker og behov</p>
+                </button>
+            </RouterLink>
         </div>
     </div>
 </section>
@@ -67,8 +69,8 @@
 </div>
 
 <!-- Forløb-sektion -->
-<div class="bg:white dark:bg-white lg:pt-20 lg:pb-5">
-   <h2 class="font-sans pt-10 pb-10 font-semibold text-center text-lg text-darkgray dark:text-darkgray lg:text-center lg:font-semibold lg:text-2xl">HVORDAN FOREGÅR FORLØBET ?</h2> 
+<div class="bg:white dark:bg-white lg:pt-10 lg:pb-0">
+   <h2 class="font-sans pt-10 pb-10 font-semibold text-center text-lg text-black dark:text-black lg:text-center lg:font-semibold lg:text-3xl">Hvordan foregår forløbet ?</h2> 
 </div>
 
 <div class="bg-white dark:bg-white columns-1 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-5 lg:pb-20">
@@ -81,8 +83,8 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
                 </svg>
             </div>
-            <p class="font-sans font-semibold text-sm pl-3 lg:text-sm text-black dark:text-black lg:font-semibold lg:pl-3">
-                        INDLEDENDE SAMTALE
+            <p class="font-sans font-semibold text-sm pl-3 lg:text-lg text-black dark:text-black lg:font-semibold lg:pl-3">
+                        Indledende samtale
             </p>
         </div>
         <div class="font-sans pl-9 pt-2 text-black dark:black text-semibold text-sm lg:pt-2 lg:pl-9 ">
@@ -94,8 +96,8 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
                 </svg>
             </div>
-            <p class="font-sans font-semibold text-base text-sm pl-3 lg:text-sm text-black dark:text-black lg:font-semibold lg:pl-3">
-                        FORMØDE
+            <p class="font-sans font-semibold text-base text-sm pl-3 lg:text-lg text-black dark:text-black lg:font-semibold lg:pl-3">
+                Formøde
             </p>
         </div>
         <div class="font-sans pl-9 pt-2 text-black dark:black text-semibold text-sm lg:pt-2 lg:pl-9 ">
@@ -108,8 +110,8 @@
                     <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
                 </svg>
             </div>
-            <p class="font-sans font-semibold text-base text-sm pl-3 lg:text-sm text-black dark:text-black lg:font-semibold lg:pl-2">
-                        SAMARBEJDET
+            <p class="font-sans font-semibold text-base text-sm pl-3 lg:text-lg text-black dark:text-black lg:font-semibold lg:pl-2">
+                Samarbejdet
             </p>
         </div>
         <div class="font-sans font-sans pl-9 pt-2 pb-10 text-black dark:black text-semibold text-sm lg:pt-2 lg:pl-9 ">

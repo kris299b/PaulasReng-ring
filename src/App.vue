@@ -109,13 +109,19 @@
                   <h2 class="font-sans mb-6 text-xs font-semibold text-darkgray uppercase dark:text-darkgray">information</h2>
                   <ul class="text-xs text-darkgray dark:text-darkgray font-medium lg:text-xs">
                       <li class="mb-4">
-                          <a href="" class="hover:underline">Guide</a>
+                        <RouterLink to="guide" class="hover:font-semibold">Guide</RouterLink>
                       </li>
                       <li class="mb-4">
-                          <a href="" class="hover:underline">Priser</a>
+                        <RouterLink to="prices" class="hover:font-semibold">Priser</RouterLink>
                       </li>
-                      <li>
-                          <a href="" class="hover:underline">Om firmaet</a>
+                      <li class="mb-4">
+                        <RouterLink to="about" class="hover:font-semibold">Om firmaet</RouterLink>
+                      </li>
+                      <li class="mb-4">
+                        <RouterLink to="privatecleaning" class="hover:font-semibold">Privatrengøring</RouterLink> 
+                      </li>
+                      <li class="">
+                        <RouterLink to="commercialcleaning" class="hover:font-semibold">Erhvervsrengøring</RouterLink> 
                       </li>
                   </ul>
               </div>

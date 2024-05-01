@@ -18,8 +18,10 @@
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 lg:w-6 lg:h-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
                 </svg>
-                <p class="hidden md:inline-block lg:inline-block lg:pl-2">Lad os tage en udforpligtende snak</p>
-                <p class="inline-block md:hidden pl-2 text-md lg:hidden lg:pl-2">Lad os samtale</p>
+                <RouterLink to="contact"> 
+                    <p class="hidden md:inline-block lg:inline-block lg:pl-2">Lad os tage en udforpligtende snak</p>
+                    <p class="inline-block md:hidden pl-2 text-md lg:hidden lg:pl-2">Lad os samtale</p>
+                </RouterLink>
             </button>
         </div>
     </div>
@@ -29,7 +31,7 @@
 <!-- Værdisæt section -->
 <div class="bg-white dark:bg-white pt-12 px-5 columns-1 md:gap-x-0 md:columns-2 lg:px-52 lg:columns-2 lg:gap-x-0 lg:pt-20">
     <div class="inline-block pt-10 md:hidden lg:hidden">
-        <img src="../assets/værdisæt.jpg" alt="Værdisæt">
+        <img src="../assets/værdisæt-billede.jpg" alt="Værdisæt">
     </div>
     <div class="bg-lightgray md:pt-2 dark:bg-lightgray pb-10 text-black dark:text-black lg:py-5 lg:px-5">
         <div class="font-sans pt-0 pl-5 pb-3">
@@ -71,7 +73,7 @@
 
 <div class="bg-white dark:bg-white columns-1 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-5">
     <div class="pt-10 md:pt-0 lg:pt-0">
-        <img src="../assets/Guide-billede.jpg" alt="Rengøring">
+        <img src="../assets/Guide-billede.jpg" alt="Guide-billede">
     </div>
     <div class="bg-lightgray dark:bg-lightgray px-5 lg:px-20">
         <p class="font-sans text-gray dark:gray text-sm pt-8 md:px-2 md:pt-7 lg:text-sm lg:font-semibold lg:pt-20 lg:tracking-wider">GUIDE</p>
@@ -83,9 +85,11 @@
             som sikrer dig at du får mest muligt ud af din rengøringshjælp, og bliver mest mulig tilfreds. 
         </p>
         <div class="font-sans pb-10 md:px-2 md:pb-7 lg:pb-20">
-            <button class="bg-beige dark:bg-beige hover:beige text-black dark:text-black font-semibold py-2 px-8 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
-                Læs mere
-            </button>
+            <RouterLink to="guide"> 
+                <button class="bg-beige dark:bg-beige hover:beige text-black dark:text-black font-semibold py-2 px-8 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
+                    Læs mere
+                </button>
+            </RouterLink>
         </div>
     </div>
 </div>
@@ -149,9 +153,11 @@
                     </p>
                 </div>
                 <div class="font-sans px-6 pt-0 pb-5 lg:text-center">
-                    <button class="bg-lightblue dark:bg-lightblue hover:lightblue text-sm text-black dark:text-black font-semibold py-2 px-8 rounded-full lg:text-sm">
-                        LÆS MERE
-                    </button>
+                    <RouterLink to="privatecleaning"> 
+                        <button class="bg-lightblue dark:bg-lightblue hover:lightblue text-sm text-black dark:text-black font-semibold py-2 px-8 rounded-full lg:text-sm">
+                            LÆS MERE
+                        </button>
+                    </RouterLink>
                 </div>
             </div>
             </div>
@@ -201,9 +207,11 @@
                     </p>
                 </div>
                 <div class="px-6 pt-0 pb-5 lg:text-center">
-                    <button class="font-sans bg-lightblue dark:bg-lightblue hover:lightblue text-sm text-black dark:text-black font-semibold py-2 px-8 rounded-full lg:text-sm">
-                        LÆS MERE
-                    </button>
+                    <RouterLink to="commercialcleaning"> 
+                        <button class="font-sans bg-lightblue dark:bg-lightblue hover:lightblue text-sm text-black dark:text-black font-semibold py-2 px-8 rounded-full lg:text-sm">
+                            LÆS MERE
+                        </button>
+                    </RouterLink>
                 </div>
             </div>
         </div>
