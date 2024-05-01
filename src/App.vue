@@ -3,10 +3,12 @@
 <!-- Navbar -->
 <nav id="navbar" class="navbar flex items-center justify-between flex-wrap p-3 fixed top-0 left-0 w-full z-10 shadow-md">
   <div class="flex items-center flex-shrink-0 text-white mr-6">
-    <a href="" class="flex items-center">  
-      <RouterLink to="/"> <img src="../src/assets/Paulas-Rengøring-logo-hvid.png" class="h-20 mr-3 md:h-18 lg:h-20 lg:ml-3" alt="" /></RouterLink>
-      <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
-    </a>
+  <a class="flex items-center">  
+    <RouterLink to="/"> 
+      <img id="navbar-logo" src="../src/assets/logo-paulas-rengøring-hvid.png" class="logo-white h-14 md:h-12 lg:h-20 lg:ml-3" alt="" />
+    </RouterLink>
+    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+  </a>
   </div>
   <div class="lg:hidden">
     <button id="navbarToggle" class="navbar-burger flex items-center p-3">
@@ -18,42 +20,42 @@
   </div>
   <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto nav-links" id="menuItems">
     <div class="text-xs lg:flex-grow">
-      <ul class="flex flex-col space-x-6 mr-2 font-sans text-white dark:text-white text-xs md:text-sm md:mr-2 lg:flex-row lg:mr-2 md:space-x-10 lg:space-x-16 lg:ml-10 lg:text-sm">
+      <ul class="flex flex-col space-x-6 mr-2 font-sans text-white dark:text-white text-xs md:text-sm md:mr-2 lg:flex-row lg:mr-2 md:space-x-10 lg:space-x-16 lg:ml-10 lg:text-xs lg:tracking-widest">
         <li>
-          <RouterLink to="/" class="hover:font-semibold">Hjem</RouterLink>
+          <RouterLink to="/" class="hover:font-semibold">HJEM</RouterLink>
         </li>
         <li>
-          <RouterLink to="guide" class="hover:font-semibold">Guide</RouterLink>
+          <RouterLink to="guide" class="hover:font-semibold">GUIDE</RouterLink>
         </li>
         <div class="dropdown"> 
           <button class="dropbtn flex justify-between"> 
-            Jeg tilbyder
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 lg:ml-2 lg:mt-1">
+            JEG TILBYDER
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 lg:ml-2 lg:mt-0">
               <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
             </svg>
           </button>
           <div class="dropdown-content">
-            <RouterLink to="privatecleaning" class="hover:font-semibold">Privatrengøring</RouterLink> 
-            <RouterLink to="commercialcleaning" class="hover:font-semibold">Erhvervsrengøring</RouterLink> 
+            <RouterLink to="privatecleaning" class="hover:font-semibold">PRIVATRENGØRING</RouterLink> 
+            <RouterLink to="commercialcleaning" class="hover:font-semibold">ERHVERVSRENGØRING</RouterLink> 
           </div>
         </div>
         <li>
-          <RouterLink to="about" class="hover:font-semibold">Om firmaet</RouterLink>
+          <RouterLink to="about" class="hover:font-semibold">OM FIRMAET</RouterLink>
         </li>
         <li>
-          <RouterLink to="prices" class="hover:font-semibold">Priser</RouterLink>
+          <RouterLink to="prices" class="hover:font-semibold">PRISER</RouterLink>
         </li>
         <li>
-          <RouterLink to="contact" class="hover:font-semibold">Kontakt</RouterLink>
+          <RouterLink to="contact" class="hover:font-semibold">KONTAKT</RouterLink>
         </li>
       </ul>
     </div>
     <div>
-      <button class="flex hover:bg-transparent bg-darkblue dark:bg-darkblue font-semibold py-2 px-6 rounded-full lg:mr-6">
+      <button class="flex hover:bg-transparent bg-darkblue dark:bg-darkblue font-normal lg:font-normal py-2 px-6 rounded-full lg:mr-6">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
           <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
         </svg>
-        <p class="text-xs text-white dark:text-white lg:text-sm lg:pl-2">Book din tid</p>
+        <p class="text-xs text-white dark:text-white lg:text-sm lg:pl-2 lg:tracking-wider">BOOK DIN TID</p>
       </button>
     </div>
   </div>
@@ -198,6 +200,11 @@
 
 
 <style scoped>
+
+#navbar.scrolled img {
+ color:#748ab2;
+}
+
 .hidden {
   display: none !important;
 }
@@ -214,7 +221,11 @@
   }
 
 #navbar.scrolled {
-    background-color: #a5b8ce; 
+    background-color: #fdfdfd; 
+  }
+
+#navbar.scrolled a {
+    color: #444444; 
   }
 
   /* The dropdown container */
@@ -223,13 +234,20 @@
   display: inline-block; 
 }
 
+
 /* Dropdown button */
 .dropdown .dropbtn {
-  font-size: 14px;
+  font-size: 12px;
   border: none;
   outline: none;
   margin: 0;
+  color: white;
   cursor: pointer; /* Add cursor pointer for better UX */
+}
+
+/* Dropdown button scrolled */
+#navbar.scrolled .dropdown .dropbtn {
+  color: #444444;
 }
 
 /* Dropdown content (hidden by default) */
@@ -300,4 +318,31 @@ window.addEventListener('scroll', function() {
     navLinks.classList.toggle('active');
   });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+  const navbar = document.getElementById('navbar');
+  const logo = document.getElementById('navbar-logo');
+  const scrolledClass = 'scrolled';
+
+  // Initially set the logo to white
+  logo.src = "../src/assets/Paulas-Rengøring-Logo-hvid.png";
+  
+  // Add event listener for scrolling
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > 0) {
+      navbar.classList.add(scrolledClass);
+      // Change logo to blue if it's not already blue
+      if (!logo.src.includes("blå")) {
+        logo.src = "../src/assets/logo-paulas-rengøring-blå.png";
+      }
+    } else {
+      navbar.classList.remove(scrolledClass);
+      // Change logo to white if it's not already white
+      if (!logo.src.includes("hvid")) {
+        logo.src = "../src/assets/Paulas-Rengøring-Logo-hvid.png";
+      }
+    }
+  });
+});
+
 </script>

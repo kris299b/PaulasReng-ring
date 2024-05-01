@@ -33,11 +33,12 @@
     <div class="bg-lightgray dark:bg-lightgray px-5 lg:px-20 lg:h-96">
         <p class="font-sans text-gray dark:gray text-sm pt-8 lg:text-sm lg:font-semibold lg:tracking-wider lg:pt-10">PAULAS RENGØRING | TRYGHED</p>
         <h2 class="font-sans text-black dark:text-black pr-10 text-2xl font-semibold mt-3 pb-3 lg:font-semibold lg:text-4xl lg:font-normal lg:pt-0">Det er vigtigt for mig, at du er tryg i vores samarbejde.</h2>
-        <p class="font-sans text-black dark:text-black pb-3 lg:pt-4">There are many variations of passages of Lorem Ipsum available, but the majority 
-        have suffered alteration.
+        <p class="font-sans text-black dark:text-black pb-3 lg:pt-4">
+            There are many variations of passages of Lorem Ipsum available.
         </p>
-        <p class="font-sans text-black dark:text-black pb-8 lg:pt-2 lg:pr-20">By injected humour, or randomised words which don't look 
-            even slightly believable. If you need it. 
+        <p class="font-sans text-black dark:text-black pb-8 lg:pt-2 lg:pr-20">
+            But the majority have suffered alteration in some form, by injected humour, 
+            or randomised words which don't look even slightly believable, it seems like it is a real sentance.
         </p>
     </div>
     <div class="gap-y-0 lg:pt-0">
@@ -58,7 +59,7 @@
 </div>
 
 <!-- Servicefradrag-section -->
-<div class="bg:lightgray dark:bg-lightgray font-sans lg:text-center lg:pt-10 lg:pb-10 lg:text-3xl text-darkgray dark:text-darkgray">
+<div class="bg:lightgray dark:bg-lightgray font-sans lg:text-center lg:pt-10 lg:pb-10 lg:text-3xl text-black dark:text-black">
     <h2 class="text-left font-semibold pl-5 text-2xl pt-10 lg:text-center lg:text-3xl lg:font-semibold">Husk at din rengøringshjælp går </h2>
     <h2 class="text-left font-semibold pl-5 text-2xl lg:text-center lg:text-3xl lg:font-semibold">ind under ''Servicefradrag'' </h2>
     <p class="text-left pl-5 pr-5 pt-3 pb-10 lg:text-center lg:pl-40 lg:pr-40 lg:pt-4 lg:text-sm">Når du køber privat rengøring, skal du huske at gemme alle dine kvitteringer. 

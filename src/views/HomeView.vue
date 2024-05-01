@@ -19,8 +19,8 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
                 </svg>
                 <RouterLink to="contact"> 
-                    <p class="hidden md:inline-block lg:inline-block lg:pl-2">Lad os tage en udforpligtende snak</p>
-                    <p class="inline-block md:hidden pl-2 text-md lg:hidden lg:pl-2">Lad os samtale</p>
+                    <p class="hidden md:inline-block lg:inline-block lg:pl-2 lg:tracking-wider">Lad os tage en udforpligtende snak</p>
+                    <p class="inline-block md:hidden pl-2 text-md lg:hidden lg:pl-2 lg:tracking-wider">Lad os samtale</p>
                 </RouterLink>
             </button>
         </div>
@@ -76,7 +76,7 @@
         <img src="../assets/Guide-billede.jpg" alt="Guide-billede">
     </div>
     <div class="bg-lightgray dark:bg-lightgray px-5 lg:px-20">
-        <p class="font-sans text-gray dark:gray text-sm pt-8 md:px-2 md:pt-7 lg:text-sm lg:font-semibold lg:pt-20 lg:tracking-wider">GUIDE</p>
+        <p class="font-sans text-gray dark:gray text-sm pt-8 md:px-2 md:pt-7 lg:text-sm lg:font-semibold lg:pt-12 lg:tracking-wider">GUIDE</p>
         <h2 class="font-sans text-black dark:text-black pr-10 text-2xl font-semibold mt-3 pb-3 md:px-2 lg:text-4xl lg:font-semibold lg:pt-0">Sådan får du mest mulig ud af din rengøringshjælp.</h2>
         <p class="font-sans text-black dark:text-black pb-3 md:px-2 md:text-xs lg:text-sm lg:pt-3 lg:pr-20 lg:font-semibold">
             Går du med overvejelserne om, at ansætte en professionel til at udføre rengøringshjælpen i dit hjem? 
@@ -84,9 +84,9 @@
         <p class="font-sans text-black dark:text-black pb-8 md:px-2 md:text-xs lg:text-sm lg:pt-1 lg:pr-20 lg:pb-10">Jeg har samlet nogle råd til dig i den indledende fase, 
             som sikrer dig at du får mest muligt ud af din rengøringshjælp, og bliver mest mulig tilfreds. 
         </p>
-        <div class="font-sans pb-10 md:px-2 md:pb-7 lg:pb-20">
+        <div class="font-sans pb-10 md:px-2 md:pb-7 lg:pb-12">
             <RouterLink to="guide"> 
-                <button class="bg-beige dark:bg-beige hover:beige text-black dark:text-black font-semibold py-2 px-8 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
+                <button class="bg-beige dark:bg-beige rounded-full text-black dark:text-black font-normal py-2 px-8 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 lg:text-md lg:tracking-wider">
                     Læs mere
                 </button>
             </RouterLink>

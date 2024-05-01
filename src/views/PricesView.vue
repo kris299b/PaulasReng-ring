@@ -13,12 +13,8 @@
     </div>
 </section>
 
-<!-- Pris-sektion -->
-<div class="bg-white dark:bg-white">
-    <h2 class="text-center text-lg pt-10 pb-5 font-semibold text-black dark:text-black lg:font-semibold lg:text-3xl lg:text-center lg:pt-20">Hvor meget koster mine ydelser ?</h2>
-</div>
-
-<div class="bg-white dark:bg-white columns-1 md:cols-1 lg:columns-2 lg:gap-x-0 lg:pt-10 lg:pb-3 lg:p-40">
+<!-- Pris sektion -->
+<div class="bg-white dark:bg-white columns-1 md:cols-1 lg:columns-2 lg:gap-x-0 lg:pt-20 lg:pb-3 lg:p-40">
     <div class="inline-block md:hidden lg:inline-block">
         <img src="../assets/værdisæt-billede.jpg" alt="Værdisæt">
     </div>
@@ -38,7 +34,7 @@
                 believable. If you are going to use a passage of Lorem Ipsum, you need
                  Lorem ipsum to do that.
             </p>
-            <h2 class="pt-10 pl-10 text-gray dark:text-gray font-normal lg:pt-5 lg:text-3xl lg:font-semibold">
+            <h2 class="pt-10 pl-10 text-gray dark:text-gray font-normal lg:pt-5 lg:text-2xl lg:font-semibold">
                 280 kr
             </h2>
             <p class="pt-10 pl-10 text-gray dark:text-gray font-normal lg:pt-0 lg:pr-10 lg:text-sm lg:font-semibold">
@@ -60,8 +56,8 @@
 
 <!-- Samarbejde sektion -->
 <div class="bg-white dark:bg-white lg:pt-10">
-    <h2 class="text-center text-lg pt-10 pb-5 font-semibold text-black dark:text-black lg:font-semibold lg:text-2xl lg:text-center lg:pt-10">
-        TILLIDSFULDT OG TRYGT SAMARBEJDE
+    <h2 class="text-center text-lg pt-10 pb-5 font-semibold text-black dark:text-black lg:font-semibold lg:text-3xl lg:text-center lg:pt-10">
+        Tillidsfuldt og trygt samarbejde
     </h2>
 </div>
 
