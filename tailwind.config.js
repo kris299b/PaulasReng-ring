@@ -19,7 +19,11 @@ export default {
       'black': '#444444',
     }
   },
-  fontFamily: {},
+  fontFamily: {
+    'sans': [
+    'Segoe UI', 
+  ]
+    },
   plugins: [],
 }
 
