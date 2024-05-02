@@ -25,11 +25,11 @@
 
 
 <!-- Tryghed-section -->
-<div class="bg-white dark:bg-white">
+<div class="bg-white light:bg-white dark:bg-white">
     <h2 class="text-center text-lg pt-10 pb-5 font-semibold text-black dark:text-black lg:font-semibold lg:text-2xl lg:text-center lg:pt-20">TRYGHED I VORES SAMARBEJDE</h2>
 </div>
 
-<div class="bg-white dark:bg-white columns-1 md:columns-1 lg:columns-2 lg:pt-10 lg:gap-x-0">
+<div class="bg-white light:bg-white dark:bg-white columns-1 md:columns-1 lg:columns-2 lg:pt-10 lg:gap-x-0">
     <div class="bg-lightgray dark:bg-lightgray px-5 lg:px-20 lg:h-96">
         <p class="font-sans text-gray dark:gray text-sm pt-8 lg:text-sm lg:font-semibold lg:tracking-wider lg:pt-10">PAULAS RENGØRING | TRYGHED</p>
         <h2 class="font-sans text-black dark:text-black pr-10 text-2xl font-semibold mt-3 pb-3 lg:font-semibold lg:text-4xl lg:font-normal lg:pt-0">Det er vigtigt for mig, at du er tryg i vores samarbejde.</h2>
@@ -47,8 +47,8 @@
 </div>
 
 <!-- Kontaktformular-section -->
-<div class="bg-white dark:bg-white pt-10 px-5 columns-1 md:columns-2 lg:px-20 lg:columns-2 lg:gap-x-0 lg:pt-20 lg:pb-20 ">
-    <div class="bg-lightgray dark:bg-lightgray pb-10 lg:pt-10 lg:px-10">
+<div class="bg-white light:bg-white  dark:bg-white pt-10 px-5 columns-1 md:columns-2 lg:px-20 lg:columns-2 lg:gap-x-0 lg:pt-20 lg:pb-20 ">
+    <div class="bg-lightgray light:bg-lightgray dark:bg-lightgray pb-10 lg:pt-10 lg:px-10">
         <h2 class="font-sans text-black dark:text-black lg:text-xl">Lad os tage en uforpligtende snak</h2>
     </div>
     <div class="text-black dark:text-black lg:pt-10 lg:px-10 lg:text-xl">
@@ -59,7 +59,7 @@
 </div>
 
 <!-- Servicefradrag-section -->
-<div class="bg:lightgray dark:bg-lightgray font-sans lg:text-center lg:pt-10 lg:pb-10 lg:text-3xl text-black dark:text-black">
+<div class="bg:lightgray light:bg-lightgray dark:bg-lightgray font-sans lg:text-center lg:pt-10 lg:pb-10 lg:text-3xl text-black dark:text-black">
     <h2 class="text-left font-semibold pl-5 text-2xl pt-10 lg:text-center lg:text-3xl lg:font-semibold">Husk at din rengøringshjælp går </h2>
     <h2 class="text-left font-semibold pl-5 text-2xl lg:text-center lg:text-3xl lg:font-semibold">ind under ''Servicefradrag'' </h2>
     <p class="text-left pl-5 pr-5 pt-3 pb-10 lg:text-center lg:pl-40 lg:pr-40 lg:pt-4 lg:text-sm">Når du køber privat rengøring, skal du huske at gemme alle dine kvitteringer. 
@@ -70,12 +70,12 @@
 </div>
 
 <!-- Forløb-sektion -->
-<div class="bg:white dark:bg-white lg:pt-10 lg:pb-0">
+<div class="bg:white light:bg-white  dark:bg-white lg:pt-10 lg:pb-0">
    <h2 class="font-sans pt-10 pb-10 font-semibold text-center text-lg text-black dark:text-black lg:text-center lg:font-semibold lg:text-3xl">Hvordan foregår forløbet ?</h2> 
 </div>
 
-<div class="bg-white dark:bg-white columns-1 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-5 lg:pb-20">
-    <div class="bg-lightgray dark:bg-lightgray px-5 lg:px-20 lg:pb-10">
+<div class="bg-white light:bg-white  dark:bg-white columns-1 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-5 lg:pb-20">
+    <div class="bg-lightgray light:bg-lightgray dark:bg-lightgray px-5 lg:px-20 lg:pb-10">
         <p class="font-sans text-gray dark:gray text-sm pt-8 md:px-2 md:pt-7 lg:text-sm lg:font-semibold lg:pt-16 lg:tracking-wider">PAULAS RENGØRING | FORLØBET</p>
         <h2 class="font-sans text-black dark:text-black pr-10 text-3xl font-semibold mt-3 pb-3 md:px-2 lg:text-4xl lg:font-semibold lg:pr-10">Sådan foregår forløbet hos mig.</h2>
         <div class="flex pt-5 lg:pt-10">
@@ -125,7 +125,7 @@
 </div>
 
 <!-- Kundeanmeldelser -->
-<div class="bg-white dark:bg-white">
+<div class="bg-white light:bg-white dark:bg-white">
     <div>
         <h2 class="font-sans text-black text-2xl font-semibold dark:text-black pt-10 pb-10 text-center lg:text-4xl lg:text-center lg:font-semibold lg:pt-5 lg:pb-20">
             Det siger mine kunder 
@@ -133,7 +133,7 @@
     </div>
 </div>
 
-<div class="bg-white dark:bg-white">
+<div class="bg-white light:bg-white dark:bg-white">
     <div class="grid grid-cols-1 gap-y-10 md:gap-x-5 md:grid-cols-3 lg:grid-cols-3 lg:gap-20 lg:px-20 lg:pb-10">
         <div class="max-w-xs mx-auto overflow-hidden shadow-lg bg-white dark:bg-white">
             <div class="px-6 py-10 flex flex-col items-center">
@@ -171,7 +171,7 @@
     </div>
 </div>
 
-<div class="bg-white dark:bg-white py-4 mx-auto">
+<div class="bg-white light:bg-white dark:bg-white py-4 mx-auto">
     <div class="text-center mb-5">
         <h3 class="font-sans text-2xl text-center font-semibold pt-12 lg:text-4xl tracking-tight text-black dark:text-black lg:font-semibold">
             Ofte stillede spørgsmål
@@ -180,7 +180,7 @@
 </div>
 
 <!-- FAQ -->
-<section class="pb-10 bg-white dark:bg-white text-darkgray dark:text-darkgray flex lg:justify-center lg:pb-20">
+<section class="pb-10 bg-white light:bg-white  dark:bg-white text-darkgray dark:text-darkgray flex lg:justify-center lg:pb-20">
     <div class="container flex justify-center px-4 pb-10 mx-auto md:p-8">
         <div class="space-y-4 w-full md:w-full lg:w-4/5 lg:px-40">
             <div class="w-full md:w-full w-4/5 bg-lightgray dark:lightgray cursor-pointer" data-toggle-content="content1">

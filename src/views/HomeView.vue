@@ -29,7 +29,7 @@
 
 
 <!-- Værdisæt section -->
-<div class="bg-white dark:bg-white pt-12 px-5 columns-1 md:gap-x-0 md:columns-2 lg:px-52 lg:columns-2 lg:gap-x-0 lg:pt-20">
+<div class="bg-white light:bg-white dark:bg-white pt-12 px-5 columns-1 md:gap-x-0 md:columns-2 lg:px-52 lg:columns-2 lg:gap-x-0 lg:pt-20">
     <div class="inline-block pt-10 md:hidden lg:hidden">
         <img src="../assets/værdisæt-billede.jpg" alt="Værdisæt">
     </div>
@@ -60,33 +60,33 @@
 
 
 <!-- Guide section -->
-<div class="bg-white dark:bg-white">
-    <h2 class="font-sans text-2xl text-black pl-5 pr-10 pt-10 font-semibold md:pb-10 md:font-semibold md:text-center lg:pt-20 lg:pb-5 lg:text-black lg:text-3xl lg:font-semibold lg:text-center">
+<div class="bg-white light:bg-white dark:bg-white">
+    <h2 class="font-sans text-2xl text-black pl-5 pr-10 pt-10 font-semibold md:pb-0 md:font-semibold md:text-3xl md:px-20 md:text-center lg:pt-20 lg:pb-5 lg:text-black lg:text-3xl lg:font-semibold lg:text-center">
         Går du i overvejelserne om at få rengøringshjælp ?
     </h2>
-    <h2 class="font-sans text-sm text-black pl-5 pr-3 pt-5 font-normal md:pb-10 md:font-normal md:text-center lg:text-black lg:pt-1 lg:pb-10 lg:px-40 lg:text-sm lg:text-center">
+    <h2 class="font-sans text-sm text-black pl-5 pr-3 pt-5 font-normal md:px-10 md:pb-10 md:font-normal md:text-center lg:text-black lg:pt-1 lg:pb-10 lg:px-40 lg:text-sm lg:text-center">
         There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form. 
         by injected humour, or randomised words which don't look even. There are many variations of passages of Lorem Ipsum available, 
         but the majority have suffered alteration in some form. 
     </h2>
 </div>
 
-<div class="bg-white dark:bg-white columns-1 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-5">
+<div class="bg-white light:bg-white dark:bg-white columns-1 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-5">
     <div class="pt-10 md:pt-0 lg:pt-0">
         <img src="../assets/Guide-billede.jpg" alt="Guide-billede">
     </div>
-    <div class="bg-lightgray dark:bg-lightgray px-5 lg:px-20">
-        <p class="font-sans text-gray dark:gray text-sm pt-8 md:px-2 md:pt-7 lg:text-sm lg:font-semibold lg:pt-12 lg:tracking-wider">GUIDE</p>
+    <div class="bg-beige light:bg-beige dark:bg-beige px-5 lg:px-20">
+        <p class="font-sans text-gray dark:gray text-sm pt-8 md:px-2 md:pt-5 lg:text-sm lg:font-semibold lg:pt-12 lg:tracking-wider">GUIDE</p>
         <h2 class="font-sans text-black dark:text-black pr-10 text-2xl font-semibold mt-3 pb-3 md:px-2 lg:text-4xl lg:font-semibold lg:pt-0">Sådan får du mest mulig ud af din rengøringshjælp.</h2>
         <p class="font-sans text-black dark:text-black pb-3 md:px-2 md:text-xs lg:text-sm lg:pt-3 lg:pr-20 lg:font-semibold">
             Går du med overvejelserne om, at ansætte en professionel til at udføre rengøringshjælpen i dit hjem? 
         </p>
-        <p class="font-sans text-black dark:text-black pb-8 md:px-2 md:text-xs lg:text-sm lg:pt-1 lg:pr-20 lg:pb-10">Jeg har samlet nogle råd til dig i den indledende fase, 
+        <p class="font-sans text-black dark:text-black pb-5 md:px-2 md:text-xs lg:text-sm lg:pt-1 lg:pr-20 lg:pb-10">Jeg har samlet nogle råd til dig i den indledende fase, 
             som sikrer dig at du får mest muligt ud af din rengøringshjælp, og bliver mest mulig tilfreds. 
         </p>
         <div class="font-sans pb-10 md:px-2 md:pb-7 lg:pb-12">
             <RouterLink to="guide"> 
-                <button class="bg-beige dark:bg-beige rounded-full text-black dark:text-black font-normal py-2 px-8 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 lg:text-md lg:font-semibold">
+                <button class="bg-darkbeige light:bg-darkbeige dark:bg-darkbeige rounded-full text-black dark:text-black font-normal py-2 px-8 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 lg:text-md lg:font-semibold">
                     Læs mere
                 </button>
             </RouterLink>
@@ -95,7 +95,7 @@
 </div>
 
 <!-- Ydelser sektion -->
-<div class="bg-white dark:bg-white px-5 md:px-40 lg:px-56">
+<div class="bg-white light:bg-white dark:bg-white px-5 md:px-40 lg:px-56">
     <div class="font-sans text-darkgray dark:text-darkgray pt-12 pl-5 pb-0 text-center text-sm pb-2 lg:text-lg lg:text-center lg:pt-20 lg:pb-2 lg:font-normal lg:tracking-wider">
         <p>PAULAS RENGØRING</p>
     </div>
@@ -106,13 +106,13 @@
     </div>
 </div>
 
-<div class="bg-white dark:bg-white flex justify-center">
-    <div class="grid grid-cols-1 md:grid-cols-2 md:pt-5 md:space-x-10 lg:grid-cols-2 lg:space-x-12 lg:pb-20">
+<div class="bg-whitelight:bg-white dark:bg-white flex justify-center">
+    <div class="grid grid-cols-1 pb-10 md:grid-cols-2 md:pt-5 md:space-x-10 lg:grid-cols-2 lg:space-x-12 lg:pb-20">
         <div class="max-w-xs mx-auto mb-10 overflow-hidden shadow-lg bg-white dark:bg-white lg:p-10 lg:pb-0 relative">
-            <img src="../assets/Shine-element.png" class="h-32 lg:h-40 absolute lg:pl-48 lg:mt-44" alt="Shine-element">
-                <div class="absolute top-0 left-0 w-full bg-darkblue dark:bg-darkblue lg:top-3 lg:left-0 lg:w-full lg:h-40"></div>
+            <img src="../assets/Shine-element.png" class="h-24 mt-56 ml-44 lg:h-40 absolute lg:pl-48 lg:mt-44" alt="Shine-element">
+                <div class="absolute top-0 left-0 w-full h-32 bg-darkblue dark:bg-darkblue lg:top-3 lg:left-0 lg:w-full lg:h-40"></div>
                     <div class="px-6 py-4 relative z-10">
-                        <div class="font-sans pb-10 pt-5 font-bold text-xl text-white dark:text-white lg:text-3xl lg:pt-0 lg:pb-10">
+                        <div class="font-sans pb-10 pt-5 font-bold text-2xl text-white dark:text-white lg:text-3xl lg:pt-0 lg:pb-10">
                             <h2>
                                 PRIVAT
                             </h2>
@@ -121,7 +121,7 @@
                             </h2>
                         </div>
                     <div class="space-y-5">
-                    <div class="flex lg:pt-12">
+                    <div class="flex pt-5 lg:pt-12">
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0,0,256,256"
                             style="fill:#000000;">
@@ -165,10 +165,10 @@
             </div>
         </div>
         <div class="max-w-xs mx-auto mb-10 overflow-hidden shadow-lg bg-white dark:bg-white lg:p-10 lg:pb-0 relative">
-            <img src="../assets/Shine-element.png" class="h-32 lg:h-40 absolute lg:pl-48 lg:mt-44" alt="Shine-element">
-                <div class="absolute top-0 left-0 w-full bg-darkblue dark:bg-darkblue lg:top-3 lg:left-0 lg:w-full lg:h-40"></div>
+            <img src="../assets/Shine-element.png" class="h-24 lg:h-40 pl-44 mt-56 absolute lg:pl-48 lg:mt-44" alt="Shine-element">
+                <div class="absolute top-0 left-0 h-32 w-full bg-darkblue dark:bg-darkblue lg:top-3 lg:left-0 lg:w-full lg:h-40"></div>
                     <div class="px-6 py-4 relative z-10">
-                        <div class="font-sans pb-10 pt-5 font-bold text-xl text-white dark:text-white lg:text-3xl lg:pt-0 lg:pb-10">
+                        <div class="font-sans pb-10 pt-5 font-bold text-2xl text-white dark:text-white lg:text-3xl lg:pt-0 lg:pb-10">
                             <h2>
                                 ERHVERVS
                             </h2>
@@ -177,7 +177,7 @@
                             </h2>
                         </div>
                     <div class="space-y-5">
-                    <div class="flex lg:pt-12">
+                    <div class="flex pt-5 lg:pt-12">
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0,0,256,256"
                             style="fill:#000000;">
@@ -224,15 +224,15 @@
 </div>
 
 <!-- Kontaktformular sektion -->
-<section class="relative h-screen flex flex-col items-center text-center content-start py-20 lg:py-12">
+<section class="relative h-screen flex flex-col items-center text-center content-start pt-10 py-12 lg:py-12">
     <div class="absolute top-0 left-0 w-full h-full overflow-hidden">
         <img class="min-w-full min-h-full absolute object-cover" src="../assets/Sprøgsmål-billede.jpg" alt="Private-cleaning">
     </div>
-    <div class="image-content text-white dark:text-white z-10 pt-40 md:pt-40 lg:pt-0">
-        <h2 class="font-sans text-2xl font-semibold text-left md:text-center lg:font-semibold lg:text-center lg:text-4xl">
+    <div class="image-content text-white dark:text-white z-10 pt-0 md:pt-10 lg:pt-0">
+        <h2 class="font-sans text-4xl font-semibold text-center md:text-center lg:font-semibold lg:text-center lg:text-4xl">
             Har du spørgsmål?
         </h2>
-        <p class="font-sans text-sm text-left pt-3 md:pt-4 md:text-center md:px-10 lg:text-center lg:text-sm lg:px-40 lg:pt-5">There are many variations of passages of Lorem Ipsum available, but the majority 
+        <p class="font-sans text-sm text-center px-10 pt-3 md:pt-4 md:text-center md:px-10 lg:text-center lg:text-sm lg:px-40 lg:pt-5">There are many variations of passages of Lorem Ipsum available, but the majority 
             have suffered alteration in some form. by injected humour, or randomised words which
             don't look even slightly believable. 
         </p>
@@ -266,7 +266,7 @@
             </div>
         </section>
     <div>
-        <div class="bg-lightgray dark:bg-lightgray">
+        <div class="bg-lightgray light:bg-lightgray dark:bg-lightgray">
             <h2 class="font-sans text-2xl text-black pl-5 pr-10 pt-10 font-semibold md:pb-10 md:font-semibold md:text-center lg:pt-20 lg:pb-5 lg:text-black lg:text-3xl lg:font-semibold lg:text-left">
                 Kontaktoplysninger 
             </h2>
@@ -310,7 +310,7 @@
 </div>
 
 <!-- Kundeanmeldelser -->
-<div class="bg-white dark:bg-white lg:pt-10">
+<div class="bg-white light:bg-white dark:bg-white lg:pt-10">
     <div>
         <h2 class="font-sans text-black text-2xl font-semibold dark:text-black pt-10 pb-10 text-center lg:text-4xl lg:text-center lg:font-semibold lg:pt-10 lg:pb-20">
             Det siger mine kunder 
@@ -318,7 +318,7 @@
     </div>
 </div>
 
-<div class="bg-white dark:bg-white">
+<div class="bg-white light:bg-white dark:bg-white">
     <div class="grid grid-cols-1 gap-y-10 md:gap-x-5 md:grid-cols-3 lg:grid-cols-3 lg:gap-20 lg:px-20 lg:pb-10">
         <div class="max-w-xs mx-auto overflow-hidden shadow-lg bg-white dark:bg-white">
             <div class="px-6 py-10 flex flex-col items-center">
@@ -356,7 +356,7 @@
     </div>
 </div>
 
-<div class="bg-white dark:bg-white py-4 mx-auto">
+<div class="bg-white light:bg-white dark:bg-white py-4 mx-auto">
     <div class="text-center mb-5">
         <h3 class="font-sans text-2xl text-center font-semibold pt-12 lg:text-4xl tracking-tight text-black dark:text-black lg:font-semibold">
             Ofte stillede spørgsmål
@@ -365,7 +365,7 @@
 </div>
 
 <!-- FAQ -->
-<section class="pb-10 bg-white dark:bg-white text-darkgray dark:text-darkgray flex lg:justify-center lg:pb-20">
+<section class="pb-10 bg-white light:bg-white dark:bg-white text-darkgray dark:text-darkgray flex lg:justify-center lg:pb-20">
     <div class="container flex justify-center px-4 pb-10 mx-auto md:p-8">
         <div class="space-y-4 w-full md:w-full lg:w-4/5 lg:px-40">
             <div class="w-full md:w-full w-4/5 bg-lightgray dark:lightgray cursor-pointer" data-toggle-content="content1">
