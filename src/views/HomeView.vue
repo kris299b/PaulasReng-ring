@@ -86,7 +86,7 @@
         </p>
         <div class="font-sans pb-10 md:px-2 md:pb-7 lg:pb-12">
             <RouterLink to="guide"> 
-                <button class="bg-beige dark:bg-beige rounded-full text-black dark:text-black font-normal py-2 px-8 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 lg:text-md lg:tracking-wider">
+                <button class="bg-beige dark:bg-beige rounded-full text-black dark:text-black font-normal py-2 px-8 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 lg:text-md lg:font-semibold">
                     Læs mere
                 </button>
             </RouterLink>
@@ -107,130 +107,140 @@
 </div>
 
 <div class="bg-white dark:bg-white flex justify-center">
-    <div class="grid grid-cols-1 md:grid-cols-2 md:pt-5 md:space-x-10 lg:grid-cols-2 lg:pb-10 lg:space-x-12">
-        <div class="max-w-xs mx-auto mb-10 overflow-hidden shadow-lg bg-white dark:bg-white lg:p-10">
-            <div class="px-6 py-4">
-                <div class="font-sans pb-10 pt-5 font-bold text-xl text-black dark:text-black lg:text-2xl lg:pt-3 lg:pb-10">
-                    <h2>
-                        PRIVAT
-                    </h2>
-                    <h2>
-                        RENGØRING
-                    </h2>
-                </div>
-            <div class="space-y-5">
-                <div class="flex">
-                    <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0,0,256,256"
-                        style="fill:#000000;">
-                        <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
-                        </svg>
+    <div class="grid grid-cols-1 md:grid-cols-2 md:pt-5 md:space-x-10 lg:grid-cols-2 lg:space-x-12 lg:pb-20">
+        <div class="max-w-xs mx-auto mb-10 overflow-hidden shadow-lg bg-white dark:bg-white lg:p-10 relative">
+            <img src="../assets/Shine-element.png" class="h-32 lg:h-40 absolute lg:pl-48 lg:mt-44" alt="Shine-element">
+                <div class="absolute top-0 left-0 w-full bg-darkblue dark:bg-darkblue lg:top-0 lg:left-0 lg:w-full lg:h-40"></div>
+                    <div class="px-6 py-4 relative z-10">
+                        <div class="font-sans pb-10 pt-5 font-bold text-xl text-white dark:text-white lg:text-3xl lg:pt-0 lg:pb-10">
+                            <h2>
+                                PRIVAT
+                            </h2>
+                            <h2>
+                                RENGØRING
+                            </h2>
+                        </div>
+                    <div class="space-y-5">
+                    <div class="flex lg:pt-10">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0,0,256,256"
+                            style="fill:#000000;">
+                            <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
+                            </svg>
+                        </div>
+                        <p class="font-sans text-base text-sm pl-2 lg:text-sm text-black dark:text-black lg:pl-2">
+                            HOVEDRENGØRING
+                        </p>
                     </div>
-                    <p class="font-sans text-base text-sm pl-2 lg:text-sm text-black dark:text-black lg:pl-2">
-                        HOVEDRENGØRING
-                    </p>
-                </div>
-                <div class="flex">
-                    <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0,0,256,256"
-                        style="fill:#000000;">
-                        <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
-                        </svg>
+                    <div class="flex">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0,0,256,256"
+                            style="fill:#000000;">
+                            <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
+                            </svg>
+                        </div>
+                        <p class="font-sans text-base text-sm pl-2 lg:text-sm text-black dark:text-black lg:pl-2">
+                            FLYTTERENGØRING
+                        </p>
                     </div>
-                    <p class="font-sans text-base text-sm pl-2 lg:text-sm text-black dark:text-black lg:pl-2">
-                        FLYTTERENGØRING
-                    </p>
-                </div>
-                <div class="flex">
-                    <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0,0,256,256"
-                        style="fill:#000000;">
-                        <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
-                        </svg>
+                    <div class="flex">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0,0,256,256"
+                            style="fill:#000000;">
+                            <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
+                            </svg>
+                        </div>
+                        <p class="font-sans text-base text-sm pl-2 pb-5 lg:text-sm text-black dark:text-black lg:pl-2">
+                            VINDUESPUDSNING
+                        </p>
                     </div>
-                    <p class="font-sans text-base text-sm pl-2 pb-5 lg:text-sm text-black dark:text-black lg:pl-2">
-                        VINDUESPUDSNING
-                    </p>
-                </div>
-                <div class="font-sans px-6 pt-0 pb-5 lg:text-center">
-                    <RouterLink to="privatecleaning"> 
-                        <button class="bg-lightblue dark:bg-lightblue hover:lightblue text-sm text-black dark:text-black font-semibold py-2 px-8 rounded-full lg:text-sm">
-                            LÆS MERE
-                        </button>
-                    </RouterLink>
-                </div>
-            </div>
-            </div>
-        </div>
-        <div class="max-w-xs mx-auto mb-10 overflow-hidden shadow-lg bg-white dark:bg-white lg:p-10">
-            <div class="px-6 py-4">
-                <div class="font-sans pb-10 pt-5 font-bold text-xl text-black dark:text-black lg:text-2xl lg:pt-3 lg:pb-10">
-                    <h2>
-                        ERHVERVS
-                    </h2>
-                    <h2>
-                        RENGØRING
-                    </h2>
-                </div>
-            <div class="space-y-5">
-                <div class="flex">
-                    <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0,0,256,256"
-                        style="fill:#000000;">
-                        <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
-                        </svg>
+                    <div class="font-sans px-6 pt-0 pb-5 lg:text-center">
+                        <RouterLink to="privatecleaning"> 
+                            <button class="bg-lightblue dark:bg-lightblue hover:lightblue text-sm text-black dark:text-black font-semibold py-2 px-8 rounded-full lg:text-md">
+                                Læs mere
+                            </button>
+                        </RouterLink>
                     </div>
-                    <p class="font-sans text-base text-sm pl-2 lg:text-sm text-black dark:text-black lg:pl-2">
-                        HOVEDRENGØRING
-                    </p>
-                </div>
-                <div class="flex">
-                    <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0,0,256,256"
-                        style="fill:#000000;">
-                        <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
-                        </svg>
-                    </div>
-                    <p class="font-sans text-base text-sm pl-2 lg:text-sm text-black dark:text-black lg:pl-2">
-                        FLYTTERENGØRING
-                    </p>
-                </div>
-                <div class="flex">
-                    <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0,0,256,256"
-                        style="fill:#000000;">
-                        <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
-                        </svg>
-                    </div>
-                    <p class="font-sans text-base text-sm pl-2  pb-5 lg:text-sm text-black dark:text-black lg:pl-2">
-                        VINDUESPUDSNING
-                    </p>
-                </div>
-                <div class="px-6 pt-0 pb-5 lg:text-center">
-                    <RouterLink to="commercialcleaning"> 
-                        <button class="font-sans bg-lightblue dark:bg-lightblue hover:lightblue text-sm text-black dark:text-black font-semibold py-2 px-8 rounded-full lg:text-sm">
-                            LÆS MERE
-                        </button>
-                    </RouterLink>
                 </div>
             </div>
         </div>
+        <div class="max-w-xs mx-auto mb-10 overflow-hidden shadow-lg bg-white dark:bg-white lg:p-10 relative">
+            <img src="../assets/Shine-element.png" class="h-32 lg:h-40 absolute lg:pl-48 lg:mt-44" alt="Shine-element">
+                <div class="absolute top-0 left-0 w-full bg-darkblue dark:bg-darkblue lg:top-0 lg:left-0 lg:w-full lg:h-40"></div>
+                    <div class="px-6 py-4 relative z-10">
+                        <div class="font-sans pb-10 pt-5 font-bold text-xl text-white dark:text-white lg:text-3xl lg:pt-0 lg:pb-10">
+                            <h2>
+                                ERHVERVS
+                            </h2>
+                            <h2>
+                                RENGØRING
+                            </h2>
+                        </div>
+                    <div class="space-y-5">
+                    <div class="flex lg:pt-10">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0,0,256,256"
+                            style="fill:#000000;">
+                            <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
+                            </svg>
+                        </div>
+                        <p class="font-sans text-base text-sm pl-2 lg:text-sm text-black dark:text-black lg:pl-2">
+                            HOVEDRENGØRING
+                        </p>
+                    </div>
+                    <div class="flex">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0,0,256,256"
+                                style="fill:#000000;">
+                                <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
+                            </svg>
+                        </div>
+                        <p class="font-sans text-base text-sm pl-2 lg:text-sm text-black dark:text-black lg:pl-2">
+                            FLYTTERENGØRING
+                        </p>
+                    </div>
+                    <div class="flex">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0,0,256,256"
+                                style="fill:#000000;">
+                                <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
+                            </svg>
+                        </div>
+                        <p class="font-sans text-base text-sm pl-2  pb-5 lg:text-sm text-black dark:text-black lg:pl-2">
+                            VINDUESPUDSNING
+                        </p>
+                    </div>
+                    <div class="px-6 pt-0 pb-5 lg:text-center">
+                        <RouterLink to="commercialcleaning"> 
+                            <button class="font-sans bg-lightblue dark:bg-lightblue hover:lightblue text-sm text-black dark:text-black font-semibold py-2 px-8 rounded-full lg:text-md">
+                                Læs mere
+                            </button>
+                        </RouterLink>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
 <!-- Kontaktformular sektion -->
-<div class="bg-white dark:bg-white text-black dark:text-black px-5 pt-10 pb-10 text-lg lg:text-center lg:pb-12">
-    <h2 class="font-sans text-2xl font-semibold text-left md:text-center lg:font-semibold lg:text-center lg:text-4xl">
-        Har du spørgsmål?
-    </h2>
-    <p class="font-sans text-sm text-left pt-3 md:pt-4 md:text-center md:px-10 lg:text-center lg:text-sm lg:px-32 lg:pt-5">There are many variations of passages of Lorem Ipsum available, but the majority 
-        have suffered alteration in some form. by injected humour, or randomised words which
-        don't look even slightly believable. </p>
-</div>
+<section class="relative h-screen flex flex-col items-center text-center content-start py-20 lg:py-12">
+    <div class="absolute top-0 left-0 w-full h-full overflow-hidden">
+        <img class="min-w-full min-h-full absolute object-cover" src="../assets/Sprøgsmål-billede.jpg" alt="Private-cleaning">
+    </div>
+    <div class="image-content text-white dark:text-white z-10 pt-40 md:pt-40 lg:pt-0">
+        <h2 class="font-sans text-2xl font-semibold text-left md:text-center lg:font-semibold lg:text-center lg:text-4xl">
+            Har du spørgsmål?
+        </h2>
+        <p class="font-sans text-sm text-left pt-3 md:pt-4 md:text-center md:px-10 lg:text-center lg:text-sm lg:px-40 lg:pt-5">There are many variations of passages of Lorem Ipsum available, but the majority 
+            have suffered alteration in some form. by injected humour, or randomised words which
+            don't look even slightly believable. 
+        </p>
+    </div>
+</section>
 
 <!-- Kundeanmeldelser -->
-<div class="bg-white dark:bg-white">
+<div class="bg-white dark:bg-white lg:pt-10">
     <div>
         <h2 class="font-sans text-black text-2xl font-semibold dark:text-black pt-10 pb-10 text-center lg:text-4xl lg:text-center lg:font-semibold lg:pt-10 lg:pb-20">
             Det siger mine kunder 
