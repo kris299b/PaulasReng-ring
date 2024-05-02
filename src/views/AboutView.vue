@@ -31,6 +31,16 @@
 
 
 
+<!--Paulas Rengøring - paragraf-section-->
+<div class="flex justify bg-white dark:bg-white light:bg-white justify-center text-center max-h-40 w-full p-8">
+    <div class="w-full h-32">
+        <h1 class="font-semibold text-black pt-4 text-lg md:text-xl md:pb-2 lg:text-2xl lg:pt-8">PAULAS RENGØRING</h1>
+        <p class="text-sm text-black">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio voluptates tenetur dignissimos alias aperiam eum.</p>
+    </div>
+</div>
+
+
+
 <!--Paulas Rengøring-Erhverv-section-->
 <div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-row lg:flex-row lg:w-full">
     <div class="md:w-1/2">
