@@ -35,6 +35,44 @@
     </div>
 </div>
 
+<!--Box 2-->
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center w-3/4 mx-auto md:w-full md:mx-auto md:flex-col md:w-1/2 lg:flex-row lg:w-full lg:pb-20 lg:mx-auto">
+    <div class="w-full p-4 lg:w-2/4 lg:pl-8 lg:pt-20 lg:pr-8 bg-lightgray">
+        <h1 class="text-black font-semibold text-base pb-2 lg:text-xl lg:pt-24 lg:pb-2">UDARBEJDS EN ARBEJDSPLAN</h1>
+        <p class="text-black text-sm md:text-base lg:text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt ducimus ut eveniet quidem ea veniam facere, voluptatum molestiae sint illum aut amet repudiandae in qui quis iusto vel optio? Quo?</p>
+    </div>
+
+    <div class="lg:w-1/3">
+        <img src="../assets/meeting.jpg" alt="Woman having a meeting on her computer">
+    </div>
+</div>
+
+<!--Box 2-->
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center w-3/4 mx-auto md:w-full md:mx-auto md:flex-col md:w-1/2 lg:flex-row lg:w-full lg:pb-20 lg:mx-auto">
+    <div class="lg:w-1/3">
+        <img src="../assets/meeting.jpg" alt="Woman having a meeting on her computer">
+    </div>
+    
+    <div class="w-full p-4 lg:w-2/4 lg:pl-8 lg:pt-20 lg:pr-8 bg-lightgray">
+        <h1 class="text-black font-semibold text-base pb-2 lg:text-xl lg:pt-24 lg:pb-2">MED ELLER UDEN OPRYDNING?</h1>
+        <p class="text-black text-sm md:text-base lg:text-base">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora ipsa totam expedita soluta, harum omnis earum vitae molestiae nesciunt. Non et minus praesentium ullam voluptatum reiciendis quas, illum esse quibusdam?</p>
+    </div>
+</div>
+
+<!--Box 4-->
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center w-3/4 mx-auto md:w-full md:mx-auto md:flex-col md:w-1/2 lg:flex-row lg:w-full lg:pb-20 lg:mx-auto">
+    <div class="w-full p-4 lg:w-2/4 lg:pl-8 lg:pt-20 lg:pr-8 bg-lightgray">
+        <h1 class="text-black font-semibold text-base pb-2 lg:text-xl lg:pt-24 lg:pb-2">SKAL JEG VÆRE HJEMME?</h1>
+        <p class="text-black text-sm md:text-base lg:text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt ducimus ut eveniet quidem ea veniam facere, voluptatum molestiae sint illum aut amet repudiandae in qui quis iusto vel optio? Quo?</p>
+    </div>
+
+    <div class="lg:w-1/3">
+        <img src="../assets/meeting.jpg" alt="Woman having a meeting on her computer">
+    </div>
+</div>
+
+
+
 </main>
 </template>
 
