@@ -55,6 +55,14 @@
         <button class="bg-blue hover:bg-darkblue rounded-full text-white text-sm font-bold py-3 px-4 mt-4 md:py-2 md:px-4">Kontakt mig</button>
     </div>
 </div>
+
+
+
+<!--Headline-->
+<div class="bg-white dark:bg-white light:bg-white flex justify justify-center h-20 pt-6 md:h-24 md:pt-10">
+    <h1 class="text-black font-semibold text-base md:text-lg lg:text-lg">TILLIDSFULDT & TRYGT SAMARBEJDE</h1>
+</div>
+
 </template>
 
 <style>
