@@ -108,9 +108,9 @@
 
 <div class="bg-white dark:bg-white flex justify-center">
     <div class="grid grid-cols-1 md:grid-cols-2 md:pt-5 md:space-x-10 lg:grid-cols-2 lg:space-x-12 lg:pb-20">
-        <div class="max-w-xs mx-auto mb-10 overflow-hidden shadow-lg bg-white dark:bg-white lg:p-10 relative">
+        <div class="max-w-xs mx-auto mb-10 overflow-hidden shadow-lg bg-white dark:bg-white lg:p-10 lg:pb-0 relative">
             <img src="../assets/Shine-element.png" class="h-32 lg:h-40 absolute lg:pl-48 lg:mt-44" alt="Shine-element">
-                <div class="absolute top-0 left-0 w-full bg-darkblue dark:bg-darkblue lg:top-0 lg:left-0 lg:w-full lg:h-40"></div>
+                <div class="absolute top-0 left-0 w-full bg-darkblue dark:bg-darkblue lg:top-3 lg:left-0 lg:w-full lg:h-40"></div>
                     <div class="px-6 py-4 relative z-10">
                         <div class="font-sans pb-10 pt-5 font-bold text-xl text-white dark:text-white lg:text-3xl lg:pt-0 lg:pb-10">
                             <h2>
@@ -121,7 +121,7 @@
                             </h2>
                         </div>
                     <div class="space-y-5">
-                    <div class="flex lg:pt-10">
+                    <div class="flex lg:pt-12">
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0,0,256,256"
                             style="fill:#000000;">
@@ -164,9 +164,9 @@
                 </div>
             </div>
         </div>
-        <div class="max-w-xs mx-auto mb-10 overflow-hidden shadow-lg bg-white dark:bg-white lg:p-10 relative">
+        <div class="max-w-xs mx-auto mb-10 overflow-hidden shadow-lg bg-white dark:bg-white lg:p-10 lg:pb-0 relative">
             <img src="../assets/Shine-element.png" class="h-32 lg:h-40 absolute lg:pl-48 lg:mt-44" alt="Shine-element">
-                <div class="absolute top-0 left-0 w-full bg-darkblue dark:bg-darkblue lg:top-0 lg:left-0 lg:w-full lg:h-40"></div>
+                <div class="absolute top-0 left-0 w-full bg-darkblue dark:bg-darkblue lg:top-3 lg:left-0 lg:w-full lg:h-40"></div>
                     <div class="px-6 py-4 relative z-10">
                         <div class="font-sans pb-10 pt-5 font-bold text-xl text-white dark:text-white lg:text-3xl lg:pt-0 lg:pb-10">
                             <h2>
@@ -177,7 +177,7 @@
                             </h2>
                         </div>
                     <div class="space-y-5">
-                    <div class="flex lg:pt-10">
+                    <div class="flex lg:pt-12">
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0,0,256,256"
                             style="fill:#000000;">
@@ -191,8 +191,8 @@
                     <div class="flex">
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0,0,256,256"
-                                style="fill:#000000;">
-                                <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
+                            style="fill:#000000;">
+                            <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
                             </svg>
                         </div>
                         <p class="font-sans text-base text-sm pl-2 lg:text-sm text-black dark:text-black lg:pl-2">
@@ -202,17 +202,17 @@
                     <div class="flex">
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0,0,256,256"
-                                style="fill:#000000;">
-                                <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
+                            style="fill:#000000;">
+                            <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
                             </svg>
                         </div>
-                        <p class="font-sans text-base text-sm pl-2  pb-5 lg:text-sm text-black dark:text-black lg:pl-2">
+                        <p class="font-sans text-base text-sm pl-2 pb-5 lg:text-sm text-black dark:text-black lg:pl-2">
                             VINDUESPUDSNING
                         </p>
                     </div>
-                    <div class="px-6 pt-0 pb-5 lg:text-center">
+                    <div class="font-sans px-6 pt-0 pb-5 lg:text-center">
                         <RouterLink to="commercialcleaning"> 
-                            <button class="font-sans bg-lightblue dark:bg-lightblue hover:lightblue text-sm text-black dark:text-black font-semibold py-2 px-8 rounded-full lg:text-md">
+                            <button class="bg-lightblue dark:bg-lightblue hover:lightblue text-sm text-black dark:text-black font-semibold py-2 px-8 rounded-full lg:text-md">
                                 Læs mere
                             </button>
                         </RouterLink>
@@ -238,6 +238,76 @@
         </p>
     </div>
 </section>
+
+<div class="bg-white light:bg-white dark:bg-white columns-1 md:columns-2 lg:columns-2 lg:gap-x-10 lg:pt-10 lg:px-44">
+        <section id="contact-form" class="max-w-lg shadow-lg">
+            <div class="py-8 px-4 mx-auto max-w-screen-md lg:pt-0">
+                <h2 class="mb-4 text-4xl tracking-tight font-semibold text-center text-black dark:text-black lg:text-3xl lg:font-semibold lg:pt-10 lg:text-left">
+                    Kontakt mig
+                </h2>
+                <p class="mb-8 lg:mb-16 text-xl font-light text-center text-black dark:text-black lg:mb-4 lg:mr-5 lg:font-normal lg:text-sm lg:text-left">
+                    Lad os tage en uforpligtende snak om dine ønsker og behov. Udfyld venligst formularen herunder, så kontakter jeg dig hurtigst muligt.
+                </p>
+                <form action="#" class="space-y-8">
+                    <div>
+                        <label for="email" class="block mb-2 text-sm font-medium text-black dark:text-black">Your email</label>
+                        <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@flowbite.com" required>
+                    </div>
+                    <div>
+                        <label for="subject" class="block mb-2 text-sm font-medium text-black dark:text-black">Subject</label>
+                        <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Let us know how we can help you" required>
+                    </div>
+                    <div class="sm:col-span-2">
+                        <label for="message" class="block mb-2 text-sm font-medium text-black dark:text-black">Your message</label>
+                        <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+                    </div>
+                    <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
+                </form>
+            </div>
+        </section>
+    <div>
+        <div class="bg-lightgray dark:bg-lightgray">
+            <h2 class="font-sans text-2xl text-black pl-5 pr-10 pt-10 font-semibold md:pb-10 md:font-semibold md:text-center lg:pt-20 lg:pb-5 lg:text-black lg:text-3xl lg:font-semibold lg:text-left">
+                Kontaktoplysninger 
+            </h2>
+            <div class="flex lg:pt-10 lg:pl-5">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#444444" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                    </svg>
+                </div>
+                <p class="font-sans text-base text-sm pl-2 lg:text-sm text-black dark:text-black lg:pl-2 lg:tracking-wider">
+                    60145811
+                </p>
+            </div>
+            <div class="flex lg:pt-5 lg:pl-5">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0,0,256,256" style="fill:#000000;">
+                        <g fill="#444444" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                        <g transform="scale(8.53333,8.53333)">
+                            <path d="M15,3c-6.627,0 -12,5.373 -12,12c0,6.016 4.432,10.984 10.206,11.852v-8.672h-2.969v-3.154h2.969v-2.099c0,-3.475 1.693,-5 4.581,-5c1.383,0 2.115,0.103 2.461,0.149v2.753h-1.97c-1.226,0 -1.654,1.163 -1.654,2.473v1.724h3.593l-0.487,3.154h-3.106v8.697c5.857,-0.794 10.376,-5.802 10.376,-11.877c0,-6.627 -5.373,-12 -12,-12z"></path>
+                        </g>
+                        </g>
+                    </svg>
+                </div>
+                <p class="font-sans text-base text-sm pl-2 lg:text-sm text-black dark:text-black lg:pl-2 lg:tracking-wider">
+                    PAULAS RENGØRING
+                </p>
+            </div>
+            <div class="flex lg:pt-5 lg:pl-5 lg:pb-10">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="#444444">
+                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.89 2 1.99 2H20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                    </svg>
+                </div>
+                <p class="font-sans text-base text-sm pl-2 lg:text-sm text-black dark:text-black lg:pl-2 lg:tracking-wider">
+                    PAULASRENGORING@GMAIL.COM
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Kundeanmeldelser -->
 <div class="bg-white dark:bg-white lg:pt-10">
