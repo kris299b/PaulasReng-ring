@@ -13,18 +13,18 @@
 
 
 <!--Value-section-->
-<div class="bg-blue dark:bg-white light:bg-white flex flex-col ">
-    <div class="">
-        <h2 class="text-black">MINE VÆRDIER</h2>
-        <h1 class="text-black">TILLID</h1>
-        <p class="text-black">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae quo sapiente animi veniam impedit ratione quidem, neque nesciunt voluptatibus, illum dolore illo? Aspernatur accusamus minima suscipit maiores, voluptates reiciendis voluptate!</p>
-        <h1 class="text-black">KUNDETILFREDSHED</h1>
-        <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima illum veniam et necessitatibus eligendi fugit facilis? Minus ratione cupiditate nulla, accusamus tenetur est odit molestias culpa error corrupti! Aliquid, enim.</p>
-        <h1 class="text-black">TÆT SAMARBEJDE</h1>
-        <p class="text-black">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus quis, eos iusto beatae veritatis natus, suscipit cupiditate, saepe explicabo pariatur itaque debitis quod vitae. Veritatis dignissimos assumenda sed tempore corrupti!</p>
+<div class="bg-blue dark:bg-white light:bg-white flex flex-col justify justify-center p-8 w-full md:flex-row md:w-full lg:flex-row lg:w-full">
+    <div class="bg-lightgray p-8 md:w-1/2">
+        <h2 class="text-black text-xs font-bold pb-4 lg:text-sm lg:pb-6">MINE VÆRDIER</h2>
+        <h1 class="text-black text-sm font-semibold pb-1 lg:text-lg lg:pb-1">TILLID</h1>
+        <p class="text-black text-sm pb-5 lg:text-base lg:pb-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae quo sapiente animi veniam impedit ratione quidem.</p>
+        <h1 class="text-black text-sm font-semibold pb-1 lg:text-lg lg:pb-1">KUNDETILFREDSHED</h1>
+        <p class="text-black text-sm pb-5 lg:text-base lg:pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima illum veniam et necessitatibus eligendi fugit facilis.</p>
+        <h1 class="text-black text-sm font-semibold pb-1 lg:text-lg lg:pb-1">TÆT SAMARBEJDE</h1>
+        <p class="text-black text-sm pb-5 lg:text-base ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus quis, eos iusto beatae veritatis natus!</p>
     </div>
 
-    <div class="hidden lg:block lg:w-1/3">
+    <div class="hidden md:block md:w-1/2 lg:w-1/3">
         <img src="../assets/PaulasRengøring-værdibillede.jpg" alt="Kvinde der smiler">
     </div>
 </div>
