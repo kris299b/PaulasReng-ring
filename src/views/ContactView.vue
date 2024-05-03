@@ -36,33 +36,34 @@
             don't look even slightly believable. 
         </p>
     </div>
+    <!--Mailchimp Contactform-->
     <div class="flex justify-center lg:space-x-0 lg:pt-10 lg:w-4/6 z-20 lg:pt-24">
         <div class="bg-white dark:bg-white max-w-lg shadow-sm">
             <div class="bg-white dark:bg-white max-w-lg">
-            <div class="py-8 px-4 mx-auto max-w-screen-md lg:pt-0">
-                <h2 class="mb-4 text-4xl tracking-tight font-semibold text-center text-black dark:text-black lg:text-3xl lg:px-5 lg:pr-10 lg:font-semibold lg:pt-10 lg:text-left">
-                    Lad os tage en uforpligtende snak om dine ønsker og behov.
-                </h2>
-                <p class="mb-8 lg:mb-16 text-xl font-light text-center text-black dark:text-black lg:mb-4 lg:px-5 lg:font-normal lg:text-sm lg:text-left">
-                    Udfyld venligst formularen herunder, så kontakter jeg dig hurtigst muligt.
-                </p>
-                <form action="#" class="space-y-8 lg:text-left lg:px-5 lg:space-y-6">
-                    <div>
-                        <label for="email" class="block mb-2 text-sm font-medium text-black dark:text-black">Din email</label>
-                        <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@flowbite.com" required>
+                <div id="mc_embed_shell">
+                    <div id="mc_embed_signup">
+                        <form action="https://gmail.us17.list-manage.com/subscribe/post?u=529fa2bc5942a0147307ea268&amp;id=90a02a22b5&amp;v_id=4389&amp;f_id=00f8d5e3f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                            <div id="mc_embed_signup_scroll"><h2>Subscribe</h2>
+                                <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                                <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div><div class="mc-field-group"><label for="mce-FNAME">Dit fulde navn <span class="asterisk">*</span></label><input type="text" name="FNAME" class="required text" id="mce-FNAME" required="" value=""></div><div class="mc-field-group"><label for="mce-MMERGE3">Din besked </label><input type="text" name="MMERGE3" class=" text" id="mce-MMERGE3" value=""></div><div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group"><div class="content__gdpr"><label>GDPR - overholdelseserklæring</label><p>Vi tager dit privatliv alvorligt. Ved at indsende denne formular giver du dit samtykke til indsamling, behandling og opbevaring af dine personlige data i henhold til vores privatlivspolitik. Dine oplysninger vil udelukkende blive brugt med det formål at besvare din henvendelse. </p><fieldset class="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field"><label class="checkbox subfield" for="gdpr212271"><input type="checkbox" id="gdpr_212271" name="gdpr[212271]" class="gdpr" value="Y"><span>Ja</span></label><label class="checkbox subfield" for="gdpr212274"><input type="checkbox" id="gdpr_212274" name="gdpr[212274]" class="gdpr" value="Y"><span>Nej</span></label></fieldset><p>For mere information om, hvordan vi håndterer dine data og dine rettigheder under GDPR, henvises til vores privatlivspolitik her.</p></div><div class="content__gdprLegal"><p>We use Mailchimp as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing. <a href="https://mailchimp.com/legal/terms">Learn more</a> about Mailchimp's privacy practices.</p></div></div>
+                                <div id="mce-responses" class="clear foot">
+                                    <div class="response" id="mce-error-response" style="display: none;"></div>
+                                    <div class="response" id="mce-success-response" style="display: none;"></div>
+                                </div>
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true">/* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
+                                    <input type="text" name="b_529fa2bc5942a0147307ea268_90a02a22b5" tabindex="-1" value="">
+                                </div>
+                                <div class="optionalParent">
+                                    <div class="clear foot">
+                                        <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
+                                        <p style="margin: 0px auto;"><a href="http://eepurl.com/iPjQYc" title="Mailchimp - email marketing made easy and fun"><span style="display: inline-block; background-color: transparent; border-radius: 4px;"><img class="refferal_badge" src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg" alt="Intuit Mailchimp" style="width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;"></span></a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
                     </div>
-                    <div>
-                        <label for="subject" class="block mb-2 text-sm font-medium text-black dark:text-black">Navn</label>
-                        <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Dit navn" required>
-                    </div>
-                    <div class="sm:col-span-2">
-                        <label for="message" class="block mb-2 text-sm font-medium text-black dark:text-black">Din besked</label>
-                        <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Hvad kan jeg hjælpe med?"></textarea>
-                    </div>
-                    <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-full sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 bg:darkbeige dark:bg-darkbeige dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send besked</button>
-                </form>
+                </div>
             </div>
-        </div>
         </div>
         <div class="bg-lightgray light:bg-lightgray dark:bg-lightgray max-w-lg lg:px-5">
             <h2 class="font-sans text-2xl text-black pl-5 pr-10 pt-10 font-semibold md:pb-10 md:font-semibold md:text-center lg:pt-10 lg:pb-0 lg:text-black lg:text-2xl lg:font-semibold lg:text-left">
@@ -106,6 +107,8 @@
         </div>
     </div>
 </section>
+
+
 
 <!-- FAQ -->
 <div class="bg-white light:bg-white dark:bg-white py-4 mx-auto lg:pt-56">
@@ -182,9 +185,11 @@
 </template>
 
 <style>
-
+#mc-embedded-subscribe-form input[type=checkbox]{display: inline; width: auto;margin-right: 10px;}
+#mergeRow-gdpr {margin-top: 20px;}
+#mergeRow-gdpr fieldset label {font-weight: normal;}
+#mc-embedded-subscribe-form .mc_fieldset{border:none;min-height: 0px;padding-bottom:0px;}
 </style>
 
 <script setup>
-
 </script>
