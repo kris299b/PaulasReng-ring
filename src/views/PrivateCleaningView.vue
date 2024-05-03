@@ -74,7 +74,7 @@
    <h2 class="font-sans pt-10 pb-10 font-semibold text-center text-lg text-black dark:text-black lg:text-center lg:font-semibold lg:text-3xl">Hvordan foregår forløbet ?</h2> 
 </div>
 
-<div class="bg-white light:bg-white  dark:bg-white columns-1 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-5 lg:pb-20">
+<div class="bg-white light:bg-white  dark:bg-white columns-1 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-0 lg:pb-20">
     <div class="bg-lightgray light:bg-lightgray dark:bg-lightgray px-5 lg:px-20 lg:pb-10">
         <p class="font-sans text-gray dark:gray text-sm pt-8 md:px-2 md:pt-7 lg:text-sm lg:font-semibold lg:pt-16 lg:tracking-wider">PAULAS RENGØRING | FORLØBET</p>
         <h2 class="font-sans text-black dark:text-black pr-10 text-3xl font-semibold mt-3 pb-3 md:px-2 lg:text-4xl lg:font-semibold lg:pr-10">Sådan foregår forløbet hos mig.</h2>

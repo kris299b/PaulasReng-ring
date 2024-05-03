@@ -30,7 +30,7 @@
         <h2 class="text-center text-lg pt-10 pb-5 font-semibold text-black dark:text-black lg:font-semibold lg:text-3xl lg:text-center lg:pt-20">Tryghed i vores samarbejde</h2>
     </div>
     
-    <div class="bg-white light:bg-white dark:bg-white columns-1 md:columns-1 lg:columns-2 lg:pt-10 lg:gap-x-0">
+    <div class="bg-white light:bg-white dark:bg-white columns-1 md:columns-1 lg:columns-2 lg:pt-5 lg:gap-x-0">
         <div class="bg-lightgray light:bg-lightgray  dark:bg-lightgray px-5 lg:px-20 lg:h-96">
             <p class="font-sans text-gray dark:gray text-sm pt-8 lg:text-sm lg:font-semibold lg:tracking-wider lg:pt-10">PAULAS RENGØRING | TRYGHED</p>
             <h2 class="font-sans text-black dark:text-black pr-10 text-2xl font-semibold mt-3 pb-3 lg:font-semibold lg:text-4xl lg:font-normal lg:pt-0">Det er vigtigt for mig, at du er tryg i vores samarbejde.</h2>
@@ -63,7 +63,7 @@
    <h2 class="font-sans pt-10 pb-10 font-semibold text-center text-lg text-black dark:text-black lg:text-center lg:font-semibold lg:text-3xl">Hvordan foregår forløbet ?</h2> 
 </div>
 
-<div class="bg-white light:bg-white dark:bg-white columns-1 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-5 lg:pb-20">
+<div class="bg-white light:bg-white dark:bg-white columns-1 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-0 lg:pb-20">
     <div class="pt-10 md:pt-0 lg:pt-0">
         <img src="../assets/Forløb-billede.jpg" alt="Forløb-billede">
     </div>

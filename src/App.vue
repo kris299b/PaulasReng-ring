@@ -10,7 +10,7 @@
     <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
   </a>
   </div>
-  <div class="lg:hidden">
+  <div class="inline-block lg:hidden">
     <button id="navbarToggle" class="navbar-burger flex items-center p-3">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-10 h-10">
         <title>Mobile menu</title>
