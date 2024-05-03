@@ -274,7 +274,7 @@
             </div>
         </div>
         <div class="h-48 bg-lightgray light:bg-lightgray dark:bg-lightgray md:h-60 lg:h-96 lg:w-1/3 lg:justify-start lg:text-left">
-            <h2 class="justify-start pr-24 font-sans text-2xl text-black pt-6 pb-6 font-semibold md:pr-60 md:pb-10 md:font-semibold md:text-center lg:pt-24 lg:pb-0 lg:text-black lg:text-2xl lg:font-semibold lg:pl-8">
+            <h2 class="justify-start pr-24 font-sans text-2xl text-black pt-6 pb-6 font-semibold md:pr-60 md:pb-10 md:font-semibold md:text-center lg:pt-10 lg:pb-0 lg:text-black lg:text-2xl lg:font-semibold lg:pl-8">
                 Kontaktoplysninger 
             </h2>
             <div class="flex justify-start px-8 pb-2 lg:pt-10">
