@@ -15,7 +15,7 @@
 
 <div class="bg-white light:bg-white dark:bg-white lg:pt-10">
     <div>
-        <h2 class="font-sans text-black text-2xl font-semibold dark:text-black pt-10 pb-10 text-center lg:text-2xl lg:text-center lg:font-semibold lg:pt-10 lg:pb-20">
+        <h2 class="font-sans text-black text-2xl font-semibold dark:text-black pt-10 pb-10 text-center lg:text-2xl lg:text-center lg:font-semibold lg:pt-10 lg:pb-10">
             DU ER VELKOMMEN TIL AT KONTAKTE MIG
         </h2>
     </div>
@@ -37,8 +37,8 @@
         </p>
     </div>
     
-    <div class="flex justify justify-center flex-col lg:flex-row lg:space-x-0 lg:w-3/4 z-20 lg:pt-5">
-        <div class="bg-white dark:bg-white max-w-lg shadow-sm lg:w-2/3">
+    <div class="flex justify justify-center flex-col md:flex-row lg:flex-row lg:space-x-0 lg:w-3/4 z-20 lg:pt-5">
+        <div class="bg-white dark:bg-white max-w-lg shadow-sm lg:w-3/4">
             <div class="bg-white dark:bg-white max-w-lg">
                 <h2 class="mb-4 text-4xl tracking-tight font-semibold text-left pt-10 px-5 text-black dark:text-black md:px-5 md:pt-10 md:text-3xl md:text-left lg:text-3xl lg:px-5 lg:pr-10 lg:font-semibold lg:pt-10 lg:text-left">
                     Kontaktforumlar
@@ -50,14 +50,20 @@
                 <div id="mc_embed_shell">
                     <div id="mc_embed_signup">
                         <form action="https://gmail.us17.list-manage.com/subscribe/post?u=529fa2bc5942a0147307ea268&amp;id=90a02a22b5&amp;v_id=4389&amp;f_id=00f8d5e3f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-                            <div>
-                                <div class="mc-field-group text-black"><label for="mce-EMAIL">Din email <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div><div class="mc-field-group text-black font-semibold"><label for="mce-FNAME">Dit fulde navn <span class="asterisk">*</span></label><input type="text" name="FNAME" class="required text" id="mce-FNAME" required="" value=""></div><div class="mc-field-group text-black"><label for="mce-MMERGE3">Din besked </label><input type="text" name="MMERGE3" class=" text" id="mce-MMERGE3" value=""></div><div class="indicates-required text-black font-semibold text-sm"><span class="asterisk">*</span>Påkrævet</div>
+                            <div id="mc_embed_signup_scroll">
+                                <div class="mc-field-group text-black"><label for="mce-EMAIL">Din email <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div><div class="mc-field-group text-black font-semibold"><label for="mce-FNAME">Dit fulde navn <span class="asterisk">*</span></label><input type="text" name="FNAME" class="required text" id="mce-FNAME" required="" value=""></div><div class="mc-field-group text-black font-semibold"><label for="mce-MMERGE3">Din besked </label><input type="text" name="MMERGE3" class=" text" id="mce-MMERGE3" value=""></div><div class="indicates-required text-black font-semibold text-sm"><span class="asterisk">*</span>Påkrævet</div>
                                 <div id="mce-responses" class="clear foot">
                                     <div class="response" id="mce-error-response" style="display: none;"></div>
                                     <div class="response" id="mce-success-response" style="display: none;"></div>
                                 </div>
                                 <div style="position: absolute; left: -5000px;" aria-hidden="true">/* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
                                     <input type="text" name="b_529fa2bc5942a0147307ea268_90a02a22b5" tabindex="-1" value="">
+                                </div>
+                                <div class="optionalParent">
+                                    <div class="clear foot">
+                                        <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="SEND">
+                                        <p style="margin: 0px auto;"><a href="http://eepurl.com/iPjQYc" title="Mailchimp - email marketing made easy and fun"><span style="display: inline-block; background-color: transparent; border-radius: 4px;"></span></a></p>
+                                    </div>
                                 </div>
                             </div>
                         </form>
@@ -78,16 +84,10 @@
                                 <div style="position: absolute; left: -5000px;" aria-hidden="true">/* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
                                     <input type="text" name="b_529fa2bc5942a0147307ea268_90a02a22b5" tabindex="-1" value="">
                                 </div>
-                                <div class="optionalParent">
-                                    <div class="clear foot">
-                                        <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="SEND">
-                                        <p style="margin: 0px auto;"><a href="http://eepurl.com/iPjQYc" title="Mailchimp - email marketing made easy and fun"><span style="display: inline-block; background-color: transparent; border-radius: 4px;"></span></a></p>
-                                    </div>
-                                </div>
                             </div>
                         </form>
-                    </div>
                 </div>
+            </div>
         </div>
     </div>
 </section>
@@ -95,7 +95,7 @@
 
 
 <!-- FAQ -->
-<div class="bg-white light:bg-white dark:bg-white h-full py-4 mx-auto md:pt-16">
+<div class="bg-white light:bg-white dark:bg-white h-full py-4 mx-auto md:pt-16 lg:pt-10">
     <div class="text-center mb-5">
         <h3 class="font-sans text-2xl text-center font-semibold pt-12 lg:text-4xl tracking-tight text-black dark:text-black lg:font-semibold">
             Ofte stillede spørgsmål

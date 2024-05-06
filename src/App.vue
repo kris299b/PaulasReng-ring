@@ -5,7 +5,7 @@
   <div class="flex items-center flex-shrink-0 text-white mr-6">
   <a class="flex items-center">  
     <RouterLink to="/"> 
-      <img id="navbar-logo" src="../src/assets/logo-paulas-rengøring-hvid.png" class="logo-white h-14 md:h-12 lg:h-20 lg:ml-3" alt="" />
+      <img id="navbar-logo" src="../src/assets/logo-paulas-rengøring-hvid.png" class="logo-white h-20 md:h-20 lg:h-20 lg:ml-3" alt="" />
     </RouterLink>
     <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
   </a>
@@ -18,9 +18,9 @@
       </svg>
     </button>
   </div>
-  <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto nav-links" id="menuItems">
+  <div class="w-full block flex-grow space-y-1 lg:flex lg:items-center lg:w-auto nav-links" id="menuItems">
     <div class="text-xs lg:flex-grow">
-      <ul class="flex flex-col space-x-6 mr-2 font-sans text-white dark:text-white text-xs md:text-sm md:mr-2 lg:flex-row lg:mr-2 md:space-x-10 lg:space-x-16 lg:ml-10 lg:text-xs lg:tracking-widest">
+      <ul class="flex flex-col space-y-5 space-x-0 pt-2 mr-2 font-sans text-white dark:text-white text-xs md:space-x-0 md:text-sm md:mr-2 lg:flex-row lg:mr-2 md:space-x-10 lg:space-x-16 lg:ml-10 lg:text-xs lg:tracking-widest lg:space-y-0">
         <li>
           <RouterLink to="/" class="hover:font-semibold">HJEM</RouterLink>
         </li>
@@ -50,12 +50,12 @@
         </li>
       </ul>
     </div>
-    <div>
+    <div class="pt-10 lg:pt-0">
       <button class="flex hover:bg-transparent bg-darkblue dark:bg-darkblue font-normal lg:font-normal py-2 px-6 rounded-full lg:mr-6">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6">
           <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
         </svg>
-        <p class="text-xs text-white dark:text-white lg:text-xs lg:pt-1 lg:pl-2 lg:tracking-wider">BOOK DIN TID</p>
+        <p class="text-xs text-white pt-1 pl-2 dark:text-white lg:text-xs lg:pt-1 lg:pl-2 lg:tracking-wider">BOOK DIN TID</p>
       </button>
     </div>
   </div>
@@ -102,7 +102,7 @@
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
             <a href="" class="flex items-center">  
-              <RouterLink to="/"> <img src="../src/assets/logo-paulas-rengøring-blå.png" class="h-14 md:h-12 lg:h-20 lg:ml-3" alt="" /></RouterLink>
+              <RouterLink to="/"> <img src="../src/assets/logo-paulas-rengøring-blå.png" class="h-20 md:h-20 lg:h-20 lg:ml-3" alt="" /></RouterLink>
               <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
             </a>
           </div>
@@ -277,10 +277,21 @@
   /*navbar white box */
   .nav-links {
     background-color: white;
-    height: 50vh; /* Make the box height equal to the viewport height */
-    padding: 20px 10px; /* Increase top and bottom padding */
-    border-radius: 5px; /* Optional: Add rounded corners */
+    height: 50vh; 
+    padding: 20px 10px; 
+    border-radius: 5px; 
   }
+/*navbar links */
+ #navbar a {
+    color: #444444;
+    padding: 5px;
+  }
+
+/*navbar link 'jeg tilbyder' */
+  .dropdown .dropbtn {
+  color: #444444;
+  padding-left: 5px;
+}
 
 }
 
@@ -341,5 +352,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
 });
+
 
 </script>
