@@ -29,13 +29,13 @@
     <!-- Tryghed-section -->
     
     <div class="bg-white light:bg-white dark:bg-white">
-        <h2 class="text-center text-lg pt-10 pb-5 font-semibold text-black dark:text-black lg:font-semibold lg:text-3xl lg:text-center lg:pt-20">Tryghed i vores samarbejde</h2>
+        <h2 class="text-center text-2xl pt-10 pb-5 font-semibold text-black dark:text-black lg:font-semibold lg:text-3xl lg:text-center lg:pt-20">Tryghed i vores samarbejde</h2>
     </div>
     
-    <div class="bg-white light:bg-white dark:bg-white columns-1 md:columns-1 lg:columns-2 lg:pt-5 lg:gap-x-0">
-        <div class="bg-lightgray light:bg-lightgray  dark:bg-lightgray px-5 lg:px-20 lg:h-96">
+    <div class="bg-white light:bg-white dark:bg-white columns-1 md:gap-x-0 md:columns-2 lg:columns-2 lg:pt-5 lg:gap-x-0">
+        <div class="bg-lightgray light:bg-lightgray dark:bg-lightgray px-5 lg:px-20 lg:h-96">
             <p class="font-sans text-gray dark:gray text-sm pt-8 lg:text-sm lg:font-semibold lg:tracking-wider lg:pt-10">PAULAS RENGØRING | TRYGHED</p>
-            <h2 class="font-sans text-black dark:text-black pr-10 text-2xl font-semibold mt-3 pb-3 lg:font-semibold lg:text-4xl lg:font-normal lg:pt-0">Det er vigtigt for mig, at du er tryg i vores samarbejde.</h2>
+            <h2 class="font-sans text-black dark:text-black pr-10 text-3xl font-semibold mt-3 pb-3 lg:font-semibold lg:text-4xl lg:font-normal lg:pt-0">Det er vigtigt for mig, at du er tryg i vores samarbejde.</h2>
             <p class="font-sans text-black dark:text-black pb-3 lg:pt-4">There are many variations of passages of Lorem Ipsum available, but the majority 
             have suffered alteration.
             </p>
@@ -43,7 +43,7 @@
                 even slightly believable. If you need it. 
             </p>
         </div>
-        <div class="pt-10 lg:pt-0">
+        <div class="pt-0 lg:pt-0">
             <img src="../assets/Erhverv-tryghed.jpg" alt="Erhverv-tryghed">
         </div>
     </div>
@@ -51,11 +51,8 @@
     <!-- Tilpassede løsninger erhvervsrengøring - section -->
     <!-- Tilpassede løsninger erhvervsrengøring - section -->
 <div class="bg-white dark:bg-white text-black dark-text-black lg:pt-20">
-    <p class="text-left px-5 pt-10 text-2xl font-semibold lg:font-semibold lg:text-center lg:text-3xl">
-        Skræddersyede løsninger tilpasset
-    </p>
-    <p class="text-left px-5 pt-0 text-2xl font-semibold lg:font-semibold lg:text-center lg:text-3xl">
-        dine ønsker og behov
+    <p class="text-left px-5 pt-12 text-2xl font-semibold md:text-center md:pb-10 md:px-40 lg:font-semibold lg:text-center lg:text-3xl">
+        Skræddersyede løsninger tilpasset dine ønsker og behov 
     </p>
 </div>
 
@@ -65,15 +62,15 @@
     </div>
     <div class="bg-lightgray light:bg-lightgray dark:bg-lightgray px-5 lg:px-20">
         <p class="font-sans text-gray dark:gray text-sm pt-8 md:px-2 md:pt-5 lg:text-sm lg:font-semibold lg:pt-12 lg:tracking-wider">PAULAS RENGØRING | ERHVERVSRENGØRING</p>
-        <h2 class="font-sans text-black dark:text-black pr-10 text-2xl font-semibold mt-3 pb-3 md:px-2 lg:text-4xl lg:font-semibold lg:pt-0">Tilpassede rengøringsløsninger</h2>
+        <h2 class="font-sans text-black dark:text-black pr-10 text-3xl font-semibold mt-3 pb-3 md:pt-5 md:px-2 lg:text-4xl lg:font-semibold lg:pt-0">Tilpassede rengøringsløsninger</h2>
         <p class="font-sans text-black dark:text-black pb-3 md:px-2 md:text-xs lg:text-sm lg:pt-3 lg:pr-20 lg:font-semibold">
             Jeg tilbyder altid skræddersyede løsninger, som tager udgangspunkt i dine ønsker og behov.  
         </p>
-        <p class="font-sans text-black dark:text-black pb-5 md:px-2 md:text-xs lg:text-sm lg:pt-1 lg:pr-20 lg:pb-5"> 
+        <p class="font-sans text-black dark:text-black pb-5 md:pb-2 md:px-2 md:text-xs lg:text-sm lg:pt-1 lg:pr-20 lg:pb-5"> 
             Lad os tage en uforpligtigende snak om det, du har brug for hjælp til, og hvor ofte du har behov for rengøringshjælp. Vi vil i fællesskab sammensætte den bedste løsning for dig. Jeg glæder mig til at høre fra dig. 
         </p>
         <h2 class="font-sans text-black dark:text-black pr-10 text-2xl font-semibold mt-3 pb-3 md:px-2 lg:text-2xl lg:font-semibold lg:pt-0">Kontakt oplysninger</h2>
-        <div class="flex justify-start px-0 pt-3 lg:px-3 pb-2 lg:pb-0 lg:pt-3">
+        <div class="flex justify-start px-0 pt-3 md:pt-2 lg:px-3 pb-2 lg:pb-0 lg:pt-3">
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#444444" class="w-4 h-4">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
@@ -113,14 +110,14 @@
     
     <!-- Forløb-sektion -->
 <div class="bg:white light:bg-white dark:bg-white lg:pt-10 lg:pb-0">
-   <h2 class="text-2xl text-left px-5 font-sans pt-20 pb-5 font-semibold text-black lg:pt-0 dark:text-black lg:text-center lg:font-semibold lg:text-3xl">Hvordan foregår forløbet ?</h2> 
+   <h2 class="text-2xl text-left px-5 font-sans pt-12 pb-0 font-semibold text-black md:text-center md:pb-10 lg:pt-0 dark:text-black lg:text-center lg:font-semibold lg:text-3xl">Hvordan foregår forløbet ?</h2> 
 </div>
 
 <div class="bg-white light:bg-white dark:bg-white columns-1 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-5 lg:pb-20">
     <div class="pt-10 md:pt-0 lg:pt-0">
         <img src="../assets/Forløb-billede.jpg" alt="Forløb-billede">
     </div>
-    <div class="bg-lightgray light:bg-lightgray dark:bg-lightgray px-5 lg:px-20 lg:pb-16">
+    <div class="bg-lightgray light:bg-lightgray dark:bg-lightgray px-5 lg:px-20 lg:pb-12">
         <p class="font-sans text-gray dark:gray text-sm pt-8 md:px-2 md:pt-7 lg:text-sm lg:font-semibold lg:pt-16 lg:tracking-wider">PAULAS RENGØRING | FORLØBET</p>
         <h2 class="font-sans text-black dark:text-black pr-10 text-2xl font-semibold mt-3 pb-3 md:px-2 lg:text-4xl lg:font-semibold lg:pt-0 lg:pr-10">Sådan foregår forløbet hos mig.</h2>
         <div class="flex pt-2 pb-2 lg:pt-10">
@@ -175,8 +172,8 @@
         </div>
     </div>
     
-    <div class="bg-white light:bg-white dark:bg-white lg:pb-20">
-        <div class="grid grid-cols-1 gap-y-10 md:gap-x-5 md:grid-cols-3 lg:grid-cols-3 lg:gap-20 lg:px-20 lg:pb-20">
+    <div class="bg-white light:bg-white pb-20 dark:bg-white lg:pb-20">
+        <div class="grid grid-cols-1 gap-y-10 md:px-5 md:gap-x-5 md:grid-cols-3 lg:grid-cols-3 lg:gap-20 lg:px-20 lg:pb-20">
             <div class="max-w-xs mx-auto overflow-hidden shadow-lg bg-white dark:bg-white">
                 <div class="px-6 py-10 flex flex-col items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="gray" class="w-14 h-14">

@@ -10,7 +10,7 @@
     </div>
     <div class="video-content z-10 pt-40 md:pt-80 lg:pt-40">
         <div>
-            <p class="font-sans text-white dark:text-white px-4 md:text-sm lg:text-lg lg:pb-1 lg:text-center">
+            <p class="font-sans text-white dark:text-white px-4 md:text-sm lg:text-lg lg:text-center">
                 PAULAS RENGØRING | PROFESSIONEL RENGØRING
             </p>
             <h2 class="font-sans text-white dark:text-white text-left px-4 text-4xl md:text-4xl lg:px-0 lg:pb-2 lg:font-semibold lg:text-5xl lg:text-center">Rengøring til private og erhverv</h2>
@@ -18,7 +18,7 @@
                 Jeg løser rengøringsopgaver for små og mellemstore virksomheder samt private. Jeg forstår vigtigheden af et rent miljø, og betydningen heraf for dig.
             </p>
         </div>
-        <div class="font-sans flex flex-col space-y-4 px-24 text-sm pt-5 md:flex-row md:justify-center md:space-x-4 lg:px-0 lg:flex-row lg:space-x-4 lg:space-y-0 lg:justify-center lg:text-md lg:pt-5">
+        <div class="font-sans flex flex-col px-24 text-sm pt-5 justify-center md:flex-row md:justify-center md:space-x-4 lg:px-0 lg:flex-row lg:space-x-4 lg:space-y-0 lg:justify-center lg:text-md lg:pt-5">
             <button class="flex bg-blue dark:bg-blue py-2 px-6 hover:beige text-white dark:text-white font-semibold lg:py-2 lg:px-8 rounded-full">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 lg:w-6 lg:h-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
@@ -44,17 +44,17 @@
         </div>
         <div class="font-sans pt-0 pl-5 pb-3">
             <h2 class="pt-0 text-xl mt-3 font-semibold md:mx-5 md:text-md lg:text-lg lg:font-semibold lg:pt-2">Gensidig tillid</h2>
-            <p class="text-sm mt-3 md:text-xs md:mx-5 lg:text-sm lg:mr-10 lg:pb-0">There are many variations of passages of Lorem Ipsum 
+            <p class="text-sm mt-2 md:text-xs md:mx-5 lg:text-sm lg:mr-10 lg:pb-0">There are many variations of passages of Lorem Ipsum 
                 available, but the majority have suffered alteration in some form.</p>
         </div>
         <div class="font-sans pt-0 pl-5 pb-3">        
             <h2 class="text-xl mt-3 font-semibold font-semiboldmd:mx-5 md:text-md lg:text-lg lg:font-semibold lg:pl-5">Kundetilfredshed</h2>
-            <p class="text-sm mt-3 md:text-xs md:mx-5 lg:text-sm lg:mr-10">There are many variations of passages of Lorem Ipsum 
+            <p class="text-sm mt-2 md:text-xs md:mx-5 lg:text-sm lg:mr-10">There are many variations of passages of Lorem Ipsum 
                 available, but the majority have suffered alteration in some form.</p>
         </div>
         <div class="font-sans pl-5">
             <h2 class="text-xl mt-3 font-semibold md:mx-5 md:text-md lg:text-lg lg:font-semibold">Tæt samarbejde</h2>
-            <p class="text-sm mt-3 md:text-xs md:mx-5 lg:text-sm lg:mr-10 lg:pb-5">There are many variations of passages of Lorem Ipsum 
+            <p class="text-sm mt-2 md:text-xs md:mx-5 lg:text-sm lg:mr-10 lg:pb-8">There are many variations of passages of Lorem Ipsum 
                 available, but the majority have suffered alteration in some form.</p>
         </div>
     </div>
@@ -82,7 +82,7 @@
     </div>
     <div class="bg-beige light:bg-beige dark:bg-beige px-5 lg:px-20">
         <p class="font-sans text-gray dark:gray text-sm pt-8 md:px-2 md:pt-5 lg:text-sm lg:font-semibold lg:pt-12 lg:tracking-wider">GUIDE</p>
-        <h2 class="font-sans text-black dark:text-black pr-10 text-2xl font-semibold mt-3 pb-3 md:px-2 lg:text-4xl lg:font-semibold lg:pt-0">Sådan får du mest mulig ud af din rengøringshjælp.</h2>
+        <h2 class="font-sans text-black dark:text-black pr-10 text-3xl font-semibold mt-3 pb-3 md:px-2 lg:text-4xl lg:font-semibold lg:pt-0">Sådan får du mest mulig ud af din rengøringshjælp.</h2>
         <p class="font-sans text-black dark:text-black pb-3 md:px-2 md:text-xs lg:text-sm lg:pt-3 lg:pr-20 lg:font-semibold">
             Går du med overvejelserne om, at ansætte en professionel til at udføre rengøringshjælpen i dit hjem? 
         </p>

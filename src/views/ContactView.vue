@@ -15,8 +15,8 @@
 
 <div class="bg-white light:bg-white dark:bg-white lg:pt-10">
     <div>
-        <h2 class="font-sans text-black text-2xl font-semibold dark:text-black pt-10 pb-10 text-center lg:text-2xl lg:text-center lg:font-semibold lg:pt-10 lg:pb-10">
-            DU ER VELKOMMEN TIL AT KONTAKTE MIG
+        <h2 class="font-sans text-black text-2xl px-10 font-semibold dark:text-black pt-10 pb-10 text-center lg:text-2xl lg:text-center lg:font-semibold lg:pt-10 lg:pb-10">
+            Du er velkommen til at kontakte mig
         </h2>
     </div>
 </div>
@@ -95,9 +95,9 @@
 
 
 <!-- FAQ -->
-<div class="bg-white light:bg-white dark:bg-white h-full py-4 mx-auto md:pt-16 lg:pt-10">
-    <div class="text-center mb-5">
-        <h3 class="font-sans text-2xl text-center font-semibold pt-12 lg:text-4xl tracking-tight text-black dark:text-black lg:font-semibold">
+<div class="bg-white light:bg-white dark:bg-white h-full py-4 mx-auto pt-24 md:pt-16 lg:pt-10">
+    <div class="pt-20 text-center mb-5">
+        <h3 class="font-sans text-2xl text-center font-semibold pt-20 lg:text-4xl tracking-tight text-black dark:text-black lg:font-semibold">
             Ofte stillede spørgsmål
         </h3>
     </div>

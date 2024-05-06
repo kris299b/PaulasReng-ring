@@ -14,7 +14,7 @@
 </section>
 
 <!-- Pris sektion -->
-<div class="bg-white light:bg-white dark:bg-white columns-2 gap-x-0 pt-20 md:cols-1 lg:columns-2 lg:gap-x-0 lg:pt-20 lg:pb-3 lg:p-40">
+<div class="bg-white light:bg-white dark:bg-white gap-x-0 pt-20 columns-1 md:cols-1 lg:columns-2 lg:gap-x-0 lg:pt-20 lg:pb-3 lg:p-40">
     <div class="inline-block md:inline.block lg:inline-block">
         <img src="../assets/værdisæt-billede.jpg" alt="Værdisæt">
     </div>
@@ -46,13 +46,13 @@
 
 <!-- Samarbejde sektion -->
 <div class="bg-white light:bg-white dark:bg-white lg:pt-10">
-    <h2 class="text-center text-2xl pt-10 pb-5 font-semibold text-black dark:text-black lg:font-semibold lg:text-3xl lg:text-center lg:pt-10">
+    <h2 class="text-center text-2xl pt-12 pb-5 font-semibold text-black dark:text-black lg:font-semibold lg:text-3xl lg:text-center lg:pt-10">
         Tillidsfuldt og trygt samarbejde
     </h2>
 </div>
 
-<div class="bg-white light:bg-white  dark:bg-white columns-1 pb-20 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-5 lg:pb-24">
-    <div class="pt-10 md:pt-0 lg:pt-0 inline-block md:hidden lg:hidden">
+<div class="bg-white light:bg-white dark:bg-white columns-1 pb-20 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-5 lg:pb-24">
+    <div class="pt-5 md:pt-0 lg:pt-0 inline-block md:hidden lg:hidden">
         <img src="../assets/Guide-billede.jpg" alt="Samarbejde-billede">
     </div>
     <div class="bg-lightgray light:bg-lightgray dark:bg-lightgray px-5 lg:px-10">

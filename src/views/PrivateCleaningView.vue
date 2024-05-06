@@ -26,13 +26,13 @@
 
 <!-- Tryghed-section -->
 <div class="bg-white light:bg-white dark:bg-white">
-    <h2 class="text-left text-2xl px-5 pt-10 pb-5 font-semibold text-black dark:text-black lg:font-semibold lg:text-3xl lg:text-center lg:pt-20">Tryghed i vores samarbejde</h2>
+    <h2 class="text-left text-2xl px-5 pt-10 pb-6 font-semibold text-black dark:text-black md:text-center lg:font-semibold lg:text-3xl lg:text-center lg:pt-20">Tryghed i vores samarbejde</h2>
 </div>
 
-<div class="bg-white light:bg-white dark:bg-white columns-1 md:columns-1 lg:columns-2 lg:pt-5 lg:gap-x-0">
+<div class="bg-white light:bg-white dark:bg-white columns-1 md:columns-2 lg:columns-2 lg:pt-5 lg:gap-x-0">
     <div class="bg-lightgray dark:bg-lightgray px-5 lg:px-20 lg:h-96">
         <p class="font-sans text-gray dark:gray text-sm pt-8 lg:text-sm lg:font-semibold lg:tracking-wider lg:pt-10">PAULAS RENGØRING | TRYGHED</p>
-        <h2 class="font-sans text-black dark:text-black pr-10 text-2xl font-semibold mt-3 pb-3 lg:font-semibold lg:text-4xl lg:font-normal lg:pt-0">Det er vigtigt for mig, at du er tryg i vores samarbejde.</h2>
+        <h2 class="font-sans text-black dark:text-black pr-10 text-3xl font-semibold mt-3 pb-3 lg:font-semibold lg:text-4xl lg:font-normal lg:pt-0">Det er vigtigt for mig, at du er tryg i vores samarbejde.</h2>
         <p class="font-sans text-black dark:text-black pb-3 lg:pt-4">
             There are many variations of passages of Lorem Ipsum available.
         </p>
@@ -48,12 +48,9 @@
 
 
 <!-- Tilpassede løsninger erhvervsrengøring - section -->
-<div class="bg-white dark:bg-white text-black dark-text-black lg:pt-20">
-    <p class="text-left px-5 pt-10 text-2xl font-semibold lg:font-semibold lg:text-center lg:text-3xl">
-        Skræddersyede løsninger tilpasset
-    </p>
-    <p class="text-left px-5 pt-0 text-2xl font-semibold lg:font-semibold lg:text-center lg:text-3xl">
-        dine ønsker og behov
+<div class="bg-white dark:bg-white text-black dark-text-black lg:pt-5">
+    <p class="text-left px-5 pt-16 text-2xl font-semibold md:text-center md:pb-10 lg:font-semibold lg:text-center lg:text-3xl">
+        Skræddersyede løsninger tilpasset dine ønsker 
     </p>
 </div>
 
@@ -63,7 +60,7 @@
     </div>
     <div class="bg-lightgray light:bg-lightgray dark:bg-lightgray px-5 lg:px-20">
         <p class="font-sans text-gray dark:gray text-sm pt-8 md:px-2 md:pt-5 lg:text-sm lg:font-semibold lg:pt-12 lg:tracking-wider">PAULAS RENGØRING | ERHVERVSRENGØRING</p>
-        <h2 class="font-sans text-black dark:text-black pr-10 text-2xl font-semibold mt-3 pb-3 md:px-2 lg:text-4xl lg:font-semibold lg:pt-0">Tilpassede rengøringsløsninger</h2>
+        <h2 class="font-sans text-black dark:text-black pr-10 text-3xl font-semibold mt-3 pb-3 md:px-2 lg:text-4xl lg:font-semibold lg:pt-0">Tilpassede rengøringsløsninger</h2>
         <p class="font-sans text-black dark:text-black pb-3 md:px-2 md:text-xs lg:text-sm lg:pt-3 lg:pr-20 lg:font-semibold">
             Jeg tilbyder altid skræddersyede løsninger, som tager udgangspunkt i dine ønsker og behov.  
         </p>
@@ -112,8 +109,8 @@
 
 <!-- Servicefradrag-section -->
 <div class="bg:lightgray light:bg-lightgray dark:bg-lightgray font-sans lg:text-center lg:pt-10 lg:pb-10 lg:text-3xl text-black dark:text-black">
-    <h2 class="text-left font-semibold pl-5 text-2xl pt-10 lg:text-center lg:text-3xl lg:font-semibold">Husk at din rengøringshjælp går </h2>
-    <h2 class="text-left font-semibold pl-5 text-2xl lg:text-center lg:text-3xl lg:font-semibold">ind under ''Servicefradrag'' </h2>
+    <h2 class="text-left font-semibold pl-5 text-3xl pt-10 lg:text-center lg:text-3xl lg:font-semibold">Husk at din rengøringshjælp går </h2>
+    <h2 class="text-left font-semibold pl-5 text-3xl lg:text-center lg:text-3xl lg:font-semibold">ind under ''Servicefradrag'' </h2>
     <p class="text-left pl-5 pr-5 pt-3 pb-10 lg:text-center lg:pl-40 lg:pr-40 lg:pt-4 lg:text-sm">Når du køber privat rengøring, skal du huske at gemme alle dine kvitteringer. 
         Du kan nemlig trække beløb fra på din selvangivelse under rubrikken 
         ”servicefradrag”, det varierer en smule beløbsmæssigt fra indkomstår 
@@ -181,7 +178,7 @@
     </div>
 </div>
 
-<div class="bg-white light:bg-white dark:bg-white lg:pb-20">
+<div class="bg-white light:bg-white pb-20 dark:bg-white lg:pb-20">
     <div class="grid grid-cols-1 gap-y-10 md:gap-x-5 md:grid-cols-3 lg:grid-cols-3 lg:gap-20 lg:px-20 lg:pb-20">
         <div class="max-w-xs mx-auto overflow-hidden shadow-lg bg-white dark:bg-white">
             <div class="px-6 py-10 flex flex-col items-center">
