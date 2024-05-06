@@ -219,6 +219,7 @@
 
 #navbar.scrolled {
     background-color: #fdfdfd; 
+    padding-bottom: 55px;
   }
 
 #navbar.scrolled a {
