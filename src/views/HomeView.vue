@@ -10,7 +10,7 @@
     </div>
     <div class="video-content z-10 pt-40 md:pt-80 lg:pt-40">
         <div>
-            <p class="font-sans text-white dark:text-white px-4 md:text-sm lg:text-lg lg:text-center">
+            <p class="font-sans text-white dark:text-white px-4 text-xs md:text-sm lg:text-lg lg:text-center">
                 PAULAS RENGØRING | PROFESSIONEL RENGØRING
             </p>
             <h2 class="font-sans text-white dark:text-white text-left px-4 text-4xl md:text-4xl lg:px-0 lg:pb-2 lg:font-semibold lg:text-5xl lg:text-center">Rengøring til private og erhverv</h2>
@@ -34,7 +34,7 @@
 
 
 <!-- Værdisæt section -->
-<div class="bg-white light:bg-white dark:bg-white pt-12 px-5 columns-1 md:gap-x-0 md:columns-2 lg:px-52 lg:columns-2 lg:gap-x-0 lg:pt-20">
+<div class="bg-white light:bg-white dark:bg-white pt-10 px-5 columns-1 md:gap-x-0 md:columns-2 justify lg:justify-center lg:p-40 lg:columns-2 lg:gap-x-0 lg:pt-20 lg:pb-20">
     <div class="inline-block pt-5 md:hidden lg:hidden">
         <img src="../assets/Værdisæt-paulasrengøring.jpg" alt="Værdisæt">
     </div>
@@ -66,7 +66,7 @@
 
 <!-- Guide section -->
 <div class="bg-white light:bg-white dark:bg-white">
-    <h2 class="font-sans text-2xl text-black pl-5 pr-10 pt-10 font-semibold md:pb-0 md:font-semibold md:text-3xl md:px-20 md:text-center lg:pt-20 lg:pb-5 lg:text-black lg:text-3xl lg:font-semibold lg:text-center">
+    <h2 class="font-sans text-2xl text-black pl-5 pr-10 pt-10 font-semibold md:pb-0 md:font-semibold md:text-3xl md:px-20 md:text-center lg:pt-0 lg:pb-5 lg:text-black lg:text-3xl lg:font-semibold lg:text-center">
         Går du i overvejelserne om at få rengøringshjælp ?
     </h2>
     <h2 class="font-sans text-sm text-black pl-5 pr-3 pt-5 font-normal md:px-10 md:pb-10 md:font-normal md:text-center lg:text-black lg:pt-1 lg:pb-10 lg:px-40 lg:text-sm lg:text-center">
@@ -76,7 +76,7 @@
     </h2>
 </div>
 
-<div class="bg-white light:bg-white dark:bg-white columns-1 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-5">
+<div class="bg-white light:bg-white dark:bg-white columns-1 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-0">
     <div class="pt-10 md:pt-0 lg:pt-0">
         <img src="../assets/Guide-billede.jpg" alt="Guide-billede">
     </div>
@@ -102,13 +102,13 @@
 
 <!-- Samarbejde sektion -->
 <div class="bg-white light:bg-white dark:bg-white lg:pt-10">
-    <h2 class="text-center text-2xl pt-12 pb-5 font-semibold text-black dark:text-black lg:font-semibold lg:text-3xl lg:text-center lg:pt-10">
+    <h2 class="text-left px-5 text-2xl pt-12 pb-5 font-semibold text-black dark:text-black lg:font-semibold lg:text-3xl lg:text-center lg:pt-10">
         Dit Lokale rengøringsfirma
     </h2>
 </div>
 
-<div class="bg-white light:bg-white dark:bg-white columns-1 pb-20 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-5 lg:p-24 lg:pb-10">
-    <div class="pt-5 md:pt-0 lg:pt-0 inline-block md:hidden lg:hidden">
+<div class="bg-white light:bg-white dark:bg-white columns-1 pb-5 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-5 lg:p-24 lg:pb-10">
+    <div class="pt-3 md:pt-0 lg:pt-0 inline-block md:hidden lg:hidden">
         <img src="../assets/Paulasrengøring-om.jpg" alt="Samarbejde-billede">
     </div>
     <div class="bg-lightgray light:bg-lightgray dark:bg-lightgray px-5 lg:px-10">
@@ -291,7 +291,7 @@
     <div class="flex justify justify-center flex-col lg:flex-row lg:space-x-0 lg:pt-5 lg:w-3/4 z-20 lg:pt-24">
         <div class="bg-white dark:bg-white max-w-lg shadow-sm lg:w-2/3">
             <div class="bg-white dark:bg-white max-w-lg">
-                <h2 class="mb-4 text-4xl tracking-tight font-semibold text-left pt-10 px-5 text-black dark:text-black md:px-5 md:pt-10 md:text-3xl md:text-left lg:text-3xl lg:px-5 lg:pr-10 lg:font-semibold lg:pt-10 lg:text-left">
+                <h2 class="mb-4 text-2xl tracking-tight font-semibold text-left pt-10 px-5 text-black dark:text-black md:px-5 md:pt-10 md:text-3xl md:text-left lg:text-3xl lg:px-5 lg:pr-10 lg:font-semibold lg:pt-10 lg:text-left">
                     Kontaktforumlar
                 </h2>
                 <p class="mb-8 text-sm text-left px-5 font-light text-black dark:text-black md:px-5 md:text-sm md:text-left lg:mb-16 lg:mb-4 lg:px-5 lg:font-normal lg:text-sm lg:text-left">

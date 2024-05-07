@@ -59,12 +59,6 @@
                                 <div style="position: absolute; left: -5000px;" aria-hidden="true">/* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
                                     <input type="text" name="b_529fa2bc5942a0147307ea268_90a02a22b5" tabindex="-1" value="">
                                 </div>
-                                <div class="optionalParent">
-                                    <div class="clear foot">
-                                        <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="SEND">
-                                        <p style="margin: 0px auto;"><a href="http://eepurl.com/iPjQYc" title="Mailchimp - email marketing made easy and fun"><span style="display: inline-block; background-color: transparent; border-radius: 4px;"></span></a></p>
-                                    </div>
-                                </div>
                             </div>
                         </form>
                     </div>
@@ -84,6 +78,12 @@
                                 <div style="position: absolute; left: -5000px;" aria-hidden="true">/* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
                                     <input type="text" name="b_529fa2bc5942a0147307ea268_90a02a22b5" tabindex="-1" value="">
                                 </div>
+                                <div class="optionalParent">
+                                    <div class="clear foot">
+                                        <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="SEND">
+                                        <p style="margin: 0px auto;"><a href="http://eepurl.com/iPjQYc" title="Mailchimp - email marketing made easy and fun"><span style="display: inline-block; background-color: transparent; border-radius: 4px;"></span></a></p>
+                                    </div>
+                                </div>
                             </div>
                         </form>
                 </div>
@@ -96,8 +96,8 @@
 
 <!-- FAQ -->
 <div class="bg-white light:bg-white dark:bg-white h-full py-4 mx-auto pt-24 md:pt-16 lg:pt-0">
-    <div class="pt-20 text-center mb-5">
-        <h3 class="font-sans text-2xl text-center font-semibold pt-20 lg:text-4xl tracking-tight text-black dark:text-black lg:font-semibold">
+    <div class="pt-20 text-center mb-5 lg:pt-10">
+        <h3 class="font-sans text-2xl text-center font-semibold pt-20 lg:text-3xl tracking-tight text-black dark:text-black lg:font-semibold">
             Ofte stillede spørgsmål
         </h3>
     </div>

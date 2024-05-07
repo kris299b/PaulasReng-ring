@@ -1,16 +1,19 @@
 <template>
-<!--Hero-section with image-->
-<section>
-<div class="relative h-full w-full md:h-full md:w-full lg:h-full lg:w-full">
-    <img class="object-cover"src="../assets/Guide-billede.jpg" alt="Guide-billede">
 
-    <div class="absolute inset-0 flex flex-col items-center justify-center">
-        <h1 class="text-white text-xs pb-2 pt-20 md:pb-4 md:text-xl lg:text-xl lg:pb-6 lg:pt-0">PAULAS RENGØRING | GUIDE</h1>
-        <p class="text-white text-base md:text-4xl md:pb-2 lg:text-5xl lg:pb-2">Få mest ud af din professionelle</p>
-        <p class="text-white text-base md:text-4xl md:pb-2 lg:text-5xl lg:pb-2">rengøringshjælp</p>
+<!--Hero-section-->
+<section class="relative h-screen flex flex-col items-center py-20 text-center content-start">
+    <div class="heroimage absolute top-0 left-0 w-full h-full overflow-hidden">
+        <img class="min-w-full min-h-full absolute object-cover" src="../assets/Guide-billede.jpg" alt="Guide-hero">
     </div>
-</div>
+    <div class="image-content z-10 pt-40 md:pt-80 lg:pt-40">
+        <div>
+            <h1 class="text-white text-xs text-left pb-2 pt-20 md:pb-4 md:text-xl lg:text-center lg:text-xl lg:pb-6 lg:pt-0">PAULAS RENGØRING | GUIDE</h1>
+            <p class="text-white text-base text-left md:text-4xl md:pb-2 lg:text-center lg:text-5xl lg:pb-2">Få mest ud af din professionelle</p>
+            <p class="text-white text-base text-left md:text-4xl md:pb-2 lg:text-center lg:text-5xl lg:pb-2">rengøringshjælp</p>
+        </div>
+    </div>
 </section>
+
 
 
 <!--Overvejelses-section-->
