@@ -49,14 +49,13 @@
     </div>
     
     <!-- Tilpassede løsninger erhvervsrengøring - section -->
-    <!-- Tilpassede løsninger erhvervsrengøring - section -->
-<div class="bg-white dark:bg-white text-black dark-text-black lg:pt-20">
+<div class="bg-white dark:bg-white text-black dark-text-black lg:pt-10">
     <p class="text-left px-5 pt-12 text-2xl font-semibold md:text-center md:pb-10 md:px-40 lg:font-semibold lg:text-center lg:text-3xl">
         Skræddersyede løsninger tilpasset dine ønsker og behov 
     </p>
 </div>
 
-   <div class="bg-white light:bg-white dark:bg-white pb-0 columns-1 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-10 lg:pb-20 lg:p-10">
+   <div class="bg-white light:bg-white dark:bg-white pb-0 columns-1 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-2 lg:pb-10 lg:p-10">
     <div class="pt-10 md:pt-0 lg:pt-0">
         <img src="../assets/Paulas-rengøring.jpg" alt="tilpassede-løsninger-billede">
     </div>
@@ -109,11 +108,11 @@
 </div>
     
     <!-- Forløb-sektion -->
-<div class="bg:white light:bg-white dark:bg-white lg:pt-10 lg:pb-0">
-   <h2 class="text-2xl text-left px-5 font-sans pt-12 pb-0 font-semibold text-black md:text-center md:pb-10 lg:pt-0 dark:text-black lg:text-center lg:font-semibold lg:text-3xl">Hvordan foregår forløbet ?</h2> 
+<div class="bg:white light:bg-white dark:bg-white lg:pt-0">
+   <h2 class="text-2xl text-left px-5 font-sans pt-12 pb-0 font-semibold text-black md:text-center md:pb-10 dark:text-black lg:text-center lg:font-semibold lg:text-3xl">Hvordan foregår forløbet ?</h2> 
 </div>
 
-<div class="bg-white light:bg-white dark:bg-white columns-1 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-5 lg:pb-20">
+<div class="bg-white light:bg-white dark:bg-white columns-1 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-0 lg:pb-10">
     <div class="pt-10 md:pt-0 lg:pt-0">
         <img src="../assets/Forløb-billede.jpg" alt="Forløb-billede">
     </div>

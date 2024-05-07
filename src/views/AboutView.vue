@@ -25,7 +25,7 @@
     </div>
 
     <div class="hidden md:block md:w-1/2 lg:w-1/3">
-        <img src="../assets/PaulasRengøring-værdibillede.jpg" alt="Kvinde der smiler">
+        <img src="../assets/Værdisæt-paulasrengøring.jpg" alt="Værdisæt-billede">
     </div>
 </div>
 
@@ -60,7 +60,7 @@
 
 <!--Headline-->
 <div class="bg-white dark:bg-white light:bg-white flex justify justify-center h-20 pt-6 md:h-24 md:pt-10">
-    <h1 class="text-black font-semibold text-base md:text-lg lg:text-lg">TILLIDSFULDT & TRYGT SAMARBEJDE</h1>
+    <h1 class="text-black font-semibold text-base md:text-lg lg:text-lg">Dit Lokale rengøringsfirma</h1>
 </div>
 
 
@@ -68,9 +68,8 @@
 <!--Paulas Rengøring-Privat-section-->
 <div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-row lg:flex-row lg:w-full">
     <div class="bg-lightgray p-4 md:p-6 md:w-1/2 lg:w-1/3">
-        <h1 class="text-black text-xs font-semibold pb-2 lg:text-sm">OM FIRMAET</h1>
-        <h2 class="text-black text-lg font-semibold pb-4 lg:text-2xl">PAULAS RENGØRING</h2>
-        <p class="text-black text-sm font-semibold pb-1 lg:text-base">OVER 10 ÅRS ERFARING</p>
+        <h1 class="text-black text-xs font-semibold pb-2 lg:text-sm">PAULAS RENGØRING | OM MIG</h1>
+        <h2 class="text-black text-lg font-semibold pb-4 lg:text-2xl">Jeg værdsætter tillid og tryghed, i det samarbejde jeg indgår med mine kunder </h2>
         <p class="text-black text-sm lg:text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus nobis delectus reiciendis. Adipisci optio atque suscipit natus ullam mollitia praesentium porro nobis quo nam dicta, voluptates a deserunt. Nisi, provident.Necessitatibus nobis delectus reiciendis. Adipisci optio atque suscipit natus ullam mollitia praesentium porro nobis quo nam dicta, voluptates a deserunt. Nisi, provident.</p>
         <button class="bg-blue hover:bg-darkblue rounded-full text-white text-sm font-bold py-3 px-4 mt-4 md:py-2 md:px-4">Kontakt mig</button>
     </div>

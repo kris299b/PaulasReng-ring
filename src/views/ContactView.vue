@@ -24,7 +24,7 @@
 <!-- kontaktformular sektion -->
 <section class="bg-white dark:bg-white relative h-full flex flex-col items-center text-center content-start pt-10 py-12 lg:pt-6 lg:pb-0">
     <div class="absolute top-0 left-0 w-full h-4/6 overflow-hidden">
-        <img class="min-w-full min-h-4/6 absolute object-cover" src="../assets/Sprøgsmål-billede.jpg" alt="Private-cleaning">
+        <img class="min-w-full min-h-4/6 absolute object-cover" src="../assets/Kontakt-form-billede.jpg" alt="Kontaktform-billede">
     </div>
     <div class="image-content text-white dark:text-white z-10 md:pt-10">
         <p class="text-sm md:mx-5 lg:text-sm lg:font-semibold lg:pt-0 text-white dark:text-white lg:text-center lg:tracking-wider">PAULAS RENGØRING | KONTAKT</p>

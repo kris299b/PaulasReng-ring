@@ -107,7 +107,7 @@
     </h2>
 </div>
 
-<div class="bg-white light:bg-white dark:bg-white columns-1 pb-20 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-5 lg:p-24 lg:pb-16">
+<div class="bg-white light:bg-white dark:bg-white columns-1 pb-20 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-5 lg:p-24 lg:pb-10">
     <div class="pt-5 md:pt-0 lg:pt-0 inline-block md:hidden lg:hidden">
         <img src="../assets/Paulasrengøring-om.jpg" alt="Samarbejde-billede">
     </div>
@@ -145,7 +145,7 @@
 
 <!-- Ydelser sektion -->
 <div class="bg-white light:bg-white dark:bg-white px-5 md:px-40 lg:px-56">
-    <div class="font-sans text-darkgray dark:text-darkgray pt-12 pl-5 pb-0 text-center text-sm pb-2 lg:text-lg lg:text-center lg:pt-20 lg:pb-2 lg:font-normal lg:tracking-wider">
+    <div class="font-sans text-darkgray dark:text-darkgray pt-12 pl-5 pb-0 text-center text-sm pb-2 lg:text-lg lg:text-center lg:pt-10 lg:pb-2 lg:font-normal lg:tracking-wider">
         <p>PAULAS RENGØRING</p>
     </div>
     <div class="font-sans text-black dark:text-black font-semibold text-2xl pb-10 text-center lg:text-3xl lg:text-center lg:font-semibold lg:pb-10">
@@ -275,7 +275,7 @@
 <!-- kontaktformular sektion -->
 <section class="relative h-full flex flex-col items-center text-center content-start pt-10 py-12 lg:py-12">
     <div class="absolute top-0 left-0 w-full h-full overflow-hidden">
-        <img class="min-w-full min-h-full absolute object-cover" src="../assets/Sprøgsmål-billede.jpg" alt="Private-cleaning">
+        <img class="min-w-full min-h-full absolute object-cover" src="../assets/Kontakt-form-billede.jpg" alt="Kontaktform-billede">
     </div>
     <div class="image-content text-white dark:text-white z-10 md:pt-10">
         <p class="text-sm md:mx-5 lg:text-sm lg:font-semibold lg:pt-0 text-white dark:text-white lg:text-center lg:tracking-wider">PAULAS RENGØRING | KONTAKT</p>
@@ -369,7 +369,7 @@
 <!-- Kundeanmeldelser -->
 <div class="bg-white light:bg-white dark:bg-white lg:pt-10">
     <div>
-        <h2 class="font-sans text-black text-2xl font-semibold dark:text-black pt-10 pb-10 text-center lg:text-4xl lg:text-center lg:font-semibold lg:pb-20">
+        <h2 class="font-sans text-black text-2xl font-semibold dark:text-black pt-10 pb-10 text-center lg:text-3xl lg:text-center lg:font-semibold lg:pb-20">
             Det siger mine kunder 
         </h2>
     </div>
@@ -415,7 +415,7 @@
 
 <div class="bg-white light:bg-white dark:bg-white py-4 mx-auto">
     <div class="text-center mb-5">
-        <h3 class="font-sans text-2xl text-center font-semibold pt-12 lg:text-4xl tracking-tight text-black dark:text-black lg:font-semibold">
+        <h3 class="font-sans text-2xl text-center font-semibold pt-12 lg:text-3xl tracking-tight text-black dark:text-black lg:font-semibold">
             Ofte stillede spørgsmål
         </h3>
     </div>

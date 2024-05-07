@@ -16,7 +16,7 @@
 <!-- Pris sektion -->
 <div class="bg-white light:bg-white dark:bg-white gap-x-0 pt-20 columns-1 md:cols-1 lg:columns-2 lg:gap-x-0 lg:pt-20 lg:pb-3 lg:p-40">
     <div class="inline-block md:inline.block lg:inline-block">
-        <img src="../assets/værdisæt-billede.jpg" alt="Værdisæt">
+        <img src="../assets/Paulasrengøring-pris-billede.jpg" alt="Pris-billede">
     </div>
     <div class="bg-lightgray pb-10 md:pt-2 dark:bg-lightgray text-gray dark:text-gray">
         <div class="lg:pt-10">

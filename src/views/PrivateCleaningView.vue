@@ -26,23 +26,22 @@
 
 <!-- Tryghed-section -->
 <div class="bg-white light:bg-white dark:bg-white">
-    <h2 class="text-left text-2xl px-5 pt-10 pb-6 font-semibold text-black dark:text-black md:text-center lg:font-semibold lg:text-3xl lg:text-center lg:pt-20">Tryghed i vores samarbejde</h2>
+    <h2 class="text-left text-2xl px-5 pt-10 pb-6 font-semibold text-black dark:text-black md:text-center lg:font-semibold lg:text-3xl lg:text-center lg:pt-10">Tryghed i vores samarbejde</h2>
 </div>
 
-<div class="bg-white light:bg-white dark:bg-white columns-1 md:columns-2 lg:columns-2 lg:pt-5 lg:gap-x-0">
-    <div class="bg-lightgray dark:bg-lightgray px-5 lg:px-20 lg:h-96">
+<div class="bg-beuge light:bg-white dark:bg-white columns-1 md:columns-2 lg:columns-2 lg:pt-5 lg:gap-x-0">
+    <div class="bg-beige light:bg-beige dark:bg-beige px-5 lg:px-20 lg:pt-16 lg:pb-16">
         <p class="font-sans text-gray dark:gray text-sm pt-8 lg:text-sm lg:font-semibold lg:tracking-wider lg:pt-10">PAULAS RENGØRING | TRYGHED</p>
         <h2 class="font-sans text-black dark:text-black pr-10 text-3xl font-semibold mt-3 pb-3 lg:font-semibold lg:text-4xl lg:font-normal lg:pt-0">Det er vigtigt for mig, at du er tryg i vores samarbejde.</h2>
         <p class="font-sans text-black dark:text-black pb-3 lg:pt-4">
-            There are many variations of passages of Lorem Ipsum available.
+            By injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need. 
         </p>
         <p class="font-sans text-black dark:text-black pb-8 lg:pt-2 lg:pr-20">
-            But the majority have suffered alteration in some form, by injected humour, 
-            or randomised words which don't look even slightly believable, it seems like it is a real sentance.
+            There are many variations of passages of Lorem Ipsum available, but the majority 
         </p>
     </div>
     <div class="gap-y-0 lg:pt-0">
-        <img src="../assets/Tryghed.copi.jpg" alt="Privatrengøring-tryghed">
+        <img src="../assets/Tryghed-rengøringshjælp.jpg" alt="Privatrengøring-tryghed">
     </div>
 </div>
 

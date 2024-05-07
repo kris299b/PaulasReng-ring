@@ -2,12 +2,12 @@
 <!--Hero-section with image-->
 <section>
 <div class="relative h-full w-full md:h-full md:w-full lg:h-full lg:w-full">
-    <img class="object-cover"src="../assets/hero-copi-copi.jpg" alt="Kvinde der støvsuger">
+    <img class="object-cover"src="../assets/Guide-billede.jpg" alt="Guide-billede">
 
     <div class="absolute inset-0 flex flex-col items-center justify-center">
-        <h1 class="text-white text-xs pb-2 pt-20 md:pb-4 md:text-xl lg:text-xl lg:pb-6 lg:pt-0">GUIDE</h1>
-        <p class="text-white text-base md:text-4xl md:pb-2 lg:text-5xl lg:pb-2">Sådan får du mest ud af din</p>
-        <p class="text-white text-base md:text-4xl md:pb-2 lg:text-5xl lg:pb-2">rengøring</p>
+        <h1 class="text-white text-xs pb-2 pt-20 md:pb-4 md:text-xl lg:text-xl lg:pb-6 lg:pt-0">PAULAS RENGØRING | GUIDE</h1>
+        <p class="text-white text-base md:text-4xl md:pb-2 lg:text-5xl lg:pb-2">Få mest ud af din professionelle</p>
+        <p class="text-white text-base md:text-4xl md:pb-2 lg:text-5xl lg:pb-2">rengøringshjælp</p>
     </div>
 </div>
 </section>
@@ -26,7 +26,7 @@
 <!--Box 1-->
 <div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center w-3/4 mx-auto md:w-full md:mx-auto md:flex-col md:w-1/2 lg:flex-row lg:w-full lg:pb-20 lg:mx-auto">
     <div class="lg:w-1/3">
-        <img src="../assets/meeting.jpg" alt="Woman having a meeting on her computer">
+        <img src="../assets/Booking-møde.jpg" alt="Woman having a meeting on her computer">
     </div>
     
     <div class="w-full p-4 lg:w-2/4 lg:pl-8 lg:pt-20 lg:pr-8 bg-lightgray">
