@@ -8,7 +8,7 @@
     <div class="image-content z-10 pt-40 md:pt-80 lg:pt-48">
         <div>
             <p class="font-sans text-white dark:text-white text-1xl md:text-xl lg:text-md lg:pb-1 lg:tracking-wider">PAULAS RENGØRING | KONTAKT </p>
-            <h2 class="font-sans text-white dark:text-white px-5 text-3xl md:text-4xl lg:pb-2 lg:font-semibold lg:text-5xl">Jeg er klar til at besvare dine spørgsmål</h2>
+            <h2 class="font-sans text-white dark:text-white px-5 text-3xl md:text-4xl lg:px-40 lg:pb-2 lg:font-semibold lg:text-5xl">Professionel rådgivning med dig i centrum</h2>
         </div>
     </div>
 </section>
@@ -22,7 +22,7 @@
 </div>
 
 <!-- kontaktformular sektion -->
-<section class="bg-white dark:bg-white relative h-full flex flex-col items-center text-center content-start pt-10 py-12 lg:py-12">
+<section class="bg-white dark:bg-white relative h-full flex flex-col items-center text-center content-start pt-10 py-12 lg:pt-6 lg:pb-0">
     <div class="absolute top-0 left-0 w-full h-4/6 overflow-hidden">
         <img class="min-w-full min-h-4/6 absolute object-cover" src="../assets/Sprøgsmål-billede.jpg" alt="Private-cleaning">
     </div>
@@ -95,7 +95,7 @@
 
 
 <!-- FAQ -->
-<div class="bg-white light:bg-white dark:bg-white h-full py-4 mx-auto pt-24 md:pt-16 lg:pt-10">
+<div class="bg-white light:bg-white dark:bg-white h-full py-4 mx-auto pt-24 md:pt-16 lg:pt-0">
     <div class="pt-20 text-center mb-5">
         <h3 class="font-sans text-2xl text-center font-semibold pt-20 lg:text-4xl tracking-tight text-black dark:text-black lg:font-semibold">
             Ofte stillede spørgsmål

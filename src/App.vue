@@ -5,7 +5,7 @@
   <div class="flex items-center flex-shrink-0 text-white mr-6">
   <a class="flex items-center">  
     <RouterLink to="/"> 
-      <img id="navbar-logo" src="../src/assets/logo-paulas-rengøring-hvid.png" class="logo-white h-20 md:h-20 lg:h-20 lg:ml-3" alt="" />
+      <img id="navbar-logo" src="../src/assets/PaulasRengøringLogo.png" class="logo-white h-20 md:h-20 lg:h-20 lg:ml-3" alt="" />
     </RouterLink>
     <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
   </a>
@@ -102,7 +102,7 @@
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
             <a href="" class="flex items-center">  
-              <RouterLink to="/"> <img src="../src/assets/logo-paulas-rengøring-blå.png" class="h-20 md:h-20 lg:h-20 lg:ml-3" alt="" /></RouterLink>
+              <RouterLink to="/"> <img src="../src/assets/logodesign-paulas-rengøring.png" class="h-20 md:h-20 lg:h-20 lg:ml-3" alt="" /></RouterLink>
               <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
             </a>
           </div>
@@ -334,7 +334,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const scrolledClass = 'scrolled';
 
   // Initially set the logo to white
-  logo.src = "../src/assets/Paulas-Rengøring-Logo-hvid.png";
+  logo.src = "../src/assets/PaulasRengøringLogo.png";
   
   // Add event listener for scrolling
   window.addEventListener('scroll', function() {
@@ -342,13 +342,13 @@ document.addEventListener("DOMContentLoaded", function() {
       navbar.classList.add(scrolledClass);
       // Change logo to blue if it's not already blue
       if (!logo.src.includes("blå")) {
-        logo.src = "../src/assets/logo-paulas-rengøring-blå.png";
+        logo.src = "../src/assets/logodesign-paulas-rengøring.png";
       }
     } else {
       navbar.classList.remove(scrolledClass);
       // Change logo to white if it's not already white
       if (!logo.src.includes("hvid")) {
-        logo.src = "../src/assets/Paulas-Rengøring-Logo-hvid.png";
+        logo.src = "../src/assets/PaulasRengøringLogo.png";
       }
     }
   });

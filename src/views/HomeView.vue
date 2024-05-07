@@ -35,12 +35,12 @@
 
 <!-- Værdisæt section -->
 <div class="bg-white light:bg-white dark:bg-white pt-12 px-5 columns-1 md:gap-x-0 md:columns-2 lg:px-52 lg:columns-2 lg:gap-x-0 lg:pt-20">
-    <div class="inline-block pt-10 md:hidden lg:hidden">
-        <img src="../assets/værdisæt-billede.jpg" alt="Værdisæt">
+    <div class="inline-block pt-5 md:hidden lg:hidden">
+        <img src="../assets/Værdisæt-paulasrengøring.jpg" alt="Værdisæt">
     </div>
     <div class="bg-lightgray md:pt-2 dark:bg-lightgray pb-10 text-black dark:text-black lg:py-5 lg:px-5">
         <div class="font-sans pt-0 pl-5 pb-3">
-            <p class="pt-8 text-sm mt-3 md:mx-5 md:pt-2 lg:text-sm lg:font-semibold lg:pt-1 text-gray dark:text-gray lg:tracking-wider">PAULAS RENGØRING | VÆRDISÆT</p>
+            <p class="pt-8 text-sm mt-3 md:mx-5 md:pt-2 lg:text-sm lg:font-semibold text-gray dark:text-gray lg:tracking-wider">PAULAS RENGØRING | VÆRDISÆT</p>
         </div>
         <div class="font-sans pt-0 pl-5 pb-3">
             <h2 class="pt-0 text-xl mt-3 font-semibold md:mx-5 md:text-md lg:text-lg lg:font-semibold lg:pt-2">Gensidig tillid</h2>
@@ -54,12 +54,12 @@
         </div>
         <div class="font-sans pl-5">
             <h2 class="text-xl mt-3 font-semibold md:mx-5 md:text-md lg:text-lg lg:font-semibold">Tæt samarbejde</h2>
-            <p class="text-sm mt-2 md:text-xs md:mx-5 lg:text-sm lg:mr-10 lg:pb-8">There are many variations of passages of Lorem Ipsum 
+            <p class="text-sm mt-2 md:text-xs md:mx-5 lg:text-sm lg:mr-10 lg:pb-6">There are many variations of passages of Lorem Ipsum 
                 available, but the majority have suffered alteration in some form.</p>
         </div>
     </div>
     <div class="hidden md:inline-block lg:inline-block">
-        <img src="../assets/værdisæt.jpg" alt="Værdisæt">
+        <img src="../assets/Værdisæt-paulasrengøring.jpg" alt="Værdisæt">
     </div>
 </div>
 
@@ -98,6 +98,50 @@
         </div>
     </div>
 </div>
+
+
+<!-- Samarbejde sektion -->
+<div class="bg-white light:bg-white dark:bg-white lg:pt-10">
+    <h2 class="text-center text-2xl pt-12 pb-5 font-semibold text-black dark:text-black lg:font-semibold lg:text-3xl lg:text-center lg:pt-10">
+        Dit Lokale rengøringsfirma
+    </h2>
+</div>
+
+<div class="bg-white light:bg-white dark:bg-white columns-1 pb-20 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-5 lg:p-24 lg:pb-16">
+    <div class="pt-5 md:pt-0 lg:pt-0 inline-block md:hidden lg:hidden">
+        <img src="../assets/Paulasrengøring-om.jpg" alt="Samarbejde-billede">
+    </div>
+    <div class="bg-lightgray light:bg-lightgray dark:bg-lightgray px-5 lg:px-10">
+        <p class="font-sans text-gray dark:gray text-sm pt-8 md:px-2 md:pt-7 lg:text-sm lg:font-semibold lg:pt-20 lg:tracking-wider">PAULAS RENGØRING | OM MIG</p>
+        <h2 class="font-sans text-black dark:text-black pr-10 text-2xl font-semibold mt-3 pb-3 md:px-2 lg:text-3xl lg:font-semibold lg:pt-0">Jeg værdsætter tillid og tryghed, i det samarbejde jeg indgår med mine kunder.</h2>
+        <p class="font-sans text-black dark:text-black pb-3 md:px-2 md:text-xs lg:text-sm lg:pt-3 lg:pr-20 lg:font-semibold">
+            Personligt betyder by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need. 
+        </p>
+        <p class="font-sans text-black dark:text-black pb-8 md:px-2 md:pb-19 md:text-xs lg:text-sm lg:pt-1 lg:pr-20 lg:pb-10">
+            There are many variations of passages of Lorem Ipsum available, but the majority. So if you know many variations of passages of Lorem Ipsum.
+        </p>
+        <div class="row md:row lg:flex">
+            <div class="font-sans pb-4 md:px-2 md:pb-7 lg:pb-3">
+                <RouterLink to="privatecleaning"> 
+                    <button class="bg-blue dark:bg-blue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-1 md:px-4 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
+                        Privatrengøring
+                    </button>
+                </RouterLink>
+            </div>
+            <div class="font-sans pb-10 md:px-2 md:pb-7 lg:pb-16">
+                <RouterLink to="commercialcleaning"> 
+                    <button class="bg-blue dark:bg-blue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-1 md:px-4 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
+                        Erhvervsrengøring
+                    </button>
+                </RouterLink>
+            </div>
+        </div>
+    </div>
+    <div class="hidden md:inline-block lg:inline-block pt-10 md:pt-0 lg:pt-0">
+        <img src="../assets/Paulasrengøring-om.jpg" alt="Samarbejde-billede">
+    </div>
+</div>
+
 
 <!-- Ydelser sektion -->
 <div class="bg-white light:bg-white dark:bg-white px-5 md:px-40 lg:px-56">
