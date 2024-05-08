@@ -52,7 +52,7 @@
         <p class="text-black text-sm lg:font-semibold lg:text-base">Jeg har mange års erfaring med privat og erhvervsrengøring.</p>
         <p class="text-black text-sm lg:font-base lg:pt-3 lg:pr-20 lg:text-base">Som kunde hos mig, kan du væres sikker på den bedste service, hvor der ikke bliver gået på kompromis med kvliteten. Du kan føle dig i trykke hænder, i et samarbejde med mig.  Dine ønsker og behov, vil altid være i centrum, og danne ramme om vores samarbejde. </p>
         <div class="lg:pt-5">
-            <button class="bg-blue hover:bg-darkblue rounded-full text-white text-sm font-bold py-3 px-4 mt-4 md:py-2 md:px-4 lg:px-6 lg:py-2">Kontakt mig</button>
+            <button class="bg-blue hover:bg-darkblue rounded-full text-white text-sm font-bold py-3 px-4 mt-4 md:py-2 md:px-4 lg:px-6 lg:py-2 lg:font-normal lg:tracking-wider">Lad os tage en uforpligtende snak</button>
         </div>
     </div>
 </div>
@@ -70,7 +70,7 @@
         <p class="text-black dark:text-black text-sm lg:text-base">Personligt betyder by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need. </p>
         <p class="text-black dark:text-black text-sm lg:text-base lg:pt-5">There are many variations of passages of Lorem Ipsum available, but the majority. So if you know many variations of passages of Lorem Ipsum. </p>
         <div class="row pt-4 pb-4 md:flex lg:flex lg:pt-8">
-            <div class="md:pr-3 lg:pt-0 lg:pr-3">
+            <div class="py-3 md:pr-3 lg:pt-0 lg:pr-3">
                 <RouterLink to="privatecleaning"> 
                     <button class="bg-blue dark:bg-blue hover:bg-darkblue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-1 md:px-4 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
                         Privatrengøring
