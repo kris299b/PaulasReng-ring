@@ -10,13 +10,6 @@
             <p class="font-sans text-white dark:text-white text-1xl text-left px-4 md:text-center md:text-xl lg:text-md lg:text-left lg:pb-1 lg:px-5 lg:tracking-wider">PAULAS RENGØRING | PRIVATRENGØRING</p>
             <h2 class="font-sans text-white dark:text-white text-4xl text-left px-4 md:text-center md:text-4xl lg:pb-2 lg:font-semibold lg:text-5xl">Rengøringshjælp for dig i dit hjem</h2>
         </div>
-        <div class="font-sans flex flex-col justify-start space-y-4 px-5 text-sm pt-5 md:flex-row md:justify-center md:space-x-4 lg:space-y-0 lg:justify-start lg:text-md lg:pt-5 lg:px-5">
-            <RouterLink to="about"> 
-                <button class="flex bg-white dark:bg-white py-2 px-4 hover:white text-black dark:text-black font-semibold lg:py-2 lg:px-8 rounded-full">
-                    <p class="pl-2 md:pl-2 lg:pl-2">Om firmaet</p>
-                </button>
-            </RouterLink>
-        </div>
     </div>
 </section>
 
@@ -27,7 +20,7 @@
 </div>
 
 <div class="bg-beige light:bg-white dark:bg-white md:gap-x-0 columns-1 md:columns-2 lg:columns-2 lg:pt-5 lg:gap-x-0">
-    <div class="bg-beige light:bg-beige dark:bg-beige px-5 lg:px-20 lg:pt-16 lg:pb-16">
+    <div class="bg-beige light:bg-beige dark:bg-beige px-5 lg:px-20 lg:pt-16 lg:pb-10">
         <p class="font-sans text-gray dark:gray text-sm pt-8 lg:text-sm lg:font-semibold lg:tracking-wider lg:pt-10">PAULAS RENGØRING | TRYGHED</p>
         <h2 class="font-sans text-black dark:text-black pr-10 text-3xl font-semibold mt-3 pb-3 lg:font-semibold lg:text-4xl lg:font-normal lg:pt-0">Det er vigtigt for mig, at du er tryg i vores samarbejde.</h2>
         <p class="font-sans text-sm text-black dark:text-black pb-3 lg:pt-4">
@@ -50,7 +43,7 @@
     </p>
 </div>
 
-   <div class="bg-white light:bg-white dark:bg-white pb-20 columns-1 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-10 lg:pb-20 lg:p-10">
+   <div class="bg-white light:bg-white dark:bg-white pb-20 columns-1 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-5 lg:pb-20 lg:p-10">
     <div class="pt-10 md:pt-0 lg:pt-0">
         <img src="../assets/Paulas-rengøring.jpg" alt="tilpassede-løsninger-billede">
     </div>
@@ -168,7 +161,7 @@
 <!-- Kundeanmeldelser -->
 <div class="bg-white light:bg-white dark:bg-white">
     <div>
-        <h2 class="font-sans text-black text-2xl font-semibold dark:text-black pt-10 pb-10 text-center lg:text-3xl lg:text-center lg:font-semibold lg:pt-5 lg:pb-20">
+        <h2 class="font-sans text-black text-2xl font-semibold dark:text-black pt-10 pb-10 text-center lg:text-3xl lg:text-center lg:font-semibold lg:pt-0 lg:pb-20">
             Det siger mine kunder 
         </h2>
     </div>

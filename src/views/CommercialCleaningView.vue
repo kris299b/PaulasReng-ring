@@ -13,13 +13,6 @@
                     Jeg løser rengøringsopgaver for små og mellemstore virksomheder, og institutioner.
                 </p>
             </div>
-            <div class="font-sans flex flex-col space-y-4 px-24 text-sm pt-5 md:flex-row md:justify-center md:space-x-4 lg:flex-row lg:space-x-4 lg:space-y-0 lg:justify-start lg:px-0 lg:text-md lg:pt-5">
-                <RouterLink to="about"> 
-                    <button class="flex bg-white dark:bg-white py-2 px-4 hover:white text-black dark:text-black font-semibold lg:py-2 lg:px-8 rounded-full">
-                        <p class="pl-2 md:pl-2 lg:pl-2">Om firmaet</p>
-                    </button>
-                </RouterLink>
-            </div>
         </div>
     </section>
     
@@ -31,7 +24,7 @@
     </div>
     
     <div class="bg-white light:bg-white dark:bg-white columns-1 md:gap-x-0 md:columns-2 lg:columns-2 lg:pt-5 lg:gap-x-0">
-        <div class="bg-lightgray light:bg-lightgray dark:bg-lightgray px-5 lg:px-20 lg:h-96">
+        <div class="bg-lightgray light:bg-lightgray dark:bg-lightgray px-5 lg:px-20 lg:pt-16 lg:pb-16">
             <p class="font-sans text-gray dark:gray text-sm pt-8 lg:text-sm lg:font-semibold lg:tracking-wider lg:pt-10">PAULAS RENGØRING | TRYGHED</p>
             <h2 class="font-sans text-black dark:text-black pr-10 text-3xl font-semibold mt-3 pb-3 lg:font-semibold lg:text-4xl lg:font-normal lg:pt-0">Det er vigtigt for mig, at du er tryg i vores samarbejde.</h2>
             <p class="font-sans text-black dark:text-black pb-3 lg:pt-4">There are many variations of passages of Lorem Ipsum available, but the majority 

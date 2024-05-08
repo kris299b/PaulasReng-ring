@@ -45,43 +45,38 @@
 </div>
 
 <!-- Om sektion -->
-<div class="bg-white light:bg-white dark:bg-white lg:pt-10">
-    <h2 class="text-left px-5 text-2xl pt-12 pb-5 font-semibold text-black dark:text-black md:text-center lg:font-semibold lg:text-3xl lg:text-center lg:pt-10">
-        Dit Lokale rengøringsfirma
-    </h2>
+<div class="bg-white dark:bg-white light:bg-white flex justify justify-center h-20 pt-6 md:h-24 md:pt-10">
+    <h1 class="text-black font-semibold text-base md:text-lg lg:text-3xl">Dit Lokale rengøringsfirma</h1>
 </div>
 
-<div class="bg-white light:bg-white dark:bg-white columns-1 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-5 lg:p-24">
-    <div class="bg-lightgray light:bg-lightgray dark:bg-lightgray px-5 lg:px-10">
-        <p class="font-sans text-gray dark:gray text-sm pt-8 md:px-2 md:pt-7 lg:text-sm lg:font-semibold lg:pt-20 lg:tracking-wider">PAULAS RENGØRING | OM MIG</p>
-        <h2 class="font-sans text-black dark:text-black pr-10 text-2xl font-semibold mt-3 pb-3 md:px-2 lg:text-3xl lg:font-semibold lg:pt-0">Jeg værdsætter tillid og tryghed, i det samarbejde jeg indgår med mine kunder.</h2>
-        <p class="font-sans text-black text-sm dark:text-black pb-3 md:px-2 md:text-xs lg:text-sm lg:pt-3 lg:pr-20 lg:font-semibold">
-            Personligt betyder by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need. 
-        </p>
-        <p class="font-sans text-black text-sm dark:text-black pb-8 md:px-2 md:pb-19 md:text-xs lg:text-sm lg:pt-1 lg:pr-20 lg:pb-8">
-            There are many variations of passages of Lorem Ipsum available, but the majority. So if you know many variations of passages of Lorem Ipsum.
-        </p>
-        <div class="row md:row lg:flex lg:pt-2">
-            <div class="font-sans pb-4 md:px-2 md:pb-4">
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-row lg:flex-row lg:w-full lg:pb-20">
+    <div class="bg-lightgray p-4 md:p-6 md:w-1/2 lg:w-2/5 lg:px-12">
+        <p class="text-gray dark:gray text-xs pt-5 font-semibold pb-2 lg:pt-10 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | OM MIG</p>
+        <h2 class="text-black dark:text-black text-2xl font-semibold pb-4 lg:text-2xl">Jeg værdsætter tillid og tryghed, i det samarbejde jeg indgår med mine kunder </h2>
+        <p class="text-black dark:text-black text-sm lg:text-base">Personligt betyder by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need. </p>
+        <p class="text-black dark:text-black text-sm lg:text-base lg:pt-5">There are many variations of passages of Lorem Ipsum available, but the majority. So if you know many variations of passages of Lorem Ipsum. </p>
+        <div class="row pt-4 pb-4 md:flex lg:flex lg:pt-8">
+            <div class="md:pr-3 lg:pt-0 lg:pr-3">
                 <RouterLink to="privatecleaning"> 
-                    <button class="bg-blue dark:bg-blue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-1 md:px-4 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
+                    <button class="bg-blue dark:bg-blue hover:bg-darkblue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-1 md:px-4 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
                         Privatrengøring
                     </button>
-                </RouterLink>
+                </RouterLink> 
             </div>
-            <div class="font-sans pb-10 md:px-2 md:pb-7 lg:pb-24">
+            <div class="lg:pt-0">
                 <RouterLink to="commercialcleaning"> 
-                    <button class="bg-blue dark:bg-blue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-1 md:px-4 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
+                    <button class="bg-blue dark:bg-blue hover:bg-darkblue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-1 md:px-4 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
                         Erhvervsrengøring
                     </button>
                 </RouterLink>
             </div>
         </div>
     </div>
-    <div class="md:pt-0 lg:pt-0">
-        <img src="../assets/Paulasrengøring-om-billede.jpg" alt="Om-mig-billede">
+    <div class="md:w-1/2 lg:w-2/5">
+        <img src="../assets/Paulasrengøring-om-billede.jpg" alt="Kvinde der smiler">
     </div>
 </div>
+
 
     
 </template>

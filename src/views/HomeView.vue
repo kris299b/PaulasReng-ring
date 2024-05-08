@@ -39,26 +39,18 @@
 
 
 <!-- Værdisæt section -->
-<div class="bg-white light:bg-white dark:bg-white pt-10 px-5 columns-1 md:gap-x-0 md:columns-2 lg:justify-center lg:p-40 lg:columns-2 lg:gap-x-0 lg:pt-20 lg:pb-20">
-    <div class="bg-lightgray md:pt-2 dark:bg-lightgray pb-10 text-black dark:text-black md:pb-8 lg:py-5 lg:px-5 lg:pt-8">
-        <div class="font-sans pt-0 pl-5 pb-3">
-            <p class="pt-8 text-sm mt-3 md:mx-5 md:pt-3 md:text-xs lg:text-sm lg:font-semibold text-gray dark:text-gray lg:tracking-wider">PAULAS RENGØRING | VÆRDISÆT</p>
-        </div>
-        <div class="font-sans pt-0 pl-5 pb-3 md:pb-2">
-            <h2 class="pt-0 text-xl mt-3 font-semibold md:mx-5 md:text-md lg:text-lg lg:font-semibold lg:pt-2">Gensidig tillid</h2>
-            <p class="text-sm mt-2 md:text-xs md:mx-5 lg:text-sm lg:mr-10 lg:pb-0">Det er vigtigt for mig, at vi skaber tillid til hinanden fra start, så vi kan indgå det bedste samarbejde med et stærkt fundament.</p>
-        </div>
-        <div class="font-sans pt-0 pl-5 pb-3 md:pb-2">        
-            <h2 class="text-xl mt-3 font-semibold font-semibold md:mx-5 md:text-md lg:text-lg lg:font-semibold lg:pl-0">Kundetilfredshed</h2>
-            <p class="text-sm mt-2 md:text-xs md:mx-5 lg:text-sm lg:mr-10">Din tilfredshed med rengøringen, er af højeste prioritet for mig. Når du som kunde er glad for resultaterne, giver det en uvurderlig følelse af velvære.</p>
-        </div>
-        <div class="font-sans pl-5">
-            <h2 class="text-xl mt-3 font-semibold md:mx-5 md:text-md lg:text-lg lg:font-semibold">Tæt samarbejde</h2>
-            <p class="text-sm mt-2 md:text-xs md:mx-5 lg:text-sm lg:mr-10 lg:pb-8">Kommunikationen imellem os er af altafgørende, for at der kan dannes et trygt og tæt samarbejde. Jeg pritotere den tillidsfulde relation.</p>
-        </div>
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-row lg:flex-row lg:w-full lg:pt-20 lg:pb-20">
+    <div class="bg-lightgray p-6 md:p-6 md:w-1/2 lg:w-2/5 lg:px-12">
+        <p class="text-gray dark:text-gray text-xs pt-5 font-semibold pb-2 md:pt-3 lg:pt-10 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | VÆRDISÆT</p>
+        <p class="text-black dark:text-black pt-0 text-xl mt-3 font-semibold md:mx-0 md:text-md lg:mx-0 lg:text-lg lg:font-semibold lg:pt-2">Gensidig tillid</p>
+        <p class="text-black dark:text-black text-sm mt-2 md:text-xs md:mx-0 lg:mx-0 lg:text-sm lg:mr-10 lg:pb-0">Det er vigtigt for mig, at vi skaber tillid til hinanden fra start, så vi kan indgå det bedste samarbejde med et stærkt fundament.</p>
+        <p class="text-black dark:text-black pt-2 text-xl mt-3 font-semibold md:mx-0 md:text-md lg:mx-0 lg:text-lg lg:font-semibold lg:pt-2">Kundetilfredshed</p>
+        <p class="text-black dark:text-black text-sm mt-2 md:text-xs md:mx-0 lg:mx-0 lg:text-sm lg:mr-10 lg:pb-0">Din tilfredshed med rengøringen, er af højeste prioritet for mig. Når du som kunde er glad for resultaterne, giver det en uvurderlig følelse af velvære.</p>
+        <p class="text-black dark:text-black pt-2 text-xl mt-3 font-semibold md:mx-0 md:text-md lg:mx-0 lg:text-lg lg:font-semibold lg:pt-2">Tæt samarbejde</p>
+        <p class="text-black dark:text-black text-sm mt-2 mb-5 md:text-xs md:mx-0 lg:mx-0 lg:text-sm lg:mr-10 lg:pb-0">Kommunikationen imellem os er af altafgørende, for at der kan dannes et trygt og tæt samarbejde. Jeg pritotere den tillidsfulde relation.</p>
     </div>
-    <div class="inline-block md:inline-block lg:inline-block">
-        <img src="../assets/Paulas-rengøring-værdisæt.jpg" alt="Værdisæt">
+    <div class="md:w-1/2 lg:w-2/5">
+        <img src="../assets/Paulas-rengøring-værdisæt.jpg" alt="Kvinde der smiler">
     </div>
 </div>
 
@@ -78,7 +70,7 @@
         <img src="../assets/Guide-billede.jpg" alt="Guide-billede">
     </div>
     <div class="bg-beige light:bg-beige dark:bg-beige px-5 lg:px-20">
-        <p class="font-sans text-gray dark:gray text-sm pt-8 md:px-2 md:pt-10 lg:text-sm lg:font-semibold lg:pt-24 lg:tracking-wider">GUIDE</p>
+        <p class="font-sans text-darkgray dark:darkgray text-sm pt-8 md:px-2 md:pt-10 lg:text-sm lg:font-semibold lg:pt-24 lg:tracking-wider">GUIDE</p>
         <h2 class="font-sans text-black dark:text-black pr-10 text-2xl font-semibold mt-3 pb-3 md:px-2 lg:text-4xl lg:font-semibold lg:pt-0">Sådan får du mest mulig ud af din rengøringshjælp.</h2>
         <p class="font-sans text-black dark:text-black pb-3 text-sm md:px-2 md:text-xs lg:text-sm lg:pt-3 lg:pr-20 lg:font-semibold">
             Går du med overvejelserne om, at ansætte en professionel til at udføre rengøringshjælpen i dit hjem? 
@@ -98,41 +90,35 @@
 
 
 <!-- Om sektion -->
-<div class="bg-white light:bg-white dark:bg-white lg:pt-10">
-    <h2 class="text-left px-5 text-2xl pt-12 pb-5 font-semibold text-black dark:text-black md:text-center lg:font-semibold lg:text-3xl lg:text-center lg:pt-10">
-        Dit Lokale rengøringsfirma
-    </h2>
+<div class="bg-white dark:bg-white light:bg-white flex justify justify-center h-20 pt-6 md:h-24 md:pt-10">
+    <h1 class="text-black font-semibold text-base md:text-lg lg:text-3xl">Dit Lokale rengøringsfirma</h1>
 </div>
 
-<div class="bg-white light:bg-white dark:bg-white columns-1 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-5 lg:p-24">
-    <div class="bg-lightgray light:bg-lightgray dark:bg-lightgray px-5 lg:px-10">
-        <p class="font-sans text-gray dark:gray text-sm pt-8 md:px-2 md:pt-7 lg:text-sm lg:font-semibold lg:pt-20 lg:tracking-wider">PAULAS RENGØRING | OM MIG</p>
-        <h2 class="font-sans text-black dark:text-black pr-10 text-2xl font-semibold mt-3 pb-3 md:px-2 lg:text-3xl lg:font-semibold lg:pt-0">Jeg værdsætter tillid og tryghed, i det samarbejde jeg indgår med mine kunder.</h2>
-        <p class="font-sans text-black text-sm dark:text-black pb-3 md:px-2 md:text-xs lg:text-sm lg:pt-3 lg:pr-20 lg:font-semibold">
-            Personligt betyder by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need. 
-        </p>
-        <p class="font-sans text-black text-sm dark:text-black pb-8 md:px-2 md:pb-19 md:text-xs lg:text-sm lg:pt-1 lg:pr-20 lg:pb-8">
-            There are many variations of passages of Lorem Ipsum available, but the majority. So if you know many variations of passages of Lorem Ipsum.
-        </p>
-        <div class="row md:row lg:flex lg:pt-2">
-            <div class="font-sans pb-4 md:px-2 md:pb-4">
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-row lg:flex-row lg:w-full lg:pb-20">
+    <div class="bg-lightgray p-4 md:p-6 md:w-1/2 lg:w-2/5 lg:px-12">
+        <p class="text-gray dark:gray text-xs pt-5 font-semibold pb-2 lg:pt-10 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | OM MIG</p>
+        <h2 class="text-black dark:text-black text-2xl font-semibold pb-4 lg:text-2xl">Jeg værdsætter tillid og tryghed, i det samarbejde jeg indgår med mine kunder </h2>
+        <p class="text-black dark:text-black text-sm lg:text-base">Personligt betyder by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need. </p>
+        <p class="text-black dark:text-black text-sm lg:text-base lg:pt-5">There are many variations of passages of Lorem Ipsum available, but the majority. So if you know many variations of passages of Lorem Ipsum. </p>
+        <div class="row pt-6 pb-4 md:flex lg:flex lg:pt-8">
+            <div class="md:pr-3 lg:pt-0 lg:pr-3">
                 <RouterLink to="privatecleaning"> 
-                    <button class="bg-blue dark:bg-blue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-1 md:px-4 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
+                    <button class="bg-blue dark:bg-blue hover:bg-darkblue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-1 md:px-4 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
                         Privatrengøring
                     </button>
-                </RouterLink>
+                </RouterLink> 
             </div>
-            <div class="font-sans pb-10 md:px-2 md:pb-7 lg:pb-24">
+            <div class="lg:pt-0">
                 <RouterLink to="commercialcleaning"> 
-                    <button class="bg-blue dark:bg-blue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-1 md:px-4 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
+                    <button class="bg-blue dark:bg-blue hover:bg-darkblue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-1 md:px-4 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
                         Erhvervsrengøring
                     </button>
                 </RouterLink>
             </div>
         </div>
     </div>
-    <div class="md:pt-0 lg:pt-0">
-        <img src="../assets/Paulasrengøring-om-billede.jpg" alt="Om-mig-billede">
+    <div class="md:w-1/2 lg:w-2/5">
+        <img src="../assets/Paulasrengøring-om-billede.jpg" alt="Kvinde der smiler">
     </div>
 </div>
 
@@ -171,7 +157,7 @@
                             <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
                             </svg>
                         </div>
-                        <p class="font-sans text-base text-sm pl-2 lg:text-sm text-black dark:text-black lg:pl-2">
+                        <p class="font-sans text-base text-sm pl-2 lg:text-sm text-black dark:text-black lg:pl-2 lg:font-semibold">
                             HOVEDRENGØRING
                         </p>
                     </div>
@@ -182,7 +168,7 @@
                             <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
                             </svg>
                         </div>
-                        <p class="font-sans text-base text-sm pl-2 lg:text-sm text-black dark:text-black lg:pl-2">
+                        <p class="font-sans text-base text-sm pl-2 lg:text-sm text-black dark:text-black lg:pl-2 lg:font-semibold">
                             ALM. RENGØRING
                         </p>
                     </div>
@@ -193,7 +179,7 @@
                             <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
                             </svg>
                         </div>
-                        <p class="font-sans text-base text-sm pl-2 pb-5 lg:text-sm text-black dark:text-black lg:pl-2">
+                        <p class="font-sans text-base text-sm pl-2 pb-5 lg:text-sm text-black dark:text-black lg:pl-2 lg:font-semibold">
                             VINDUESPUDSNING
                         </p>
                     </div>
@@ -227,7 +213,7 @@
                             <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
                             </svg>
                         </div>
-                        <p class="font-sans text-base text-sm pl-2 lg:text-sm text-black dark:text-black lg:pl-2">
+                        <p class="font-sans text-base text-sm pl-2 lg:text-sm text-black dark:text-black lg:pl-2 lg:font-semibold">
                             HOVEDRENGØRING
                         </p>
                     </div>
@@ -238,7 +224,7 @@
                             <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
                             </svg>
                         </div>
-                        <p class="font-sans text-base text-sm pl-2 lg:text-sm text-black dark:text-black lg:pl-2">
+                        <p class="font-sans text-base text-sm pl-2 lg:text-sm text-black dark:text-black lg:pl-2 lg:font-semibold">
                             ALM. RENGØRING
                         </p>
                     </div>
@@ -249,7 +235,7 @@
                             <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
                             </svg>
                         </div>
-                        <p class="font-sans text-base text-sm pl-2 pb-5 lg:text-sm text-black dark:text-black lg:pl-2">
+                        <p class="font-sans text-base text-sm pl-2 pb-5 lg:text-sm text-black dark:text-black lg:pl-2 lg:font-semibold">
                             VINDUESPUDSNING
                         </p>
                     </div>
