@@ -7,8 +7,8 @@
         </div>
         <div class="image-content z-10 pt-40 md:pt-80 lg:pt-52 lg:text-left">
             <div>
-                <p class="font-sans text-white dark:text-white text-1xl text-left px-4 md:text-xl lg:text-md lg:text-left lg:pb-1 lg:px-0 lg:tracking-wider">PAULAS RENGØRING | ERHVERVSRENGØRING</p>
-                <h2 class="font-sans text-white dark:text-white px-5 text-3xl md:text-4xl lg:px-0 lg:pb-2 lg:font-semibold lg:text-5xl">Professionel rengøring til erhverv</h2>
+                <p class="font-sans text-white dark:text-white text-1xl text-left px-4 md:text-lg lg:text-md lg:text-left lg:pb-1 lg:px-0 lg:tracking-wider">PAULAS RENGØRING | ERHVERVSRENGØRING</p>
+                <h2 class="font-sans text-white dark:text-white px-5 text-3xl md:text-5xl lg:px-0 lg:pb-2 lg:font-semibold lg:text-5xl">Professionel rengøring til erhverv</h2>
                 <p class="font-sans text-white dark:text-white md:text-sm lg:text-lg">
                     Jeg løser rengøringsopgaver for små og mellemstore virksomheder, og institutioner.
                 </p>

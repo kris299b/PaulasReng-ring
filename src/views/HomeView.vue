@@ -381,7 +381,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                 </svg>
                 <div class="font-sans text-darkgray lg:text-darkgray font-bold text-xl mb-2 lg:text-lg lg:text-center lg:pt-2">ELSEBETH</div>
-                <p class="font-sans text-darkgray text-center text-base md:pt-2 lg:text-darkgray lg:text-center lg:pt-2">
+                <p class="font-sans text-darkgray text-center text-sm text-base md:pt-2 lg:text-darkgray lg:text-center lg:text-sm lg:pt-2">
                     ''Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.''
                 </p>
             </div>
@@ -392,7 +392,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                 </svg>
                 <div class="font-sans text-darkgray lg:text-darkgray font-bold text-xl mb-2 lg:text-lg lg:text-center lg:pt-2">ELSEBETH</div>
-                <p class="font-sans text-darkgray text-center text-base md:pt-2 lg:text-darkgray lg:text-center lg:pt-2">
+                <p class="font-sans text-darkgray text-center text-sm text-base md:pt-2 lg:text-darkgray lg:text-center lg:text-sm lg:pt-2">
                     ''Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.''
                 </p>
             </div>
@@ -403,7 +403,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                 </svg>
                 <div class="font-sans text-darkgray lg:text-darkgray font-bold text-xl mb-2 lg:text-lg lg:text-center lg:pt-2">ELSEBETH</div>
-                <p class="font-sans text-darkgray text-center text-base md:pt-2 lg:text-darkgray lg:text-center lg:pt-2">
+                <p class="font-sans text-darkgray text-center text-sm text-base md:pt-2 lg:text-darkgray lg:text-center lg:text-sm lg:pt-2">
                     ''Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.''
                 </p>
             </div>
