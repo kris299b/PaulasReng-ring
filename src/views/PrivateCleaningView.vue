@@ -9,14 +9,12 @@
         <div>
             <p class="font-sans text-white dark:text-white text-1xl text-left px-4 md:text-center md:text-xl lg:text-md lg:text-left lg:pb-1 lg:px-5 lg:tracking-wider">PAULAS RENGØRING | PRIVATRENGØRING</p>
             <h2 class="font-sans text-white dark:text-white text-4xl text-left px-4 md:text-center md:text-4xl lg:pb-2 lg:font-semibold lg:text-5xl">Rengøringshjælp for dig i dit hjem</h2>
+            <p class="font-sans text-white dark:text-white text-1xl text-left px-4 md:text-center md:text-xl lg:text-md lg:text-left lg:pt-2 lg:pb-1 lg:px-5">Du skal føle dig tryg i vores samarbejde.</p>
         </div>
         <div class="font-sans flex flex-col justify-start space-y-4 px-5 text-sm pt-5 md:flex-row md:justify-center md:space-x-4 lg:space-y-0 lg:justify-start lg:text-md lg:pt-5 lg:px-5">
-            <RouterLink to="contact"> 
+            <RouterLink to="about"> 
                 <button class="flex bg-white dark:bg-white py-2 px-4 hover:white text-black dark:text-black font-semibold lg:py-2 lg:px-8 rounded-full">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
-                        </svg>
-                        <p class="pl-2 md:pl-2 lg:pl-2">Lad os snakke om dine ønsker og behov</p>
+                    <p class="pl-2 md:pl-2 lg:pl-2">Om firmaet</p>
                 </button>
             </RouterLink>
         </div>
@@ -34,10 +32,10 @@
         <p class="font-sans text-gray dark:gray text-sm pt-8 lg:text-sm lg:font-semibold lg:tracking-wider lg:pt-10">PAULAS RENGØRING | TRYGHED</p>
         <h2 class="font-sans text-black dark:text-black pr-10 text-3xl font-semibold mt-3 pb-3 lg:font-semibold lg:text-4xl lg:font-normal lg:pt-0">Det er vigtigt for mig, at du er tryg i vores samarbejde.</h2>
         <p class="font-sans text-sm text-black dark:text-black pb-3 lg:pt-4">
-            By injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need. 
+            At åbne sit hjem for et menneske, man endnu ikke kender kræver tillid. Det er vigtigt for mig at der er tryghed i vores samarbejde, og at der skabes gensidig tillid til hinanden. 
         </p>
-        <p class="font-sans text-sm text-black dark:text-black pb-8 lg:pt-2 lg:pr-20">
-            There are many variations of passages of Lorem Ipsum available, but the majority 
+        <p class="font-sans text-sm text-black dark:text-black pb-8 lg:pt-1 lg:pr-20">
+            Det er dit hjem, og dine ønsker samt behov der bliver centrum for vores samarbejde. Jeg respektere de rammer du sætter, og du kan stole på diskretion hos mig.  
         </p>
     </div>
     <div class="gap-y-0 lg:pt-0">
@@ -58,7 +56,7 @@
         <img src="../assets/Paulas-rengøring.jpg" alt="tilpassede-løsninger-billede">
     </div>
     <div class="bg-lightgray light:bg-lightgray dark:bg-lightgray px-5 lg:px-20">
-        <p class="font-sans text-gray dark:gray text-sm pt-8 md:px-2 lg:text-sm lg:font-semibold lg:pt-12 lg:tracking-wider">PAULAS RENGØRING | ERHVERVSRENGØRING</p>
+        <p class="font-sans text-gray dark:gray text-sm pt-8 md:px-2 lg:text-sm lg:font-semibold lg:pt-12 lg:tracking-wider">PAULAS RENGØRING | PRIVATRENGØRING</p>
         <h2 class="font-sans text-black dark:text-black pr-10 text-3xl font-semibold mt-3 pb-3 md:px-2 lg:text-4xl lg:font-semibold lg:pt-0">Tilpassede rengøringsløsninger</h2>
         <p class="font-sans text-black text-sm dark:text-black pb-3 md:px-2 md:text-xs lg:text-sm lg:pt-3 lg:pr-20 lg:font-semibold">
             Jeg tilbyder altid skræddersyede løsninger, som tager udgangspunkt i dine ønsker og behov.  

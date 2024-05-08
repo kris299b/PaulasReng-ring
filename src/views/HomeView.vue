@@ -18,16 +18,21 @@
                 Jeg løser rengøringsopgaver for små og mellemstore virksomheder samt private. Jeg forstår vigtigheden af et rent miljø, og betydningen heraf for dig.
             </p>
         </div>
-        <div class="font-sans flex px-4 justify-start text-sm pt-5 md:flex-row md:justify-center md:space-x-4 lg:px-0 lg:flex-row lg:space-x-4 lg:space-y-0 lg:justify-center lg:text-md lg:pt-5">
-            <button class="flex bg-blue dark:bg-blue py-2 px-6 hover:beige text-white dark:text-white font-semibold lg:py-2 lg:px-8 rounded-full">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 lg:w-6 lg:h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
-                </svg>
-                <RouterLink to="contact"> 
-                    <p class="hidden md:inline-block md:pl-2 lg:inline-block lg:pl-2 lg:tracking-wider">Lad os tage en udforpligtende snak</p>
-                    <p class="inline-block md:hidden pl-2 text-md lg:hidden lg:pl-2 lg:tracking-wider">Lad os samtale</p>
+        <div class="font-sans flex row md:row px-4 justify-start text-sm pt-5 md:flex-row md:justify-center md:space-x-4 lg:px-0 lg:flex-row lg:space-x-1 lg:space-y-0 lg:justify-center lg:text-md lg:pt-5">
+            <div class="font-sans pb-4 md:px-2 md:pb-4 lg:pb-3">
+                <RouterLink to="privatecleaning"> 
+                    <button class="bg-blue dark:bg-blue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-1 md:px-4 md:py-1 md:px-6 lg:text-md lg:py-3 lg:px-8 rounded-full lg:text-md lg:tracking-wider">
+                        Privatrengøring
+                    </button>
                 </RouterLink>
-            </button>
+            </div>
+            <div class="font-sans pb-10 md:px-2 md:pb-7 lg:pb-16">
+                <RouterLink to="commercialcleaning"> 
+                    <button class="bg-blue dark:bg-blue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-1 md:px-4 md:py-1 md:px-6 lg:text-md lg:py-3 lg:px-8 rounded-full lg:text-md lg:tracking-wider">
+                        Erhvervsrengøring
+                    </button>
+                </RouterLink>
+            </div>
         </div>
     </div>
 </section>
@@ -41,18 +46,15 @@
         </div>
         <div class="font-sans pt-0 pl-5 pb-3">
             <h2 class="pt-0 text-xl mt-3 font-semibold md:mx-5 md:text-md lg:text-lg lg:font-semibold lg:pt-2">Gensidig tillid</h2>
-            <p class="text-sm mt-2 md:text-sm md:mx-5 lg:text-sm lg:mr-10 lg:pb-0">There are many variations of passages of Lorem Ipsum 
-                available, but the majority have suffered alteration in some form.</p>
+            <p class="text-sm mt-2 md:text-sm md:mx-5 lg:text-sm lg:mr-10 lg:pb-0">Det er vigtigt for mig, at vi skaber tillid til hinanden fra start, så vi kan indgå det bedste samarbejde med et stærkt fundament.</p>
         </div>
         <div class="font-sans pt-0 pl-5 pb-3">        
             <h2 class="text-xl mt-3 font-semibold font-semibold md:mx-5 md:text-md lg:text-lg lg:font-semibold lg:pl-0">Kundetilfredshed</h2>
-            <p class="text-sm mt-2 md:text-sm md:mx-5 lg:text-sm lg:mr-10">There are many variations of passages of Lorem Ipsum 
-                available, but the majority have suffered alteration in some form.</p>
+            <p class="text-sm mt-2 md:text-sm md:mx-5 lg:text-sm lg:mr-10">Din tilfredshed med rengøringen, er af højeste prioritet for mig. Når du som kunde er glad for resultaterne, giver det en uvurderlig følelse af velvære.</p>
         </div>
         <div class="font-sans pl-5">
             <h2 class="text-xl mt-3 font-semibold md:mx-5 md:text-md lg:text-lg lg:font-semibold">Tæt samarbejde</h2>
-            <p class="text-sm mt-2 md:text-sm md:mx-5 lg:text-sm lg:mr-10 lg:pb-6">There are many variations of passages of Lorem Ipsum 
-                available, but the majority have suffered alteration in some form.</p>
+            <p class="text-sm mt-2 md:text-sm md:mx-5 lg:text-sm lg:mr-10 lg:pb-6">Kommunikationen imellem os er af altafgørende, for at der kan dannes et trygt og tæt samarbejde. Jeg pritotere den tillidsfulde relation.</p>
         </div>
     </div>
     <div class="inline-block md:inline-block lg:inline-block">
@@ -67,9 +69,7 @@
         Går du i overvejelserne om at få rengøringshjælp ?
     </h2>
     <h2 class="font-sans text-sm text-black pl-5 pr-3 pt-5 font-normal md:px-10 md:pb-10 md:font-normal md:text-center lg:text-black lg:pt-1 lg:pb-10 lg:px-40 lg:text-sm lg:text-center">
-        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form. 
-        by injected humour, or randomised words which don't look even. There are many variations of passages of Lorem Ipsum available, 
-        but the majority have suffered alteration in some form. 
+        Har du har en travl hverdag, er ældre og har behov for ekstra hjælp, til at udføre rengøringen eller vil du blot priotere din tid anderledes, så har jeg samlet nogle gode råd til dig i den indledende fase, som gerne skulle give dig det gode overblik inden valg af rengøringshjælp.
     </h2>
 </div>
 
@@ -186,7 +186,7 @@
                             </svg>
                         </div>
                         <p class="font-sans text-base text-sm pl-2 lg:text-sm text-black dark:text-black lg:pl-2">
-                            FLYTTERENGØRING
+                            ALM. RENGØRING
                         </p>
                     </div>
                     <div class="flex">
@@ -242,7 +242,7 @@
                             </svg>
                         </div>
                         <p class="font-sans text-base text-sm pl-2 lg:text-sm text-black dark:text-black lg:pl-2">
-                            FLYTTERENGØRING
+                            ALM. RENGØRING
                         </p>
                     </div>
                     <div class="flex">
