@@ -28,6 +28,16 @@
         <h2 class="text-black text-3xl font-semibold pb-4 md:text-3xl lg:text-4xl">Det er vigtigt for mig, at du er tryg i vores samarbejde.</h2>
         <p class="text-black text-sm font-semibold md:text-sm md:font-semibold lg:font-semibold lg:text-base">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>  
         <p class="text-black text-sm font-base md:text-sm md:font-base lg:pt-4 lg:font-base lg:text-base">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>  
+        <div class="pb-6 md:px-2 pt-10 md:pb-6 lg:pt-5 lg:px-0">
+            <RouterLink to="contact"> 
+                <button class="flex hover:bg-transparent bg-blue light:bg-blue dark:bg-blue font-normal lg:font-normal py-2 px-6 rounded-full lg:mr-6 lg:py-2 lg:px-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="white" class="w-6 h-6 lg:w-5 lg:h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                    </svg>
+                    <p class="text-xs pt-1 pl-2 text-white light:text-white dark:text-white lg:text-sm lg:pt-0 lg:pl-2 lg:tracking-wider">Lad os tage en uforpligtende snak</p>
+                </button>
+            </RouterLink>
+        </div>
     </div>
     <div class="w-full md:w-1/2 lg:w-1/2">
         <img src="../assets/kontor-erhverv.jpg" alt="Erhverv-tryghed-billede">

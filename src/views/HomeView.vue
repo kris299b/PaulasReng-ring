@@ -65,13 +65,13 @@
     </h2>
 </div>
 
-<div class="bg-white dark:bg-white light:bg-white px-0 flex flex-col justify justify-center h-full w-full p-8 md:px-0 md:flex-row lg:flex-row lg:w-full lg:pt-5 lg:pb-5 lg:px-0">
+<div class="bg-white dark:bg-white light:bg-white px-0 flex flex-col justify justify-center h-full w-full p-8 md:px-0 md:flex-row lg:flex-row lg:w-full lg:pt-0 lg:pb-5 lg:px-0">
     <div class="w-full md:w-full lg:w-full">
         <img src="../assets/Guide-billede.jpg" alt="Guide-billede">
     </div>
     <div class="bg-lightgray light:bg-lightgray dark:bg-lightgray p-6 md:p-6 w-full md:w-full lg:w-full lg:px-12">
         <p class="text-gray dark:text-gray text-sm pt-5 font-semibold pb-2 md:pt-3 lg:pt-16 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | GUIDE</p>
-        <h2 class="text-black dark:text-black text-4xl mt-2 md:text-3xl md:mx-0 lg:mx-0 lg:font-base lg:text-4xl lg:mr-10 lg:pb-0">Sådan får du mest mulig ud af din rengøringshjælp.</h2>
+        <h2 class="text-black dark:text-black text-4xl mt-2 md:text-3xl md:mx-0 lg:mx-0 lg:font-semibold lg:text-4xl lg:mr-10 lg:pb-0">Sådan får du mest mulig ud af din rengøringshjælp.</h2>
         <p class="text-black dark:text-black pt-2 text-lg mt-3 font-semibold md:mx-0 md:text-lg lg:mx-0 lg:text-lg lg:font-semibold lg:pt-2">Går du med overvejelserne om, at ansætte en professionel til at udføre rengøringshjælpen i dit hjem?</p>
         <p class="text-black dark:text-black pt-2 text-sm mt-3 font-base md:font-base md:mx-0 md:text-sm lg:mx-0 lg:text-sm lg:font-base lg:pt-2">Jeg har samlet nogle råd til dig i den indledende fase, som sikrer dig at du får mest muligt ud af din rengøringshjælp, og bliver mest mulig tilfreds. </p>
         <div class="pb-6 md:px-2 pt-10 md:pb-6 lg:pt-10">
@@ -92,8 +92,8 @@
 
 <div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-row lg:flex-row lg:w-full lg:pb-20">
     <div class="bg-lightgray p-4 md:p-6 md:w-1/2 lg:w-2/5 lg:px-12">
-        <p class="text-gray dark:gray text-xs pt-5 font-semibold pb-2 lg:pt-10 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | OM MIG</p>
-        <h2 class="text-black dark:text-black text-2xl font-semibold pb-4 lg:text-2xl">Jeg værdsætter tillid og tryghed, i det samarbejde jeg indgår med mine kunder </h2>
+        <p class="text-gray dark:gray text-xs pt-5 font-semibold pb-2 lg:pt-8 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | OM MIG</p>
+        <h2 class="text-black dark:text-black text-2xl font-semibold pb-4 lg:pb-6 lg:text-3xl">Jeg værdsætter tillid og tryghed, i det samarbejde jeg indgår med mine kunder </h2>
         <p class="text-black dark:text-black text-sm lg:text-base">Personligt betyder by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need. </p>
         <p class="text-black dark:text-black text-sm lg:text-base lg:pt-5">There are many variations of passages of Lorem Ipsum available, but the majority. So if you know many variations of passages of Lorem Ipsum. </p>
         <div class="row pt-6 pb-4 md:flex lg:flex lg:pt-8">

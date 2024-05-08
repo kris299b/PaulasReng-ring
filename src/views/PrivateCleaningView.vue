@@ -21,10 +21,20 @@
 
 <div class="bg-white light:white dark:bg-white px-0 flex flex-col justify justify-center h-full w-full p-8 md:px-0 md:flex-row lg:flex-row lg:w-full lg:pt-5 lg:pb-5 lg:px-0">
     <div class="bg-beige light:bg-beige dark:bg-beige p-6 md:p-6 w-full md:w-full lg:w-full lg:px-12">
-        <p class="text-darkgray dark:text-darkgray text-sm pt-5 font-semibold pb-2 md:pt-3 lg:pt-20 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | TRYGHED</p>
+        <p class="text-darkgray dark:text-darkgray text-sm pt-5 font-semibold pb-2 md:pt-3 lg:pt-12 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | TRYGHED</p>
         <h2 class="text-black dark:text-black text-4xl mt-2 md:text-3xl md:mx-0 lg:mx-0 lg:font-semibold lg:text-4xl lg:mr-10 lg:pb-0">Det er vigtigt for mig, at du er tryg i vores samarbejde.</h2>
         <p class="text-black dark:text-black pt-2 text-lg mt-3 font-semibold md:mx-0 md:text-lg lg:mx-0 lg:text-lg lg:font-semibold lg:pt-2">At åbne sit hjem for et menneske, man endnu ikke kender kræver tillid. Det er vigtigt for mig at der er tryghed i vores samarbejde, og at der skabes gensidig tillid til hinanden. </p>
         <p class="text-black dark:text-black pt-2 pb-5 text-sm mt-3 font-base md:font-base md:mx-0 md:text-sm lg:mx-0 lg:text-sm lg:font-base lg:pt-2">Det er dit hjem, og dine ønsker samt behov der bliver centrum for vores samarbejde. Jeg respektere de rammer du sætter, og du kan stole på diskretion hos mig. </p>
+        <div class="pb-6 md:px-2 pt-10 md:pb-6 lg:pt-5 lg:px-0">
+            <RouterLink to="contact"> 
+                <button class="flex hover:bg-transparent bg-darkbeige dark:bg-darkbeige font-normal lg:font-normal py-2 px-6 rounded-full lg:mr-6 lg:py-2 lg:px-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="black" class="w-6 h-6 lg:w-5 lg:h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                    </svg>
+                    <p class="text-xs text-black pt-1 pl-2 light:text-black dark:text-black lg:text-sm lg:pt-0 lg:pl-2 lg:tracking-wider">Lad os tage en uforpligtende snak</p>
+                </button>
+            </RouterLink>
+        </div>
     </div>
     <div class="w-full md:w-full lg:w-full">
         <img src="../assets/Tryghed-rengøring.jpg" alt="Privatrengøring-tryghed">
@@ -108,10 +118,9 @@
 
 <div class="bg-white dark:bg-white light:bg-white px-0 flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-row lg:flex-row lg:w-full lg:pt-10 lg:pb-20">
     <div class="bg-lightgray p-4 md:p-6 w-full md:w-1/2 lg:w-1/2 lg:px-10">
-        <p class="text-gray dark:text-gray text-sm md:text-sm font-base pt-5 pb-2 lg:pt-12 lg:text-sm">PAULAS RENGØRING | FORLØBET</p>
+        <p class="text-gray dark:text-gray text-sm md:text-sm font-base pt-5 pb-2 lg:pt-20 lg:text-sm">PAULAS RENGØRING | FORLØBET</p>
         <h2 class="text-black text-3xl font-semibold pb-4 md:text-3xl lg:text-4xl">Sådan foregår forløbet hos mig.</h2>
-        <p class="text-black text-sm font-semibold md:text-sm md:font-semibold lg:font-semibold lg:text-base">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-        <div class="flex pt-2 pb-2 lg:pt-10">
+        <div class="flex pt-2 pb-2 lg:pt-8">
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="darkgray" class="w-6 h-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
