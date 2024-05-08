@@ -15,7 +15,7 @@
 
 <div class="bg-white light:bg-white dark:bg-white lg:pt-10">
     <div>
-        <h2 class="font-sans text-black text-2xl px-10 font-semibold dark:text-black pt-10 pb-10 text-center lg:text-2xl lg:text-center lg:font-semibold lg:pt-10 lg:pb-10">
+        <h2 class="font-sans text-black text-left text-2xl px-10 font-semibold dark:text-black pt-10 pb-10 md:text-center lg:text-2xl lg:text-center lg:font-semibold lg:pt-10 lg:pb-10">
             Du er velkommen til at kontakte mig
         </h2>
     </div>
@@ -40,7 +40,7 @@
     <div class="flex justify justify-center flex-col md:flex-row lg:flex-row lg:space-x-0 lg:w-3/4 z-20 lg:pt-5">
         <div class="bg-white dark:bg-white max-w-lg shadow-sm lg:w-3/4">
             <div class="bg-white dark:bg-white max-w-lg">
-                <h2 class="mb-4 text-4xl tracking-tight font-semibold text-left pt-10 px-5 text-black dark:text-black md:px-5 md:pt-10 md:text-3xl md:text-left lg:text-3xl lg:px-5 lg:pr-10 lg:font-semibold lg:pt-10 lg:text-left">
+                <h2 class="mb-4 text-2xl tracking-tight font-semibold text-left pt-10 px-5 text-black dark:text-black md:px-5 md:pt-10 md:text-3xl md:text-left lg:text-3xl lg:px-5 lg:pr-10 lg:font-semibold lg:pt-10 lg:text-left">
                     Kontaktforumlar
                 </h2>
                 <p class="mb-8 text-sm text-left px-5 font-light text-black dark:text-black md:px-5 md:text-sm md:text-left lg:mb-16 lg:mb-4 lg:px-5 lg:font-normal lg:text-sm lg:text-left">
@@ -70,7 +70,7 @@
                     <div id="mc_embed_signup">
                         <form action="https://gmail.us17.list-manage.com/subscribe/post?u=529fa2bc5942a0147307ea268&amp;id=90a02a22b5&amp;v_id=4389&amp;f_id=00f8d5e3f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
                             <div>
-                                <div class="mc-field-group text-black"><div class="content__gdpr text-black font-bold text-base"><label class="font-semibold pt-2">GDPR - Overholdelseserklæring</label></div><div class="content__gdpr text-black pt-2 text-xs"><p>Vi tager dit privatliv alvorligt. Ved at indsende denne formular giver du dit samtykke til indsamling, behandling og opbevaring af dine personlige data i henhold til vores privatlivspolitik. Dine oplysninger vil udelukkende blive brugt med det formål at besvare din henvendelse. </p><div class="content__gdpr text-black font-semibold text-xs"></div><fieldset class="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field"><label class="checkbox subfield pt-3 lg:pt-3" for="gdpr212271"><input type="checkbox" id="gdpr_212271" name="gdpr[212271]" class="gdpr" value="Y"><span>Ja</span></label><label class="checkbox subfield" for="gdpr212274"><input type="checkbox" id="gdpr_212274" name="gdpr[212274]" class="gdpr" value="Y"><span>Nej</span></label></fieldset><label class="font-semibold pt-5 text-lg lg:pt-5 lg:text-lg">Privatlivspolitik</label><p class="text-base text-sm lg:pt-2 lg:text-xs">For mere information om håndtering dine data og rettigheder under GDPR, henvises til vores privatlivspolitik <strong>her.</strong></p></div><div class="content__gdprLegal text-sm text-black"><p class="pt-4 pb-4 lg:text-xs">Vi bruger Mailchimp til vores kontaktforme. Du kan læse mere om Mailchimp's privatlivspolitik. <a class="text-darkblue" href="https://mailchimp.com/legal/terms">Læs mere</a></p></div></div>
+                                <div class="mc-field-group text-black"><div class="content__gdpr text-black font-bold text-base"><label class="font-semibold pt-2">GDPR - Overholdelseserklæring</label></div><div class="content__gdpr text-black pt-2 text-xs lg:text-xs"><p>Vi tager dit privatliv alvorligt. Ved at indsende denne formular giver du dit samtykke til indsamling, behandling og opbevaring af dine personlige data i henhold til vores privatlivspolitik. Dine oplysninger vil udelukkende blive brugt med det formål at besvare din henvendelse. </p><div class="content__gdpr text-black font-semibold text-xs"></div><fieldset class="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field"><label class="checkbox subfield pt-3 lg:pt-3" for="gdpr212271"><input type="checkbox" id="gdpr_212271" name="gdpr[212271]" class="gdpr" value="Y"><span>Ja</span></label><label class="checkbox subfield" for="gdpr212274"><input type="checkbox" id="gdpr_212274" name="gdpr[212274]" class="gdpr" value="Y"><span>Nej</span></label></fieldset><label class="font-semibold pt-5 text-lg lg:pt-5 lg:text-lg">Privatlivspolitik</label><p class="text-base text-xs lg:pt-2 lg:text-xs">For mere information om håndtering dine data og rettigheder under GDPR, henvises til vores privatlivspolitik <strong>her.</strong></p></div><div class="content__gdprLegal text-sm text-black"><p class="pt-4 pb-4 text-xs lg:text-xs">Vi bruger Mailchimp til vores kontaktforme. Du kan læse mere om Mailchimp's privatlivspolitik. <a class="text-darkblue" href="https://mailchimp.com/legal/terms">Læs mere</a></p></div></div>
                                 <div id="mce-responses" class="clear foot">
                                     <div class="response" id="mce-error-response" style="display: none;"></div>
                                     <div class="response" id="mce-success-response" style="display: none;"></div>
@@ -95,8 +95,8 @@
 
 
 <!-- FAQ -->
-<div class="bg-white light:bg-white dark:bg-white h-full py-4 mx-auto pt-24 md:pt-16 lg:pt-0">
-    <div class="pt-20 text-center mb-5 lg:pt-10">
+<div class="bg-white light:bg-white dark:bg-white h-full py-4 mx-auto pt-24 md:pt-0 lg:pt-0">
+    <div class="pt-20 text-center mb-5 md:pt-0 lg:pt-10">
         <h3 class="font-sans text-2xl text-center font-semibold pt-20 lg:text-3xl tracking-tight text-black dark:text-black lg:font-semibold">
             Ofte stillede spørgsmål
         </h3>
@@ -164,6 +164,8 @@
         </div>
     </div>
 </section>
+
+
 
 
 </template>

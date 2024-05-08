@@ -1,22 +1,22 @@
 <template>
 
 <!-- Hero section -->
-<section class="relative h-screen flex flex-col items-center py-20 text-center content-start">
+<section class="relative h-screen flex flex-col pt-5 lg:items-center">
     <div class="heroimage absolute top-0 left-0 w-full h-full overflow-hidden">
         <img class="min-w-full min-h-full absolute object-cover" src="../assets/privatrengøring.jpg" alt="Private-cleaning">
     </div>
-    <div class="image-content z-10 pt-40 md:pt-80 lg:pt-40">
+    <div class="image-content z-10 pt-40 md:pt-80 lg:pt-52">
         <div>
-            <p class="font-sans text-white dark:text-white text-1xl md:text-xl lg:text-md lg:pb-1 lg:tracking-wider">PAULAS RENGØRING | PRIVATRENGØRING</p>
-            <h2 class="font-sans text-white dark:text-white px-5 text-3xl md:text-4xl lg:pb-2 lg:font-semibold lg:text-5xl">Rengøringshjælp for dig i dit hjem.</h2>
+            <p class="font-sans text-white dark:text-white text-1xl text-left px-4 md:text-center md:text-xl lg:text-md lg:text-left lg:pb-1 lg:px-5 lg:tracking-wider">PAULAS RENGØRING | PRIVATRENGØRING</p>
+            <h2 class="font-sans text-white dark:text-white text-4xl text-left px-4 md:text-center md:text-4xl lg:pb-2 lg:font-semibold lg:text-5xl">Rengøringshjælp for dig i dit hjem</h2>
         </div>
-        <div class="font-sans flex flex-col space-y-4 px-24 text-sm pt-5 md:flex-row md:justify-center md:space-x-4 lg:flex-row lg:space-x-4 lg:space-y-0 lg:justify-center lg:text-md lg:pt-5">
+        <div class="font-sans flex flex-col justify-start space-y-4 px-5 text-sm pt-5 md:flex-row md:justify-center md:space-x-4 lg:space-y-0 lg:justify-start lg:text-md lg:pt-5 lg:px-5">
             <RouterLink to="contact"> 
-                <button class="flex bg-transparent dark:bg-transparent border-2 border-white lg:border-white py-2 px-4 hover:beige text-white dark:text-white font-semibold lg:py-2 lg:px-8 rounded-full">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
-                    </svg>
-                    <p class="lg:pl-2">Lad os snakke om dine ønsker og behov</p>
+                <button class="flex bg-white dark:bg-white py-2 px-4 hover:white text-black dark:text-black font-semibold lg:py-2 lg:px-8 rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                        </svg>
+                        <p class="lg:pl-2">Lad os snakke om dine ønsker og behov</p>
                 </button>
             </RouterLink>
         </div>
@@ -29,14 +29,14 @@
     <h2 class="text-left text-2xl px-5 pt-10 pb-6 font-semibold text-black dark:text-black md:text-center lg:font-semibold lg:text-3xl lg:text-center lg:pt-10">Tryghed i vores samarbejde</h2>
 </div>
 
-<div class="bg-beuge light:bg-white dark:bg-white columns-1 md:columns-2 lg:columns-2 lg:pt-5 lg:gap-x-0">
-    <div class="bg-beige light:bg-beige dark:bg-beige px-5 lg:px-20 lg:pt-16 lg:pb-16">
+<div class="bg-beuge light:bg-white dark:bg-white md:gap-x-0 columns-1 md:columns-2 lg:columns-2 lg:pt-5 lg:gap-x-0">
+    <div class="bg-beige light:bg-beige dark:bg-beige px-5 lg:px-20 lg:pt-16 lg:pb-20">
         <p class="font-sans text-gray dark:gray text-sm pt-8 lg:text-sm lg:font-semibold lg:tracking-wider lg:pt-10">PAULAS RENGØRING | TRYGHED</p>
         <h2 class="font-sans text-black dark:text-black pr-10 text-3xl font-semibold mt-3 pb-3 lg:font-semibold lg:text-4xl lg:font-normal lg:pt-0">Det er vigtigt for mig, at du er tryg i vores samarbejde.</h2>
-        <p class="font-sans text-black dark:text-black pb-3 lg:pt-4">
+        <p class="font-sans text-sm text-black dark:text-black pb-3 lg:pt-4">
             By injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need. 
         </p>
-        <p class="font-sans text-black dark:text-black pb-8 lg:pt-2 lg:pr-20">
+        <p class="font-sans text-sm text-black dark:text-black pb-8 lg:pt-2 lg:pr-20">
             There are many variations of passages of Lorem Ipsum available, but the majority 
         </p>
     </div>
@@ -60,10 +60,10 @@
     <div class="bg-lightgray light:bg-lightgray dark:bg-lightgray px-5 lg:px-20">
         <p class="font-sans text-gray dark:gray text-sm pt-8 md:px-2 md:pt-5 lg:text-sm lg:font-semibold lg:pt-12 lg:tracking-wider">PAULAS RENGØRING | ERHVERVSRENGØRING</p>
         <h2 class="font-sans text-black dark:text-black pr-10 text-3xl font-semibold mt-3 pb-3 md:px-2 lg:text-4xl lg:font-semibold lg:pt-0">Tilpassede rengøringsløsninger</h2>
-        <p class="font-sans text-black dark:text-black pb-3 md:px-2 md:text-xs lg:text-sm lg:pt-3 lg:pr-20 lg:font-semibold">
+        <p class="font-sans text-black text-sm dark:text-black pb-3 md:px-2 md:text-xs lg:text-sm lg:pt-3 lg:pr-20 lg:font-semibold">
             Jeg tilbyder altid skræddersyede løsninger, som tager udgangspunkt i dine ønsker og behov.  
         </p>
-        <p class="font-sans text-black dark:text-black pb-5 md:px-2 md:text-xs lg:text-sm lg:pt-1 lg:pr-20 lg:pb-5"> 
+        <p class="font-sans text-black text-sm dark:text-black pb-5 md:px-2 md:text-xs lg:text-sm lg:pt-1 lg:pr-20 lg:pb-5"> 
             Lad os tage en uforpligtigende snak om det, du har brug for hjælp til, og hvor ofte du har behov for rengøringshjælp. Vi vil i fællesskab sammensætte den bedste løsning for dig. Jeg glæder mig til at høre fra dig. 
         </p>
         <h2 class="font-sans text-black dark:text-black pr-10 text-2xl font-semibold mt-3 pb-3 md:px-2 lg:text-2xl lg:font-semibold lg:pt-0">Kontakt oplysninger</h2>
@@ -108,9 +108,9 @@
 
 <!-- Servicefradrag-section -->
 <div class="bg:lightgray light:bg-lightgray dark:bg-lightgray font-sans lg:text-center lg:pt-10 lg:pb-10 lg:text-3xl text-black dark:text-black">
-    <h2 class="text-left font-semibold pl-5 text-3xl pt-10 lg:text-center lg:text-3xl lg:font-semibold">Husk at din rengøringshjælp går </h2>
-    <h2 class="text-left font-semibold pl-5 text-3xl lg:text-center lg:text-3xl lg:font-semibold">ind under ''Servicefradrag'' </h2>
-    <p class="text-left pl-5 pr-5 pt-3 pb-10 lg:text-center lg:pl-40 lg:pr-40 lg:pt-4 lg:text-sm">Når du køber privat rengøring, skal du huske at gemme alle dine kvitteringer. 
+    <h2 class="text-left font-semibold pl-5 text-2xl pt-10 lg:text-center lg:text-3xl lg:font-semibold">Husk at din rengøringshjælp går </h2>
+    <h2 class="text-left font-semibold pl-5 text-2xl lg:text-center lg:text-3xl lg:font-semibold">ind under ''Servicefradrag'' </h2>
+    <p class="text-left text-sm pl-5 pr-5 pt-3 pb-10 lg:text-center lg:pl-40 lg:pr-40 lg:pt-4 lg:text-sm">Når du køber privat rengøring, skal du huske at gemme alle dine kvitteringer. 
         Du kan nemlig trække beløb fra på din selvangivelse under rubrikken 
         ”servicefradrag”, det varierer en smule beløbsmæssigt fra indkomstår 
         til indkomstår, hvor stort et beløb du kan trække fra.
@@ -135,7 +135,7 @@
                 Indledende samtale
             </p>
         </div>
-        <div class="font-sans text-black dark:black text-semibold text-sm lg:pt-2 lg:pl-9 ">
+        <div class="font-sans text-black text-sm dark:black text-semibold text-sm lg:pt-2 lg:pl-9 ">
             <p>I den indledende samtale, vil vi drøfte dine ønsker og behov, så vi sammen kan skræddersy den rette rengøringshjælp til dig. Vi vil her aftale en dato, hvor jeg kan komme ud til dig og holde et formøde.</p>
         </div>
         <div class="flex pt-6 pb-2 lg:pt-8">
@@ -148,7 +148,7 @@
                 Formøde 
             </p>
         </div>
-        <div class="font-sans text-black dark:black text-semibold text-sm lg:pt-2 lg:pl-9 ">
+        <div class="font-sans text-black text-sm dark:black text-semibold text-sm lg:pt-2 lg:pl-9 ">
             <p>Jeg kommer efter aftale hjem til dig, hvor vi får mulighed for at snakke sammen ansigt til ansigt. Vi vil gennemgå dine ønsker og behov, så vi kan udarbejde en arbejdsplan til dig. Det er vigtigt for mig, at du som kunde føler dig tryg i samarbejdet, og du får lejlighed til at stille alle spørgsmål du måtte have.  </p>
         </div>
         <div class="flex pt-6 pb-2 lg:pt-8">
@@ -162,7 +162,7 @@
                 Samarbejdet 
             </p>
         </div>
-        <div class="font-sans pb-10 text-black dark:black text-semibold text-sm lg:pt-2 lg:pb-0 lg:pl-9 ">
+        <div class="font-sans pb-10 text-black text-sm dark:black text-semibold text-sm lg:pt-2 lg:pb-0 lg:pl-9 ">
             <p>Vi vil i fællesskab udarbejde en plan, over de arbejdsopgaver jeg skal løse for dig, som der altid være plads til at kunne ændre i. Det er dine behov og ønsker, der er i centrum. Når planen er på plads og godkendt, vil vi indgå samarbejdet, og efter aftalt dato vil jeg påbegynde den skræddersyede rengøringshjælp til dig. </p>
         </div>
     </div>
@@ -185,7 +185,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                 </svg>
                 <div class="font-sans text-darkgray lg:text-darkgray font-bold text-xl mb-2 lg:text-lg lg:text-center lg:pt-2">ELSEBETH</div>
-                <p class="font-sans text-darkgray text-center text-base lg:text-darkgray lg:text-center lg:pt-2">
+                <p class="font-sans text-darkgray text-sm text-center text-base lg:text-darkgray lg:text-center lg:pt-2">
                     ''Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.''
                 </p>
             </div>
@@ -196,7 +196,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                 </svg>
                 <div class="font-sans text-darkgray lg:text-darkgray font-bold text-xl mb-2 lg:text-lg lg:text-center lg:pt-2">ELSEBETH</div>
-                <p class="font-sans text-darkgray text-center text-base lg:text-darkgray lg:text-center lg:pt-2">
+                <p class="font-sans text-darkgray text-sm text-center text-base lg:text-darkgray lg:text-center lg:pt-2">
                     ''Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.''
                 </p>
             </div>
@@ -207,7 +207,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                 </svg>
                 <div class="font-sans text-darkgray lg:text-darkgray font-bold text-xl mb-2 lg:text-lg lg:text-center lg:pt-2">ELSEBETH</div>
-                <p class="font-sans text-darkgray text-center text-base lg:text-darkgray lg:text-center lg:pt-2">
+                <p class="font-sans text-darkgray text-sm text-center text-base lg:text-darkgray lg:text-center lg:pt-2">
                     ''Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.''
                 </p>
             </div>
