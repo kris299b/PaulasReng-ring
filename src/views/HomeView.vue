@@ -18,7 +18,7 @@
                 Jeg løser rengøringsopgaver for små og mellemstore virksomheder samt private. Jeg forstår vigtigheden af et rent miljø, og betydningen heraf for dig.
             </p>
         </div>
-        <div class="font-sans flex row md:row px-4 justify-start text-sm pt-5 md:flex-row md:justify-center md:space-x-4 lg:px-0 lg:flex-row lg:space-x-1 lg:space-y-0 lg:justify-center lg:text-md lg:pt-5">
+        <div class="font-sans row md:row lg:flex px-4 justify-start text-sm pt-5 md:justify-center md:space-x-4 lg:px-0 lg:space-x-1 lg:space-y-0 lg:justify-center lg:text-md lg:pt-5">
             <div class="font-sans pb-4 md:px-2 md:pb-4 lg:pb-3">
                 <RouterLink to="privatecleaning"> 
                     <button class="bg-blue dark:bg-blue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-1 md:px-4 md:py-1 md:px-6 lg:text-md lg:py-3 lg:px-8 rounded-full lg:text-md lg:tracking-wider">
@@ -40,25 +40,25 @@
 
 <!-- Værdisæt section -->
 <div class="bg-white light:bg-white dark:bg-white pt-10 px-5 columns-1 md:gap-x-0 md:columns-2 lg:justify-center lg:p-40 lg:columns-2 lg:gap-x-0 lg:pt-20 lg:pb-20">
-    <div class="bg-lightgray md:pt-2 dark:bg-lightgray pb-10 text-black dark:text-black lg:py-5 lg:px-5">
+    <div class="bg-lightgray md:pt-2 dark:bg-lightgray pb-10 text-black dark:text-black md:pb-8 lg:py-5 lg:px-5 lg:pt-8">
         <div class="font-sans pt-0 pl-5 pb-3">
-            <p class="pt-8 text-sm mt-3 md:mx-5 md:pt-2 lg:text-sm lg:font-semibold text-gray dark:text-gray lg:tracking-wider">PAULAS RENGØRING | VÆRDISÆT</p>
+            <p class="pt-8 text-sm mt-3 md:mx-5 md:pt-3 md:text-xs lg:text-sm lg:font-semibold text-gray dark:text-gray lg:tracking-wider">PAULAS RENGØRING | VÆRDISÆT</p>
         </div>
-        <div class="font-sans pt-0 pl-5 pb-3">
+        <div class="font-sans pt-0 pl-5 pb-3 md:pb-2">
             <h2 class="pt-0 text-xl mt-3 font-semibold md:mx-5 md:text-md lg:text-lg lg:font-semibold lg:pt-2">Gensidig tillid</h2>
-            <p class="text-sm mt-2 md:text-sm md:mx-5 lg:text-sm lg:mr-10 lg:pb-0">Det er vigtigt for mig, at vi skaber tillid til hinanden fra start, så vi kan indgå det bedste samarbejde med et stærkt fundament.</p>
+            <p class="text-sm mt-2 md:text-xs md:mx-5 lg:text-sm lg:mr-10 lg:pb-0">Det er vigtigt for mig, at vi skaber tillid til hinanden fra start, så vi kan indgå det bedste samarbejde med et stærkt fundament.</p>
         </div>
-        <div class="font-sans pt-0 pl-5 pb-3">        
+        <div class="font-sans pt-0 pl-5 pb-3 md:pb-2">        
             <h2 class="text-xl mt-3 font-semibold font-semibold md:mx-5 md:text-md lg:text-lg lg:font-semibold lg:pl-0">Kundetilfredshed</h2>
-            <p class="text-sm mt-2 md:text-sm md:mx-5 lg:text-sm lg:mr-10">Din tilfredshed med rengøringen, er af højeste prioritet for mig. Når du som kunde er glad for resultaterne, giver det en uvurderlig følelse af velvære.</p>
+            <p class="text-sm mt-2 md:text-xs md:mx-5 lg:text-sm lg:mr-10">Din tilfredshed med rengøringen, er af højeste prioritet for mig. Når du som kunde er glad for resultaterne, giver det en uvurderlig følelse af velvære.</p>
         </div>
         <div class="font-sans pl-5">
             <h2 class="text-xl mt-3 font-semibold md:mx-5 md:text-md lg:text-lg lg:font-semibold">Tæt samarbejde</h2>
-            <p class="text-sm mt-2 md:text-sm md:mx-5 lg:text-sm lg:mr-10 lg:pb-6">Kommunikationen imellem os er af altafgørende, for at der kan dannes et trygt og tæt samarbejde. Jeg pritotere den tillidsfulde relation.</p>
+            <p class="text-sm mt-2 md:text-xs md:mx-5 lg:text-sm lg:mr-10 lg:pb-8">Kommunikationen imellem os er af altafgørende, for at der kan dannes et trygt og tæt samarbejde. Jeg pritotere den tillidsfulde relation.</p>
         </div>
     </div>
     <div class="inline-block md:inline-block lg:inline-block">
-        <img src="../assets/Værdisæt-paulasrengøring.jpg" alt="Værdisæt">
+        <img src="../assets/Paulas-rengøring-værdisæt.jpg" alt="Værdisæt">
     </div>
 </div>
 
@@ -78,7 +78,7 @@
         <img src="../assets/Guide-billede.jpg" alt="Guide-billede">
     </div>
     <div class="bg-beige light:bg-beige dark:bg-beige px-5 lg:px-20">
-        <p class="font-sans text-gray dark:gray text-sm pt-8 md:px-2 md:pt-5 lg:text-sm lg:font-semibold lg:pt-12 lg:tracking-wider">GUIDE</p>
+        <p class="font-sans text-gray dark:gray text-sm pt-8 md:px-2 md:pt-10 lg:text-sm lg:font-semibold lg:pt-24 lg:tracking-wider">GUIDE</p>
         <h2 class="font-sans text-black dark:text-black pr-10 text-2xl font-semibold mt-3 pb-3 md:px-2 lg:text-4xl lg:font-semibold lg:pt-0">Sådan får du mest mulig ud af din rengøringshjælp.</h2>
         <p class="font-sans text-black dark:text-black pb-3 text-sm md:px-2 md:text-xs lg:text-sm lg:pt-3 lg:pr-20 lg:font-semibold">
             Går du med overvejelserne om, at ansætte en professionel til at udføre rengøringshjælpen i dit hjem? 
@@ -86,7 +86,7 @@
         <p class="font-sans text-black dark:text-black pb-5 text-sm md:px-2 md:text-xs lg:text-sm lg:pt-1 lg:pr-20 lg:pb-10">Jeg har samlet nogle råd til dig i den indledende fase, 
             som sikrer dig at du får mest muligt ud af din rengøringshjælp, og bliver mest mulig tilfreds. 
         </p>
-        <div class="font-sans pb-10 md:px-2 md:pb-7 lg:pb-12">
+        <div class="font-sans pb-10 md:px-2 md:pb-10 lg:pb-24">
             <RouterLink to="guide"> 
                 <button class="bg-darkbeige light:bg-darkbeige dark:bg-darkbeige rounded-full text-black dark:text-black font-normal py-2 px-8 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 lg:text-md lg:font-semibold">
                     Læs mere
@@ -97,35 +97,32 @@
 </div>
 
 
-<!-- Samarbejde sektion -->
+<!-- Om sektion -->
 <div class="bg-white light:bg-white dark:bg-white lg:pt-10">
     <h2 class="text-left px-5 text-2xl pt-12 pb-5 font-semibold text-black dark:text-black md:text-center lg:font-semibold lg:text-3xl lg:text-center lg:pt-10">
         Dit Lokale rengøringsfirma
     </h2>
 </div>
 
-<div class="bg-white light:bg-white dark:bg-white columns-1 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-5 lg:p-24 lg:pb-10">
-    <div class="md:pt-0 lg:pt-0 inline-block md:hidden lg:hidden">
-        <img src="../assets/Paulasrengøring-om.jpg" alt="Samarbejde-billede">
-    </div>
+<div class="bg-white light:bg-white dark:bg-white columns-1 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-5 lg:p-24">
     <div class="bg-lightgray light:bg-lightgray dark:bg-lightgray px-5 lg:px-10">
         <p class="font-sans text-gray dark:gray text-sm pt-8 md:px-2 md:pt-7 lg:text-sm lg:font-semibold lg:pt-20 lg:tracking-wider">PAULAS RENGØRING | OM MIG</p>
         <h2 class="font-sans text-black dark:text-black pr-10 text-2xl font-semibold mt-3 pb-3 md:px-2 lg:text-3xl lg:font-semibold lg:pt-0">Jeg værdsætter tillid og tryghed, i det samarbejde jeg indgår med mine kunder.</h2>
         <p class="font-sans text-black text-sm dark:text-black pb-3 md:px-2 md:text-xs lg:text-sm lg:pt-3 lg:pr-20 lg:font-semibold">
             Personligt betyder by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need. 
         </p>
-        <p class="font-sans text-black text-sm dark:text-black pb-8 md:px-2 md:pb-19 md:text-xs lg:text-sm lg:pt-1 lg:pr-20 lg:pb-10">
+        <p class="font-sans text-black text-sm dark:text-black pb-8 md:px-2 md:pb-19 md:text-xs lg:text-sm lg:pt-1 lg:pr-20 lg:pb-8">
             There are many variations of passages of Lorem Ipsum available, but the majority. So if you know many variations of passages of Lorem Ipsum.
         </p>
-        <div class="row md:row lg:flex">
-            <div class="font-sans pb-4 md:px-2 md:pb-4 lg:pb-3">
+        <div class="row md:row lg:flex lg:pt-2">
+            <div class="font-sans pb-4 md:px-2 md:pb-4">
                 <RouterLink to="privatecleaning"> 
                     <button class="bg-blue dark:bg-blue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-1 md:px-4 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
                         Privatrengøring
                     </button>
                 </RouterLink>
             </div>
-            <div class="font-sans pb-10 md:px-2 md:pb-7 lg:pb-16">
+            <div class="font-sans pb-10 md:px-2 md:pb-7 lg:pb-24">
                 <RouterLink to="commercialcleaning"> 
                     <button class="bg-blue dark:bg-blue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-1 md:px-4 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
                         Erhvervsrengøring
@@ -134,18 +131,18 @@
             </div>
         </div>
     </div>
-    <div class="hidden md:inline-block lg:inline-block md:pt-0 lg:pt-0">
-        <img src="../assets/Paulasrengøring-om.jpg" alt="Om-mig-billede">
+    <div class="md:pt-0 lg:pt-0">
+        <img src="../assets/Paulasrengøring-om-billede.jpg" alt="Om-mig-billede">
     </div>
 </div>
 
 
 <!-- Ydelser sektion -->
 <div class="bg-white light:bg-white dark:bg-white px-5 md:px-40 lg:px-56">
-    <div class="font-sans text-darkgray dark:text-darkgray pt-12 pb-0 text-center text-sm pb-2 lg:text-lg lg:text-center lg:pt-10 lg:pb-2 lg:font-normal lg:tracking-wider">
+    <div class="font-sans text-darkgray dark:text-darkgray pt-12 pb-0 text-center text-sm pb-2 lg:text-lg lg:text-center lg:pt-5 lg:pb-2 lg:font-normal lg:tracking-wider">
         <p>PAULAS RENGØRING</p>
     </div>
-    <div class="font-sans text-black dark:text-black font-semibold text-2xl pb-10 text-center lg:text-3xl lg:text-center lg:font-semibold lg:pb-10">
+    <div class="font-sans text-black dark:text-black font-semibold text-2xl pb-10 text-center lg:text-3xl lg:text-center lg:font-semibold lg:pb-5">
         <h2>
             ''Jeg brænder for, at skabe skinnende resultater, hvor du som kunde er i centrum.'' 
         </h2>
@@ -367,7 +364,7 @@
 <!-- Kundeanmeldelser -->
 <div class="bg-white light:bg-white dark:bg-white lg:pt-10">
     <div>
-        <h2 class="font-sans text-black text-2xl font-semibold dark:text-black pt-10 pb-10 text-center lg:text-3xl lg:text-center lg:font-semibold lg:pb-20">
+        <h2 class="font-sans text-black text-2xl font-semibold dark:text-black pt-10 pb-10 text-center lg:text-3xl lg:text-center lg:font-semibold lg:pb-10">
             Det siger mine kunder 
         </h2>
     </div>

@@ -1,9 +1,9 @@
 <template>
 
 <!--Hero-section-->
-<section class="relative h-screen flex flex-col items-center py-20 text-center content-start">
+<section class="relative h-screen flex flex-col items-center py-20 text-center content-start lg:py-0 lg:h-[80vh]">
     <div class="heroimage absolute top-0 left-0 w-full h-full overflow-hidden">
-        <img class="min-w-full min-h-full absolute object-cover" src="../assets/Guide-billede.jpg" alt="Guide-hero">
+        <img class="min-w-full min-h-full absolute object-cover" src="../assets/Guide-hero.jpg" alt="Guide-hero">
     </div>
     <div class="image-content z-10 pt-40 md:pt-80 lg:pt-40">
         <div>

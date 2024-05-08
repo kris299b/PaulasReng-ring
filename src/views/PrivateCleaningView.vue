@@ -1,15 +1,14 @@
 <template>
 
 <!-- Hero section -->
-<section class="relative h-screen flex flex-col pt-5 lg:items-center">
+<section class="relative h-screen flex flex-col pt-5 lg:items-center lg:h-[80vh]">
     <div class="heroimage absolute top-0 left-0 w-full h-full overflow-hidden">
         <img class="min-w-full min-h-full absolute object-cover" src="../assets/privatrengøring.jpg" alt="Private-cleaning">
     </div>
-    <div class="image-content z-10 pt-40 md:pt-80 lg:pt-52">
+    <div class="image-content z-10 pt-40 md:pt-80 lg:pt-40">
         <div>
             <p class="font-sans text-white dark:text-white text-1xl text-left px-4 md:text-center md:text-xl lg:text-md lg:text-left lg:pb-1 lg:px-5 lg:tracking-wider">PAULAS RENGØRING | PRIVATRENGØRING</p>
             <h2 class="font-sans text-white dark:text-white text-4xl text-left px-4 md:text-center md:text-4xl lg:pb-2 lg:font-semibold lg:text-5xl">Rengøringshjælp for dig i dit hjem</h2>
-            <p class="font-sans text-white dark:text-white text-1xl text-left px-4 md:text-center md:text-xl lg:text-md lg:text-left lg:pt-2 lg:pb-1 lg:px-5">Du skal føle dig tryg i vores samarbejde.</p>
         </div>
         <div class="font-sans flex flex-col justify-start space-y-4 px-5 text-sm pt-5 md:flex-row md:justify-center md:space-x-4 lg:space-y-0 lg:justify-start lg:text-md lg:pt-5 lg:px-5">
             <RouterLink to="about"> 
@@ -27,8 +26,8 @@
     <h2 class="text-left text-2xl px-5 pt-10 pb-6 font-semibold text-black dark:text-black md:text-center lg:font-semibold lg:text-3xl lg:text-center lg:pt-10">Tryghed i vores samarbejde</h2>
 </div>
 
-<div class="bg-beuge light:bg-white dark:bg-white md:gap-x-0 columns-1 md:columns-2 lg:columns-2 lg:pt-5 lg:gap-x-0">
-    <div class="bg-beige light:bg-beige dark:bg-beige px-5 lg:px-20 lg:pt-16 lg:pb-20">
+<div class="bg-beige light:bg-white dark:bg-white md:gap-x-0 columns-1 md:columns-2 lg:columns-2 lg:pt-5 lg:gap-x-0">
+    <div class="bg-beige light:bg-beige dark:bg-beige px-5 lg:px-20 lg:pt-16 lg:pb-16">
         <p class="font-sans text-gray dark:gray text-sm pt-8 lg:text-sm lg:font-semibold lg:tracking-wider lg:pt-10">PAULAS RENGØRING | TRYGHED</p>
         <h2 class="font-sans text-black dark:text-black pr-10 text-3xl font-semibold mt-3 pb-3 lg:font-semibold lg:text-4xl lg:font-normal lg:pt-0">Det er vigtigt for mig, at du er tryg i vores samarbejde.</h2>
         <p class="font-sans text-sm text-black dark:text-black pb-3 lg:pt-4">
@@ -39,7 +38,7 @@
         </p>
     </div>
     <div class="gap-y-0 lg:pt-0">
-        <img src="../assets/Tryghed-rengøringshjælp.jpg" alt="Privatrengøring-tryghed">
+        <img src="../assets/Tryghed-rengøring.jpg" alt="Privatrengøring-tryghed">
     </div>
 </div>
 
@@ -117,9 +116,6 @@
 
 <!-- Forløb-sektion -->
 <div class="bg-white light:bg-white dark:bg-white columns-1 pt-10 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-20 lg:pb-20">
-    <div class="pt-10 md:pt-0 lg:pt-0">
-        <img src="../assets/Forløb-billede.jpg" alt="Forløb-billede">
-    </div>
     <div class="bg-lightgray light:bg-lightgray dark:bg-lightgray px-5 lg:px-20 lg:pb-16">
         <p class="font-sans text-gray dark:gray text-sm pt-8 md:px-2 md:pt-7 lg:text-sm lg:font-semibold lg:pt-16 lg:tracking-wider">PAULAS RENGØRING | FORLØBET</p>
         <h2 class="font-sans text-black dark:text-black pr-10 text-2xl font-semibold mt-3 pb-3 md:px-2 lg:text-4xl lg:font-semibold lg:pt-0 lg:pr-10">Sådan foregår forløbet hos mig.</h2>
@@ -163,6 +159,9 @@
         <div class="font-sans pb-10 text-black text-sm dark:black text-semibold text-sm lg:pt-2 lg:pb-0 lg:pl-9 ">
             <p>Vi vil i fællesskab udarbejde en plan, over de arbejdsopgaver jeg skal løse for dig, som der altid være plads til at kunne ændre i. Det er dine behov og ønsker, der er i centrum. Når planen er på plads og godkendt, vil vi indgå samarbejdet, og efter aftalt dato vil jeg påbegynde den skræddersyede rengøringshjælp til dig. </p>
         </div>
+    </div>
+    <div class="pt-10 md:pt-0 lg:pt-0">
+        <img src="../assets/kontakt-billede.jpg" alt="Forløb-billede">
     </div>
 </div>
 

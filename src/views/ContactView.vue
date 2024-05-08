@@ -1,11 +1,11 @@
 <template>
     
 <!-- Hero section -->
-<section class="relative h-screen flex flex-col items-center py-20 text-center content-start">
+<section class="relative h-screen flex flex-col items-center py-20 text-center content-start lg:h-[80vh]">
     <div class="heroimage absolute top-0 left-0 w-full h-full overflow-hidden">
         <img class="min-w-full min-h-full absolute object-cover" src="../assets/prisætning.jpg" alt="Prisætning">
     </div>
-    <div class="image-content z-10 pt-40 md:pt-80 lg:pt-48">
+    <div class="image-content z-10 pt-40 md:pt-80 lg:pt-40">
         <div>
             <p class="font-sans text-white dark:text-white text-1xl md:text-xl lg:text-md lg:pb-1 lg:tracking-wider">PAULAS RENGØRING | KONTAKT </p>
             <h2 class="font-sans text-white dark:text-white px-5 text-3xl md:text-4xl lg:px-40 lg:pb-2 lg:font-semibold lg:text-5xl">Professionel rådgivning med dig i centrum</h2>
@@ -13,7 +13,7 @@
     </div>
 </section>
 
-<div class="bg-white light:bg-white dark:bg-white lg:pt-10">
+<div class="bg-white light:bg-white dark:bg-white lg:pt-5">
     <div>
         <h2 class="font-sans text-black text-left text-2xl px-10 font-semibold dark:text-black pt-10 pb-10 md:text-center lg:text-2xl lg:text-center lg:font-semibold lg:pt-10 lg:pb-10">
             Du er velkommen til at kontakte mig
