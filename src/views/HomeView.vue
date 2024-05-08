@@ -50,7 +50,7 @@
         <p class="text-black dark:text-black text-sm mt-2 mb-5 md:text-xs md:mx-0 lg:mx-0 lg:text-sm lg:mr-10 lg:pb-0">Kommunikationen imellem os er af altafgørende, for at der kan dannes et trygt og tæt samarbejde. Jeg pritotere den tillidsfulde relation.</p>
     </div>
     <div class="md:w-1/2 lg:w-2/5">
-        <img src="../assets/Paulas-rengøring-værdisæt.jpg" alt="Kvinde der smiler">
+        <img src="../assets/Paulas-rengøring-værdisæt.jpg" alt="Værdi-billede">
     </div>
 </div>
 
@@ -65,22 +65,18 @@
     </h2>
 </div>
 
-<div class="bg-white light:bg-white dark:bg-white columns-1 md:gap-x-0 md:columns-2 lg:columns-2 lg:gap-x-0 lg:pt-0">
-    <div class="pt-10 md:pt-0 lg:pt-0">
+<div class="bg-white dark:bg-white light:bg-white px-0 flex flex-col justify justify-center h-full w-full p-8 md:px-0 md:flex-row lg:flex-row lg:w-full lg:pt-5 lg:pb-5 lg:px-0">
+    <div class="w-full md:w-full lg:w-full">
         <img src="../assets/Guide-billede.jpg" alt="Guide-billede">
     </div>
-    <div class="bg-beige light:bg-beige dark:bg-beige px-5 lg:px-20">
-        <p class="font-sans text-darkgray dark:darkgray text-sm pt-8 md:px-2 md:pt-10 lg:text-sm lg:font-semibold lg:pt-24 lg:tracking-wider">GUIDE</p>
-        <h2 class="font-sans text-black dark:text-black pr-10 text-2xl font-semibold mt-3 pb-3 md:px-2 lg:text-4xl lg:font-semibold lg:pt-0">Sådan får du mest mulig ud af din rengøringshjælp.</h2>
-        <p class="font-sans text-black dark:text-black pb-3 text-sm md:px-2 md:text-xs lg:text-sm lg:pt-3 lg:pr-20 lg:font-semibold">
-            Går du med overvejelserne om, at ansætte en professionel til at udføre rengøringshjælpen i dit hjem? 
-        </p>
-        <p class="font-sans text-black dark:text-black pb-5 text-sm md:px-2 md:text-xs lg:text-sm lg:pt-1 lg:pr-20 lg:pb-10">Jeg har samlet nogle råd til dig i den indledende fase, 
-            som sikrer dig at du får mest muligt ud af din rengøringshjælp, og bliver mest mulig tilfreds. 
-        </p>
-        <div class="font-sans pb-10 md:px-2 md:pb-10 lg:pb-24">
+    <div class="bg-lightgray light:bg-lightgray dark:bg-lightgray p-6 md:p-6 w-full md:w-full lg:w-full lg:px-12">
+        <p class="text-gray dark:text-gray text-sm pt-5 font-semibold pb-2 md:pt-3 lg:pt-16 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | GUIDE</p>
+        <h2 class="text-black dark:text-black text-4xl mt-2 md:text-3xl md:mx-0 lg:mx-0 lg:font-base lg:text-4xl lg:mr-10 lg:pb-0">Sådan får du mest mulig ud af din rengøringshjælp.</h2>
+        <p class="text-black dark:text-black pt-2 text-lg mt-3 font-semibold md:mx-0 md:text-lg lg:mx-0 lg:text-lg lg:font-semibold lg:pt-2">Går du med overvejelserne om, at ansætte en professionel til at udføre rengøringshjælpen i dit hjem?</p>
+        <p class="text-black dark:text-black pt-2 text-sm mt-3 font-base md:font-base md:mx-0 md:text-sm lg:mx-0 lg:text-sm lg:font-base lg:pt-2">Jeg har samlet nogle råd til dig i den indledende fase, som sikrer dig at du får mest muligt ud af din rengøringshjælp, og bliver mest mulig tilfreds. </p>
+        <div class="pb-6 md:px-2 pt-10 md:pb-6 lg:pt-10">
             <RouterLink to="guide"> 
-                <button class="bg-darkbeige light:bg-darkbeige dark:bg-darkbeige rounded-full text-black dark:text-black font-normal py-2 px-8 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 lg:text-md lg:font-semibold">
+                <button class="bg-darkbeige light:bg-darkbeige dark:bg-darkbeige rounded-full text-white dark:text-white font-normal py-2 px-8 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 lg:text-md lg:font-semibold">
                     Læs mere
                 </button>
             </RouterLink>
@@ -118,7 +114,7 @@
         </div>
     </div>
     <div class="md:w-1/2 lg:w-2/5">
-        <img src="../assets/Paulasrengøring-om-billede.jpg" alt="Kvinde der smiler">
+        <img src="../assets/Paulasrengøring-om-billede.jpg" alt="Paulas-rengøring-om">
     </div>
 </div>
 

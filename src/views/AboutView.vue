@@ -15,7 +15,7 @@
 
 
 <!-- Værdisæt section -->
-<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-row lg:flex-row lg:w-full lg:pt-20 lg:pb-20">
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-row lg:flex-row lg:w-full lg:pt-20 lg:pb-5">
     <div class="bg-lightgray p-6 md:p-6 md:w-1/2 lg:w-2/5 lg:px-12">
         <p class="text-gray dark:text-gray text-xs pt-5 font-semibold pb-2 md:pt-3 lg:pt-10 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | VÆRDISÆT</p>
         <p class="text-black dark:text-black pt-0 text-xl mt-3 font-semibold md:mx-0 md:text-md lg:mx-0 lg:text-lg lg:font-semibold lg:pt-2">Gensidig tillid</p>
@@ -32,7 +32,7 @@
 
 
 
-<!--Paulas Rengøring - paragraf-section-->
+<!--Paulas Rengøring - erfaring sektion-->
 <div class="flex justify bg-white dark:bg-white light:bg-white justify-center text-center max-h-40 w-full p-8">
     <div class="w-full h-32">
         <h1 class="font-semibold text-black pt-4 text-lg md:text-xl md:pb-2 lg:text-2xl lg:pt-8">PAULAS RENGØRING</h1>
@@ -40,9 +40,6 @@
     </div>
 </div>
 
-
-
-<!--Paulas Rengøring-Erhverv-section-->
 <div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-row lg:flex-row lg:w-full">
     <div class="md:w-1/2 lg:w-1/2">
         <img src="../assets/Paulas-rengøring.jpg" alt="om-firmaet-billede">
