@@ -32,7 +32,7 @@
 </div>
 
 
-<!-- Tilpassede løsninger erhvervsrengøring - section -->
+<!-- Tilpassede løsninger - section -->
 <div class="bg-white dark:bg-white text-black dark-text-black lg:pt-0">
     <p class="text-left px-5 pt-16 text-2xl font-semibold md:text-center md:pb-10 lg:font-semibold lg:text-center lg:pb-3 lg:text-3xl">
         Skræddersyede løsninger tilpasset dine ønsker 
