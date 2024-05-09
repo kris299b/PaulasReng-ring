@@ -69,14 +69,14 @@
     <div class="w-full md:w-full lg:w-full">
         <img src="../assets/Guide-billede.jpg" alt="Guide-billede">
     </div>
-    <div class="bg-lightgray light:bg-lightgray dark:bg-lightgray p-6 md:p-6 w-full md:w-full lg:w-full lg:px-12">
+    <div class="bg-beige light:bg-beige dark:bg-beige p-6 md:p-6 w-full md:w-full lg:w-full lg:px-12">
         <p class="text-gray dark:text-gray text-sm pt-5 font-semibold pb-2 md:pt-3 lg:pt-16 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | GUIDE</p>
         <h2 class="text-black dark:text-black text-4xl mt-2 md:text-3xl md:mx-0 lg:mx-0 lg:font-semibold lg:text-4xl lg:mr-10 lg:pb-0">Sådan får du mest mulig ud af din rengøringshjælp.</h2>
         <p class="text-black dark:text-black pt-2 text-lg mt-3 font-semibold md:mx-0 md:text-lg lg:mx-0 lg:text-lg lg:font-semibold lg:pt-2">Går du med overvejelserne om, at ansætte en professionel til at udføre rengøringshjælpen i dit hjem?</p>
         <p class="text-black dark:text-black pt-2 text-sm mt-3 font-base md:font-base md:mx-0 md:text-sm lg:mx-0 lg:text-sm lg:font-base lg:pt-2">Jeg har samlet nogle råd til dig i den indledende fase, som sikrer dig at du får mest muligt ud af din rengøringshjælp, og bliver mest mulig tilfreds. </p>
         <div class="pb-6 md:px-0 pt-10 md:pt-5 md:pb-6 lg:pt-10">
             <RouterLink to="guide"> 
-                <button class="bg-darkbeige light:bg-darkbeige dark:bg-darkbeige rounded-full text-white dark:text-white font-normal py-2 px-8 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 lg:text-md lg:font-semibold">
+                <button class="bg-darkbeige light:bg-darkbeige dark:bg-darkbeige rounded-full text-black dark:text-black font-normal py-2 px-8 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 lg:text-md lg:font-semibold">
                     Læs mere
                 </button>
             </RouterLink>
@@ -298,7 +298,7 @@
                 </div>
             </div>
         </div>
-        <div class="h-67 bg-lightblue light:bg-lightblue dark:bg-lightblue md:w-3/4 md:h-60 lg:h-96 lg:w-1/3 lg:justify-start lg:text-left">
+        <div class="h-67 bg-lighgray light:bg-lightgray dark:bg-lightgray md:w-3/4 md:h-60 lg:h-96 lg:w-1/3 lg:justify-start lg:text-left">
             <h2 class="justify-start pr-24 font-sans text-2xl text-black pt-6 pb-6 font-semibold md:pr-60 md:pb-10 md:font-semibold md:text-center lg:pt-10 lg:pb-0 lg:text-black lg:text-2xl lg:font-semibold lg:pl-8">
                 Kontaktoplysninger 
             </h2>
