@@ -51,7 +51,7 @@
     </p>
 </div>
 
-<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-row lg:flex-row lg:w-full lg:pb-20">
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-row lg:flex-row lg:w-full lg:pb-5">
     <div class="w-full md:w-1/2 lg:w-1/2">
         <img src="../assets/Paulas-rengøring.jpg" alt="om-firmaet-billede">
     </div>
