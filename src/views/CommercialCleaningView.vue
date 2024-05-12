@@ -51,12 +51,12 @@
     </p>
 </div>
 
-<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-row lg:flex-row lg:w-full lg:pt-2 lg:pb-5">
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-row lg:flex-row lg:w-full lg:pb-20">
     <div class="w-full md:w-1/2 lg:w-1/2">
         <img src="../assets/Paulas-rengøring.jpg" alt="om-firmaet-billede">
     </div>
     <div class="bg-lightgray p-4 md:p-6 w-full md:w-1/2 lg:w-1/2 lg:px-10">
-        <p class="text-gray dark:text-gray text-sm md:text-sm font-base pt-5 pb-2 lg:pt-16 lg:text-sm">PAULAS RENGØRING | PRIVATRENGØRING</p>
+        <p class="text-gray dark:text-gray text-sm md:text-sm font-base pt-5 pb-2 lg:pt-16 lg:text-sm">PAULAS RENGØRING | ERHVERVSRENGØRING</p>
         <h2 class="text-black text-3xl font-semibold pb-4 md:text-3xl lg:text-4xl">Tilpassede rengøringsløsninger</h2>
         <p class="text-black text-sm font-semibold md:text-sm md:font-semibold lg:font-semibold lg:text-base">Jeg tilbyder altid skræddersyede løsninger, som tager udgangspunkt i dine ønsker og behov. </p>
         <p class="text-black text-sm font-base pt-3 md:text-sm md:font-base lg:font-base lg:pt-3 lg:pr-10 lg:text-base">Lad os tage en uforpligtigende snak om det, du har brug for hjælp til, og hvor ofte du har behov for rengøringshjælp. Vi vil i fællesskab sammensætte den bedste løsning for dig. Jeg glæder mig til at høre fra dig. </p>
@@ -67,7 +67,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
                 </svg>
             </div>
-            <p class="font-sans text-base text-xs pl-2 lg:text-xs text-black dark:text-black md:text-xs lg:pl-2 lg:tracking-wider">
+            <p class="font-sans text-base text-xs pl-2 lg:text-xs text-black dark:text-black md:text-xs lg:pl-2 lg:font-semibold lg:tracking-widest">
                 60145811
             </p>
         </div>
@@ -81,7 +81,7 @@
                     </g>
                 </svg>
             </div>
-            <p class="font-sans text-base text-xs pl-2 lg:pb-0 lg:text-xs text-black dark:text-black md:text-xs lg:pl-2 lg:tracking-wider">
+            <p class="font-sans text-base text-xs pl-2 lg:pb-0 lg:text-xs text-black dark:text-black md:text-xs lg:pl-2 lg:font-semibold lg:tracking-widest">
                 PAULAS RENGØRING
             </p>
         </div>
@@ -92,7 +92,7 @@
                     <path d="M0 0h24v24H0z" fill="none"/>
                 </svg>
             </div>
-            <p class="font-sans text-base text-xs pl-2 pb-10 md:pb-0 lg:text-xs text-black dark:text-black md:text-xs lg:pl-2 lg:pb-10 lg:tracking-wider">
+            <p class="font-sans text-base text-xs pl-2 pb-10 md:pb-0 lg:text-xs text-black dark:text-black md:text-xs lg:pl-2 lg:pb-10 lg:font-semibold lg:tracking-widest">
                 PAULASRENGORING@GMAIL.COM
             </p>
         </div>
