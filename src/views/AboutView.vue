@@ -7,7 +7,7 @@
     <div class="image-content z-10 pt-40 md:pt-80 lg:pt-40">
         <div>
             <p class="text-white text-xs pb-2 pt-20 md:pb-4 md:text-xl lg:text-xl lg:pb-3 lg:pt-0">PAULAS RENGØRING | OM FIRMAET</p>
-            <h2 class="text-white text-base md:text-4xl md:pb-2 lg:text-5xl lg:pb-2">Dit Lokale rengøringsfirma</h2>
+            <h2 class="text-white text-base md:text-4xl md:pb-2 lg:pb-2 lg:font-semibold lg:text-5xl">Dit Lokale rengøringsfirma</h2>
         </div>
     </div>
 </section>
