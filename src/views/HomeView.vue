@@ -8,7 +8,7 @@
             type="video/mp4" autoplay muted loop>
         </video>
     </div>
-    <div class="video-content z-10 pt-24 md:pt-80 lg:pt-40">
+    <div class="video-content z-10 pt-24 md:pt-80 lg:pt-32">
         <div>
             <p class="font-sans text-white dark:text-white px-4 text-sm md:text-lg md:text-center lg:text-lg lg:text-center">
                 PAULAS RENGØRING | PROFESSIONEL RENGØRING
@@ -35,6 +35,9 @@
             </div>
         </div>
     </div>
+
+    <CookieBanner v-if="showBanner" @hideBanner="showBanner = false" class="z-50 fixed bottom-0 left-0 w-full"/>
+
 </section>
 
 
@@ -471,7 +474,21 @@
 #mc-embedded-subscribe {background-color:rgb(110, 118, 167); border-radius: 50%;}
 </style>
 
-<script setup>
+<script>
+// Cookie banner
+import CookieBanner from '../components/CookieBanner.vue'
+export default {
+  name: 'App',
+  components: {
+    CookieBanner
+  },
+  data: function() {
+    return {
+      showBanner: !(this.$posthog.has_opted_in_capturing() || this.$posthog.has_opted_out_capturing())
+    }
+  }
+}
+
 // FAQ 
     const toggleContent = (id) => {
     const content = document.getElementById(id);
