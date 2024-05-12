@@ -66,7 +66,6 @@
 
 <RouterView />
 
-<CookieBanner v-if="showBanner" @hideBanner="showBanner = false"/>
 
 <footer class="bg-lightgray dark:lightgray">
     <div class="mx-4 px-4 py-20 bg-darkblue dark:bg-darkblue flex md:items-center md:justify-between lg:py-5 lg:mx-20">
@@ -303,18 +302,7 @@
 
 
 <script>
-import CookieBanner from './components/CookieBanner.vue'
-export default {
-  name: 'App',
-  components: {
-    CookieBanner
-  },
-  data: function() {
-    return {
-      showBanner: !(this.$posthog.has_opted_in_capturing() || this.$posthog.has_opted_out_capturing())
-    }
-  }
-}
+
 
 document.addEventListener("DOMContentLoaded", function() {
   const navbarToggle = document.getElementById("navbarToggle");

@@ -20,56 +20,60 @@
 <main>
 <div class="flex flex-col justify-center text-justify p-4 h-72 md:p-10 md:h-60 lg:h-60 bg-white dark:bg-white light:bg-white lg:p-16 lg:pt-20">
     <h1 class="text-black text-sm ml-4 mr-4 pb-2 font-semibold md:ml-8 md:mr-8 md:text-lg md:pt-8 md:pb-2 lg:text-center lg:text-3xl">Overvejelser inden du træffer valg om rengøringshjælp</h1>
-    <p class="text-black text-sm ml-4 mr-4 md:ml-8 md:mr-8 md:pb-10 md:text-base lg:text-base lg:text-center lg:pt-3 lg:pb-10">Du går med overvejelserne om, at få hjælp til rengøringen af dit hjem. Du ved, at det vil give dig den ro og det overskud i hverdagen, som du mangler. Du vil derfor gerne ansætte en kyndig person til denne opgave, men hvordan får du mest ud af din rengøringshjælp? Jeg har her samlet nogle råd til dig i den indledende fase, som sikre sig at du får mest muligt ud af din rengøringshjælp, og bliver mest mulig tilfreds.</p>
+    <p class="text-black text-sm ml-4 mr-4 md:ml-8 md:mr-8 md:pb-10 md:text-base lg:text-base lg:text-center lg:pt-3 lg:pb-10">Du går med overvejelserne om, at få hjælp til rengøringen af dit hjem. Du ved, at det vil give dig den ro og det overskud i hverdagen, som du mangler. Du vil derfor gerne ansætte en kyndig person til denne opgave, men hvordan får du mest ud af din rengøringshjælp? Jeg har samlet nogle råd til dig i den indledende fase, som sikre sig at du får mest muligt ud af din rengøringshjælp, og bliver mest mulig tilfreds.</p>
 </div>
 
 
 
 <!--Guide-help-section-->
 <!--Box 1-->
-<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center w-3/4 mx-auto md:w-full md:mx-auto md:flex-col md:w-1/2 lg:flex-row lg:w-full lg:pb-20 lg:mx-auto">
-    <div class="lg:w-1/3">
+<div class="flex bg-white dark:bg-white light:bg-white flex flex-col justify justify-center w-3/4 mx-auto md:w-full md:mx-auto md:flex-col md:w-1/2 lg:flex-row lg:w-full lg:pb-20 lg:mx-auto lg:justify-end">
+    <div class="lg:w-1/4">
         <img src="../assets/Booking-møde.jpg" alt="Woman having a meeting on her computer">
     </div>
     
     <div class="w-full p-4 lg:w-2/4 lg:pl-8 lg:pt-20 lg:pr-8 bg-lightgray">
-        <h1 class="text-black font-semibold text-base pb-2 lg:text-2xl lg:pt-10 lg:pb-2">Book et formøde</h1>
-        <p class="text-black text-sm md:text-base lg:text-base">Det er altid en god idé at booke et formøde, hvor du får lejlighed til at snakke med den person der skal stå for rengøringen af dit hjem. Det er dit hjem, og du skal føle dig tryg i samarbejdet. Rengøringshjælpen får mulighed for at se dit hjem, inden samarbejdet bliver sat i gang, og det vil give dem en god fornemmelse af, hvor meget tid de skal sætte af til de opgaver, du ønsker hjælp til. </p>
+        <h1 class="text-black font-semibold text-base pb-2 lg:text-2xl lg:pt-0">Book et formøde</h1>
+        <p class="text-black text-sm md:text-base lg:font-semibold">Det er altid en god idé at booke et formøde, hvor du får lejlighed til at snakke med den person der skal stå for rengøringen af dit hjem.</p>
+        <p class="text-black text-sm md:text-base lg:pt-2 lg:text-base">Det er dit hjem, og du skal føle dig tryg i samarbejdet. Rengøringshjælpen får mulighed for at se dit hjem, inden samarbejdet bliver sat i gang, og det vil give dem en god fornemmelse af, hvor meget tid de skal sætte af til de opgaver, du ønsker hjælp til. </p>
     </div>
 </div>
 
 <!--Box 2-->
-<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center w-3/4 mx-auto md:w-full md:mx-auto md:flex-col md:w-1/2 lg:flex-row lg:w-full lg:pb-20 lg:mx-auto">
+<div class="flex bg-white dark:bg-white light:bg-white flex flex-col justify justify-center w-3/4 mx-auto md:w-full md:mx-auto md:flex-col md:w-1/2 lg:flex-row lg:w-full lg:pb-20 lg:mx-auto lg:justify-start">
     <div class="w-full p-4 lg:w-2/4 lg:pl-8 lg:pt-20 lg:pr-8 bg-lightgray">
-        <h1 class="text-black font-semibold text-base pb-2 lg:text-2xl lg:pt-10 lg:pb-2">Udarbejd en arbejdsplan</h1>
-        <p class="text-black text-sm md:text-base lg:text-base">Det vil være fordelagtigt at udarbejde en plan over dine ønsker og behov, som du deler med din rengøringshjælp i den indledende fase. Det er ønsker og krav I sammen vil gennemgå, og få til at passe ind i dine behov. Det er rart for begge parter, at der er en plan at holde sig til. Det vil selvfølgelig være en plan der kan ændre sig, alt efter dine ønsker. Det er dine behov og ønsker, der er i centrum.</p>
+        <h1 class="text-black font-semibold text-base pb-2 lg:text-2xl lg:pt-0">Udarbejd en arbejdsplan</h1>
+        <p class="text-black text-sm md:text-base lg:font-semibold">Det vil være fordelagtigt at udarbejde en plan over dine ønsker og behov, som du deler med din rengøringshjælp i den indledende fase.</p>
+        <p class="text-black text-sm md:text-base lg:pt-2 lg:text-base">Det er ønsker og krav I sammen vil gennemgå, og få til at passe ind i dine behov. Det er rart for begge parter, at der er en plan at holde sig til. Det vil selvfølgelig være en plan der kan ændre sig, alt efter dine ønsker. Det er dine behov og ønsker, der er i centrum.</p>
     </div>
 
-    <div class="lg:w-1/3">
+    <div class="lg:w-1/4">
         <img src="../assets/meeting.jpg" alt="Woman having a meeting on her computer">
     </div>
 </div>
 
 <!--Box 2-->
-<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center w-3/4 mx-auto md:w-full md:mx-auto md:flex-col md:w-1/2 lg:flex-row lg:w-full lg:pb-20 lg:mx-auto">
-    <div class="lg:w-1/3">
+<div class="flex bg-white dark:bg-white light:bg-white flex flex-col justify justify-center w-3/4 mx-auto md:w-full md:mx-auto md:flex-col md:w-1/2 lg:flex-row lg:w-full lg:pb-20 lg:mx-auto lg:justify-end">
+    <div class="lg:w-1/4">
         <img src="../assets/meeting.jpg" alt="Woman having a meeting on her computer">
     </div>
     
-    <div class="w-full p-4 lg:w-2/4 lg:pl-8 lg:pt-20 lg:pr-8 bg-lightgray">
-        <h1 class="text-black font-semibold text-base pb-2 lg:text-xl lg:pt-24 lg:pb-2">MED ELLER UDEN OPRYDNING?</h1>
-        <p class="text-black text-sm md:text-base lg:text-base">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora ipsa totam expedita soluta, harum omnis earum vitae molestiae nesciunt. Non et minus praesentium ullam voluptatum reiciendis quas, illum esse quibusdam?</p>
+    <div class="w-full p-4 lg:w-2/4 lg:pl-8 lg:pt-0 lg:pr-8 bg-lightgray">
+        <h1 class="text-black font-semibold text-base pb-2 lg:text-2xl lg:pt-24 lg:pb-2">Med eller uden oprydning?</h1>
+        <p class="text-black text-sm md:text-base lg:font-semibold">Det er en god idé, at klarlægge om oprydningen er noget du selv vil stå for, eller om du ønsker at det er noget rengøringshjælpen tager sig af.</p>
+        <p class="text-black text-sm md:text-base lg:pt-2 lg:text-base">Hvorvidt du ønsker selv at stå for oprydningen, eller ønsker at få oprydning med i din rengøringshjælp, kan begge muligheder lade sig gøre.</p>
     </div>
 </div>
 
 <!--Box 4-->
-<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center w-3/4 mx-auto md:w-full md:mx-auto md:flex-col md:w-1/2 lg:flex-row lg:w-full lg:pb-20 lg:mx-auto">
+<div class="flex bg-white dark:bg-white light:bg-white flex flex-col justify justify-center w-3/4 mx-auto md:w-full md:mx-auto md:flex-col md:w-1/2 lg:flex-row lg:w-full lg:pb-20 lg:mx-auto lg:justify-start">
     <div class="w-full p-4 lg:w-2/4 lg:pl-8 lg:pt-20 lg:pr-8 bg-lightgray">
-        <h1 class="text-black font-semibold text-base pb-2 lg:text-xl lg:pt-24 lg:pb-2">SKAL JEG VÆRE HJEMME?</h1>
-        <p class="text-black text-sm md:text-base lg:text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt ducimus ut eveniet quidem ea veniam facere, voluptatum molestiae sint illum aut amet repudiandae in qui quis iusto vel optio? Quo?</p>
+        <h1 class="text-black font-semibold text-base pb-2 lg:text-2xl lg:pt-0 lg:pb-2">Skal jeg være hjemme?</h1>
+        <p class="text-black text-sm md:text-base lg:font-semibold">Ønsker du at være hjemme når rengøringshjælpen kommer, eller har du andre ærinder du vil foretage dig imens?</p>
+        <p class="text-black text-sm md:text-base lg:pt-2 lg:text-base">Det er helt op til dig, om du ønsker at være hjemme mens rengøringsopgaverne bliver udført, og er noget som enhver rengøringshjælp skal respektere. Det handler om, hvad der gør dig tryg, og hvad du har det bedst med. </p>
     </div>
 
-    <div class="lg:w-1/3">
+    <div class="lg:w-1/4">
         <img src="../assets/meeting.jpg" alt="Woman having a meeting on her computer">
     </div>
 </div>
@@ -77,14 +81,16 @@
 
 
 <!-- Servicefradrag-section -->
-<div class="bg:lightgray dark:bg-lightgray font-sans lg:text-center lg:pt-10 lg:pb-10 lg:text-3xl text-black dark:text-black">
-    <h2 class="text-left font-semibold pl-5 text-2xl pt-10 lg:text-center lg:text-3xl lg:font-semibold">Husk at din rengøringshjælp går </h2>
-    <h2 class="text-left font-semibold pl-5 text-2xl lg:text-center lg:text-3xl lg:font-semibold">ind under ''Servicefradrag'' </h2>
-    <p class="text-left pl-5 pr-5 pt-3 pb-10 lg:text-center lg:pl-40 lg:pr-40 lg:pt-4 lg:text-base">Når du køber privat rengøring, skal du huske at gemme alle dine kvitteringer. 
-        Du kan nemlig trække beløb fra på din selvangivelse under rubrikken 
-        ”servicefradrag”, det varierer en smule beløbsmæssigt fra indkomstår 
-        til indkomstår, hvor stort et beløb du kan trække fra.
-    </p>
+<div class="bg:white light:bg-white dark:bg-white lg:pb-20">
+    <div class="bg:lightgray dark:bg-lightgray font-sans lg:text-center lg:pt-10 lg:pb-10 lg:text-3xl text-black dark:text-black">
+        <h2 class="text-left font-semibold pl-5 text-2xl pt-10 lg:text-center lg:text-3xl lg:font-semibold">Husk at din rengøringshjælp går </h2>
+        <h2 class="text-left font-semibold pl-5 text-2xl lg:text-center lg:text-3xl lg:font-semibold">ind under ''Servicefradrag'' </h2>
+        <p class="text-left pl-5 pr-5 pt-3 pb-10 lg:text-center lg:pl-40 lg:pr-40 lg:pt-4 lg:text-base">Når du køber privat rengøring, skal du huske at gemme alle dine kvitteringer. 
+            Du kan nemlig trække beløb fra på din selvangivelse under rubrikken 
+            ”servicefradrag”, det varierer en smule beløbsmæssigt fra indkomstår 
+            til indkomstår, hvor stort et beløb du kan trække fra.
+        </p>
+    </div>
 </div>
 
 </main>
