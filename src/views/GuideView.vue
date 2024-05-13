@@ -27,12 +27,12 @@
 
 <!--Guide-help-section-->
 <!--Box 1-->
-<div class="flex bg-white dark:bg-white light:bg-white flex flex-col justify justify-center w-3/4 mx-auto md:w-full md:mx-auto md:flex-col md:w-1/2 lg:flex-row lg:w-full lg:pb-20 lg:mx-auto lg:justify-end">
-    <div class="lg:w-1/4">
-        <img src="../assets/Booking-møde.jpg" alt="Woman having a meeting on her computer">
+<div class="flex bg-white dark:bg-white light:bg-white flex flex-col justify justify-center w-3/4 mx-auto md:flex-col md:justify-end lg:flex-row lg:w-full lg:pb-20 lg:mx-auto lg:justify-end">
+    <div class="md:1/4 lg:w-1/4">
+        <img src="../assets/Booking-møde.jpg" alt="Man-booking">
     </div>
     
-    <div class="w-full p-4 lg:w-2/4 lg:pl-8 lg:pt-20 lg:pr-8 bg-lightgray">
+    <div class="w-full p-4 md:2/4 lg:w-2/4 lg:pl-8 lg:pt-20 lg:pr-8 bg-lightgray">
         <h1 class="text-black font-semibold text-base pb-2 lg:text-2xl lg:pt-0">Book et formøde</h1>
         <p class="text-black text-sm md:text-base lg:font-semibold">Det er altid en god idé at booke et formøde, hvor du får lejlighed til at snakke med den person der skal stå for rengøringen af dit hjem.</p>
         <p class="text-black text-sm md:text-base lg:pt-2 lg:text-base">Det er dit hjem, og du skal føle dig tryg i samarbejdet. Rengøringshjælpen får mulighed for at se dit hjem, inden samarbejdet bliver sat i gang, og det vil give dem en god fornemmelse af, hvor meget tid de skal sætte af til de opgaver, du ønsker hjælp til. </p>
@@ -40,14 +40,14 @@
 </div>
 
 <!--Box 2-->
-<div class="flex bg-white dark:bg-white light:bg-white flex flex-col justify justify-center w-3/4 mx-auto md:w-full md:mx-auto md:flex-col md:w-1/2 lg:flex-row lg:w-full lg:pb-20 lg:mx-auto lg:justify-start">
+<div class="flex bg-white dark:bg-white light:bg-white flex flex-col justify justify-center w-3/4 mx-auto md:mx-auto md:pt-10 md:flex-col lg:flex-row lg:w-full lg:pb-20 lg:mx-auto lg:justify-start">
     <div class="w-full p-4 lg:w-2/4 lg:pl-8 lg:pt-20 lg:pr-8 bg-lightgray">
         <h1 class="text-black font-semibold text-base pb-2 lg:text-2xl lg:pt-0">Udarbejd en arbejdsplan</h1>
         <p class="text-black text-sm md:text-base lg:font-semibold">Det vil være fordelagtigt at udarbejde en plan over dine ønsker og behov, som du deler med din rengøringshjælp i den indledende fase.</p>
         <p class="text-black text-sm md:text-base lg:pt-2 lg:text-base">Det er ønsker og krav I sammen vil gennemgå, og få til at passe ind i dine behov. Det er rart for begge parter, at der er en plan at holde sig til. Det vil selvfølgelig være en plan der kan ændre sig, alt efter dine ønsker. Det er dine behov og ønsker, der er i centrum.</p>
     </div>
 
-    <div class="lg:w-1/4">
+    <div class="md:1/4 lg:w-1/4">
         <img src="../assets/meeting.jpg" alt="Woman having a meeting on her computer">
     </div>
 </div>
