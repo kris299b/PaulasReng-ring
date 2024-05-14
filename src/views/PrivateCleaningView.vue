@@ -25,9 +25,9 @@
         <h2 class="text-black dark:text-black text-2xl mt-2 md:text-2xl md:mx-5 lg:mx-0 lg:font-semibold lg:text-4xl lg:mr-10 lg:pb-0">Det er vigtigt for mig, at du er tryg i vores samarbejde.</h2>
         <p class="text-black dark:text-black pt-2 text-lg mt-3 font-semibold md:pt-2 md:mx-5 md:text-sm lg:mx-0 lg:text-lg lg:font-semibold lg:pt-2">At åbne sit hjem for et menneske, man endnu ikke kender kræver tillid. Det er vigtigt for mig at der er tryghed i vores samarbejde, og at der skabes gensidig tillid til hinanden. </p>
         <p class="text-black dark:text-black pt-2 pb-0 text-sm mt-3 font-base md:pt-0 md:font-base md:mx-5 md:text-sm lg:mx-0 lg:text-sm lg:font-base lg:pt-2">Det er dit hjem, og dine ønsker samt behov der bliver centrum for vores samarbejde. Jeg respektere de rammer du sætter, og du kan stole på diskretion hos mig. </p>
-        <div class="inline-block pt-8 md:hidden md:pl-10 lg:inline-block inset-0 flex lg:pt-10 lg:justify-start">
+        <div class="inline-block pt-8 md:hidden md:pl-10 lg:inline-block inset-0 flex lg:pt-10 lg:pl-0 lg:justify-start">
             <RouterLink to="contact">
-                <button class="flex justify justify-center text-center hover:bg-transparent bg-darkbeige dark:bg-darkbeige font-normal md:pt-10 lg:font-normal py-2 px-6 rounded-full lg:mr-6 lg:py-2 lg:px-6">
+                <button class="flex justify justify-center text-center hover:bg-transparent bg-darkbeige dark:bg-darkbeige font-normal md:pt-10 lg:font-normal py-2 px-6 rounded-full lg:py-2">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="black" class="w-6 h-6 lg:w-5 lg:h-5">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
                     </svg>
@@ -38,9 +38,9 @@
     </div>
     <div class="w-full md:w-full lg:w-full relative">
         <img src="../assets/Tryghed-rengøring.jpg" alt="Privatrengøring-tryghed" class="w-full">
-        <div class="hidden md:inline-block md:mx-16 md:my-36 lg:hidden absolute inset-0 flex items-center justify-center">
+        <div class="hidden md:inline-block md:mx-16 md:my-36 lg:hidden absolute inset-0 flex">
             <RouterLink to="contact">
-                <button class="flex hover:bg-transparent bg-darkbeige dark:bg-darkbeige font-normal lg:font-normal py-2 px-6 rounded-full lg:mr-6 lg:py-2 lg:px-6">
+                <button class="flex hover:bg-transparent bg-darkbeige dark:bg-darkbeige font-normal lg:font-normal py-2 px-6 rounded-full lg:py-2 lg:px-6">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="black" class="w-6 h-6 lg:w-5 lg:h-5">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
                     </svg>
@@ -121,7 +121,7 @@
 </div>
 
 <!-- Forløb-sektion -->
-<div class="bg-white dark:bg-white text-black dark-text-black md:pb-4 px-10 lg:pt-0">
+<div class="bg-white dark:bg-white text-black dark-text-black px-10 md:pb-4 lg:pt-0">
     <p class="pt-16 pb-0 text-2xl font-semibold md:text-center lg:font-semibold lg:text-center lg:pb-3 lg:text-3xl">
         Paulas rengøring | forløbet hos mig  
     </p>
