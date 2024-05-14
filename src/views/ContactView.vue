@@ -1,11 +1,11 @@
 <template>
     
 <!-- Hero section -->
-<section class="relative h-screen flex flex-col items-center py-20 text-center content-start lg:h-[80vh]">
+<section class="relative h-screen flex flex-col items-center py-20 text-center content-start md:h-[40vh] lg:h-[80vh]">
     <div class="heroimage absolute top-0 left-0 w-full h-full overflow-hidden">
         <img class="min-w-full min-h-full absolute object-cover" src="../assets/prisætning.jpg" alt="Prisætning">
     </div>
-    <div class="image-content z-10 pt-40 md:pt-80 lg:pt-40">
+    <div class="image-content z-10 pt-40 md:pt-40 lg:pt-40">
         <div>
             <p class="font-sans text-white dark:text-white text-1xl md:text-xl lg:text-md lg:pb-1 lg:tracking-wider">PAULAS RENGØRING | KONTAKT </p>
             <h2 class="font-sans text-white dark:text-white px-5 text-3xl md:text-4xl lg:px-40 lg:pb-2 lg:font-semibold lg:text-5xl">Professionel rådgivning med dig i centrum</h2>
@@ -70,7 +70,7 @@
                 </div>
             </div>
         </div>
-        <div class="h-67 bg-lightblue light:bg-lightblue dark:bg-lightblue md:w-3/4 md:h-60 lg:h-96 lg:w-1/3 lg:justify-start lg:text-left">
+        <div class="bg-lightblue light:bg-lightblue dark:bg-lightblue md:w-3/4 md:h-60 lg:h-96 lg:w-1/3 lg:justify-start lg:text-left">
             <h2 class="justify-start pr-24 font-sans text-2xl text-black pt-6 pb-6 font-semibold md:pr-60 md:pb-10 md:font-semibold md:text-center lg:pt-10 lg:pb-0 lg:text-black lg:text-2xl lg:font-semibold lg:pl-8">
                 Kontaktoplysninger 
             </h2>
@@ -118,7 +118,7 @@
 
 
 <!-- FAQ -->
-<div class="bg-white light:bg-white dark:bg-white h-full py-4 mx-auto pt-24 md:pt-0 lg:pt-0">
+<div class="bg-white light:bg-white dark:bg-white h-full py-4 mx-auto pt-0 md:pt-0 lg:pt-0">
     <div class="pt-20 text-center mb-5 md:pt-0 lg:pt-10">
         <h3 class="font-sans text-2xl text-center font-semibold pt-20 lg:text-3xl tracking-tight text-black dark:text-black lg:font-semibold">
             Ofte stillede spørgsmål

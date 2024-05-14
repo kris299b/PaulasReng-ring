@@ -66,18 +66,23 @@
     </h2>
 </div>
 
-<div class="bg-white dark:bg-white light:bg-white px-0 flex flex-col justify justify-center h-full w-full p-8 md:px-0 md:flex-row lg:flex-row lg:w-full lg:pt-0 lg:pb-5 lg:px-0">
-    <div class="w-full md:w-full lg:w-full">
-        <img src="../assets/Guide-billede.jpg" alt="Guide-billede">
+<div class="bg-white dark:bg-white light:bg-white px-0 flex flex-col justify justify-center h-full w-full p-8 md:px-0 md:flex-row md:pt-2 lg:flex-row lg:w-full lg:pt-0 lg:pb-5 lg:px-0">
+    <div class="relative w-full md:w-full lg:w-full">
+        <img src="../assets/Guide-billede.jpg" alt="Guide-billede" class="w-full h-auto">
+        <RouterLink to="guide"> 
+            <button class="center-button hidden md:inline-block lg:hidden bg-darkbeige rounded-full text-black font-normal py-2 px-8 md:py-2 md:px-8 md:text-white lg:text-md lg:py-2 lg:px-8 lg:font-semibold">
+                Læs mere
+            </button>
+        </RouterLink>
     </div>
-    <div class="bg-beige light:bg-beige dark:bg-beige p-6 md:p-6 w-full md:w-full lg:w-full lg:px-12">
-        <p class="text-gray dark:text-gray text-sm pt-5 font-semibold pb-2 md:pt-3 lg:pt-16 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | GUIDE</p>
-        <h2 class="text-black dark:text-black text-4xl mt-2 md:text-3xl md:mx-0 lg:mx-0 lg:font-semibold lg:text-4xl lg:mr-10 lg:pb-0">Sådan får du mest mulig ud af din rengøringshjælp.</h2>
-        <p class="text-black dark:text-black pt-2 text-lg mt-3 font-semibold md:mx-0 md:text-lg lg:mx-0 lg:text-lg lg:font-semibold lg:pt-2">Går du med overvejelserne om, at ansætte en professionel til at udføre rengøringshjælpen i dit hjem?</p>
-        <p class="text-black dark:text-black pt-2 text-sm mt-3 font-base md:font-base md:mx-0 md:text-sm lg:mx-0 lg:text-sm lg:font-base lg:pt-2">Jeg har samlet nogle råd til dig i den indledende fase, som sikrer dig at du får mest muligt ud af din rengøringshjælp, og bliver mest mulig tilfreds. </p>
-        <div class="pb-6 md:px-0 pt-10 md:pt-5 md:pb-6 lg:pt-10">
+    <div class="bg-beige light:bg-beige dark:bg-beige p-6 md:p-0 w-full md:w-full lg:w-full lg:px-12">
+        <p class="text-gray dark:text-gray text-sm pt-5 font-semibold pb-2 md:pt-10 md:mx-5 lg:pt-20 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | GUIDE</p>
+        <h2 class="text-black dark:text-black text-4xl mt-2 md:text-3xl md:mx-5 lg:mx-0 lg:font-semibold lg:text-4xl lg:pl-5 lg:mr-10 lg:pb-0">Sådan får du mest mulig ud af din rengøringshjælp.</h2>
+        <p class="text-black dark:text-black pt-2 text-lg mt-3 font-semibold md:mx-5 md:text-sm lg:text-lg lg:font-semibold lg:pt-2">Går du med overvejelserne om, at ansætte en professionel til at udføre rengøringshjælpen i dit hjem?</p>
+        <p class="text-black dark:text-black pt-2 text-sm mt-3 font-base md:pt-1 md:mx-5 md:font-base md:mx-0 md:text-sm lg:pl-5 lg:mx-0 lg:text-sm lg:font-base lg:pt-2">Jeg har samlet nogle råd til dig i den indledende fase, som sikrer dig at du får mest muligt ud af din rengøringshjælp, og bliver mest mulig tilfreds. </p>
+        <div class="pb-6 md:px-0 pt-10 md:pt-5 md:pb-0 lg:pl-5 lg:pt-10">
             <RouterLink to="guide"> 
-                <button class="bg-darkbeige light:bg-darkbeige dark:bg-darkbeige rounded-full text-black dark:text-black font-normal py-2 px-8 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 lg:text-md lg:font-semibold">
+                <button class="inline block md:hidden lg:inline-block bg-darkbeige light:bg-darkbeige dark:bg-darkbeige rounded-full text-black dark:text-black font-normal py-2 px-8 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 lg:text-md lg:font-semibold">
                     Læs mere
                 </button>
             </RouterLink>
@@ -87,18 +92,18 @@
 
 
 <!-- Om sektion -->
-<div class="bg-white dark:bg-white light:bg-white flex justify justify-center h-20 pt-6 md:h-24 md:pt-10">
-    <h2 class="font-sans text-2xl text-black pt-0 font-semibold md:pb-0 md:font-semibold md:text-3xl md:px-20 md:text-center lg:pt-0 lg:pb-5 lg:text-black lg:text-3xl lg:font-semibold lg:text-center">Dit Lokale rengøringsfirma</h2>
+<div class="bg-white dark:bg-white light:bg-white flex justify justify-center h-20 pt-4 md:h-24 md:pt-10">
+    <h2 class="font-sans text-2xl text-black pt-0 pb-2 font-semibold md:pb-0 md:font-semibold md:text-3xl md:px-20 md:text-center lg:pt-0 lg:pb-5 lg:text-black lg:text-3xl lg:font-semibold lg:text-center">Dit Lokale rengøringsfirma</h2>
 </div>
 
 <div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-row lg:flex-row lg:w-full lg:pb-16">
-    <div class="bg-lightgray p-4 md:p-6 md:w-1/2 lg:w-2/5 lg:px-12">
-        <p class="text-gray dark:gray text-xs pt-5 font-semibold pb-2 lg:pt-8 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | OM MIG</p>
+    <div class="bg-lightgray p-4 pt-2 md:p-6 md:pb-0 md:w-1/2 lg:w-2/5 lg:px-12">
+        <p class="text-gray dark:gray text-xs pt-5 font-semibold pb-2 md:pt-2 lg:pt-8 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | OM MIG</p>
         <h2 class="text-black dark:text-black text-2xl font-semibold pb-4 lg:pb-6 lg:text-3xl">Jeg værdsætter tillid og tryghed, i det samarbejde jeg indgår med mine kunder </h2>
         <p class="text-black dark:text-black text-sm lg:text-base">Personligt betyder by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need. </p>
         <p class="text-black dark:text-black text-sm lg:text-base lg:pt-5">There are many variations of passages of Lorem Ipsum available, but the majority. So if you know many variations of passages of Lorem Ipsum. </p>
         <div class="row pt-6 pb-4 md:flex lg:flex lg:pt-8 lg:pb-0">
-            <div class="py-3 md:pr-3 lg:pt-0 lg:pr-3">
+            <div class="py-3 md:py-0 md:pr-3 lg:pt-0 lg:pr-3">
                 <RouterLink to="privatecleaning"> 
                     <button class="bg-blue dark:bg-blue hover:bg-darkblue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-1 md:px-4 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
                         Privatrengøring
@@ -250,7 +255,7 @@
 </div>
 
 <!-- kontaktformular sektion -->
-<section class="relative h-full flex flex-col items-center text-center content-start pt-10 lg:py-12">
+<section class="relative h-full flex flex-col items-center text-center content-start pt-10 md:flex-col lg:py-12">
     <div class="absolute top-0 left-0 w-full h-full overflow-hidden">
         <img class="min-w-full min-h-full absolute object-cover" src="../assets/Kontakt-form-billede.jpg" alt="Kontaktform-billede">
     </div>
@@ -310,7 +315,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
                     </svg>
                 </div>
-                <p class="font-sans text-base text-sm pl-2 lg:text-xs text-black dark:text-black lg:pl-2 lg:tracking-wider">
+                <p class="font-sans font-semibold text-xs pl-2 lg:text-xs text-black dark:text-black lg:pl-2 lg:tracking-wider">
                     60145811
                 </p>
             </div>
@@ -324,7 +329,7 @@
                         </g>
                     </svg>
                 </div>
-                <p class="font-sans text-base text-sm pl-2 lg:text-xs text-black dark:text-black lg:pl-2 lg:tracking-wider">
+                <p class="font-sans font-semibold text-xs pl-2 lg:text-xs text-black dark:text-black lg:pl-2 lg:tracking-wider">
                     PAULAS RENGØRING
                 </p>
             </div>
@@ -335,7 +340,7 @@
                         <path d="M0 0h24v24H0z" fill="none"/>
                     </svg>
                 </div>
-                <p class="font-sans text-base text-sm pl-2 lg:text-xs text-black dark:text-black lg:pl-2 lg:tracking-wider">
+                <p class="font-sans font-semibold text-xs pl-2 lg:text-xs text-black dark:text-black lg:pl-2 lg:tracking-wider">
                     PAULASRENGORING@GMAIL.COM
                 </p>
             </div>
@@ -345,7 +350,7 @@
 
 
 <!-- Kundeanmeldelser -->
-<div class="bg-white light:bg-white dark:bg-white lg:pt-10">
+<div class="bg-white light:bg-white dark:bg-white pt-4 lg:pt-10">
     <div>
         <h2 class="font-sans text-black text-2xl font-semibold dark:text-black pt-10 pb-10 text-center md:pb-5 lg:text-3xl lg:text-center lg:font-semibold lg:pb-10">
             Det siger mine kunder 
@@ -470,6 +475,45 @@
 #mergeRow-gdpr fieldset label {font-weight: normal;}
 #mc-embedded-subscribe-form .mc_fieldset{border:none;min-height: 0px;padding-bottom:0px;}
 #mc-embedded-subscribe {background-color:rgb(110, 118, 167); border-radius: 50%;}
+
+/* Base styles */
+.relative {
+    position: relative;
+}
+.center-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #c4a484; /* Replace with your actual color */
+    color: #000000;
+    border-radius: 9999px;
+    font-weight: 400;
+    padding: 0.5rem 2rem; /* 8px 32px */
+    display: none; /* Hidden by default */
+}
+.md\:inline-block {
+    display: inline-block;
+}
+.lg\:hidden {
+    display: none;
+}
+
+/* Medium screen */
+@media (min-width: 768px) {
+    .center-button {
+        padding: 0.25rem 1.5rem; /* 4px 24px */
+        display: inline-block; /* Visible on medium screens */
+    }
+}
+@media (min-width: 1024px) {
+    .center-button {
+        font-size: 1rem; /* 16px */
+        padding: 0.5rem 2rem; /* 8px 32px */
+        font-weight: 600;
+    }
+}
+
 </style>
 
 <script>

@@ -1,13 +1,13 @@
 <template>
 <!-- Hero section -->
-<section class="relative h-screen flex flex-col pt-5 lg:items-center lg:h-[80vh]">
+<section class="relative h-screen flex flex-col pt-5 lg:items-center md:h-[40vh] lg:h-[80vh]">
     <div class="heroimage absolute top-0 left-0 w-full h-full overflow-hidden">
         <img class="min-w-full min-h-full absolute object-cover" src="../assets/hero-copi-copi.jpg" alt="Private-cleaning">
     </div>
-    <div class="image-content z-10 pt-40 md:pt-80 lg:pt-40">
+    <div class="image-content z-10 pt-52 md:pt-40 lg:pt-40">
         <div>
-            <p class="text-white text-xs pb-2 pt-20 md:pb-4 md:text-xl lg:text-xl lg:pb-3 lg:pt-0">PAULAS RENGØRING | OM FIRMAET</p>
-            <h2 class="text-white text-base md:text-4xl md:pb-2 lg:pb-2 lg:font-semibold lg:text-5xl">Dit Lokale rengøringsfirma</h2>
+            <p class="font-sans text-white dark:text-white text-lg text-left px-4 md:text-center md:text-lg lg:text-md lg:text-left lg:pb-1 lg:px-5 lg:tracking-wider">PAULAS RENGØRING | OM FIRMAET</p>
+            <h2 class="font-sans text-white dark:text-white text-4xl text-left px-4 md:font-semibold md:text-center md:text-4xl lg:pb-2 lg:font-semibold lg:text-5xl">Dit Lokale rengøringsfirma</h2>
         </div>
     </div>
 </section>
@@ -16,8 +16,8 @@
 
 <!-- Værdisæt section -->
 <div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-row lg:flex-row lg:w-full lg:pt-20 lg:pb-5">
-    <div class="bg-lightgray p-6 md:p-6 md:w-1/2 lg:w-2/5 lg:px-12">
-        <p class="text-gray dark:text-gray text-xs pt-5 font-semibold pb-2 md:pt-3 lg:pt-10 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | VÆRDISÆT</p>
+    <div class="bg-lightgray p-6 md:p-6 md:pb-0 md:w-1/2 lg:w-2/5 lg:px-12">
+        <p class="text-gray dark:text-gray text-xs pt-5 font-semibold pb-2 md:pt-1 lg:pt-10 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | VÆRDISÆT</p>
         <p class="text-black dark:text-black pt-0 text-xl mt-3 font-semibold md:mx-0 md:text-md lg:mx-0 lg:text-lg lg:font-semibold lg:pt-2">Gensidig tillid</p>
         <p class="text-black dark:text-black text-sm mt-2 md:text-xs md:mx-0 lg:mx-0 lg:text-sm lg:mr-10 lg:pb-0">Det er vigtigt for mig, at vi skaber tillid til hinanden fra start, så vi kan indgå det bedste samarbejde med et stærkt fundament.</p>
         <p class="text-black dark:text-black pt-2 text-xl mt-3 font-semibold md:mx-0 md:text-md lg:mx-0 lg:text-lg lg:font-semibold lg:pt-2">Kundetilfredshed</p>
@@ -40,7 +40,7 @@
     </div>
 </div>
 
-<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-row lg:flex-row lg:w-full">
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:pt-0 md:flex-row lg:flex-row lg:w-full">
     <div class="md:w-1/2 lg:w-1/2">
         <img src="../assets/Paulas-rengøring.jpg" alt="om-firmaet-billede">
     </div>
@@ -52,25 +52,26 @@
         <p class="text-black text-sm lg:font-semibold lg:text-base">Jeg har mange års erfaring med privat og erhvervsrengøring.</p>
         <p class="text-black text-sm lg:font-base lg:pt-3 lg:pr-20 lg:text-base">Som kunde hos mig, kan du væres sikker på den bedste service, hvor der ikke bliver gået på kompromis med kvliteten. Du kan føle dig i trykke hænder, i et samarbejde med mig.  Dine ønsker og behov, vil altid være i centrum, og danne ramme om vores samarbejde. </p>
         <div class="lg:pt-5">
-            <button class="bg-blue hover:bg-darkblue rounded-full text-white text-sm font-bold py-3 px-4 mt-4 md:py-2 md:px-4 lg:px-6 lg:py-2 lg:font-normal lg:tracking-wider">Lad os tage en uforpligtende snak</button>
+            <button class="bg-blue hover:bg-darkblue rounded-full text-white text-sm text-base py-3 px-8 mt-4 md:py-2 md:px-4 lg:px-6 lg:py-2 lg:font-normal lg:tracking-wider">Lad os tage en uforpligtende snak</button>
         </div>
     </div>
 </div>
 
 
+
 <!-- Om sektion -->
-<div class="bg-white dark:bg-white light:bg-white flex justify justify-center h-20 pt-6 md:h-24 md:pt-10">
-    <h1 class="text-black font-semibold text-base md:text-lg lg:text-3xl">Dit Lokale rengøringsfirma</h1>
+<div class="bg-white dark:bg-white light:bg-white flex justify justify-center h-20 pt-4 md:h-24 md:pt-10">
+    <h2 class="font-sans text-2xl text-black pt-0 pb-2 font-semibold md:pb-0 md:font-semibold md:text-3xl md:px-20 md:text-center lg:pt-0 lg:pb-5 lg:text-black lg:text-3xl lg:font-semibold lg:text-center">Dit Lokale rengøringsfirma</h2>
 </div>
 
-<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-row lg:flex-row lg:w-full lg:pb-20">
-    <div class="bg-lightgray p-4 md:p-6 md:w-1/2 lg:w-2/5 lg:px-12">
-        <p class="text-gray dark:gray text-xs pt-5 font-semibold pb-2 lg:pt-10 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | OM MIG</p>
-        <h2 class="text-black dark:text-black text-2xl font-semibold pb-4 lg:text-2xl">Jeg værdsætter tillid og tryghed, i det samarbejde jeg indgår med mine kunder </h2>
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 pb-20 md:pb-20 md:flex-row lg:flex-row lg:w-full lg:pb-16">
+    <div class="bg-lightgray p-4 pt-2 md:p-6 md:pb-0 md:w-1/2 lg:w-2/5 lg:px-12">
+        <p class="text-gray dark:gray text-xs pt-5 font-semibold pb-2 md:pt-2 lg:pt-8 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | OM MIG</p>
+        <h2 class="text-black dark:text-black text-2xl font-semibold pb-4 lg:pb-6 lg:text-3xl">Jeg værdsætter tillid og tryghed, i det samarbejde jeg indgår med mine kunder </h2>
         <p class="text-black dark:text-black text-sm lg:text-base">Personligt betyder by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need. </p>
         <p class="text-black dark:text-black text-sm lg:text-base lg:pt-5">There are many variations of passages of Lorem Ipsum available, but the majority. So if you know many variations of passages of Lorem Ipsum. </p>
-        <div class="row pt-4 pb-4 md:flex lg:flex lg:pt-8">
-            <div class="py-3 md:pr-3 lg:pt-0 lg:pr-3">
+        <div class="row pt-6 pb-4 md:flex lg:flex lg:pt-8 lg:pb-0">
+            <div class="py-3 md:py-0 md:pr-3 lg:pt-0 lg:pr-3">
                 <RouterLink to="privatecleaning"> 
                     <button class="bg-blue dark:bg-blue hover:bg-darkblue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-1 md:px-4 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
                         Privatrengøring
@@ -87,7 +88,7 @@
         </div>
     </div>
     <div class="md:w-1/2 lg:w-2/5">
-        <img src="../assets/Paulasrengøring-om-billede.jpg" alt="Kvinde der smiler">
+        <img src="../assets/Paulasrengøring-om-billede.jpg" alt="Paulas-rengøring-om">
     </div>
 </div>
 

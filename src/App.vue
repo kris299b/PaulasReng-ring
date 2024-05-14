@@ -144,7 +144,7 @@
               <div>
                   <h2 class="font-sans mt-5 mb-6 text-xs font-semibold text-black uppercase dark:text-black lg:mt-0">Telefontider</h2>
                   <div class="text-xs text-gray-500 dark:text-darkgray font-medium lg:text-xs">
-                    <div class="flex justify-between md:gap-x-5 lg:gap-12">
+                    <div class="flex justify-start gap-5 md:gap-x-5 lg:gap-12 lg:justify-between">
                       <p class="mb-4">
                         Mandag
                       </p>
@@ -152,7 +152,7 @@
                         09.00 - 14.00
                       </p>
                     </div>
-                    <div class="flex justify-between lg:gap-12">
+                    <div class="flex justify-start gap-7 lg:gap-12 lg:justify-between">
                       <p class="mb-4">
                         Tirsdag
                       </p>
@@ -160,7 +160,7 @@
                         09.00 - 15.00
                       </p>
                     </div>
-                    <div class="flex justify-between lg:gap-12">
+                    <div class="flex justify-start gap-6 lg:gap-12 lg:justify-between">
                       <p class="mb-4">
                         Onsdag
                       </p>
@@ -168,7 +168,7 @@
                         09.00 - 15.00
                       </p>
                     </div>
-                    <div class="flex justify-between lg:gap-12">
+                    <div class="flex justify-start gap-6 lg:gap-12 lg:justify-between">
                       <p class="mb-4">
                         Torsdag
                       </p>
@@ -176,7 +176,7 @@
                         09.00 - 15.00
                       </p>
                     </div>
-                    <div class="flex justify-between lg:gap-12">
+                    <div class="flex justify-start gap-7 lg:gap-12 lg:justify-between">
                       <p class="mb-4">
                         Fredag
                       </p>

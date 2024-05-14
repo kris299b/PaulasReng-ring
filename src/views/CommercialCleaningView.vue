@@ -1,34 +1,32 @@
 <template>
 
     <!-- Hero section -->
-    <section class="relative h-screen flex flex-col py-5 lg:items-center lg:h-[80vh]">
+    <section class="relative h-screen flex flex-col py-5 lg:items-center md:h-[40vh] lg:h-[80vh]">
         <div class="heroimage absolute top-0 left-0 w-full h-full overflow-hidden">
             <img class="min-w-full min-h-full absolute object-cover" src="../assets/erhverv-billede.jpg" alt="Commercial-cleaning">
         </div>
-        <div class="image-content z-10 pt-40 md:pt-80 lg:pt-40 lg:text-left">
-            <div>
-                <p class="font-sans text-white dark:text-white text-1xl text-left px-4 md:text-lg lg:text-md lg:text-left lg:pb-1 lg:px-0 lg:tracking-wider">PAULAS RENGØRING | ERHVERVSRENGØRING</p>
-                <h2 class="font-sans text-white dark:text-white px-5 text-3xl md:text-5xl lg:px-0 lg:pb-2 lg:font-semibold lg:text-5xl">Professionel rengøring til erhverv</h2>
-                <p class="font-sans text-white dark:text-white md:text-sm lg:text-lg">
-                    Jeg løser rengøringsopgaver for små og mellemstore virksomheder, og institutioner.
-                </p>
-            </div>
+        <div class="image-content z-10 pt-40 md:pt-40 lg:pt-40">
+        <div>
+            <p class="font-sans text-white dark:text-white text-lg text-left px-4 md:text-center md:text-lg lg:text-md lg:text-left lg:pb-1 lg:px-5 lg:tracking-wider">PAULAS RENGØRING | ERHVERVSRENGØRING</p>
+            <h2 class="font-sans text-white dark:text-white text-4xl text-left px-4 md:font-semibold md:text-center md:text-4xl lg:pb-2 lg:font-semibold lg:text-5xl">Professionel rengøring til erhverv</h2>
+            <p class="font-sans text-white text-lg px-4 pt-3 dark:text-white md:text-center md:text-sm lg:text-lg">Jeg løser rengøringsopgaver for små og mellemstore virksomheder, og institutioner. </p>
         </div>
+    </div>
     </section>
     
-    
-<!-- Tryghed-section -->  
+
+<!-- Tryghed-section -->
 <div class="bg-white light:bg-white dark:bg-white">
-    <h2 class="text-center text-2xl pt-10 pb-5 font-semibold text-black dark:text-black lg:font-semibold lg:text-3xl lg:text-center lg:pt-10">Tryghed i vores samarbejde</h2>
+    <h2 class="text-left text-2xl px-5 pt-10 pb-6 font-semibold text-black dark:text-black md:text-center lg:font-semibold lg:text-3xl lg:text-center lg:pt-10">Tryghed i vores samarbejde</h2>
 </div>
-    
-<div class="bg-white dark:bg-white light:bg-white px-0 flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-row lg:flex-row lg:w-full lg:pt-10 lg:pb-20">
-    <div class="bg-lightgray p-4 md:p-6 w-full md:w-1/2 lg:w-1/2 lg:px-10">
-        <p class="text-gray dark:text-gray text-sm md:text-sm font-base pt-5 pb-2 lg:pt-20 lg:text-sm">PAULAS RENGØRING | TRYGHED</p>
-        <h2 class="text-black text-3xl font-semibold pb-4 md:text-3xl lg:text-4xl">Det er vigtigt for mig, at du er tryg i vores samarbejde.</h2>
-        <p class="text-black text-sm font-semibold md:text-sm md:font-semibold lg:font-semibold lg:text-base">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>  
-        <p class="text-black text-sm font-base md:text-sm md:font-base lg:pt-4 lg:font-base lg:text-base">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>  
-        <div class="pb-6 md:px-2 pt-10 md:pb-6 lg:pt-5 lg:px-0">
+
+<div class="bg-white light:white dark:bg-white px-0 flex flex-col justify-center h-full w-full p-8 md:px-0 md:flex-row lg:flex-row lg:w-full lg:pt-5 lg:pb-5 lg:px-0">
+    <div class="bg-lightgray light:lightgray dark:lightgray p-6 md:p-0 w-full md:w-full lg:w-full lg:px-12">
+        <p class="text-darkgray dark:text-darkgray text-sm pt-5 font-semibold pb-2 md:pt-4 md:pb-0 md:pl-5 lg:pt-12 lg:pl-0 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | TRYGHED</p>
+        <h2 class="text-black dark:text-black text-4xl mt-2 md:text-3xl md:mx-5 lg:mx-0 lg:font-semibold lg:text-4xl lg:mr-10 lg:pb-0">Det er vigtigt for mig, at du er tryg i vores samarbejde.</h2>
+        <p class="text-black dark:text-black pt-2 text-lg mt-3 font-semibold md:pt-1 md:mx-5 md:text-sm lg:mx-0 lg:text-lg lg:font-semibold lg:pt-2">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+        <p class="text-black dark:text-black pt-2 text-lg mt-3 text-base md:pt-0 md:mx-5 md:text-sm lg:mx-0 lg:text-lg lg:text-base lg:pt-2">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+        <div class="inline-block pt-8 md:hidden lg:inline-block inset-0 flex lg:pt-10 lg:justify-start">
             <RouterLink to="contact"> 
                 <button class="flex hover:bg-transparent bg-blue light:bg-blue dark:bg-blue font-normal lg:font-normal py-2 px-6 rounded-full lg:mr-6 lg:py-2 lg:px-6">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="white" class="w-6 h-6 lg:w-5 lg:h-5">
@@ -39,19 +37,30 @@
             </RouterLink>
         </div>
     </div>
-    <div class="w-full md:w-1/2 lg:w-1/2">
-        <img src="../assets/kontor-erhverv.jpg" alt="Erhverv-tryghed-billede">
+    <div class="w-full md:w-full lg:w-full relative">
+        <img src="../assets/kontor-erhverv.jpg" alt="Privatrengøring-tryghed" class="w-full">
+        <div class="hidden md:inline-block md:place-items-center lg:hidden absolute inset-0 flex items-center justify-center">
+            <RouterLink to="contact"> 
+                <button class="flex hover:bg-transparent bg-blue light:bg-blue dark:bg-blue font-normal lg:font-normal py-2 px-6 rounded-full lg:mr-6 lg:py-2 lg:px-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="white" class="w-6 h-6 lg:w-5 lg:h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                    </svg>
+                    <p class="text-xs pt-1 pl-2 text-white light:text-white dark:text-white lg:text-sm lg:pt-0 lg:pl-2 lg:tracking-wider">Lad os tage en uforpligtende snak</p>
+                </button>
+            </RouterLink>
+        </div>
     </div>
 </div>
+
     
 <!-- Tilpassede løsninger erhvervsrengøring - sektion -->
 <div class="bg-white dark:bg-white text-black dark-text-black lg:pt-0">
-    <p class="text-left px-5 pt-12 text-2xl font-semibold md:text-center md:pb-10 md:px-40 lg:font-semibold lg:text-center lg:text-3xl lg:pt-0">
+    <p class="text-left px-5 pt-12 text-2xl font-semibold md:text-center md:pb-10 md:px-40 lg:font-semibold lg:text-center lg:text-3xl lg:pt-10">
         Skræddersyede løsninger tilpasset dine ønsker og behov 
     </p>
 </div>
 
-<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-row lg:flex-row lg:w-full lg:pb-5">
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center pb-0 h-1/2 w-full p-8 md:flex-row lg:flex-row lg:w-full lg:pb-5">
     <div class="w-full md:w-1/2 lg:w-1/2">
         <img src="../assets/Paulas-rengøring.jpg" alt="om-firmaet-billede">
     </div>
@@ -67,7 +76,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
                 </svg>
             </div>
-            <p class="font-sans text-base text-xs pl-2 lg:text-xs text-black dark:text-black md:text-xs lg:pl-2 lg:font-semibold lg:tracking-widest">
+            <p class="font-sans font-semibold text-xs pl-2 lg:text-xs text-black dark:text-black md:text-xs lg:pl-2 lg:font-semibold lg:tracking-widest">
                 60145811
             </p>
         </div>
@@ -81,7 +90,7 @@
                     </g>
                 </svg>
             </div>
-            <p class="font-sans text-base text-xs pl-2 lg:pb-0 lg:text-xs text-black dark:text-black md:text-xs lg:pl-2 lg:font-semibold lg:tracking-widest">
+            <p class="font-sans font-semibold  text-xs pl-2 lg:pb-0 lg:text-xs text-black dark:text-black md:text-xs lg:pl-2 lg:font-semibold lg:tracking-widest">
                 PAULAS RENGØRING
             </p>
         </div>
@@ -92,7 +101,7 @@
                     <path d="M0 0h24v24H0z" fill="none"/>
                 </svg>
             </div>
-            <p class="font-sans text-base text-xs pl-2 pb-10 md:pb-0 lg:text-xs text-black dark:text-black md:text-xs lg:pl-2 lg:pb-10 lg:font-semibold lg:tracking-widest">
+            <p class="font-sans font-semibold text-xs pl-2 pb-10 md:pb-0 lg:text-xs text-black dark:text-black md:text-xs lg:pl-2 lg:pb-10 lg:font-semibold lg:tracking-widest">
                 PAULASRENGORING@GMAIL.COM
             </p>
         </div>
@@ -110,7 +119,7 @@
     <div class="bg-lightgray p-4 md:p-6 w-full md:w-1/2 lg:w-1/2 lg:px-10">
         <p class="text-gray dark:text-gray text-sm md:text-sm font-base pt-5 pb-2 lg:pt-12 lg:text-sm">PAULAS RENGØRING | FORLØBET</p>
         <h2 class="text-black text-3xl font-semibold pb-4 md:text-3xl lg:text-4xl lg:pr-10">Sådan foregår forløbet hos Paulas rengøring</h2>
-        <p class="text-black text-sm font-semibold md:text-sm md:font-semibold lg:font-semibold lg:text-base">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+        <p class="text-black text-sm font-semibold pb-5 md:text-sm md:font-semibold lg:font-semibold lg:text-base">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
         <div class="flex pt-2 pb-2 lg:pt-10">
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="darkgray" class="w-6 h-6">
@@ -160,7 +169,7 @@
     <!-- Kundeanmeldelser -->
     <div class="bg-white light:bg-white dark:bg-white">
         <div>
-            <h2 class="font-sans text-black text-2xl font-semibold dark:text-black pt-10 pb-10 text-center lg:text-4xl lg:text-center lg:font-semibold lg:pt-0 lg:pb-20">
+            <h2 class="font-sans text-black text-2xl font-semibold dark:text-black pt-5 pb-10 text-center lg:text-4xl lg:text-center lg:font-semibold lg:pt-0 lg:pb-20">
                 Det siger mine kunder 
             </h2>
         </div>
