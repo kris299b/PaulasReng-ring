@@ -270,7 +270,7 @@
         </p>
     </div>
     
-    <div class="flex justify justify-center flex-col md:flex-col md:w-full lg:flex-row lg:space-x-0 lg:pt-5 lg:w-3/4 z-20 lg:pt-24">
+    <div class="flex justify justify-center flex-col md:flex-col md:w-full md:pl-40 md:pb-20 lg:flex-row lg:space-x-0 lg:pt-5 lg:w-3/4 z-20 lg:pt-24">
         <div class="bg-white dark:bg-white max-w-lg shadow-sm lg:w-2/3">
             <div class="bg-white dark:bg-white max-w-lg">
                 <h2 class="mb-4 text-2xl tracking-tight font-semibold text-left pt-10 px-5 text-black dark:text-black md:px-5 md:pt-10 md:text-3xl md:text-left lg:text-3xl lg:px-5 lg:pr-10 lg:font-semibold lg:pt-10 lg:text-left">
@@ -304,7 +304,7 @@
                 </div>
             </div>
         </div>
-        <div class="h-67 bg-lighgray light:bg-lightgray dark:bg-lightgray md:w-3/4 md:h-60 lg:h-96 lg:w-1/3 lg:justify-start lg:text-left">
+        <div class="h-67 bg-lighgray light:bg-lightgray dark:bg-lightgray md:w-3/4 md:h-64 lg:h-96 lg:w-1/3 lg:justify-start lg:text-left">
             <h2 class="justify-start pr-24 font-sans text-2xl text-black pt-6 pb-6 font-semibold md:pr-60 md:pb-10 md:font-semibold md:text-center lg:pt-10 lg:pb-0 lg:text-black lg:text-2xl lg:font-semibold lg:pl-8">
                 Kontaktoplysninger 
             </h2>
@@ -340,7 +340,7 @@
                         <path d="M0 0h24v24H0z" fill="none"/>
                     </svg>
                 </div>
-                <p class="font-sans font-semibold text-xs pl-2 lg:text-xs text-black dark:text-black lg:pl-2 lg:tracking-wider">
+                <p class="font-sans font-semibold text-xs pl-2 md:pb-4 lg:text-xs text-black dark:text-black lg:pl-2 lg:tracking-wider">
                     PAULASRENGORING@GMAIL.COM
                 </p>
             </div>
@@ -476,6 +476,7 @@
 #mc-embedded-subscribe-form .mc_fieldset{border:none;min-height: 0px;padding-bottom:0px;}
 #mc-embedded-subscribe {background-color:rgb(110, 118, 167); border-radius: 50%;}
 
+
 /* Base styles */
 .relative {
     position: relative;
@@ -513,6 +514,7 @@
         font-weight: 600;
     }
 }
+
 
 </style>
 
