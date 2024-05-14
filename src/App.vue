@@ -68,14 +68,14 @@
 
 
 <footer class="bg-lightgray dark:lightgray">
-    <div class="mx-4 px-4 py-20 bg-darkblue dark:bg-darkblue flex md:items-center md:justify-between lg:py-5 lg:mx-20">
-      <div class="col flex columns-1 md:columns-3 lg:columns-3 lg:space-x-56">
+    <div class="mx-4 px-4 py-8 bg-darkblue dark:bg-darkblue flex md:items-center md:px-16 md:justify-between lg:px-44 lg:py-5 lg:mx-20">
+      <div class="col flex columns-1 space-x-8 h-6 md:space-x-48 md:columns-3 lg:h-16 lg:columns-3 lg:space-x-56">
         <div class="col font-sans flex items-center">
           <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="#fdfdfd">
             <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.89 2 1.99 2H20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
             <path d="M0 0h24v24H0z" fill="none"/>
           </svg>
-          <p class="lg:text-xs text-white dark:text-white lg:pl-2 lg:tracking-wider">
+          <p class="text-white dark:text-white lg:text-base lg:pl-2 lg:tracking-wider">
             Email
           </p>
         </div>
@@ -83,7 +83,7 @@
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
           </svg>
-          <p class="lg:text-xs text-white dark:text-white lg:pl-2 lg:tracking-wider">
+          <p class="text-white dark:text-white lg:text-base lg:pl-2 lg:tracking-wider">
             Tlf nummer
           </p>
         </div>
@@ -95,7 +95,7 @@
               </g>
             </g>
           </svg>
-          <p class="lg:text-xs text-white dark:text-white lg:pl-2 lg:tracking-wider">
+          <p class="text-white dark:text-white lg:text-base lg:pl-2 lg:tracking-wider">
             Facebook
           </p>
         </div>
