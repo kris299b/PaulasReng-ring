@@ -8,14 +8,14 @@
     <div class="image-content z-10 pt-40 md:pt-40 lg:pt-40">
         <div>
             <p class="font-sans text-white dark:text-white text-1xl md:text-xl lg:text-md lg:pb-1 lg:tracking-wider">PAULAS RENGØRING | KONTAKT </p>
-            <h2 class="font-sans text-white dark:text-white px-5 text-3xl md:text-4xl lg:px-40 lg:pb-2 lg:font-semibold lg:text-5xl">Professionel rådgivning med dig i centrum</h2>
+            <h2 class="font-sans text-white dark:text-white px-5 text-2xl md:text-4xl lg:px-40 lg:pb-2 lg:font-semibold lg:text-4xl">Professionel rådgivning med dig i centrum</h2>
         </div>
     </div>
 </section>
 
 <div class="bg-white light:bg-white dark:bg-white lg:pt-5">
     <div>
-        <h2 class="font-sans text-black text-left text-2xl px-10 font-semibold dark:text-black pt-10 pb-10 md:text-center lg:text-2xl lg:text-center lg:font-semibold lg:pt-10 lg:pb-10">
+        <h2 class="font-sans text-black text-left text-xl px-16 text-center font-semibold dark:text-black pt-10 pb-10 md:text-center lg:text-2xl lg:text-center lg:font-semibold lg:pt-10 lg:pb-10">
             Du er velkommen til at kontakte mig
         </h2>
     </div>
@@ -30,13 +30,13 @@
         <h2 class="font-sans text-4xl font-semibold lg:pt-0 text-center md:text-center lg:text-5xl lg:font-semibold lg:text-center">
             Har du spørgsmål?
         </h2>
-        <p class="pb-10 font-sans text-sm text-center px-10 pt-3 md:pt-4 md:text-center md:px-10 lg:text-center lg:text-sm lg:px-40 lg:pt-5">There are many variations of passages of Lorem Ipsum available, but the majority 
+        <p class="pb-10 font-sans text-sm text-center px-10 pt-3 md:pt-4 md:text-center md:px-10 lg:text-center lg:text-base lg:px-40 lg:pt-5">There are many variations of passages of Lorem Ipsum available, but the majority 
             have suffered alteration in some form. by injected humour, or randomised words which
             don't look even slightly believable. 
         </p>
     </div>
     
-    <div class="flex justify justify-center flex-col md:flex-col md:w-full lg:flex-row lg:space-x-0 lg:pt-5 lg:w-3/4 z-20 lg:pt-24">
+    <div class="flex justify justify-center flex-col md:flex-col md:w-full md:pl-40 md:pb-20 lg:flex-row lg:space-x-0 lg:pt-5 lg:w-3/4 z-20 lg:pt-24">
         <div class="bg-white dark:bg-white max-w-lg shadow-sm lg:w-2/3">
             <div class="bg-white dark:bg-white max-w-lg">
                 <h2 class="mb-4 text-2xl tracking-tight font-semibold text-left pt-10 px-5 text-black dark:text-black md:px-5 md:pt-10 md:text-3xl md:text-left lg:text-3xl lg:px-5 lg:pr-10 lg:font-semibold lg:pt-10 lg:text-left">
@@ -70,8 +70,8 @@
                 </div>
             </div>
         </div>
-        <div class="bg-lightblue light:bg-lightblue dark:bg-lightblue md:w-3/4 md:h-60 lg:h-96 lg:w-1/3 lg:justify-start lg:text-left">
-            <h2 class="justify-start pr-24 font-sans text-2xl text-black pt-6 pb-6 font-semibold md:pr-60 md:pb-10 md:font-semibold md:text-center lg:pt-10 lg:pb-0 lg:text-black lg:text-2xl lg:font-semibold lg:pl-8">
+        <div class="bg-lightblue light:bg-lightblue dark:bg-lightblue md:w-3/4 md:h-60 lg:h-96 lg:w-2/4 lg:justify-start">
+            <h2 class="justify-start font-sans text-2xl text-black px-8 font-semibold md:pr-60 md:pb-10 md:font-semibold md:text-center lg:pt-10 lg:pb-0 lg:text-black lg:text-2xl lg:font-semibold lg:pl-8">
                 Kontaktoplysninger 
             </h2>
             <p class="text-black px-8 text-left lg:text-black lg:text-sm lg:px-8 lg:pt-2"> Ønsker du at kontakte mig pr. telefon, over mail eller facebook er du også meget velkommen til at gøre dette.</p>
@@ -99,7 +99,7 @@
                     PAULAS RENGØRING
                 </p>
             </div>
-            <div class="flex justify-start px-8 py-2 pb-7 lg:pt-5">
+            <div class="flex justify-start px-8 py-2 lg:pt-5">
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#444444">
                         <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.89 2 1.99 2H20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
@@ -118,8 +118,8 @@
 
 
 <!-- FAQ -->
-<div class="bg-white light:bg-white dark:bg-white h-full py-4 mx-auto pt-0 md:pt-0 lg:pt-0">
-    <div class="pt-20 text-center mb-5 md:pt-0 lg:pt-10">
+<div class="bg-white light:bg-white dark:bg-white h-full py-4 mx-auto md:pt-0 lg:pt-0">
+    <div class="text-center mb-5 md:pt-0 lg:pt-10">
         <h3 class="font-sans text-2xl text-center font-semibold pt-20 lg:text-3xl tracking-tight text-black dark:text-black lg:font-semibold">
             Ofte stillede spørgsmål
         </h3>
