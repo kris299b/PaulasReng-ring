@@ -60,7 +60,7 @@
     </p>
 </div>
 
-<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center pb-0 h-1/2 w-full p-8 md:flex-row lg:flex-row lg:w-full lg:pb-5">
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center pb-0 h-1/2 w-full p-8 md:flex-col lg:flex-row lg:w-full lg:pb-5">
     <div class="w-full md:w-1/2 lg:w-1/2">
         <img src="../assets/Paulas-rengøring.jpg" alt="om-firmaet-billede">
     </div>
@@ -115,7 +115,7 @@
     </p>
 </div>
 
-<div class="bg-white dark:bg-white light:bg-white px-0 flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-row lg:flex-row lg:w-full lg:pt-10 lg:pb-20">
+<div class="bg-white dark:bg-white light:bg-white px-0 flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-col lg:flex-row lg:w-full lg:pt-10 lg:pb-20">
     <div class="bg-lightgray p-4 md:p-6 w-full md:w-1/2 lg:w-1/2 lg:px-10">
         <p class="text-gray dark:text-gray text-sm md:text-sm font-base pt-5 pb-2 lg:pt-12 lg:text-sm">PAULAS RENGØRING | FORLØBET</p>
         <h2 class="text-black text-3xl font-semibold pb-4 md:text-3xl lg:text-4xl lg:pr-10">Sådan foregår forløbet hos Paulas rengøring</h2>

@@ -14,12 +14,12 @@
 </section>
 
 <!-- Pris sektion -->
-<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-row lg:flex-row lg:w-full lg:pt-20 lg:pb-20">
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:pt-20 md:flex-row lg:flex-row lg:w-full lg:pt-20 lg:pb-20">
     <div class="md:w-1/2 lg:w-2/5">
         <img src="../assets/Paulasrengøring-pris-billede.jpg" alt="Paulas-rengøring-pris-billede">
     </div>
-    <div class="bg-lightgray p-4 md:p-6 md:w-1/2 md:pt-10 lg:w-2/5 lg:px-12">
-        <p class="text-gray dark:gray text-xs pt-5 font-semibold pb-2 lg:pt-20 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | PRIS</p>
+    <div class="bg-lightgray p-4 md:p-6 md:w-1/2 md:pt-5 lg:w-2/5 lg:px-12">
+        <p class="text-gray dark:gray text-xs pt-5 font-semibold pb-2 lg:pt-12 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | PRIS</p>
         <h2 class="text-black dark:text-black text-2xl font-semibold pb-4 lg:text-4xl">PAULAS RENGØRING </h2>
         <p class="text-black dark:text-black text-sm font-semibold pb-4 md:font-semibold lg:text-base lg:pt-1">There are many variations of passages of Lorem Ipsum available, but the majority. So if you know many variations of passages of Lorem Ipsum. </p>
         <p class="text-black dark:text-black text-lg pb-2 font-semibold md:font-semibold md:pt-4 md:text-lg lg:font-semibold lg:text-lg lg:pt-4">Timepris</p>

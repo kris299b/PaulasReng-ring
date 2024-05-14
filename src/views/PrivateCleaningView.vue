@@ -128,10 +128,11 @@
 </div>
 
 <div class="bg-white dark:bg-white light:bg-white px-0 flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-col lg:flex-row lg:w-full lg:pt-10 lg:pb-20">
-    <div class="bg-lightgray p-4 md:p-6 w-full md:w-full lg:w-1/2 lg:px-10">
-        <p class="text-gray dark:text-gray text-sm md:text-sm font-base pt-5 pb-2 lg:pt-20 lg:text-sm">PAULAS RENGØRING | FORLØBET</p>
-        <h2 class="text-black text-3xl font-semibold pb-4 md:text-3xl lg:text-4xl lg:pr-10">Sådan foregår forløbet hos Paulas rengøring.</h2>
-        <div class="flex pt-2 pb-2 lg:pt-8">
+    <div class="bg-lightgray p-4 md:p-6 w-full md:w-1/2 lg:w-1/2 lg:px-10">
+        <p class="text-gray dark:text-gray text-sm md:text-sm font-base pt-5 pb-2 lg:pt-12 lg:text-sm">PAULAS RENGØRING | FORLØBET</p>
+        <h2 class="text-black text-3xl font-semibold pb-4 md:text-3xl lg:text-4xl lg:pr-10">Sådan foregår forløbet hos Paulas rengøring</h2>
+        <p class="text-black text-sm font-semibold pb-5 md:text-sm md:font-semibold lg:font-semibold lg:text-base">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+        <div class="flex pt-2 pb-2 lg:pt-10">
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="darkgray" class="w-6 h-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
@@ -172,7 +173,7 @@
             <p>Vi vil i fællesskab udarbejde en plan, over de arbejdsopgaver jeg skal løse for dig, som der altid være plads til at kunne ændre i. Det er dine behov og ønsker, der er i centrum. Når planen er på plads og godkendt, vil vi indgå samarbejdet, og efter aftalt dato vil jeg påbegynde den skræddersyede rengøringshjælp til dig. </p>
         </div>
     </div>
-    <div class="w-full lg:w-full lg:w-1/2">
+    <div class="w-full md:w-1/2 lg:w-1/2">
         <img src="../assets/kontakt-billede.jpg" alt="Forløb-billede">
     </div>
 </div>

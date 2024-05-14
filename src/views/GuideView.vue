@@ -28,7 +28,7 @@
 
 <!--Guide-help-section-->
 <!--Box 1-->
-<div class="flex bg-white dark:bg-white light:bg-white flex flex-col justify justify-center w-full pt-20 md:flex-row md:justify-end lg:flex-row lg:w-full lg:pb-0 lg:mx-auto lg:justify-end">
+<div class="flex bg-white dark:bg-white light:bg-white flex flex-col justify justify-center w-full pt-20 md:pt-10 md:flex-row md:justify-end lg:flex-row lg:w-full lg:pb-0 lg:mx-auto lg:justify-end">
     <div class="md:1/4 lg:w-1/4">
         <img src="../assets/Booking-møde.jpg" alt="Man-standing-in-door">
     </div>
@@ -67,7 +67,7 @@
 </div>
 
 <!--Box 4-->
-<div class="flex bg-white dark:bg-white light:bg-white flex flex-col justify justify-center w-full pt-20 md:flex-row md:justify-end lg:flex-row lg:w-full lg:pb-0 lg:mx-auto lg:justify-start">
+<div class="flex bg-white dark:bg-white light:bg-white flex flex-col justify justify-center w-full pt-20 md:flex-row md:justify-end lg:flex-row lg:w-full lg:pb-10 lg:mx-auto lg:justify-start">
     <div class="w-full p-4 md:2/4 lg:w-2/4 lg:pl-8 lg:pt-20 lg:pr-8 bg-lightgray">
         <h1 class="text-black font-semibold text-base pb-2 md:text-2xl lg:text-2xl md:pt-12 lg:pt-0">Skal jeg være hjemme?</h1>
         <p class="text-black text-sm md:text-base md:pr-5 md:pb-3 md:font-semibold lg:font-semibold">Ønsker du at være hjemme når rengøringshjælpen kommer, eller har du andre ærinder du vil foretage dig imens?</p>
