@@ -35,8 +35,9 @@
             </div>
         </div>
     </div>
-
+    <CookieBanner />
 </section>
+
 
 
 <!-- Værdisæt section -->
@@ -77,7 +78,7 @@
     </div>
     <div class="bg-beige light:bg-beige dark:bg-beige p-6 md:p-0 w-full md:w-full lg:w-full lg:px-12">
         <p class="text-gray dark:text-gray text-sm pt-5 font-semibold pb-2 md:pt-10 md:mx-5 lg:pt-20 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | GUIDE</p>
-        <h2 class="text-black dark:text-black text-4xl mt-2 md:text-3xl md:mx-5 lg:mx-0 lg:font-semibold lg:text-4xl lg:pl-5 lg:mr-10 lg:pb-0">Sådan får du mest mulig ud af din rengøringshjælp.</h2>
+        <h2 class="text-black dark:text-black text-3xl font-semibold mt-2 md:text-3xl md:mx-5 lg:mx-0 lg:font-semibold lg:text-4xl lg:pl-5 lg:mr-10 lg:pb-0">Sådan får du mest mulig ud af din rengøringshjælp.</h2>
         <p class="text-black dark:text-black pt-2 text-lg mt-3 font-semibold md:mx-5 md:text-sm lg:text-lg lg:font-semibold lg:pt-2">Går du med overvejelserne om, at ansætte en professionel til at udføre rengøringshjælpen i dit hjem?</p>
         <p class="text-black dark:text-black pt-2 text-sm mt-3 font-base md:pt-1 md:mx-5 md:font-base md:mx-0 md:text-sm lg:pl-5 lg:mx-0 lg:text-sm lg:font-base lg:pt-2">Jeg har samlet nogle råd til dig i den indledende fase, som sikrer dig at du får mest muligt ud af din rengøringshjælp, og opnår størst mulig tilfredshed. </p>
         <div class="pb-6 md:px-0 pt-10 md:pt-5 md:pb-0 lg:pl-5 lg:pt-10">
@@ -93,11 +94,11 @@
 
 <!-- Om sektion -->
 <div class="bg-white dark:bg-white light:bg-white flex justify justify-center h-20 pt-4 md:h-24 md:pt-10">
-    <h2 class="font-sans text-2xl text-black pt-0 pb-2 font-semibold md:pb-0 md:font-semibold md:text-3xl md:px-20 md:text-center lg:pt-0 lg:pb-5 lg:text-black lg:text-3xl lg:font-semibold lg:text-center">Dit Lokale rengøringsfirma</h2>
+    <h2 class="font-sans text-2xl text-black font-semibold md:pb-0 md:font-semibold md:text-3xl md:px-20 md:text-center lg:pt-0 lg:pb-5 lg:text-black lg:text-3xl lg:font-semibold lg:text-center">Dit Lokale rengøringsfirma</h2>
 </div>
 
-<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-row lg:flex-row lg:w-full lg:pb-16">
-    <div class="bg-lightgray p-4 pt-2 md:p-6 md:pb-0 md:w-1/2 lg:w-2/5 lg:px-12">
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 pt-0 md:flex-row lg:flex-row lg:w-full lg:pb-16">
+    <div class="bg-lightgray p-4 pt-0 md:p-6 md:pb-0 md:w-1/2 lg:w-2/5 lg:px-12">
         <p class="text-gray dark:gray text-xs pt-5 font-semibold pb-2 md:pt-0 lg:pt-10 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | OM MIG</p>
         <h2 class="text-black dark:text-black text-2xl font-semibold pb-4 md:pb-2 lg:pb-6 lg:text-3xl">Jeg værdsætter tillid og tryghed, i det samarbejde jeg indgår med mine kunder </h2>
         <p class="text-black dark:text-black text-sm font-semibold md:pb-1 lg:font-semibold lg:text-sm">Jeg startede Paulas Rengøring i 2014, da det længe havde været et ønske at gå selvstændig.</p>
@@ -304,11 +305,11 @@
             </div>
         </div>
         <div class="h-67 bg-lighgray light:bg-lightgray dark:bg-lightgray md:w-3/4 md:h-64 lg:h-96 lg:w-1/3 lg:justify-start lg:text-left">
-            <h2 class="justify-start pr-24 font-sans text-2xl text-black pt-6 pb-6 font-semibold md:pr-60 md:pb-10 md:font-semibold md:text-center lg:pt-10 lg:pb-0 lg:text-black lg:text-2xl lg:font-semibold lg:pl-8">
+            <h2 class="justify-start pr-24 font-sans text-2xl text-black pt-6 pb-6 font-semibold md:pr-52 md:pb-5 md:font-semibold md:text-center lg:pt-10 lg:pb-0 lg:text-black lg:text-2xl lg:font-semibold lg:pl-5">
                 Kontaktoplysninger 
             </h2>
-            <p class="text-black px-8 text-left lg:text-black lg:text-sm lg:px-8 lg:pt-2"> Ønsker du at kontakte mig pr. telefon, over mail eller facebook er du også meget velkommen til at gøre dette.</p>
-            <div class="flex justify-start px-8 pt-5 pb-2 lg:pt-10">
+            <p class="text-black px-8 text-left lg:text-black lg:text-sm lg:px-5 lg:pt-2"> Ønsker du at kontakte mig pr. telefon, over mail eller facebook er du også meget velkommen til at gøre dette.</p>
+            <div class="flex justify-start px-8 pt-5 pb-2 lg:px-5 lg:pt-10">
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#444444" class="w-4 h-4">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
@@ -318,7 +319,7 @@
                     60145811
                 </p>
             </div>
-            <div class="flex justify-start px-8 py-2 lg:pt-5">
+            <div class="flex justify-start px-8 py-2 lg:px-5 lg:pt-5">
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0,0,256,256" style="fill:#000000;">
                         <g fill="#444444" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
@@ -332,7 +333,7 @@
                     PAULAS RENGØRING
                 </p>
             </div>
-            <div class="flex justify-start px-8 py-2 pb-7 lg:pt-5">
+            <div class="flex justify-start px-8 py-2 pb-7 lg:px-5 lg:pt-5">
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#444444">
                         <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.89 2 1.99 2H20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
@@ -520,6 +521,9 @@
 </style>
 
 <script>
+
+import CookieBanner from '../components/CookieBannerView.vue';
+
 // FAQ 
     const toggleContent = (id) => {
     const content = document.getElementById(id);
@@ -534,5 +538,38 @@ document.addEventListener("DOMContentLoaded", function() {
             toggleContent(targetId);
         });
     });
+});
+
+// Include Cookiebot script and initialize it
+import { onMounted } from 'vue';
+
+const initCookiebot = () => {
+  (function (d, s) {
+    var id = 'cookiebot-embed-js';
+    var scriptElement = d.getElementById(id);
+    var cb = window.Cookiebot || {};
+    if (!scriptElement) {
+      scriptElement = d.createElement(s);
+      scriptElement.async = true;
+      scriptElement.id = id;
+      scriptElement.src = 'https://consent.cookiebot.com/uc.js';
+      d.getElementsByTagName('head')[0].appendChild(scriptElement);
+    }
+    scriptElement.setAttribute('data-cbid', '6cdd6648-05ad-476e-80a2-4245b2b7f782'); // Replace with your CBID
+    scriptElement.setAttribute('data-blockingmode', 'auto');
+    scriptElement.setAttribute('data-domain', 'paulasrengøring.dk'); // Replace with your domain
+    onCookiebotLoad(cb);
+  })(document, 'script');
+
+  function onCookiebotLoad(cb) {
+    cb.onCookieConsent = function (consent) {
+      // Handle cookie consent
+      // This function is called when the user's consent preferences change
+    };
+  }
+};
+
+onMounted(() => {
+  initCookiebot();
 });
 </script>

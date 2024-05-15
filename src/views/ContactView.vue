@@ -1,7 +1,7 @@
 <template>
     
 <!-- Hero section -->
-<section class="relative h-screen flex flex-col pt-5 h-[50vh] md:h-[40vh] lg:h-[80vh]">
+<section class="relative flex flex-col pt-5 h-[50vh] md:h-[40vh] lg:h-[80vh]">
     <div class="heroimage absolute top-0 left-0 w-full h-full overflow-hidden">
         <img class="min-w-full h-[50vh] md:h-[40vh] lg:h-[80vh] absolute object-cover" src="../assets/prisætning.jpg" alt="kontakt-page">
     </div>
@@ -23,7 +23,8 @@
     </div>
 </div>
 
-<section class="relative h-full flex flex-col items-center text-center content-start pt-10 lg:py-12">
+<!-- kontaktformular sektion -->
+<section class="relative h-full flex flex-col items-center text-center content-start pt-10 md:flex-col lg:py-12">
     <div class="absolute top-0 left-0 w-full h-full overflow-hidden">
         <img class="min-w-full min-h-full absolute object-cover" src="../assets/Kontakt-form-billede.jpg" alt="Kontaktform-billede">
     </div>
@@ -32,9 +33,8 @@
         <h2 class="font-sans text-4xl font-semibold lg:pt-0 text-center md:text-center lg:text-5xl lg:font-semibold lg:text-center">
             Har du spørgsmål?
         </h2>
-        <p class="pb-10 font-sans text-sm text-center px-10 pt-3 md:pt-4 md:text-center md:px-10 lg:text-center lg:text-base lg:px-40 lg:pt-5">There are many variations of passages of Lorem Ipsum available, but the majority 
-            have suffered alteration in some form. by injected humour, or randomised words which
-            don't look even slightly believable. 
+        <p class="pb-10 font-sans text-sm text-center px-10 pt-3 md:pt-4 md:text-center md:px-10 lg:text-center lg:text-base lg:px-40 lg:pt-5"> 
+            Du er altid velkommen til at kontakte mig, hvis du har behov for rådgivning eller har tvivlsspørgsmål. 
         </p>
     </div>
     
@@ -72,22 +72,22 @@
                 </div>
             </div>
         </div>
-        <div class="bg-lightblue light:bg-lightblue dark:bg-lightblue md:w-3/4 md:h-60 lg:h-96 lg:w-2/4 lg:justify-start">
-            <h2 class="justify-start font-sans text-2xl text-black px-8 font-semibold md:pr-60 md:pb-10 md:font-semibold md:text-center lg:pt-10 lg:pb-0 lg:text-black lg:text-2xl lg:font-semibold lg:pl-8">
+        <div class="h-67 bg-lighgray light:bg-lightgray dark:bg-lightgray md:w-3/4 md:h-64 lg:h-96 lg:w-1/3 lg:justify-start lg:text-left">
+            <h2 class="justify-start pr-24 font-sans text-2xl text-black pt-6 pb-6 font-semibold md:pr-52 md:pb-5 md:font-semibold md:text-center lg:pt-10 lg:pb-0 lg:text-black lg:text-2xl lg:font-semibold lg:pl-5">
                 Kontaktoplysninger 
             </h2>
-            <p class="text-black px-8 text-left lg:text-black lg:text-sm lg:px-8 lg:pt-2"> Ønsker du at kontakte mig pr. telefon, over mail eller facebook er du også meget velkommen til at gøre dette.</p>
-            <div class="flex justify-start px-8 pt-5 pb-2 lg:pt-10">
+            <p class="text-black px-8 text-left lg:text-black lg:text-sm lg:px-5 lg:pt-2"> Ønsker du at kontakte mig pr. telefon, over mail eller facebook er du også meget velkommen til at gøre dette.</p>
+            <div class="flex justify-start px-8 pt-5 pb-2 lg:px-5 lg:pt-10">
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#444444" class="w-4 h-4">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
                     </svg>
                 </div>
-                <p class="font-sans font-semibold text-sm pl-2 lg:text-xs text-black dark:text-black lg:pl-2 lg:tracking-wider">
+                <p class="font-sans font-semibold text-xs pl-2 lg:text-xs text-black dark:text-black lg:pl-2 lg:tracking-wider">
                     60145811
                 </p>
             </div>
-            <div class="flex justify-start px-8 py-2 lg:pt-5">
+            <div class="flex justify-start px-8 py-2 lg:px-5 lg:pt-5">
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0,0,256,256" style="fill:#000000;">
                         <g fill="#444444" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
@@ -97,18 +97,18 @@
                         </g>
                     </svg>
                 </div>
-                <p class="font-sans font-semibold text-sm pl-2 lg:text-xs text-black dark:text-black lg:pl-2 lg:tracking-wider">
+                <p class="font-sans font-semibold text-xs pl-2 lg:text-xs text-black dark:text-black lg:pl-2 lg:tracking-wider">
                     PAULAS RENGØRING
                 </p>
             </div>
-            <div class="flex justify-start px-8 py-2 lg:pt-5">
+            <div class="flex justify-start px-8 py-2 pb-7 lg:px-5 lg:pt-5">
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#444444">
                         <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.89 2 1.99 2H20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
                         <path d="M0 0h24v24H0z" fill="none"/>
                     </svg>
                 </div>
-                <p class="font-sans font-semibold text-sm pl-2 lg:text-xs text-black dark:text-black lg:pl-2 lg:tracking-wider">
+                <p class="font-sans font-semibold text-xs pl-2 md:pb-4 lg:text-xs text-black dark:text-black lg:pl-2 lg:tracking-wider">
                     PAULASRENGORING@GMAIL.COM
                 </p>
             </div>

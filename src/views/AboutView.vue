@@ -1,6 +1,6 @@
 <template>
 <!-- Hero section -->
-<section class="relative h-screen flex flex-col pt-5 h-[50vh] md:h-[40vh] lg:h-[80vh]">
+<section class="relative flex flex-col pt-5 h-[50vh] md:h-[40vh] lg:h-[80vh]">
     <div class="heroimage absolute top-0 left-0 w-full h-full overflow-hidden">
         <img class="min-w-full h-[50vh] md:h-[40vh] lg:h-[80vh] absolute object-cover" src="../assets/hero-copi-copi.jpg" alt="About-heroimage">
     </div>
@@ -44,11 +44,11 @@
 
 <div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-row lg:flex-row lg:w-full">
     <div class="md:w-1/2 lg:w-1/2">
-        <img src="../assets/Paulas-rengøring.jpg" alt="om-firmaet-billede">
+        <img src="../assets/PaulasRengøring-om-billedet.jpg" alt="om-firmaet-billede">
     </div>
 
     <div class="bg-lightgray p-4 md:p-6 md:w-1/2 lg:w-1/2 lg:px-10">
-        <h1 class="text-black text-xs font-semibold pb-2 lg:pt-16 lg:text-sm">OM FIRMAET</h1>
+        <h1 class="text-black text-xs font-semibold pb-2 lg:pt-6 lg:text-sm">OM FIRMAET</h1>
         <h2 class="text-black text-lg font-semibold pb-4 lg:text-2xl">PAULAS RENGØRING</h2>
         <p class="text-black text-sm font-semibold pb-1 lg:pt-3 lg:text-lg lg:text-base">OVER 10 ÅRS ERFARING</p>
         <p class="text-black text-sm lg:font-semibold lg:text-base">Jeg har mange års erfaring med privat og erhvervsrengøring.</p>
@@ -66,7 +66,7 @@
     <h2 class="font-sans text-2xl text-black font-semibold md:pb-0 md:font-semibold md:text-3xl md:px-20 md:text-center lg:pt-0 lg:pb-5 lg:text-black lg:text-3xl lg:font-semibold lg:text-center">Dit Lokale rengøringsfirma</h2>
 </div>
 
-<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 pb-20 md:pb-20 md:flex-row lg:flex-row lg:w-full lg:pb-16">
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 pt-3 pb-20 md:pb-20 md:flex-row lg:flex-row lg:w-full lg:pb-16">
     <div class="bg-lightgray p-4 pt-2 md:p-6 md:pb-0 md:w-1/2 lg:w-2/5 lg:px-12">
         <p class="text-gray dark:gray text-xs pt-5 font-semibold pb-2 md:pt-2 lg:pt-8 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | OM MIG</p>
         <h2 class="text-black dark:text-black text-xl font-semibold pb-4 lg:pb-6 lg:text-3xl">Jeg værdsætter tillid og tryghed, i det samarbejde jeg indgår med mine kunder </h2>

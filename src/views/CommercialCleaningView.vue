@@ -1,7 +1,7 @@
 <template>
 
     <!-- Hero section -->
-    <section class="relative h-screen flex flex-col pt-5 h-[50vh] md:h-[40vh] lg:h-[80vh]">
+    <section class="relative flex flex-col pt-5 h-[50vh] md:h-[40vh] lg:h-[80vh]">
         <div class="heroimage absolute top-0 left-0 w-full h-full overflow-hidden">
             <img class="min-w-full h-[50vh] md:h-[40vh] lg:h-[80vh] absolute object-cover" src="../assets/erhverv-billede.jpg" alt="Commercial-cleaning">
         </div>
@@ -19,10 +19,10 @@
 
 <!-- Tryghed-section -->
 <div class="bg-white light:bg-white dark:bg-white px-4 md:pt-3 md:pb-5">
-    <h2 class="text-2xl px-5 pt-10 pb-2 font-semibold text-black dark:text-black md:text-center lg:font-semibold lg:text-3xl lg:text-center lg:pt-6 lg:pb-8">Tryghed i vores samarbejde</h2>
+    <h2 class="text-2xl px-5 pt-10 pb-2 font-semibold text-black dark:text-black md:text-center lg:font-semibold lg:text-3xl lg:text-center lg:pt-10 lg:pb-4">Tryghed i vores samarbejde</h2>
 </div>
 
-<div class="bg-white light:white dark:bg-white px-0 flex flex-col justify-center h-full w-full p-8 md:px-0 md:flex-row md:pt-0 lg:flex-row lg:w-full lg:pt-5 lg:pb-5 lg:px-0">
+<div class="bg-white light:white dark:bg-white px-0 flex flex-col justify-center h-full w-full p-8 md:px-0 md:flex-row md:pt-0 lg:flex-row lg:w-full lg:pt-0 lg:pb-5 lg:px-0">
     <div class="bg-lightgray light:lightgray dark:lightgray p-6 md:p-0 w-full md:w-full lg:w-full lg:px-12">
         <p class="text-darkgray dark:text-darkgray text-sm pt-5 font-semibold pb-2 md:pt-4 md:pb-0 md:pl-5 lg:pt-12 lg:pl-0 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | TRYGHED</p>
         <h2 class="text-black dark:text-black text-4xl mt-2 md:text-3xl md:mx-5 lg:mx-0 lg:font-semibold lg:text-4xl lg:mr-10 lg:pb-0">Det er vigtigt for mig, at du er tryg i vores samarbejde.</h2>
@@ -56,13 +56,13 @@
 
     
 <!-- Tilpassede løsninger erhvervsrengøring - sektion -->
-<div class="flex justify justify-center text-center bg-white dark:bg-white text-black dark-text-black md:pb-4 lg:pt-5">
-    <p class="px-5 pt-10 text-xl font-semibold md:text-center lg:font-semibold lg:text-center lg:pb-3 lg:text-3xl">
+<div class="flex justify justify-center text-center bg-white dark:bg-white text-black dark-text-black md:pb-4 lg:pt-2">
+    <p class="px-5 pt-10 text-xl font-semibold md:text-center lg:font-semibold lg:text-center lg:pb-0 lg:text-3xl">
         Skræddersyede løsninger tilpasset dine ønsker og behov 
     </p>
 </div>
 
-<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-row md:justify-center lg:flex-row lg:w-full lg:pb-20">
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-row md:justify-center lg:flex-row lg:pt-5 lg:w-full lg:pb-10">
     <div class="w-full md:w-1/2 lg:w-1/2">
         <img src="../assets/Paulas-rengøring.jpg" alt="om-firmaet-billede">
     </div>
@@ -112,7 +112,7 @@
 
 <!-- Forløbet -->
 <div class="bg-white dark:bg-white text-black dark-text-black px-10 md:pb-4 lg:pt-0">
-    <p class="px-10 pt-10 text-2xl font-semibold md:text-center lg:font-semibold lg:text-center lg:pb-3 lg:text-3xl">
+    <p class="px-10 pt-5 text-2xl font-semibold md:text-center lg:font-semibold lg:text-center lg:pb-3 lg:text-3xl">
         Paulas rengøring | forløbet hos mig  
     </p>
 </div>
@@ -121,18 +121,18 @@
     <div class="bg-lightgray p-4 md:mx-24 w-full md:w-3/4 lg:w-3/4 lg:m-0">
         <p class="text-gray dark:text-gray text-sm md:text-sm font-base pt-5 pb-2 lg:pt-6 lg:text-sm">PAULAS RENGØRING | FORLØBET</p>
         <h2 class="text-black text-2xl font-semibold pb-4 md:text-3xl lg:text-4xl lg:pr-10">Sådan foregår forløbet hos Paulas rengøring</h2>
-        <p class="text-black text-sm font-semibold pb-5 md:text-sm md:font-semibold lg:font-semibold lg:text-base">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-        <div class="flex pt-2 pb-2 lg:pt-10">
+        <p class="text-black text-sm font-semibold pb-5 md:text-sm md:font-semibold lg:font-semibold lg:text-base">Når du bestiller rengøringshjælp hos Paulas Rengøring, starter vi ud med en indledende samtale pr. telefon, og dernæst et formøde hvor vi sammen vil lægge en plan for den rengøringshjælpen.</p>
+        <div class="flex pt-2 pb-2 lg:pt-4">
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="darkgray" class="w-6 h-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
                 </svg>
             </div>
-            <p class="font-sans font-semibold text-lg  pl-2 lg:text-lg text-black dark:text-black lg:font-semibold lg:pl-3">
+            <p class="font-sans font-semibold text-lg pl-2 lg:text-lg text-black dark:text-black lg:font-semibold lg:pl-3">
                 Indledende samtale
             </p>
         </div>
-        <div class="font-sans text-black text-sm dark:black text-semibold text-sm lg:pt-2 lg:pl-9 ">
+        <div class="font-sans text-black text-sm dark:black text-semibold text-sm lg:text-sm lg:pt-0 lg:pl-9 lg:pr-5 ">
             <p>I den indledende samtale, vil vi drøfte dine ønsker og behov, så vi sammen kan skræddersy den rette rengøringshjælp til dig. Vi vil her aftale en dato, hvor jeg kan komme ud til dig og holde et formøde.</p>
         </div>
         <div class="flex pt-6 pb-2 lg:pt-8">
@@ -141,11 +141,11 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
                 </svg>
             </div>
-            <p class="font-sans font-semibold text-lg  pl-2 lg:text-lg text-black dark:text-black lg:font-semibold lg:pl-3">
+            <p class="font-sans font-semibold text-lg pl-2 lg:text-lg text-black dark:text-black lg:font-semibold lg:pl-3">
                 Formøde 
             </p>
         </div>
-        <div class="font-sans text-black text-sm dark:black text-semibold text-sm lg:pt-2 lg:pl-9 ">
+        <div class="font-sans text-black text-sm dark:black text-semibold text-sm lg:text-sm lg:pt-0 lg:pl-9 lg:pr-5 ">
             <p>Jeg kommer efter aftale hjem til dig, hvor vi får mulighed for at snakke sammen ansigt til ansigt. Vi vil gennemgå dine ønsker og behov, så vi kan udarbejde en arbejdsplan til dig. Det er vigtigt for mig, at du som kunde føler dig tryg i samarbejdet, og du får lejlighed til at stille alle spørgsmål du måtte have.  </p>
         </div>
         <div class="flex pt-6 pb-2 lg:pt-8">
@@ -159,7 +159,7 @@
                 Samarbejdet 
             </p>
         </div>
-        <div class="font-sans pb-10 text-black text-sm dark:black text-semibold text-sm lg:pt-2 lg:pb-0 lg:pl-9 ">
+        <div class="font-sans pb-10 text-black text-sm dark:black text-semibold text-sm lg:pt-0 lg:pb-0 lg:pl-9 lg:pr-5 ">
             <p>Vi vil i fællesskab udarbejde en plan, over de arbejdsopgaver jeg skal løse for dig, som der altid være plads til at kunne ændre i. Det er dine behov og ønsker, der er i centrum. Når planen er på plads og godkendt, vil vi indgå samarbejdet, og efter aftalt dato vil jeg påbegynde den skræddersyede rengøringshjælp til dig. </p>
         </div>
     </div>
