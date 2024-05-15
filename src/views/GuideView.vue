@@ -1,19 +1,20 @@
 <template>
 
 <!--Hero-section-->
-<section class="relative h-screen flex flex-col items-center py-20 text-center content-start lg:py-0 md:h-[40vh] lg:h-[80vh]">
+<section class="relative h-screen flex flex-col pt-5 h-[50vh] md:h-[40vh] lg:h-[80vh]">
     <div class="heroimage absolute top-0 left-0 w-full h-full overflow-hidden">
-        <img class="min-w-full min-h-full absolute object-cover" src="../assets/Guide-hero.jpg" alt="Guide-hero">
+        <img class="min-w-full h-[50vh] md:h-[40vh] lg:h-[80vh] absolute object-cover" src="../assets/Guide-hero.jpg" alt="Guide-heroimage">
     </div>
-    <div class="image-content z-10 pt-40 md:pt-20 lg:pt-48">
+    <div class="image-content z-10 pt-28 md:pt-40 lg:pt-48 lg:px-40">
         <div>
-            <p class="font-sans text-white text-left pl-5 dark:text-white px-4 text-sm md:text-lg md:text-center lg:text-lg lg:text-center">
+            <p class="font-sans text-white text-left pl-5 dark:text-white px-4 text-sm md:text-lg md:text-center lg:text-lg lg:text-left">
                 PAULAS RENGØRING | GUIDE
             </p>
-            <h2 class="font-sans text-white dark:text-white text-left font-semibold px-4 text-5xl md:text-5xl md:text-center lg:pb-2 lg:px-40 lg:font-semibold lg:text-5xl lg:text-center">Få mest ud af din professionelle rengøringshjælp</h2>
+            <h2 class="font-sans text-white dark:text-white text-left font-semibold px-4 text-4xl md:text-5xl md:text-center lg:pb-2 lg:font-semibold lg:text-5xl lg:text-left">Få mest ud af din professionelle rengøringshjælp</h2>
         </div>
     </div>
 </section>
+
 
 
 

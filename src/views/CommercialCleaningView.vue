@@ -1,29 +1,31 @@
 <template>
 
     <!-- Hero section -->
-    <section class="relative h-screen flex flex-col py-5 lg:items-center md:h-[40vh] lg:h-[80vh]">
+    <section class="relative h-screen flex flex-col pt-5 h-[50vh] md:h-[40vh] lg:h-[80vh]">
         <div class="heroimage absolute top-0 left-0 w-full h-full overflow-hidden">
-            <img class="min-w-full min-h-full absolute object-cover" src="../assets/erhverv-billede.jpg" alt="Commercial-cleaning">
+            <img class="min-w-full h-[50vh] md:h-[40vh] lg:h-[80vh] absolute object-cover" src="../assets/erhverv-billede.jpg" alt="Commercial-cleaning">
         </div>
-        <div class="image-content z-10 pt-40 md:pt-40 lg:pt-40">
-        <div>
-            <p class="font-sans text-white dark:text-white text-lg text-left pb-4 px-4 md:text-center md:text-lg lg:text-md lg:text-left lg:pb-1 lg:px-5 lg:tracking-wider">PAULAS RENGØRING | ERHVERVSRENGØRING</p>
-            <h2 class="font-sans text-white dark:text-white text-4xl text-left pb-4 px-4 md:font-semibold md:text-center md:text-4xl lg:pb-2 lg:font-semibold lg:text-5xl">Professionel rengøring til erhverv</h2>
-            <p class="font-sans text-white text-lg px-4 pt-3 dark:text-white md:text-center md:text-sm lg:text-lg">Jeg løser rengøringsopgaver for små og mellemstore virksomheder, og institutioner. </p>
+        <div class="image-content z-10 pt-28 md:pt-40 lg:pt-48 lg:px-40">
+            <div>
+                <p class="font-sans text-white text-left pl-5 dark:text-white px-4 text-sm md:text-lg md:text-center lg:text-lg lg:text-left">
+                    PAULAS RENGØRING | ERHVERVSRENGØRING
+                </p>
+                <h2 class="font-sans text-white dark:text-white text-left font-semibold px-4 text-4xl md:text-5xl md:text-center lg:pb-2 lg:font-semibold lg:text-5xl lg:text-left">Professionel rengøring til erhverv</h2>
+                <p class="font-sans text-white dark:text-white text-sm pt-2 text-left pb-4 px-4 md:font-semibold md:text-center md:text-lg lg:pb-2 lg:text-left lg:font-normal lg:text-lg">Jeg løser rengøringsopgaver for små og mellemstore virksomheder, og institutioner.</p>
+            </div>
         </div>
-    </div>
     </section>
     
 
 <!-- Tryghed-section -->
-<div class="bg-white light:bg-white dark:bg-white px-4 md:pt-10">
+<div class="bg-white light:bg-white dark:bg-white px-4 md:pt-3 md:pb-5">
     <h2 class="text-2xl px-5 pt-10 pb-2 font-semibold text-black dark:text-black md:text-center lg:font-semibold lg:text-3xl lg:text-center lg:pt-6 lg:pb-8">Tryghed i vores samarbejde</h2>
 </div>
 
 <div class="bg-white light:white dark:bg-white px-0 flex flex-col justify-center h-full w-full p-8 md:px-0 md:flex-row md:pt-0 lg:flex-row lg:w-full lg:pt-5 lg:pb-5 lg:px-0">
     <div class="bg-lightgray light:lightgray dark:lightgray p-6 md:p-0 w-full md:w-full lg:w-full lg:px-12">
         <p class="text-darkgray dark:text-darkgray text-sm pt-5 font-semibold pb-2 md:pt-4 md:pb-0 md:pl-5 lg:pt-12 lg:pl-0 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | TRYGHED</p>
-        <h2 class="text-black dark:text-black text-4xl mt-2 md:text-xl md:mx-5 lg:mx-0 lg:font-semibold lg:text-4xl lg:mr-10 lg:pb-0">Det er vigtigt for mig, at du er tryg i vores samarbejde.</h2>
+        <h2 class="text-black dark:text-black text-4xl mt-2 md:text-3xl md:mx-5 lg:mx-0 lg:font-semibold lg:text-4xl lg:mr-10 lg:pb-0">Det er vigtigt for mig, at du er tryg i vores samarbejde.</h2>
         <p class="text-black dark:text-black pt-2 text-lg mt-3 font-semibold md:pt-1 md:mx-5 md:text-sm lg:mx-0 lg:text-lg lg:font-semibold lg:pt-2">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
         <p class="text-black dark:text-black pt-2 text-lg mt-3 text-base md:pt-0 md:mx-5 md:text-sm lg:mx-0 lg:text-lg lg:text-base lg:pt-2">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
         <div class="inline-block pt-8 md:hidden lg:inline-block inset-0 flex lg:pt-10 lg:justify-start">
