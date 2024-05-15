@@ -134,7 +134,9 @@
                   <h2 class="font-sans mt-5 mb-6 text-xs font-semibold text-black uppercase dark:text-black lg:mt-0">Nyttige links</h2>
                   <ul class="text-xs text-gray-500 dark:text-darkgray font-medium lg:text-xs">
                       <li class="mb-4">
+                        <RouterLink to="privacypolicy">
                           <a href="" class="hover:underline ">Privatlivs politik</a>
+                        </RouterLink> 
                       </li>
                       <li>
                           <a href="" class="hover:underline">Kontakt</a>
