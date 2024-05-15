@@ -28,14 +28,14 @@
         <li>
           <RouterLink to="guide" class="hover:font-semibold">GUIDE</RouterLink>
         </li>
-        <div class="dropdown"> 
-          <button class="dropbtn flex justify-between"> 
+        <div class="dropdown">
+          <button id="dropdownToggle" class="dropbtn flex justify-between"> 
             JEG TILBYDER
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 lg:ml-2 lg:mt-0">
               <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
             </svg>
           </button>
-          <div class="dropdown-content">
+          <div id="dropdownContent" class="dropdown-content hidden">
             <RouterLink to="privatecleaning" class="hover:font-semibold">PRIVATRENGØRING</RouterLink> 
             <RouterLink to="commercialcleaning" class="hover:font-semibold">ERHVERVSRENGØRING</RouterLink> 
           </div>
@@ -51,7 +51,7 @@
         </li>
       </ul>
     </div>
-    <div class="pt-10 lg:pt-0">
+    <div class="pt-2 lg:pt-0">
       <RouterLink to="contact"> 
         <button class="flex hover:bg-transparent bg-darkblue dark:bg-darkblue font-normal lg:font-normal py-2 px-6 rounded-full lg:mr-6 lg:py-2 lg:px-6">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="white" class="w-6 h-6 lg:w-5 lg:h-5">
@@ -110,7 +110,7 @@
           </div>
           <div class="grid grid-cols-1 gap-6 grid-cols-1 md:grid-cols-4 md:gap-10 lg:gap-20 lg:grid-cols-4">
               <div>
-                  <h2 class="font-sans mb-6 text-xs md:pt-5 font-semibold text-darkgray uppercase dark:text-darkgray lg:pt-0">information</h2>
+                  <h2 class="font-sans mb-6 text-xs md:pt-5 font-semibold text-darkgray uppercase dark:text-darkgray lg:pt-0 lg:tracking-wider">information</h2>
                   <ul class="text-xs text-darkgray dark:text-darkgray font-medium lg:text-xs">
                       <li class="mb-4">
                         <RouterLink to="guide" class="hover:font-semibold">Guide</RouterLink>
@@ -130,7 +130,7 @@
                   </ul>
               </div>
               <div>
-                  <h2 class="font-sans mt-5 mb-6 text-xs font-semibold text-black uppercase dark:text-black lg:mt-0">Nyttige links</h2>
+                  <h2 class="font-sans mt-5 mb-6 text-xs font-semibold text-black uppercase dark:text-black lg:mt-0 lg:tracking-wider">Nyttige links</h2>
                   <ul class="text-xs text-gray-500 dark:text-darkgray font-medium lg:text-xs">
                       <li class="mb-4">
                         <RouterLink to="privacypolicy">
@@ -143,7 +143,7 @@
                   </ul>
               </div>
               <div>
-                  <h2 class="font-sans mt-5 mb-6 text-xs font-semibold text-black uppercase dark:text-black lg:mt-0">Telefontider</h2>
+                  <h2 class="font-sans mt-5 mb-6 text-xs font-semibold text-black uppercase dark:text-black lg:mt-0 lg:tracking-wider">Telefontider</h2>
                   <div class="text-xs text-gray-500 dark:text-darkgray font-medium lg:text-xs">
                     <div class="flex justify-start gap-5 md:gap-x-5 lg:gap-12 lg:justify-between">
                       <p class="mb-4">
@@ -297,6 +297,27 @@
   padding-left: 5px;
 }
 
+/* Show the dropdown content on small screens */
+.dropdown-content.hidden {
+    display: none;
+  }
+
+}
+
+/* Dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding-top: 10px;
+  min-width: 120px;
+  z-index: 1;
+}
+
+/* Show the dropdown content */
+.dropdown-content.show {
+  display: block;
 }
 
 </style>
@@ -354,6 +375,15 @@ document.addEventListener("DOMContentLoaded", function() {
         logo.src = "../src/assets/PaulasRengøringLogo.png";
       }
     }
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  const dropdownToggle = document.getElementById("dropdownToggle");
+  const dropdownContent = document.getElementById("dropdownContent");
+
+  dropdownToggle.addEventListener("click", function() {
+    dropdownContent.classList.toggle("hidden");
   });
 });
 

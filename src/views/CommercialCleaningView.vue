@@ -169,7 +169,7 @@
 </div>
     
     <!-- Kundeanmeldelser -->
-    <div class="bg-white light:bg-white dark:bg-white md:pt-10">
+    <div class="bg-white light:bg-white dark:bg-white md:pt-10 lg:pt-0">
         <div>
             <h2 class="font-sans text-black text-2xl font-semibold dark:text-black pt-16 pb-10 text-center lg:text-3xl lg:text-center lg:font-semibold lg:pt-0 lg:pb-20">
                 Det siger mine kunder 
