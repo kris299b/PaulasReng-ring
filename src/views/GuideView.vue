@@ -63,7 +63,7 @@
     <div class="w-full p-4 md:2/4 lg:w-2/4 lg:pl-8 lg:pt-20 lg:pr-8 bg-lightgray">
         <h1 class="text-black font-semibold text-base pb-2 md:text-2xl lg:text-2xl md:pt-12 lg:pt-0">Med eller uden oprydning?</h1>
         <p class="text-black text-sm md:text-base md:pr-5 md:pb-3 md:font-semibold lg:font-semibold">Det er en god idé, at klarlægge om oprydningen er noget du selv vil stå for, eller om du ønsker at det er noget rengøringshjælpen tager sig af.</p>
-        <p class="text-black text-sm md:text-base md:pr-5 lg:pt-2 lg:text-base">Hvorvidt du ønsker selv at stå for oprydningen, eller ønsker at få oprydning med i din rengøringshjælp, kan begge muligheder lade sig gøre.</p>
+        <p class="text-black text-sm md:text-base md:pr-5 lg:pt-2 lg:text-base">Om du ønsker selv at stå for oprydningen inden Paula kommer ud til dig, eller du ønsker at få oprydning med i din rengøringshjælp, så kan begge muligheder lade sig gøre og vil aftales nærmere under det indledende møde.</p>
     </div>
 </div>
 
