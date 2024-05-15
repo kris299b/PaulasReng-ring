@@ -264,7 +264,7 @@
         <h2 class="font-sans text-4xl font-semibold lg:pt-0 text-center md:text-center lg:text-5xl lg:font-semibold lg:text-center">
             Har du spørgsmål?
         </h2>
-        <p class="pb-10 font-sans text-sm text-center px-10 pt-3 md:pt-4 md:text-center md:px-10 lg:text-center lg:text-sm lg:px-40 lg:pt-5"> 
+        <p class="pb-10 font-sans text-sm text-center px-10 pt-3 md:pt-4 md:text-center md:px-10 lg:text-center lg:text-base lg:px-40 lg:pt-5"> 
             Du er altid velkommen til at kontakte mig, hvis du har behov for rådgivning eller har tvivlsspørgsmål. 
         </p>
     </div>
@@ -474,6 +474,8 @@
 #mergeRow-gdpr fieldset label {font-weight: normal;}
 #mc-embedded-subscribe-form .mc_fieldset{border:none;min-height: 0px;padding-bottom:0px;}
 #mc-embedded-subscribe {background-color:rgb(110, 118, 167); border-radius: 50%;}
+#mce-FNAME {font-weight: normal}
+#mce-MMERGE3 {font-weight: normal}
 
 
 /* Base styles */
