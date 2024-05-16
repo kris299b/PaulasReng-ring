@@ -67,36 +67,38 @@
 <RouterView />
 
 <footer class="bg-lightgray dark:lightgray">
-    <div class="mx-4 px-4 py-8 bg-darkblue dark:bg-darkblue flex md:items-center md:px-16 md:justify-between lg:px-44 lg:py-5 lg:mx-20">
-      <div class="col flex columns-1 space-x-8 h-6 md:space-x-48 md:columns-3 lg:h-16 lg:columns-3 lg:space-x-56">
-        <div class="col font-sans flex items-center">
-          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="#fdfdfd">
-            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.89 2 1.99 2H20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-            <path d="M0 0h24v24H0z" fill="none"/>
-          </svg>
-          <p class="text-white dark:text-white md:pl-1 md:text-sm lg:text-base lg:text-sm lg:pl-2 lg:tracking-wider">
-            Email
-          </p>
-        </div>
+    <div class="mx-4 px-4 py-8 bg-darkblue dark:bg-darkblue flex md:items-center md:px-20 md:justify-between lg:px-44 lg:py-5 lg:mx-20">
+      <div class="flex flex-col col flex columns-1 md:flex-row md:space-x-28 md:columns-3 lg:flex-row lg:h-16 lg:columns-3 lg:space-x-40">
         <div class="col font-sans flex items-center">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
           </svg>
-          <p class="text-white dark:text-white md:pl-1 md:text-sm lg:text-base lg:text-sm lg:pl-2 lg:tracking-wider">
-            Tlf nummer
+          <p class="pl-2 text-white dark:text-white md:pl-1 md:text-sm lg:text-base lg:text-sm lg:pl-2 lg:tracking-wider">
+            60 14 58 11
           </p>
         </div>
-        <div class="col font-sans flex items-center">
+        <div class="col font-sans pt-4 md:pt-0 lg:pt-0 flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="#fdfdfd">
+            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.89 2 1.99 2H20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+            <path d="M0 0h24v24H0z" fill="none"/>
+          </svg>
+          <p class="pl-2 text-white dark:text-white md:pl-1 md:text-sm lg:text-base lg:text-sm lg:pl-2 lg:tracking-wider">
+            paulasrengoring@gmail.com
+          </p>
+        </div>
+        <div class="col font-sans flex pt-4 md:pt-0 lg:pt-0 items-center">
           <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0,0,256,256" style="fill:#000000;">
             <g fill="#fdfdfd" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
               <g transform="scale(8.53333,8.53333)">
                 <path d="M15,3c-6.627,0 -12,5.373 -12,12c0,6.016 4.432,10.984 10.206,11.852v-8.672h-2.969v-3.154h2.969v-2.099c0,-3.475 1.693,-5 4.581,-5c1.383,0 2.115,0.103 2.461,0.149v2.753h-1.97c-1.226,0 -1.654,1.163 -1.654,2.473v1.724h3.593l-0.487,3.154h-3.106v8.697c5.857,-0.794 10.376,-5.802 10.376,-11.877c0,-6.627 -5.373,-12 -12,-12z"></path>
               </g>
             </g>
-          </svg>
-          <p class="text-white dark:text-white md:pl-1 md:text-sm lg:text-base lg:text-sm lg:pl-2 lg:tracking-wider">
-            Facebook
-          </p>
+          </svg> 
+          <a href="https://www.facebook.com/profile.php?id=61559644356152">
+            <p class="pl-2 text-white dark:text-white md:pl-1 md:text-sm lg:text-base lg:text-sm lg:pl-2 lg:tracking-wider">
+              Facebook
+            </p>
+          </a>
         </div>
       </div>
     </div> 
