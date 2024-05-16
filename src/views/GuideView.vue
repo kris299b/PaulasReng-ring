@@ -3,7 +3,7 @@
 <!--Hero-section-->
 <section class="relative flex flex-col pt-5 h-[50vh] md:h-[40vh] lg:h-[80vh]">
     <div class="heroimage absolute top-0 left-0 w-full h-full overflow-hidden">
-        <img class="min-w-full h-[50vh] md:h-[40vh] lg:h-[80vh] absolute object-cover" src="../assets/Guide-hero.jpg" alt="Guide-heroimage">
+        <img class="min-w-full h-[50vh] md:h-[40vh] lg:h-[80vh] absolute object-cover" src="../assets/Guide-hero2.jpg" alt="Guide-heroimage">
     </div>
     <div class="image-content z-10 pt-28 md:pt-40 lg:pt-48 lg:px-40">
         <div>

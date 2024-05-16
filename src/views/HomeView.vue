@@ -35,7 +35,6 @@
             </div>
         </div>
     </div>
-    <CookieBanner />
 </section>
 
 
@@ -517,12 +516,10 @@
     }
 }
 
-
 </style>
 
-<script>
 
-import CookieBanner from '../components/CookieBannerView.vue';
+<script>
 
 // FAQ 
     const toggleContent = (id) => {
@@ -540,36 +537,4 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-// Include Cookiebot script and initialize it
-import { onMounted } from 'vue';
-
-const initCookiebot = () => {
-  (function (d, s) {
-    var id = 'cookiebot-embed-js';
-    var scriptElement = d.getElementById(id);
-    var cb = window.Cookiebot || {};
-    if (!scriptElement) {
-      scriptElement = d.createElement(s);
-      scriptElement.async = true;
-      scriptElement.id = id;
-      scriptElement.src = 'https://consent.cookiebot.com/uc.js';
-      d.getElementsByTagName('head')[0].appendChild(scriptElement);
-    }
-    scriptElement.setAttribute('data-cbid', '6cdd6648-05ad-476e-80a2-4245b2b7f782'); // Replace with your CBID
-    scriptElement.setAttribute('data-blockingmode', 'auto');
-    scriptElement.setAttribute('data-domain', 'paulasrengøring.dk'); // Replace with your domain
-    onCookiebotLoad(cb);
-  })(document, 'script');
-
-  function onCookiebotLoad(cb) {
-    cb.onCookieConsent = function (consent) {
-      // Handle cookie consent
-      // This function is called when the user's consent preferences change
-    };
-  }
-};
-
-onMounted(() => {
-  initCookiebot();
-});
 </script>
