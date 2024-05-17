@@ -3,7 +3,7 @@
 <!--Hero-section-->
 <section class="relative flex flex-col pt-5 h-[50vh] md:h-[40vh] lg:h-[80vh]">
     <div class="heroimage absolute top-0 left-0 w-full h-full overflow-hidden">
-        <img class="min-w-full h-[50vh] md:h-[40vh] lg:h-[80vh] absolute object-cover" src="../assets/Guide-hero2.jpg" alt="Guide-heroimage">
+        <img class="min-w-full h-[50vh] md:h-[40vh] lg:h-[80vh] absolute object-cover" src="../assets/Guide-hero.jpg" alt="Kvinde rengør overflade i køkken">
     </div>
     <div class="image-content z-10 pt-28 md:pt-40 lg:pt-48 lg:px-40">
         <div>
@@ -31,7 +31,7 @@
 <!--Box 1-->
 <div class="flex bg-white dark:bg-white light:bg-white flex flex-col justify justify-center w-full pt-20 md:pt-5 md:flex-row md:justify-end lg:flex-row lg:w-full lg:pb-0 lg:mx-auto lg:justify-end">
     <div class="md:w-2/4 lg:w-1/4">
-        <img src="../assets/Formøde-billede.jpg" alt="Woman-standing-in-door">
+        <img src="../assets/Formøde-billede.jpg" alt="Kvinde hilser på kunde i døråbning">
     </div>
     
     <div class="w-full p-4 lg:w-2/4 lg:pl-8 lg:pt-16 lg:pr-8 bg-lightgray">
@@ -50,14 +50,14 @@
     </div>
 
     <div class="md:1/4 lg:w-1/4">
-        <img src="../assets/Booking-møde.jpg" alt="Man-standing-in-door">
+        <img src="../assets/Booking-møde.jpg" alt="Mand står i døråbning">
     </div>
 </div>
 
 <!--Box 3-->
 <div class="flex bg-white dark:bg-white light:bg-white flex flex-col justify justify-center w-full pt-20 md:flex-row md:justify-end lg:flex-row lg:w-full lg:pb-0 lg:mx-auto lg:justify-end">
     <div class="md:1/4 lg:w-1/4">
-        <img src="../assets/Booking-møde.jpg" alt="Man-standing-in-door">
+        <img src="../assets/Booking-møde.jpg" alt="Mand står i døråbning">
     </div>
     
     <div class="w-full p-4 md:2/4 lg:w-2/4 lg:pl-8 lg:pt-20 lg:pr-8 bg-lightgray">
@@ -76,7 +76,7 @@
     </div>
 
     <div class="md:1/4 lg:w-1/4">
-        <img src="../assets/Booking-møde.jpg" alt="Man-standing-in-door">
+        <img src="../assets/Booking-møde.jpg" alt="Mand står i døråbning">
     </div>
 </div>
 

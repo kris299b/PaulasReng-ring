@@ -3,14 +3,14 @@
 <!-- Hero section -->
 <section class="relative flex flex-col pt-5 h-[50vh] md:h-[40vh] lg:h-[80vh]">
     <div class="heroimage absolute top-0 left-0 w-full h-full overflow-hidden">
-        <img class="min-w-full h-[50vh] md:h-[40vh] lg:h-[80vh] absolute object-cover" src="../assets/privatrengøring-herobillede.jpg" alt="Private-cleaning">
+        <img class="min-w-full h-[50vh] md:h-[40vh] lg:h-[80vh] absolute object-cover" src="../assets/privatrengøring-herobillede.jpg" alt="Privat rengøring af hjem">
     </div>
     <div class="image-content z-10 pt-28 md:pt-40 lg:pt-48 lg:px-40">
         <div>
             <p class="font-sans text-white text-left pl-5 dark:text-white px-4 text-sm md:text-lg md:text-center lg:text-lg lg:text-left">
                 PAULAS RENGØRING | PRIVATRENGØRING
             </p>
-            <h2 class="font-sans text-white dark:text-white text-left font-semibold px-4 text-4xl md:text-5xl md:text-center lg:pb-2 lg:font-semibold lg:text-5xl lg:text-left">Rengøringshjælp for dig i dit hjem</h2>
+            <h2 class="font-sans text-white dark:text-white text-left font-semibold px-4 text-4xl md:text-5xl md:text-center lg:pb-2 lg:font-semibold lg:text-5xl lg:text-left">Privat rengøringshjælp for dig i dit hjem</h2>
         </div>
     </div>
 </section>
@@ -39,7 +39,7 @@
         </div>
     </div>
     <div class="w-full md:w-full lg:w-full relative">
-        <img src="../assets/Tryghed-rengøring.jpg" alt="Privatrengøring-tryghed" class="w-full">
+        <img src="../assets/Tryghed-rengøring.jpg" alt="Kvinde støvsuger gulvet" class="w-full">
         <div class="hidden md:inline-block md:mx-16 md:my-36 lg:hidden absolute inset-0 flex">
             <RouterLink to="contact">
                 <button class="flex hover:bg-transparent bg-darkbeige dark:bg-darkbeige font-normal lg:font-normal py-2 px-6 rounded-full lg:py-2 lg:px-6">
@@ -64,12 +64,12 @@
 
 <div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-row md:justify-center lg:flex-row lg:w-full lg:pt-5 lg:pb-20">
     <div class="w-full md:w-1/2 lg:w-1/2">
-        <img src="../assets/Paulas-rengøring.jpg" alt="om-firmaet-billede">
+        <img src="../assets/Paulas-rengøring.jpg" alt="Kvinde rengør køkken">
     </div>
     <div class="bg-lightgray justify justify-center p-4 md:p-6 w-full md:w-1/2 lg:w-1/2 lg:px-10">
         <p class="text-gray dark:text-gray text-sm md:text-sm font-base pt-5 pb-2 lg:pt-16 lg:text-sm">PAULAS RENGØRING | PRIVATRENGØRING</p>
-        <h2 class="text-black text-3xl font-semibold pb-4 md:text-2xl lg:text-4xl">Tilpassede rengøringsløsninger</h2>
-        <p class="text-black text-sm font-semibold md:text-sm md:font-semibold lg:font-semibold lg:text-base">Jeg tilbyder altid skræddersyede løsninger, som tager udgangspunkt i dine ønsker og behov. </p>
+        <h2 class="text-black text-3xl font-semibold pb-4 md:text-2xl lg:text-4xl">Tilpasset rengøring</h2>
+        <p class="text-black text-sm font-semibold md:text-sm md:font-semibold lg:font-semibold lg:text-base">Dit lokale rengøringsfirma, som tilbyder skræddersyede løsninger lige efter dine ønsker og behov. </p>
         <p class="text-black text-sm font-base pt-3 md:text-sm md:font-base lg:font-base lg:pt-3 lg:pr-10 lg:text-base">Lad os tage en uforpligtigende snak om det, du har brug for hjælp til, og hvor ofte du har behov for rengøringshjælp. Vi vil i fællesskab sammensætte den bedste løsning for dig. Jeg glæder mig til at høre fra dig. </p>
         <p class="text-black dark:text-black pt-5 text-lg font-semibold pb-2 md:text-lg md:font-semibold lg:pt-6 lg:text-2xl">Kontakt oplysninger</p>
         <div class="flex justify-start px-0 pt-3 pb-2 lg:pb-0 lg:pt-3">
@@ -176,7 +176,7 @@
         </div>
     </div>
     <div class="w-full md:w-3/4 md:mx-24 lg:w-3/4 lg:m-0">
-        <img src="../assets/kontakt-billede.jpg" alt="Forløb-billede">
+        <img src="../assets/kontakt-billede.jpg" alt="Kvinde sidder ved computeren">
     </div>
 </div>
     

@@ -3,7 +3,7 @@
 <!-- Hero section -->
 <section class="relative h-screen flex flex-col pt-20 content-start md:h-[40vh] lg:h-[100vh] lg:pt-20">
     <div class="video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
-        <video class="min-w-full min-h-full absolute object-cover"
+        <video class="min-w-full min-h-full absolute object-cover" alt="Kvinde gør overflade rent"
             src="../assets/herovideo.mp4"
             type="video/mp4" autoplay muted loop>
         </video>
@@ -52,7 +52,7 @@
         <p class="text-black dark:text-black text-sm mt-2 mb-5 md:text-xs md:mx-0 md:mb-0 lg:mx-0 lg:text-sm lg:mr-10 lg:pb-0">Kommunikationen imellem os er altafgørende, for at der kan dannes et trygt og tæt samarbejde. Jeg pritoterer den tillidsfulde relation.</p>
     </div>
     <div class="md:w-1/2 lg:w-2/5">
-        <img src="../assets/Paulas-rengøring-værdisæt.jpg" alt="Værdi-billede">
+        <img src="../assets/Paulas-rengøring-værdisæt.jpg" alt="Kvinde giver kunde håndtryk">
     </div>
 </div>
 
@@ -69,7 +69,7 @@
 
 <div class="bg-white dark:bg-white light:bg-white px-0 flex flex-col justify justify-center h-full w-full p-8 md:px-0 md:flex-row md:pt-2 lg:flex-row lg:w-full lg:pt-0 lg:pb-5 lg:px-0">
     <div class="relative w-full md:w-full lg:w-full">
-        <img src="../assets/Guide-billede.jpg" alt="Guide-billede" class="w-full h-auto">
+        <img src="../assets/Guide-billede.jpg" alt="Kvinde rengør bord" class="w-full h-auto">
         <RouterLink to="guide"> 
             <button class="center-button hidden md:inline-block lg:hidden bg-darkbeige rounded-full text-black font-normal py-2 px-8 md:py-2 md:px-8 md:text-white lg:text-md lg:py-2 lg:px-8 lg:font-semibold">
                 Læs mere
@@ -121,7 +121,7 @@
         </div>
     </div>
     <div class="md:w-1/2 lg:w-2/5">
-        <img src="../assets/Paulasrengøring-om-billede.jpg" alt="Paulas-rengøring-om">
+        <img src="../assets/Paulasrengøring-om-billede.jpg" alt="Kvinde står med rengøringsprodukt">
     </div>
 </div>
 
@@ -141,7 +141,7 @@
 <div class="bg-whitelight:bg-white dark:bg-white flex justify-center">
     <div class="grid grid-cols-1 z-0 pb-10 md:grid-cols-2 md:pt-5 md:space-x-10 lg:grid-cols-2 lg:space-x-12 lg:pb-20">
         <div class="max-w-xs mx-auto mb-10 overflow-hidden shadow-lg bg-white dark:bg-white lg:p-10 lg:pb-0 relative">
-            <img src="../assets/Shine-element.png" class="h-24 lg:h-40 pl-44 mt-56 absolute lg:pl-48 lg:mt-44" alt="Shine-element">
+            <img src="../assets/Shine-element.png" class="h-24 lg:h-40 pl-44 mt-56 absolute lg:pl-48 lg:mt-44">
                 <div class="absolute top-0 left-0 w-full h-32 bg-darkblue dark:bg-darkblue lg:top-3 lg:left-0 lg:w-full lg:h-40"></div>
                     <div class="px-6 py-4 relative z-10">
                         <div class="font-sans pb-10 pt-5 font-bold text-2xl text-white dark:text-white lg:text-3xl lg:pt-0 lg:pb-10">
@@ -197,7 +197,7 @@
             </div>
         </div>
         <div class="max-w-xs mx-auto mb-10 overflow-hidden shadow-lg bg-white dark:bg-white lg:p-10 lg:pb-0 relative">
-            <img src="../assets/Shine-element.png" class="h-24 lg:h-40 pl-44 mt-56 absolute lg:pl-48 lg:mt-44" alt="Shine-element">
+            <img src="../assets/Shine-element.png" class="h-24 lg:h-40 pl-44 mt-56 absolute lg:pl-48 lg:mt-44">
                 <div class="absolute top-0 left-0 h-32 w-full bg-darkblue dark:bg-darkblue lg:top-3 lg:left-0 lg:w-full lg:h-40"></div>
                     <div class="px-6 py-4 relative z-10">
                         <div class="font-sans pb-10 pt-5 font-bold text-2xl text-white dark:text-white lg:text-3xl lg:pt-0 lg:pb-10">
@@ -258,7 +258,7 @@
 <!-- kontaktformular sektion -->
 <section class="relative h-full flex flex-col items-center text-center content-start z-0 pt-10 md:flex-col lg:py-12">
     <div class="absolute top-0 left-0 w-full h-full overflow-hidden">
-        <img class="min-w-full min-h-full absolute object-cover" src="../assets/Kontakt-form-billede.jpg" alt="Kontaktform-billede">
+        <img class="min-w-full min-h-full absolute object-cover" src="../assets/Kontakt-form-billede.jpg" alt="Kvinde rengør sofabord">
     </div>
     <div class="image-content text-white dark:text-white z-10 md:pt-10">
         <p class="text-sm md:mx-5 lg:text-sm lg:font-semibold lg:pt-0 text-white dark:text-white lg:text-center lg:tracking-wider">PAULAS RENGØRING | KONTAKT</p>

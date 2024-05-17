@@ -3,7 +3,7 @@
 <!-- Hero section -->
 <section class="relative flex flex-col pt-5 h-[50vh] md:h-[40vh] lg:h-[80vh]">
     <div class="heroimage absolute top-0 left-0 w-full h-full overflow-hidden">
-        <img class="min-w-full h-[50vh] md:h-[40vh] lg:h-[80vh] absolute object-cover" src="../assets/prisætning.jpg" alt="kontakt-page">
+        <img class="min-w-full h-[50vh] md:h-[40vh] lg:h-[80vh] absolute object-cover" src="../assets/prisætning.jpg" alt="Kvinde kigger på computer">
     </div>
     <div class="image-content z-10 pt-28 md:pt-40 lg:pt-48 lg:px-40">
         <div>
@@ -26,7 +26,7 @@
 <!-- kontaktformular sektion -->
 <section class="relative h-full flex flex-col items-center text-center content-start pt-10 md:flex-col lg:py-12">
     <div class="absolute top-0 left-0 w-full h-full overflow-hidden">
-        <img class="min-w-full min-h-full absolute object-cover" src="../assets/Kontakt-form-billede.jpg" alt="Kontaktform-billede">
+        <img class="min-w-full min-h-full absolute object-cover" src="../assets/Kontakt-form-billede.jpg" alt="Kvinde rengør sofabord">
     </div>
     <div class="image-content text-white dark:text-white z-10 md:pt-10">
         <p class="text-sm md:mx-5 lg:text-sm lg:font-semibold lg:pt-0 text-white dark:text-white lg:text-center lg:tracking-wider">PAULAS RENGØRING | KONTAKT</p>

@@ -1,7 +1,7 @@
 <template>
     <section class="relative h-screen flex flex-col items-center py-20 text-center content-start md:h-[40vh] lg:h-[80vh]">
         <div class="heroimage absolute top-0 left-0 w-full h-full overflow-hidden">
-            <img class="min-w-full min-h-full absolute object-cover" src="../assets/prisætning.jpg" alt="Prisætning">
+            <img class="min-w-full min-h-full absolute object-cover" src="../assets/prisætning.jpg" alt="Kvinde sidder ved computer">
         </div>
     </section>
     <div class="bg-white light:bg-white dark:bg-white">

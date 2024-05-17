@@ -3,7 +3,7 @@
 <!-- Hero section -->
 <section class="relative flex flex-col pt-5 h-[50vh] md:h-[40vh] lg:h-[80vh]">
     <div class="heroimage absolute top-0 left-0 w-full h-full overflow-hidden">
-        <img class="min-w-full h-[50vh] md:h-[40vh] lg:h-[80vh] absolute object-cover" src="../assets/prisætning.jpg" alt="hero-pricepage">
+        <img class="min-w-full h-[50vh] md:h-[40vh] lg:h-[80vh] absolute object-cover" src="../assets/prisætning.jpg" alt="Kvinde arbejder på computer">
     </div>
     <div class="image-content z-10 pt-28 md:pt-40 lg:pt-48 lg:px-40">
         <div>
@@ -18,7 +18,7 @@
 <!-- Pris sektion -->
 <div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 pt-10 md:pt-20 md:pb-10 md:flex-row lg:flex-row lg:w-full lg:pt-20 lg:pb-20">
     <div class="md:w-1/2 lg:w-2/5">
-        <img src="../assets/Paulasrengøring-pris-billede.jpg" alt="Paulas-rengøring-pris-billede">
+        <img src="../assets/Paulasrengøring-pris-billede.jpg" alt="Kvinde støvsuger i stue">
     </div>
     <div class="bg-lightgray p-4 md:p-6 md:w-1/2 md:pt-5 lg:w-2/5 lg:px-12">
         <p class="text-gray dark:gray text-xs pt-5 font-semibold pb-2 md:pt-12 lg:pt-12 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | PRIS</p>
@@ -60,7 +60,7 @@
         </div>
     </div>
     <div class="md:w-1/2 lg:w-2/5">
-        <img src="../assets/Paulasrengøring-om-billede.jpg" alt="Paulas-rengøring-om">
+        <img src="../assets/Paulasrengøring-om-billede.jpg" alt="Kvinde står med rengøringsprodukter">
     </div>
 </div>
 

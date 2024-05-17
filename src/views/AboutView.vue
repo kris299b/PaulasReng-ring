@@ -2,7 +2,7 @@
 <!-- Hero section -->
 <section class="relative flex flex-col pt-5 h-[50vh] md:h-[40vh] lg:h-[80vh]">
     <div class="heroimage absolute top-0 left-0 w-full h-full overflow-hidden">
-        <img class="min-w-full h-[50vh] md:h-[40vh] lg:h-[80vh] absolute object-cover" src="../assets/herobillede-omside.jpg" alt="About-heroimage">
+        <img class="min-w-full h-[50vh] md:h-[40vh] lg:h-[80vh] absolute object-cover" src="../assets/herobillede-omside.jpg" alt="kvinde flytter puder">
     </div>
     <div class="image-content z-10 pt-28 md:pt-40 lg:pt-48 lg:px-40">
         <div>
@@ -28,7 +28,7 @@
         <p class="text-black dark:text-black text-sm mt-2 mb-5 md:text-xs md:mx-0 lg:mx-0 lg:text-sm lg:mr-10 lg:pb-0">Kommunikationen imellem os er af altafgørende, for at der kan dannes et trygt og tæt samarbejde. Jeg pritotere den tillidsfulde relation.</p>
     </div>
     <div class="md:w-1/2 lg:w-2/5">
-        <img src="../assets/Paulas-rengøring-værdisæt.jpg" alt="Kvinde der smiler">
+        <img src="../assets/Paulas-rengøring-værdisæt.jpg" alt="Kvinde giver kunde håndtryk">
     </div>
 </div>
 
@@ -42,7 +42,7 @@
 
 <div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-row lg:flex-row lg:w-full">
     <div class="md:w-1/2 lg:w-1/2">
-        <img src="../assets/PaulasRengøring-om-billedet.jpg" alt="om-firmaet-billede">
+        <img src="../assets/PaulasRengøring-om-billedet.jpg" alt="Kvinde går i gang med køkkenrengøring">
     </div>
 
     <div class="bg-lightgray p-4 md:p-6 md:w-1/2 lg:w-1/2 lg:px-10">
@@ -88,7 +88,7 @@
         </div>
     </div>
     <div class="md:w-1/2 lg:w-2/5">
-        <img src="../assets/Paulasrengøring-om-billede.jpg" alt="Paulas-rengøring-om">
+        <img src="../assets/Paulasrengøring-om-billede.jpg" alt="Kvinde står med rengøringsproduk">
     </div>
 </div>
 
