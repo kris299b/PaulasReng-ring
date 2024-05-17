@@ -1,14 +1,14 @@
 <template>
 
 <!-- Hero section -->
-<section class="relative h-screen flex flex-col pt-20 content-start lg:pt-20">
+<section class="relative h-screen flex flex-col pt-20 content-start md:h-[40vh] lg:h-[100vh] lg:pt-20">
     <div class="video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
         <video class="min-w-full min-h-full absolute object-cover"
             src="../assets/herovideo.mp4"
             type="video/mp4" autoplay muted loop>
         </video>
     </div>
-    <div class="video-content z-10 pt-24 md:pt-80 lg:pt-32">
+    <div class="video-content z-10 pt-24 md:pt-20 lg:pt-32">
         <div>
             <p class="font-sans text-white dark:text-white px-4 text-sm md:text-lg md:text-center lg:text-lg lg:text-center">
                 PAULAS RENGØRING | PROFESSIONEL RENGØRING
@@ -61,7 +61,7 @@
     <h2 class="font-sans text-2xl text-black pl-5 pr-10 pt-5 font-semibold md:pb-0 md:font-semibold md:text-3xl md:px-20 md:text-center lg:pt-0 lg:pb-5 lg:text-black lg:text-3xl lg:font-semibold lg:text-center">
         Går du i overvejelserne om at få rengøringshjælp ?
     </h2>
-    <h2 class="font-sans text-sm text-black pl-5 pr-5 pt-5 font-normal md:px-10 md:pb-10 md:font-normal md:text-center lg:text-black lg:pt-1 lg:pb-10 lg:px-40 lg:text-sm lg:text-center">
+    <h2 class="font-sans text-sm text-black pl-5 pr-5 pt-5 font-normal md:px-10 md:pb-6 md:font-normal md:text-center lg:text-black lg:pt-1 lg:pb-10 lg:px-40 lg:text-sm lg:text-center">
         Har du har en travl hverdag, er du ældre og har behov for ekstra hjælp til at udføre rengøringen, eller vil du blot priotere din tid anderledes, så har jeg samlet nogle gode råd til dig i den indledende fase, som gerne skulle give dig det gode overblik inden valg af rengøringshjælp.
     </h2>
 </div>
@@ -80,7 +80,7 @@
         <h2 class="text-black dark:text-black text-3xl font-semibold mt-2 md:text-3xl md:mx-5 lg:mx-0 lg:font-semibold lg:text-4xl lg:pl-5 lg:mr-10 lg:pb-0">Sådan får du mest mulig ud af din rengøringshjælp.</h2>
         <p class="text-black dark:text-black pt-2 text-lg mt-3 font-semibold md:mx-5 md:text-sm lg:text-lg lg:font-semibold lg:pt-2">Går du med overvejelserne om, at ansætte en professionel til at udføre rengøringshjælpen i dit hjem?</p>
         <p class="text-black dark:text-black pt-2 text-sm mt-3 font-base md:pt-1 md:mx-5 md:font-base md:mx-0 md:text-sm lg:pl-5 lg:mx-0 lg:text-sm lg:font-base lg:pt-2">Jeg har samlet nogle råd til dig i den indledende fase, som sikrer dig at du får mest muligt ud af din rengøringshjælp, og opnår størst mulig tilfredshed. </p>
-        <div class="pb-6 md:px-0 pt-10 md:pt-5 md:pb-0 lg:pl-5 lg:pt-10">
+        <div class="pb-6 md:px-0 pt-6 md:pt-5 md:pb-0 lg:pl-5 lg:pt-10">
             <RouterLink to="guide"> 
                 <button class="inline block md:hidden lg:inline-block bg-darkbeige light:bg-darkbeige dark:bg-darkbeige rounded-full text-black dark:text-black font-normal py-2 px-8 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 lg:text-md lg:font-semibold">
                     Læs mere
@@ -92,25 +92,25 @@
 
 
 <!-- Om sektion -->
-<div class="bg-white dark:bg-white light:bg-white flex justify justify-center h-20 pt-4 md:h-24 md:pt-10">
-    <h2 class="font-sans text-2xl text-black font-semibold md:pb-0 md:font-semibold md:text-3xl md:px-20 md:text-center lg:pt-0 lg:pb-5 lg:text-black lg:text-3xl lg:font-semibold lg:text-center">Dit Lokale rengøringsfirma</h2>
+<div class="bg-white dark:bg-white light:bg-white flex justify justify-center h-20 pt-4 md:h-24 md:pt-6">
+    <h2 class="font-sans text-2xl text-black font-semibold md:font-semibold md:text-3xl md:px-20 md:text-center lg:pt-0 lg:pb-5 lg:text-black lg:text-3xl lg:font-semibold lg:text-center">Dit Lokale rengøringsfirma</h2>
 </div>
 
-<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 pt-0 md:flex-row lg:flex-row lg:w-full lg:pb-16">
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 pt-0 md:p-0 md:flex-row lg:flex-row lg:w-full lg:pb-16">
     <div class="bg-lightgray p-4 pt-0 md:p-6 md:pb-0 md:w-1/2 lg:w-2/5 lg:px-12">
-        <p class="text-gray dark:gray text-xs pt-5 font-semibold pb-2 md:pt-0 lg:pt-10 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | OM MIG</p>
+        <p class="text-gray dark:gray text-xs pt-8 font-semibold pb-2 md:pt-4 lg:pt-10 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | OM MIG</p>
         <h2 class="text-black dark:text-black text-2xl font-semibold pb-4 md:pb-2 lg:pb-6 lg:text-3xl">Jeg værdsætter tillid og tryghed, i det samarbejde jeg indgår med mine kunder </h2>
-        <p class="text-black dark:text-black text-sm font-semibold md:pb-1 lg:font-semibold lg:text-sm">Jeg startede Paulas Rengøring i 2014, da det længe havde været et ønske at gå selvstændig.</p>
-        <p class="text-black dark:text-black text-sm pt-3 md:pt-1 lg:text-base lg:pt-2 lg:text-sm">Sidenhen har jeg opbygget en loyal kundekreds i Ringkøbing-Skjern omregn, som jeg værner om og værdsætter. Personligt betyder gensidig tillid, og et trygt samarbejde meget i de kunderalationer jeg indgår i. Jeg tilbyder rengøring for private samt erhverv.</p>
+        <p class="text-black dark:text-black text-sm font-semibold md:pb-1 lg:font-semibold lg:text-base">Jeg startede Paulas Rengøring i 2014, da det længe havde været et ønske at gå selvstændig.</p>
+        <p class="text-black dark:text-black text-sm pt-3 md:pt-1 lg:text-base lg:pt-2 lg:text-base">Sidenhen har jeg opbygget en loyal kundekreds i Ringkøbing-Skjern omregn, som jeg værner om og værdsætter. Personligt betyder gensidig tillid, og et trygt samarbejde meget i de kunderelationer jeg indgår i. Jeg tilbyder rengøring for private samt erhverv.</p>
         <div class="row pt-6 pb-4 md:flex lg:flex md:pt-3 lg:pt-6 lg:pb-0">
-            <div class="py-3 md:py-0 md:pr-3 lg:pr-3">
+            <div class="py-3 md:pt-5 md:pr-3 lg:pt-0 lg:pr-3">
                 <RouterLink to="privatecleaning"> 
                     <button class="bg-blue dark:bg-blue hover:bg-darkblue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-1 md:px-3 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
                         Privatrengøring
                     </button>
                 </RouterLink> 
             </div>
-            <div class="lg:pt-0">
+            <div class="md:pt-5 lg:pt-0">
                 <RouterLink to="commercialcleaning"> 
                     <button class="bg-blue dark:bg-blue hover:bg-darkblue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-1 md:px-3 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
                         Erhvervsrengøring
@@ -126,11 +126,11 @@
 
 
 <!-- Ydelser sektion -->
-<div class="bg-white light:bg-white dark:bg-white px-5 md:px-40 lg:px-56">
-    <div class="font-sans text-darkgray dark:text-darkgray pt-10 pb-0 text-center text-sm pb-2 lg:text-lg lg:text-center lg:pt-5 lg:pb-2 lg:font-normal lg:tracking-wider">
+<div class="bg-white light:bg-white dark:bg-white px-5 md:pt-5 md:px-40 lg:px-56">
+    <div class="font-sans text-darkgray dark:text-darkgray pt-6 pb-2 text-center text-sm lg:text-lg lg:text-center lg:pt-5 lg:pb-2 lg:font-normal lg:tracking-wider">
         <p>PAULAS RENGØRING</p>
     </div>
-    <div class="font-sans text-black dark:text-black font-semibold text-2xl pb-10 text-center lg:text-3xl lg:text-center lg:font-semibold lg:pb-5">
+    <div class="font-sans text-black dark:text-black font-semibold text-2xl pb-10 text-center md:pb-5 lg:text-3xl lg:text-center lg:font-semibold lg:pb-5">
         <h2>
             ''Jeg brænder for, at skabe skinnende resultater, hvor du som kunde er i centrum.'' 
         </h2>
@@ -395,6 +395,7 @@
     </div>
 </div>
 
+<!-- FAQ -->
 <div class="bg-white light:bg-white dark:bg-white py-4 mx-auto">
     <div class="text-center mb-5">
         <h3 class="font-sans text-2xl text-center font-semibold pt-12 lg:text-3xl tracking-tight text-black dark:text-black lg:font-semibold">
@@ -403,24 +404,23 @@
     </div>
 </div>
 
-<!-- FAQ -->
 <section class="pb-10 bg-white light:bg-white dark:bg-white text-darkgray dark:text-darkgray flex lg:justify-center lg:pb-20">
     <div class="container flex justify-center px-4 pb-10 mx-auto md:p-8">
         <div class="space-y-4 w-full md:w-full lg:w-4/5 lg:px-40">
             <div class="w-full md:w-full w-4/5 bg-white dark:white shadow-md lg:shadow-md cursor-pointer" data-toggle-content="content1">
                 <div class="flex justify-between items-center px-5 py-4 focus:outline-none focus-visible:ri lg:pl-8">
-                    <span class="font-sans lg:font-semibold font-base text-xs text-black dark:text-black lg:text-semibold lg:text-sm lg:font-semibold ">Hvor meget koster det at få gjort rent?</span>
+                    <span class="font-sans lg:font-semibold font-base text-xs text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold ">Hvor meget koster det at få gjort rent?</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>
                 </div>
                 <div id="content1" class="font-sans hidden px-6 py-6 pt-0 ml-4 text-black dark:text-black lg:text-sm lg:mt-1">
-                    Jeg kører en fast timepris på 280 kr. eksklu. moms.
+                    Jeg kører en fast timepris på 280 kr. ekskl. moms.
                 </div>
             </div>
             <div class="w-full md:w-full w-4/5 bg-white dark:white shadow-md lg:shadow-md cursor-pointer" data-toggle-content="content2">
                 <div class="flex justify-between items-center px-5 py-4 focus:outline-none focus-visible:ri lg:pl-8">
-                    <span class="lg:font-semibold font-base text-xs text-black dark:text-black lg:text-semibold lg:text-sm lg:font-semibold ">Kan ydelserne blive skræddersyet efter behov?</span>
+                    <span class="lg:font-semibold font-base text-xs text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold ">Kan ydelserne blive skræddersyet efter behov?</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>
@@ -431,7 +431,7 @@
             </div>
             <div class="w-full md:w-full w-4/5 bg-white dark:white shadow-md lg:shadow-md cursor-pointer" data-toggle-content="content3">
                 <div class="flex justify-between items-center px-5 py-4 focus:outline-none focus-visible:ri lg:pl-8">
-                    <span class="lg:font-semibold font-base text-xs text-black dark:text-black lg:text-semibold lg:text-sm lg:font-semibold ">Hvor ofte bør jeg få gjort rent?</span>
+                    <span class="lg:font-semibold font-base text-xs text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold ">Hvor ofte bør jeg få gjort rent?</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>
@@ -442,7 +442,7 @@
             </div>
             <div class="w-full md:w-full w-4/5 bg-white dark:white shadow-md lg:shadow-md cursor-pointer" data-toggle-content="content4">
                 <div class="flex justify-between items-center px-5 py-4 focus:outline-none focus-visible:ri lg:pl-8">
-                    <span class="font-sans lg:font-semibold font-base text-xs text-black dark:text-black lg:text-semibold lg:text-sm lg:font-semibold ">Skal jeg være hjemme, når rengøringen kommer?</span>
+                    <span class="font-sans lg:font-semibold font-base text-xs text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold ">Skal jeg være hjemme, når rengøringen kommer?</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>
@@ -453,7 +453,7 @@
             </div>
             <div class="w-full md:w-full w-4/5 bg-white dark:white shadow-md lg:shadow-md cursor-pointer" data-toggle-content="content5">
                 <div class="flex justify-between items-center px-5 py-4 focus:outline-none focus-visible:ri lg:pl-8">
-                    <span class="font-sans lg:font-semibold font-base text-xs text-black dark:text-black lg:text-semibold lg:text-sm lg:font-semibold ">Hvor kan jeg komme i kontakt med Paula?</span>
+                    <span class="font-sans lg:font-semibold font-base text-xs text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold ">Hvor kan jeg komme i kontakt med Paula?</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>

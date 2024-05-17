@@ -10,7 +10,7 @@
             <p class="font-sans text-white text-left pl-5 dark:text-white px-4 text-sm md:text-lg md:text-center lg:text-lg lg:text-left">
                 PAULAS RENGØRING | KONTAKT
             </p>
-            <h2 class="font-sans text-white dark:text-white text-left font-semibold px-4 text-4xl md:text-5xl md:text-center lg:pb-2 lg:font-semibold lg:text-5xl lg:text-left">Professionel rådgivning med dig i centrum</h2>
+            <h2 class="font-sans text-white dark:text-white text-left font-semibold px-4 text-3xl md:text-5xl md:text-center lg:pb-2 lg:font-semibold lg:text-5xl lg:text-left">Professionel rådgivning med dig i centrum</h2>
         </div>
     </div>
 </section>
@@ -116,13 +116,10 @@
     </div>
 </section>
 
-
-
-
 <!-- FAQ -->
-<div class="bg-white light:bg-white dark:bg-white h-full py-4 mx-auto md:pt-0 lg:pt-0">
-    <div class="text-center mb-5 md:pt-0 lg:pt-10">
-        <h3 class="font-sans text-2xl text-center font-semibold pt-20 lg:text-3xl tracking-tight text-black dark:text-black lg:font-semibold">
+<div class="bg-white light:bg-white dark:bg-white py-4 mx-auto">
+    <div class="text-center mb-5">
+        <h3 class="font-sans text-2xl text-center font-semibold pt-12 lg:text-3xl tracking-tight text-black dark:text-black lg:font-semibold">
             Ofte stillede spørgsmål
         </h3>
     </div>
@@ -133,57 +130,57 @@
         <div class="space-y-4 w-full md:w-full lg:w-4/5 lg:px-40">
             <div class="w-full md:w-full w-4/5 bg-white dark:white shadow-md lg:shadow-md cursor-pointer" data-toggle-content="content1">
                 <div class="flex justify-between items-center px-5 py-4 focus:outline-none focus-visible:ri lg:pl-8">
-                    <span class="font-sans lg:font-semibold font-base text-xs text-black dark:text-black lg:text-semibold lg:text-sm lg:font-semibold ">Hvor meget koster en hjemmeside hos jer?</span>
+                    <span class="font-sans lg:font-semibold font-base text-xs text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold ">Hvor meget koster det at få gjort rent?</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>
                 </div>
                 <div id="content1" class="font-sans hidden px-6 py-6 pt-0 ml-4 text-black dark:text-black lg:text-sm lg:mt-1">
-                    Prisen på en hjemmeside afhænger af dine ønsker og krav. Du vil ved kontakt få en estimeret pris, som vil ændre sig alt efter dine ønsker til det visuelle udtryk samt funktionalitet.
+                    Jeg kører en fast timepris på 280 kr. ekskl. moms.
                 </div>
             </div>
             <div class="w-full md:w-full w-4/5 bg-white dark:white shadow-md lg:shadow-md cursor-pointer" data-toggle-content="content2">
                 <div class="flex justify-between items-center px-5 py-4 focus:outline-none focus-visible:ri lg:pl-8">
-                    <span class="lg:font-semibold font-base text-xs text-black dark:text-black lg:text-semibold lg:text-sm lg:font-semibold ">Hvor meget koster en hjemmeside hos jer?</span>
+                    <span class="lg:font-semibold font-base text-xs text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold ">Kan ydelserne blive skræddersyet efter behov?</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>
                 </div>
                 <div id="content2" class="font-sans hidden px-6 py-6 pt-0 ml-4 text-black dark:text-black lg:text-sm lg:mt-1">
-                    Prisen på en hjemmeside afhænger af dine ønsker og krav. Du vil ved kontakt få en estimeret pris, som vil ændre sig alt efter dine ønsker til det visuelle udtryk samt funktionalitet.
+                    Det er dine behov og dine ønsker der er i højsædet. Ydelserne kan derfor sagtens blive skræddersyet, så de passer til din behov og ønsker, og dette vil vi sammen kunne lægge en plan for.
                 </div>
             </div>
             <div class="w-full md:w-full w-4/5 bg-white dark:white shadow-md lg:shadow-md cursor-pointer" data-toggle-content="content3">
                 <div class="flex justify-between items-center px-5 py-4 focus:outline-none focus-visible:ri lg:pl-8">
-                    <span class="lg:font-semibold font-base text-xs text-black dark:text-black lg:text-semibold lg:text-sm lg:font-semibold ">Hvor meget koster en hjemmeside hos jer?</span>
+                    <span class="lg:font-semibold font-base text-xs text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold ">Hvor ofte bør jeg få gjort rent?</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>
                 </div>
                 <div id="content3" class="font-sans hidden px-6 py-6 pt-0 ml-4 text-black dark:text-black lg:text-sm lg:mt-1">
-                    Prisen på en hjemmeside afhænger af dine ønsker og krav. Du vil ved kontakt få en estimeret pris, som vil ændre sig alt efter dine ønsker til det visuelle udtryk samt funktionalitet.
+                    Dette er helt og holdent op til dig. Nogle vælger at få rengøringshjælp 1 gang om ugen, mens andre kun føler et behov for at få rengøringshjælp 1 gang om måneden. Rengøringshjælpen skal passe ind i din hverdag og til dit budget, og det er derfor noget vi vil tage en snak om under det indledende møde. 
                 </div>
             </div>
             <div class="w-full md:w-full w-4/5 bg-white dark:white shadow-md lg:shadow-md cursor-pointer" data-toggle-content="content4">
                 <div class="flex justify-between items-center px-5 py-4 focus:outline-none focus-visible:ri lg:pl-8">
-                    <span class="font-sans lg:font-semibold font-base text-xs text-black dark:text-black lg:text-semibold lg:text-sm lg:font-semibold ">Hvor meget koster en hjemmeside hos jer?</span>
+                    <span class="font-sans lg:font-semibold font-base text-xs text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold ">Skal jeg være hjemme, når rengøringen kommer?</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>
                 </div>
                 <div id="content4" class="font-sans hidden px-6 py-6 pt-0 ml-4 text-black dark:text-black lg:text-sm lg:mt-1">
-                    Prisen på en hjemmeside afhænger af dine ønsker og krav. Du vil ved kontakt få en estimeret pris, som vil ændre sig alt efter dine ønsker til det visuelle udtryk samt funktionalitet.
+                    Det er helt op til dig, om du ønsker at være hjemme mens rengøringsopgaverne bliver udført, og er noget som enhver rengøringshjælp skal respektere. Det handler om, hvad der gør dig tryg, og hvad du har det bedst med. 
                 </div>
             </div>
             <div class="w-full md:w-full w-4/5 bg-white dark:white shadow-md lg:shadow-md cursor-pointer" data-toggle-content="content5">
                 <div class="flex justify-between items-center px-5 py-4 focus:outline-none focus-visible:ri lg:pl-8">
-                    <span class="font-sans lg:font-semibold font-base text-xs text-black dark:text-black lg:text-semibold lg:text-sm lg:font-semibold ">Hvor meget koster en hjemmeside hos jer?</span>
+                    <span class="font-sans lg:font-semibold font-base text-xs text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold ">Hvor kan jeg komme i kontakt med Paula?</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>
                 </div>
                 <div id="content5" class="font-sans hidden px-6 py-6 pt-0 ml-4 text-black dark:text-black lg:text-sm lg:mt-1">
-                    Prisen på en hjemmeside afhænger af dine ønsker og krav. Du vil ved kontakt få en estimeret pris, som vil ændre sig alt efter dine ønsker til det visuelle udtryk samt funktionalitet.
+                    Du kan komme i kontakt med Paula pr. telefon og mail, eller du kan udfylde kontaktformularen, som findes på Kontakt-siden.
                 </div>
             </div>
         </div>

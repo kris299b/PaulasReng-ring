@@ -59,7 +59,7 @@
         <div class="text-darkgray text-sm pt-2 px-5 lg:text-md lg:px-28 lg:pt-1 lg:pb-2">
             <p>Vi indsamler og behandler typisk følgende typer af oplysninger: Hvilke sider du klikker på (interesser), i det omfang du selv giver eksplicit samtykke hertil og selv indtaster informationerne behandles desuden: Navn, telefonnummer, e-mail, adresse. Det vil typisk være i forbindelse med udfyldning af kontaktform.</p>
         </div>
-        <div class="text-darkgray text-lg pt-5 px-5 lg:text-lg lg:pt-2 lg:px-28">
+        <div class="text-darkgray text-lg pt-5 px-5 lg:text-lg lg:pt-5 lg:px-28">
             <p class="font-bold">Videregivelse af oplysninger</p>
         </div>
         <div class="text-darkgray text-sm pt-2 px-5 lg:text-md lg:px-28 lg:pt-1 lg:pb-2">
@@ -68,13 +68,13 @@
         <div class="text-darkgray text-sm pt-2 px-5 lg:text-md lg:px-28 lg:pt-1 lg:pb-2">
             <p>Videregivelse af personoplysninger som navn og e-mail m.v. vil kun ske, hvis du giver samtykke til det. Vi anvender kun databehandlere i EU eller i lande, der kan give dine oplysninger en tilstrækkelig beskyttelse.</p>
         </div>
-        <div class="text-darkgray text-lg pt-5 px-5 lg:text-lg lg:pt-2 lg:px-28">
+        <div class="text-darkgray text-lg pt-5 px-5 lg:text-lg lg:pt-5 lg:px-28">
             <p class="font-bold">Indsigt og klager</p>
         </div>
         <div class="text-darkgray text-sm pt-2 px-5 lg:text-md lg:px-28 lg:pt-1 lg:pb-2">
             <p>Du har ret til at få oplyst, hvilke personoplysninger, vi behandler om dig. Du kan desuden til enhver tid gøre indsigelse mod, at oplysninger anvendes. Du kan også tilbagekalde dit samtykke til, at der bliver behandlet oplysninger om dig. Hvis de oplysninger, der behandles om dig, er forkerte har du ret til at de bliver rettet eller slettet. Henvendelse herom kan ske til: kontakt@creative-design.dk. Hvis du vil klage over vores behandling af dine personoplysninger, har du også mulighed for at tage kontakt til Datatilsynet.</p>
         </div>
-        <div class="text-darkgray text-lg pt-5 px-5 lg:text-lg lg:pt-2 lg:px-28">
+        <div class="text-darkgray text-lg pt-5 px-5 lg:text-lg lg:pt-5 lg:px-28">
             <p class="font-bold">Udgiver</p>
         </div>
         <div class="text-darkgray text-sm pt-2 px-5 lg:text-md lg:px-28 lg:pt-1 lg:pb-0">

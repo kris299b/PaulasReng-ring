@@ -18,17 +18,17 @@
     
 
 <!-- Tryghed-section -->
-<div class="bg-white light:bg-white dark:bg-white px-4 md:pt-3 md:pb-5">
-    <h2 class="text-2xl px-5 pt-10 pb-2 font-semibold text-black dark:text-black md:text-center lg:font-semibold lg:text-3xl lg:text-center lg:pt-10 lg:pb-4">Tryghed i vores samarbejde</h2>
+<div class="bg-white light:bg-white dark:bg-white px-4 md:pt-2 md:pb-5">
+    <h2 class="text-2xl px-5 pt-10 pb-2 font-semibold text-black dark:text-black md:text-center lg:font-semibold lg:text-3xl lg:text-center lg:pt-6 lg:pb-4">Tryghed i vores samarbejde</h2>
 </div>
 
-<div class="bg-white light:white dark:bg-white px-0 flex flex-col justify-center h-full w-full p-8 md:px-0 md:flex-row md:pt-0 lg:flex-row lg:w-full lg:pt-0 lg:pb-5 lg:px-0">
+<div class="bg-white light:white dark:bg-white px-0 flex flex-col justify-center h-full w-full p-8 md:px-0 md:flex-row md:pt-0 lg:flex-row lg:w-full lg:pt-2 lg:pb-5 lg:px-0">
     <div class="bg-lightgray light:lightgray dark:lightgray p-6 md:p-0 w-full md:w-full lg:w-full lg:px-12">
         <p class="text-darkgray dark:text-darkgray text-sm pt-5 font-semibold pb-2 md:pt-4 md:pb-0 md:pl-5 lg:pt-12 lg:pl-0 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | TRYGHED</p>
-        <h2 class="text-black dark:text-black text-4xl mt-2 md:text-3xl md:mx-5 lg:mx-0 lg:font-semibold lg:text-4xl lg:mr-10 lg:pb-0">Det er vigtigt for mig, at du er tryg i vores samarbejde.</h2>
+        <h2 class="text-black dark:text-black font-semibold text-3xl mt-2 md:text-3xl md:mx-5 lg:mx-0 lg:font-semibold lg:text-4xl lg:mr-10 lg:pb-0">Det er vigtigt for mig, at du er tryg i vores samarbejde.</h2>
         <p class="text-black dark:text-black pt-2 text-lg mt-3 font-semibold md:pt-1 md:mx-5 md:text-sm lg:mx-0 lg:text-lg lg:font-semibold lg:pt-2">Hos Paulas Rengøring får du professionel rengøring, hvor du som kunde kan føle dig tryg.</p>
         <p class="text-black dark:text-black pt-2 text-lg mt-3 text-base md:pt-0 md:mx-5 md:text-sm lg:mx-0 lg:text-lg lg:text-base lg:pt-2">Vores samarbejde vil være bygget op på gensidig tillid og respekt, hvor dine behov og ønsker altid er i centrum.</p>
-        <div class="inline-block pt-8 md:hidden lg:inline-block inset-0 flex lg:pt-10 lg:justify-start">
+        <div class="inline-block pt-8 pb-4 md:hidden lg:inline-block inset-0 flex lg:pt-10 lg:justify-start">
             <RouterLink to="contact"> 
                 <button class="flex hover:bg-transparent bg-blue light:bg-blue dark:bg-blue font-normal lg:font-normal py-2 px-6 rounded-full lg:mr-6 lg:py-2 lg:px-6">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="white" class="w-6 h-6 lg:w-5 lg:h-5">
@@ -56,8 +56,8 @@
 
     
 <!-- Tilpassede løsninger erhvervsrengøring - sektion -->
-<div class="flex justify justify-center text-center bg-white dark:bg-white text-black dark-text-black md:pb-4 lg:pt-2">
-    <p class="px-5 pt-10 text-xl font-semibold md:text-center lg:font-semibold lg:text-center lg:pb-0 lg:text-3xl">
+<div class="flex justify justify-center text-center bg-white dark:bg-white text-black dark-text-black md:pb-0 lg:pt-2">
+    <p class="px-5 pt-6 text-xl font-semibold md:text-center md:pt-5 lg:font-semibold lg:text-center lg:pb-0 lg:text-3xl">
         Skræddersyede løsninger tilpasset dine ønsker og behov 
     </p>
 </div>
@@ -117,11 +117,11 @@
     </p>
 </div>
 
-<div class="bg-white dark:bg-white light:bg-white px-4 pt-4 flex flex-col justify justify-center h-1/2 w-full md:flex-col lg:flex-row lg:w-full lg:pt-2 lg:pb-20 lg:mx-0">
-    <div class="bg-lightgray p-4 md:mx-24 w-full md:w-3/4 lg:w-3/4 lg:m-0">
+<div class="bg-white dark:bg-white light:bg-white pt-4 flex flex-col justify justify-center h-1/2 w-full md:flex-col lg:flex-row lg:w-full lg:pt-2 lg:pb-20 lg:mx-0">
+    <div class="bg-lightgray p-4 lg:pl-6 md:mx-24 w-full md:w-3/4 lg:w-3/4 lg:m-0">
         <p class="text-gray dark:text-gray text-sm md:text-sm font-base pt-5 pb-2 lg:pt-6 lg:text-sm">PAULAS RENGØRING | FORLØBET</p>
-        <h2 class="text-black text-2xl font-semibold pb-4 md:text-3xl lg:text-4xl lg:pr-10">Sådan foregår forløbet hos Paulas rengøring</h2>
-        <p class="text-black text-sm font-semibold pb-5 md:text-sm md:font-semibold lg:font-semibold lg:text-base">Når du bestiller rengøringshjælp hos Paulas Rengøring, starter vi ud med en indledende samtale pr. telefon, og dernæst et formøde hvor vi sammen vil lægge en plan for den rengøringshjælpen.</p>
+        <h2 class="text-black text-3xl font-semibold pb-4 md:text-3xl lg:text-4xl lg:pr-10">Sådan foregår forløbet hos Paulas rengøring</h2>
+        <p class="text-black text-sm font-semibold pb-5 md:text-sm md:font-semibold lg:pr-10 lg:font-semibold lg:text-base">Når du bestiller rengøringshjælp hos Paulas Rengøring, starter vi ud med en indledende samtale pr. telefon, og dernæst et formøde hvor vi sammen vil lægge en plan for den rengøringshjælpen.</p>
         <div class="flex pt-2 pb-2 lg:pt-4">
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="darkgray" class="w-6 h-6">
@@ -169,50 +169,50 @@
 </div>
     
     <!-- Kundeanmeldelser -->
-    <div class="bg-white light:bg-white dark:bg-white md:pt-10 lg:pt-0">
+    <div class="bg-white light:bg-white dark:bg-white md:pt-8 lg:pt-0">
         <div>
-            <h2 class="font-sans text-black text-2xl font-semibold dark:text-black pt-16 pb-10 text-center lg:text-3xl lg:text-center lg:font-semibold lg:pt-0 lg:pb-20">
+            <h2 class="font-sans text-black text-2xl font-semibold dark:text-black pt-12 pb-10 text-center md:pt-8 lg:text-3xl lg:text-center lg:font-semibold lg:pt-0 lg:pb-12">
                 Det siger mine kunder 
             </h2>
         </div>
     </div>
     
-    <div class="bg-white light:bg-white pb-20 dark:bg-white lg:pb-20">
-        <div class="grid grid-cols-1 gap-y-10 md:px-5 md:gap-x-5 md:grid-cols-3 lg:grid-cols-3 lg:gap-20 lg:px-20 lg:pb-20">
-            <div class="max-w-xs mx-auto overflow-hidden shadow-lg bg-white dark:bg-white">
-                <div class="px-6 py-10 flex flex-col items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="gray" class="w-14 h-14">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                    </svg>
-                    <div class="font-sans text-darkgray lg:text-darkgray font-bold text-xl mb-2 lg:text-lg lg:text-center lg:pt-2">ELSEBETH</div>
-                    <p class="font-sans text-darkgray text-center text-base lg:text-darkgray lg:text-center lg:pt-2">
-                        ''Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.''
-                    </p>
-                </div>
-            </div>
-            <div class="max-w-xs mx-auto overflow-hidden shadow-lg bg-white dark:bg-white">
-                <div class="px-6 py-10 flex flex-col items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="gray" class="w-14 h-14">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                    </svg>
-                    <div class="font-sans text-darkgray lg:text-darkgray font-bold text-xl mb-2 lg:text-lg lg:text-center lg:pt-2">ELSEBETH</div>
-                    <p class="font-sans text-darkgray text-center text-base lg:text-darkgray lg:text-center lg:pt-2">
-                        ''Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.''
-                    </p>
-                </div>
-            </div>
-            <div class="max-w-xs mx-auto overflow-hidden shadow-lg bg-white dark:bg-white">
-                <div class="px-6 py-10 flex flex-col items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="gray" class="w-14 h-14">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                    </svg>
-                    <div class="font-sans text-darkgray lg:text-darkgray font-bold text-xl mb-2 lg:text-lg lg:text-center lg:pt-2">ELSEBETH</div>
-                    <p class="font-sans text-darkgray text-center text-base lg:text-darkgray lg:text-center lg:pt-2">
-                        ''Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.''
-                    </p>
-                </div>
+    <div class="bg-white light:bg-white pb-20 dark:bg-white md:pb-20 lg:pb-20">
+    <div class="grid grid-cols-1 gap-y-10 md:px-5 md:gap-x-5 md:grid-cols-3 lg:grid-cols-3 lg:gap-20 lg:px-20 lg:pb-10">
+        <div class="max-w-xs mx-auto overflow-hidden shadow-lg bg-white dark:bg-white">
+            <div class="px-6 py-10 flex flex-col items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="gray" class="w-14 h-14">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                </svg>
+                <div class="font-sans text-darkgray lg:text-darkgray font-bold text-xl mb-2 lg:text-lg lg:text-center lg:pt-2">Lisbeth</div>
+                <p class="font-sans text-darkgray text-sm text-center text-base lg:text-darkgray lg:text-center lg:pt-2">
+                    ''Jeg nyder hver gang Paula har været forbi, og rengjort vores hjem. Hun har en smittende personlighed og er professionel i hendes arbejde.''
+                </p>
             </div>
         </div>
+        <div class="max-w-xs mx-auto overflow-hidden shadow-lg bg-white dark:bg-white">
+            <div class="px-6 py-10 flex flex-col items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="gray" class="w-14 h-14">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                </svg>
+                <div class="font-sans text-darkgray lg:text-darkgray font-bold text-xl mb-2 lg:text-lg lg:text-center lg:pt-2">Kenneth</div>
+                <p class="font-sans text-darkgray text-sm text-center text-base lg:text-darkgray lg:text-center lg:pt-2">
+                    ''Grundet en rygskade, måtte jeg få rengøringshjælp på. Jeg må sige, at det er en fornøjelse at samarbejde med Paulas Rengøring hvor kvalieten er i top.''
+                </p>
+            </div>
+        </div>
+        <div class="max-w-xs mx-auto overflow-hidden shadow-lg bg-white dark:bg-white">
+            <div class="px-6 py-10 flex flex-col items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="gray" class="w-14 h-14">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                </svg>
+                <div class="font-sans text-darkgray lg:text-darkgray font-bold text-xl mb-2 lg:text-lg lg:text-center lg:pt-2">Dorthe</div>
+                <p class="font-sans text-darkgray text-sm text-center text-base lg:text-darkgray lg:text-center lg:pt-2">
+                    ''I en travl hverdag er det en stor prioritet for mig, at mit hjem er pænt og rent. Paula er fantastik til at gøre rent, og jeg har stor tillid til hende personligt og professionelt.''
+                </p>
+            </div>
+        </div>
+    </div>
     </div>
     
     
