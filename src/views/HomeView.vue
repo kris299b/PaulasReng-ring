@@ -139,7 +139,7 @@
 </div>
 
 <div class="bg-whitelight:bg-white dark:bg-white flex justify-center">
-    <div class="grid grid-cols-1 pb-10 md:grid-cols-2 md:pt-5 md:space-x-10 lg:grid-cols-2 lg:space-x-12 lg:pb-20">
+    <div class="grid grid-cols-1 z-0 pb-10 md:grid-cols-2 md:pt-5 md:space-x-10 lg:grid-cols-2 lg:space-x-12 lg:pb-20">
         <div class="max-w-xs mx-auto mb-10 overflow-hidden shadow-lg bg-white dark:bg-white lg:p-10 lg:pb-0 relative">
             <img src="../assets/Shine-element.png" class="h-24 lg:h-40 pl-44 mt-56 absolute lg:pl-48 lg:mt-44" alt="Shine-element">
                 <div class="absolute top-0 left-0 w-full h-32 bg-darkblue dark:bg-darkblue lg:top-3 lg:left-0 lg:w-full lg:h-40"></div>
@@ -256,7 +256,7 @@
 </div>
 
 <!-- kontaktformular sektion -->
-<section class="relative h-full flex flex-col items-center text-center content-start pt-10 md:flex-col lg:py-12">
+<section class="relative h-full flex flex-col items-center text-center content-start z-0 pt-10 md:flex-col lg:py-12">
     <div class="absolute top-0 left-0 w-full h-full overflow-hidden">
         <img class="min-w-full min-h-full absolute object-cover" src="../assets/Kontakt-form-billede.jpg" alt="Kontaktform-billede">
     </div>
