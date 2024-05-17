@@ -1,6 +1,5 @@
 
 <template>
-  
 <!-- Navbar -->
 <nav id="navbar" class="navbar flex items-center justify-between flex-wrap p-3 fixed top-0 left-0 w-full z-10 shadow-md">
   <div class="flex items-center flex-shrink-0 text-white mr-6">
@@ -66,6 +65,7 @@
 
 <RouterView />
 
+
 <footer class="bg-lightgray dark:lightgray">
     <div class="mx-4 px-4 py-8 bg-darkblue dark:bg-darkblue flex md:items-center md:px-20 md:justify-between lg:px-44 lg:py-5 lg:mx-20">
       <div class="flex flex-col col flex columns-1 md:flex-row md:space-x-28 md:columns-3 lg:flex-row lg:h-16 lg:columns-3 lg:space-x-40">
@@ -105,7 +105,7 @@
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
-            <a href="" class="flex items-center">  
+            <a class="flex items-center">  
               <RouterLink to="/"> <img src="../src/assets/logodesign-paulas-rengøring.png" class="h-20 md:h-20 lg:h-20 lg:ml-3" alt="" /></RouterLink>
               <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
             </a>
@@ -200,9 +200,74 @@
 </template>
 
 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const navbarToggle = document.getElementById("navbarToggle");
+  const menuItems = document.getElementById("menuItems");
+
+  navbarToggle.addEventListener("click", function() {
+    menuItems.classList.toggle("hidden");
+  });
+});
+
+// Når der crolles, ændres navbaren til en blå farve. 
+window.addEventListener('scroll', function() {
+    var navbar = document.getElementById('navbar');
+    if (window.scrollY > 0) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+  });
+
+  document.addEventListener('DOMContentLoaded', function () {
+  const navbarToggle = document.getElementById('navbarToggle');
+  const navLinks = document.querySelector('.nav-links');
+
+  navbarToggle.addEventListener('click', function () {
+    navLinks.classList.toggle('active');
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  const navbar = document.getElementById('navbar');
+  const logo = document.getElementById('navbar-logo');
+  const scrolledClass = 'scrolled';
+
+  // Initially set the logo to white
+  logo.src = "../src/assets/PaulasRengøringLogo.png";
+  
+  // Add event listener for scrolling
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > 0) {
+      navbar.classList.add(scrolledClass);
+      // Change logo to blue if it's not already blue
+      if (!logo.src.includes("blå")) {
+        logo.src = "../src/assets/logodesign-paulas-rengøring.png";
+      }
+    } else {
+      navbar.classList.remove(scrolledClass);
+      // Change logo to white if it's not already white
+      if (!logo.src.includes("hvid")) {
+        logo.src = "../src/assets/PaulasRengøringLogo.png";
+      }
+    }
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  const dropdownToggle = document.getElementById("dropdownToggle");
+  const dropdownContent = document.getElementById("dropdownContent");
+
+  dropdownToggle.addEventListener("click", function() {
+    dropdownContent.classList.toggle("hidden");
+  });
+});
+</script>
+
+
 
 <style scoped>
-
 #navbar.scrolled img {
  color:#748ab2;
 }
@@ -325,68 +390,3 @@
 </style>
 
 
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  const navbarToggle = document.getElementById("navbarToggle");
-  const menuItems = document.getElementById("menuItems");
-
-  navbarToggle.addEventListener("click", function() {
-    menuItems.classList.toggle("hidden");
-  });
-});
-
-// Når der crolles, ændres navbaren til en blå farve. 
-window.addEventListener('scroll', function() {
-    var navbar = document.getElementById('navbar');
-    if (window.scrollY > 0) {
-      navbar.classList.add('scrolled');
-    } else {
-      navbar.classList.remove('scrolled');
-    }
-  });
-
-  document.addEventListener('DOMContentLoaded', function () {
-  const navbarToggle = document.getElementById('navbarToggle');
-  const navLinks = document.querySelector('.nav-links');
-
-  navbarToggle.addEventListener('click', function () {
-    navLinks.classList.toggle('active');
-  });
-});
-
-document.addEventListener("DOMContentLoaded", function() {
-  const navbar = document.getElementById('navbar');
-  const logo = document.getElementById('navbar-logo');
-  const scrolledClass = 'scrolled';
-
-  // Initially set the logo to white
-  logo.src = "../src/assets/PaulasRengøringLogo.png";
-  
-  // Add event listener for scrolling
-  window.addEventListener('scroll', function() {
-    if (window.scrollY > 0) {
-      navbar.classList.add(scrolledClass);
-      // Change logo to blue if it's not already blue
-      if (!logo.src.includes("blå")) {
-        logo.src = "../src/assets/logodesign-paulas-rengøring.png";
-      }
-    } else {
-      navbar.classList.remove(scrolledClass);
-      // Change logo to white if it's not already white
-      if (!logo.src.includes("hvid")) {
-        logo.src = "../src/assets/PaulasRengøringLogo.png";
-      }
-    }
-  });
-});
-
-document.addEventListener("DOMContentLoaded", function() {
-  const dropdownToggle = document.getElementById("dropdownToggle");
-  const dropdownContent = document.getElementById("dropdownContent");
-
-  dropdownToggle.addEventListener("click", function() {
-    dropdownContent.classList.toggle("hidden");
-  });
-});
-
-</script>

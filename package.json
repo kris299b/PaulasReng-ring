@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@ambitiondev/vue-cookiebot": "^3.1.1",
-    "posthog-js": "^1.131.3",
+    "posthog-js": "^1.131.4",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },

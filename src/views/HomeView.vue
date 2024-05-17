@@ -34,6 +34,7 @@
                 </RouterLink>
             </div>
         </div>
+        <CookieBanner v-if="showBanner" @hideBanner="showBanner = false" class="fixed"/>
     </div>
 </section>
 
@@ -150,7 +151,7 @@
                             <h2>
                                 RENGØRING
                             </h2>
-                        </div>
+                        </div> 
                     <div class="space-y-5">
                     <div class="flex pt-5 lg:pt-12">
                         <div>
@@ -520,6 +521,19 @@
 
 
 <script>
+import CookieBanner from '../components/CookieBanner.vue'
+
+export default {
+  name: 'App',
+  components: {
+    CookieBanner
+  },
+  data: function() {
+    return {
+        showBanner: !(this.$posthog.has_opted_in_capturing() || this.$posthog.has_opted_out_capturing())
+    }
+  }
+}
 
 // FAQ 
     const toggleContent = (id) => {
