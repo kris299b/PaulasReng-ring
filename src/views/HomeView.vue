@@ -33,8 +33,8 @@
                     </button>
                 </RouterLink>
             </div>
+            <CookieBanner v-if="showBanner" @hideBanner="showBanner = false"/>
         </div>
-        <CookieBanner v-if="showBanner" @hideBanner="showBanner = false" class="fixed"/>
     </div>
 </section>
 
