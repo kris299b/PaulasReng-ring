@@ -29,13 +29,13 @@
 
 <!--Guide-help-section-->
 <!--Box 1-->
-<div class="flex bg-white dark:bg-white light:bg-white flex flex-col justify justify-center w-full pt-20 md:pt-10 md:flex-row md:justify-end lg:flex-row lg:w-full lg:pb-0 lg:mx-auto lg:justify-end">
-    <div class="md:1/4 lg:w-1/4">
+<div class="flex bg-white dark:bg-white light:bg-white flex flex-col justify justify-center w-full pt-20 md:pt-5 md:flex-row md:justify-end lg:flex-row lg:w-full lg:pb-0 lg:mx-auto lg:justify-end">
+    <div class="md:w-2/4 lg:w-1/4">
         <img src="../assets/Formøde-billede.jpg" alt="Woman-standing-in-door">
     </div>
     
-    <div class="w-full p-4 md:2/4 lg:w-2/4 lg:pl-8 lg:pt-20 lg:pr-8 bg-lightgray">
-        <h1 class="text-black font-semibold text-base pb-2 md:text-2xl lg:text-2xl md:pt-12 lg:pt-0">Book et formøde</h1>
+    <div class="w-full p-4 lg:w-2/4 lg:pl-8 lg:pt-16 lg:pr-8 bg-lightgray">
+        <h1 class="text-black font-semibold text-base pb-2 md:text-2xl lg:text-2xl md:pt-2 lg:pt-0">Book et formøde</h1>
         <p class="text-black text-sm md:text-base md:pr-5 md:pb-3 md:font-semibold lg:font-semibold">Det er altid en god idé at booke et formøde, hvor du får lejlighed til at snakke med den person der skal stå for rengøringen af dit hjem.</p>
         <p class="text-black text-sm md:text-base md:pr-5 lg:pt-2 lg:text-base">Det er dit hjem, og du skal føle dig tryg i samarbejdet. Rengøringshjælpen får mulighed for at se dit hjem, inden samarbejdet bliver sat i gang, og det vil give dem en god fornemmelse af, hvor meget tid de skal sætte af til de opgaver, du ønsker hjælp til. </p>
     </div>

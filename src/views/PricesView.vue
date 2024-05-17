@@ -36,7 +36,7 @@
     <h2 class="font-sans text-xl text-black font-semibold pt-3 md:pb-0 md:font-semibold md:text-3xl md:px-20 md:text-center lg:text-black lg:text-3xl lg:font-semibold lg:text-center">Dit Lokale rengøringsfirma</h2>
 </div>
 
-<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 pt-0 md:p-0 md:flex-row lg:flex-row lg:w-full lg:pb-16">
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full pb-20 p-8 pt-5 md:p-0 md:flex-row lg:flex-row lg:w-full lg:pb-16">
     <div class="bg-lightgray p-4 pt-0 md:p-6 md:pb-0 md:w-1/2 lg:w-2/5 lg:px-12">
         <p class="text-gray dark:gray text-xs pt-8 font-semibold pb-2 md:pt-4 lg:pt-10 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | OM MIG</p>
         <h2 class="text-black dark:text-black text-2xl font-semibold pb-4 md:pb-2 lg:pb-6 lg:text-3xl">Jeg værdsætter tillid og tryghed, i det samarbejde jeg indgår med mine kunder </h2>

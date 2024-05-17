@@ -72,8 +72,8 @@
                 </div>
             </div>
         </div>
-        <div class="h-67 bg-lighgray light:bg-lightgray dark:bg-lightgray md:w-3/4 md:h-64 lg:h-96 lg:w-1/3 lg:justify-start lg:text-left">
-            <h2 class="justify-start pr-24 font-sans text-2xl text-black pt-6 pb-6 font-semibold md:pr-52 md:pb-5 md:font-semibold md:text-center lg:pt-10 lg:pb-0 lg:text-black lg:text-2xl lg:font-semibold lg:pl-5">
+        <div class="h-67 bg-lighgray light:bg-lightgray dark:bg-lightgray md:w-1/2 md:h-72 lg:h-96 lg:w-1/3 lg:justify-start lg:text-left">
+            <h2 class="justify-start pr-24 font-sans text-2xl text-black pt-6 pb-6 font-semibold md:pb-5 md:pt-7 md:font-semibold md:text-left md:px-8 lg:pt-10 lg:pb-0 lg:text-black lg:text-2xl lg:font-semibold lg:pl-5">
                 Kontaktoplysninger 
             </h2>
             <p class="text-black px-8 text-left lg:text-black lg:text-sm lg:px-5 lg:pt-2"> Ønsker du at kontakte mig pr. telefon, over mail eller facebook er du også meget velkommen til at gøre dette.</p>
@@ -108,7 +108,7 @@
                         <path d="M0 0h24v24H0z" fill="none"/>
                     </svg>
                 </div>
-                <p class="font-sans font-semibold text-xs pl-2 md:pb-4 lg:text-xs text-black dark:text-black lg:pl-2 lg:tracking-wider">
+                <p class="font-sans font-semibold text-xs pl-2 lg:text-xs text-black dark:text-black lg:pl-2 lg:tracking-wider">
                     PAULASRENGORING@GMAIL.COM
                 </p>
             </div>
