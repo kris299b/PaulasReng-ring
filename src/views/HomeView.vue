@@ -41,7 +41,7 @@
 
 
 <!-- Værdisæt section -->
-<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:pt-16 md:flex-row lg:flex-row lg:w-full lg:pt-20 lg:pb-20">
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:pt-16 md:flex-row lg:flex-row lg:w-full lg:pt-20 lg:pb-16">
     <div class="bg-lightgray p-6 md:p-6 md:w-1/2 lg:w-2/5 lg:px-12">
         <p class="text-gray dark:text-gray text-xs pt-5 font-semibold pb-2 md:pt-1 lg:pt-10 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | VÆRDISÆT</p>
         <p class="text-black dark:text-black pt-0 text-xl mt-3 font-semibold md:mx-0 md:text-md lg:mx-0 lg:text-lg lg:font-semibold lg:pt-2">Gensidig tillid</p>
@@ -93,11 +93,11 @@
 
 
 <!-- Om sektion -->
-<div class="bg-white dark:bg-white light:bg-white flex justify justify-center h-20 pt-4 md:h-24 md:pt-6">
-    <h2 class="font-sans text-2xl text-black font-semibold md:font-semibold md:text-3xl md:px-20 md:text-center lg:pt-0 lg:pb-5 lg:text-black lg:text-3xl lg:font-semibold lg:text-center">Dit Lokale rengøringsfirma</h2>
+<div class="bg-white dark:bg-white light:bg-white flex justify justify-center h-20 pt-4 md:h-24 md:pt-6 lg:pt-10">
+    <h2 class="font-sans text-2xl text-black font-semibold md:font-semibold md:text-3xl md:px-20 md:text-center lg:pb-5 lg:text-black lg:text-3xl lg:font-semibold lg:text-center">Dit Lokale rengøringsfirma</h2>
 </div>
 
-<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 pt-0 md:p-0 md:flex-row lg:flex-row lg:w-full lg:pb-16">
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 pt-0 md:p-0 md:flex-row lg:flex-row lg:w-full lg:pt-3 lg:pb-16">
     <div class="bg-lightgray p-4 pt-0 md:p-6 md:pb-0 md:w-1/2 lg:w-2/5 lg:px-12">
         <p class="text-gray dark:gray text-xs pt-8 font-semibold pb-2 md:pt-4 lg:pt-10 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | OM MIG</p>
         <h2 class="text-black dark:text-black text-2xl font-semibold pb-4 md:pb-2 lg:pb-6 lg:text-3xl">Jeg værdsætter tillid og tryghed, i det samarbejde jeg indgår med mine kunder </h2>
@@ -128,7 +128,7 @@
 
 <!-- Ydelser sektion -->
 <div class="bg-white light:bg-white dark:bg-white px-5 md:pt-5 md:px-40 lg:px-56">
-    <div class="font-sans text-darkgray dark:text-darkgray pt-6 pb-2 text-center text-sm lg:text-lg lg:text-center lg:pt-5 lg:pb-2 lg:font-normal lg:tracking-wider">
+    <div class="font-sans text-darkgray dark:text-darkgray pt-6 pb-2 text-center text-sm lg:text-lg lg:text-center lg:pt-0 lg:pb-2 lg:font-normal lg:tracking-wider">
         <p>PAULAS RENGØRING</p>
     </div>
     <div class="font-sans text-black dark:text-black font-semibold text-2xl pb-10 text-center md:pb-5 lg:text-3xl lg:text-center lg:font-semibold lg:pb-5">

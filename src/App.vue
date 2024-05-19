@@ -1,14 +1,15 @@
 
 <template>
+
 <!-- Navbar -->
 <nav id="navbar" class="navbar flex items-center justify-between flex-wrap p-3 fixed top-0 left-0 w-full z-10 shadow-md">
   <div class="flex items-center flex-shrink-0 text-white mr-6">
-  <a class="flex items-center">  
-    <RouterLink to="/"> 
-      <img id="navbar-logo" src="../src/assets/PaulasRengøringLogo.png" class="logo-white h-20 md:h-20 lg:h-20 lg:ml-3" alt="" />
-    </RouterLink>
-    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
-  </a>
+    <div class="flex items-center">
+      <RouterLink to="/"> 
+        <img id="navbar-logo" src="../src/assets/PaulasRengøringLogo.png" class="logo-white h-20 md:h-20 lg:h-20 lg:ml-3" alt="" />
+      </RouterLink>
+      <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+    </div>
   </div>
   <div class="inline-block lg:hidden">
     <button id="navbarToggle" class="navbar-burger flex items-center p-3">
@@ -22,10 +23,14 @@
     <div class="text-xs lg:flex-grow">
       <ul class="flex flex-col space-y-5 space-x-0 pt-2 mr-2 font-sans text-white dark:text-white text-xs md:space-x-0 md:text-sm md:mr-2 lg:flex-row lg:mr-2 md:space-x-10 lg:space-x-16 lg:ml-10 lg:text-xs lg:tracking-widest lg:space-y-0">
         <li>
-          <RouterLink to="/" class="hover:font-semibold">HJEM</RouterLink>
+          <RouterLink to="/" class="nav-link">
+            <a class="hover:font-semibold">HJEM</a>
+          </RouterLink>
         </li>
         <li>
-          <RouterLink to="guide" class="hover:font-semibold">GUIDE</RouterLink>
+          <RouterLink to="/guide" class="nav-link">
+            <a class="hover:font-semibold">GUIDE</a>
+          </RouterLink>
         </li>
         <div class="dropdown">
           <button id="dropdownToggle" class="dropbtn flex justify-between"> 
@@ -35,23 +40,33 @@
             </svg>
           </button>
           <div id="dropdownContent" class="dropdown-content hidden">
-            <RouterLink to="privatecleaning" class="hover:font-semibold">PRIVATRENGØRING</RouterLink> 
-            <RouterLink to="commercialcleaning" class="hover:font-semibold">ERHVERVSRENGØRING</RouterLink> 
+            <RouterLink to="privatecleaning" id="privateCleaningLink">
+            <a class="hover:font-semibold">PRIVATRENGØRING</a>
+            </RouterLink>
+            <RouterLink to="commercialcleaning" id="commercialCleaningLink">
+              <a class="hover:font-semibold">ERHVERSRENGØRING</a>
+            </RouterLink>
           </div>
         </div>
         <li>
-          <RouterLink to="about" class="hover:font-semibold">OM FIRMAET</RouterLink>
+          <RouterLink to="/about" class="nav-link">
+            <a class="hover:font-semibold">OM FIRMAET</a>
+          </RouterLink>
         </li>
         <li>
-          <RouterLink to="prices" class="hover:font-semibold">PRISER</RouterLink>
+          <RouterLink to="/prices" class="nav-link">
+            <a class="hover:font-semibold">PRISER</a>
+          </RouterLink>
         </li>
         <li>
-          <RouterLink to="contact" class="hover:font-semibold">KONTAKT</RouterLink>
+          <RouterLink to="/contact" class="nav-link">
+            <a class="hover:font-semibold">KONTAKT</a>
+          </RouterLink>
         </li>
       </ul>
     </div>
     <div class="pt-2 lg:pt-0">
-      <RouterLink to="contact"> 
+      <RouterLink to="/contact"> 
         <button class="flex hover:bg-transparent bg-darkblue dark:bg-darkblue font-normal lg:font-normal py-2 px-6 rounded-full lg:mr-6 lg:py-2 lg:px-6">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="white" class="w-6 h-6 lg:w-5 lg:h-5">
             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
@@ -115,19 +130,29 @@
                   <h2 class="font-sans mb-6 text-xs md:pt-5 font-semibold text-darkgray uppercase dark:text-darkgray lg:pt-0 lg:tracking-wider">information</h2>
                   <ul class="text-xs text-darkgray dark:text-darkgray font-medium lg:text-xs">
                       <li class="mb-4">
-                        <RouterLink to="guide" class="hover:font-semibold">Guide</RouterLink>
+                        <RouterLink to="guide">
+                          <a class="hover:font-semibold">Guide</a>
+                        </RouterLink>
                       </li>
                       <li class="mb-4">
-                        <RouterLink to="prices" class="hover:font-semibold">Priser</RouterLink>
+                        <RouterLink to="prices">
+                          <a class="hover:font-semibold">Priser</a>
+                        </RouterLink>
                       </li>
                       <li class="mb-4">
-                        <RouterLink to="about" class="hover:font-semibold">Om firmaet</RouterLink>
+                        <RouterLink to="about">
+                          <a class="hover:font-semibold">Om firmaet</a>
+                        </RouterLink>
                       </li>
                       <li class="mb-4">
-                        <RouterLink to="privatecleaning" class="hover:font-semibold">Privatrengøring</RouterLink> 
+                        <RouterLink to="privatecleaning">
+                          <a class="hover:font-semibold">Privatrengøring</a>
+                        </RouterLink>
                       </li>
                       <li class="">
-                        <RouterLink to="commercialcleaning" class="hover:font-semibold">Erhvervsrengøring</RouterLink> 
+                        <RouterLink to="commercialcleaning">
+                          <a class="hover:font-semibold">Erhvervsrengøring</a>
+                        </RouterLink>
                       </li>
                   </ul>
               </div>
@@ -210,7 +235,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
-// Når der crolles, ændres navbaren til en blå farve. 
+// Når der scrolles, ændres navbaren til en blå farve. 
 window.addEventListener('scroll', function() {
     var navbar = document.getElementById('navbar');
     if (window.scrollY > 0) {
@@ -256,18 +281,47 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-  const dropdownToggle = document.getElementById("dropdownToggle");
-  const dropdownContent = document.getElementById("dropdownContent");
+  const navbarToggle = document.getElementById("navbarToggle");
+  const menuItems = document.getElementById("menuItems");
 
-  dropdownToggle.addEventListener("click", function() {
+  navbarToggle.addEventListener("click", function() {
     dropdownContent.classList.toggle("hidden");
   });
+
+  // Select all RouterLink elements with the class 'nav-link'
+  const allRouterLinks = document.querySelectorAll(".nav-link");
+
+  // Function to hide the menuItems if the screen width is less than a specific size (e.g., 1024px for lg breakpoint)
+  function hideMenu() {
+    if (window.innerWidth < 1024) {
+      menuItems.classList.add("hidden");
+    }
+  }
+
+  // Add click event listener to each RouterLink to hide the menu
+  allRouterLinks.forEach(function(link) {
+    link.addEventListener("click", hideMenu);
+  });
 });
+
+// Change navbar style on scroll
+window.addEventListener('scroll', function() {
+  const navbar = document.getElementById('navbar');
+  const logo = document.getElementById('navbar-logo');
+  const scrolledClass = 'scrolled';
+
+  if (window.scrollY > 0) {
+    navbar.classList.add(scrolledClass);
+    logo.src = "../src/assets/logodesign-paulas-rengøring.png";
+  } else {
+    navbar.classList.remove(scrolledClass);
+    logo.src = "../src/assets/PaulasRengøringLogo.png";
+  }
+});
+
 </script>
 
-
-
-<style scoped>
+<style>
 #navbar.scrolled img {
  color:#748ab2;
 }
@@ -332,7 +386,7 @@ document.addEventListener("DOMContentLoaded", function() {
 /* Links inside the dropdown */
 .dropdown-content a {
   color: white;
-  padding: 6px 0px;
+  padding: 3px 0px;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -361,7 +415,7 @@ document.addEventListener("DOMContentLoaded", function() {
 /*navbar link 'jeg tilbyder' */
   .dropdown .dropbtn {
   color: #444444;
-  padding-left: 5px;
+  padding-left: 10px;
 }
 
 /* Show the dropdown content on small screens */
