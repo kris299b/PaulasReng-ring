@@ -283,13 +283,16 @@ document.addEventListener("DOMContentLoaded", function() {
 document.addEventListener("DOMContentLoaded", function() {
   const navbarToggle = document.getElementById("navbarToggle");
   const menuItems = document.getElementById("menuItems");
+  const dropdownToggle = document.getElementById("dropdownToggle");
+  const dropdownContent = document.getElementById("dropdownContent");
 
-  navbarToggle.addEventListener("click", function() {
+  // Function to toggle visibility of both menu items and dropdown content
+  function toggleMenu() {
+    menuItems.classList.toggle("hidden");
     dropdownContent.classList.toggle("hidden");
-  });
+  }
 
-  // Select all RouterLink elements with the class 'nav-link'
-  const allRouterLinks = document.querySelectorAll(".nav-link");
+  navbarToggle.addEventListener("click", toggleMenu);
 
   // Function to hide the menuItems if the screen width is less than a specific size (e.g., 1024px for lg breakpoint)
   function hideMenu() {
@@ -299,8 +302,14 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   // Add click event listener to each RouterLink to hide the menu
+  const allRouterLinks = document.querySelectorAll(".nav-link");
   allRouterLinks.forEach(function(link) {
     link.addEventListener("click", hideMenu);
+  });
+
+  // Toggle visibility of dropdown content when clicking on "JEG TILBYDER" button
+  dropdownToggle.addEventListener("click", function() {
+    dropdownContent.classList.toggle("hidden");
   });
 });
 
@@ -318,6 +327,7 @@ window.addEventListener('scroll', function() {
     logo.src = "../src/assets/PaulasRengøringLogo.png";
   }
 });
+
 
 </script>
 
