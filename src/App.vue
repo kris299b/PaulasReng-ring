@@ -19,8 +19,8 @@
     </button>
   </div>
   <div class="w-full block flex-grow space-y-1 lg:flex lg:items-center lg:w-auto nav-links" id="menuItems">
-    <div class="text-xs lg:flex-grow">
-      <ul class="flex flex-col space-y-5 space-x-0 pt-2 mr-2 font-sans text-white dark:text-white text-xs md:space-x-0 md:text-sm md:mr-2 lg:flex-row lg:mr-2 md:space-x-10 lg:space-x-16 lg:ml-10 lg:text-xs lg:tracking-widest lg:space-y-0">
+    <div class="text-xs pt-5 md:pt-0 lg:flex-grow">
+      <ul class="flex flex-col space-y-8 tracking-wider space-x-0 pt-4 mr-2 font-sans text-white dark:text-white text-xs md:space-x-0 md:text-sm md:mr-2 lg:flex-row lg:mr-2 md:pt-5 lg:space-x-16 lg:ml-10 lg:text-xs lg:tracking-widest lg:space-y-0">
         <li>
           <RouterLink to="/" class="nav-link">
             <a class="hover:font-semibold">HJEM</a>
@@ -64,13 +64,13 @@
         </li>
       </ul>
     </div>
-    <div class="pt-2 lg:pt-0">
+    <div class="pt-8 pl-5 md:pl-3 md:pt-1 lg:pt-0">
       <RouterLink to="/contact"> 
         <button class="flex hover:bg-transparent bg-darkblue dark:bg-darkblue font-normal lg:font-normal py-2 px-6 rounded-full lg:mr-6 lg:py-2 lg:px-6">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="white" class="w-6 h-6 lg:w-5 lg:h-5">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="white" class="w-6 h-6 md:w-7 md:h-7 lg:w-5 lg:h-5">
             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
           </svg>
-          <p class="text-xs text-white pt-1 pl-2 dark:text-white lg:text-sm lg:pt-0 lg:pl-2 lg:tracking-wider">Kontakt mig</p>
+          <p class="text-xs text-white pt-1 pl-2 dark:text-white md:text-sm md:pb-1 lg:text-sm lg:pt-0 lg:pl-2 lg:tracking-wider">Kontakt mig</p>
         </button>
       </RouterLink>
     </div>
@@ -331,8 +331,9 @@ window.addEventListener('scroll', function() {
 </script>
 
 <style>
+/* Base styles */
 #navbar.scrolled img {
- color:#748ab2;
+  color: #748ab2;
 }
 
 .hidden {
@@ -340,31 +341,30 @@ window.addEventListener('scroll', function() {
 }
 
 #navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000; 
-    border: none; 
-    box-shadow: none; 
-    background-color: transparent; 
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; 
+  border: none; 
+  box-shadow: none; 
+  background-color: transparent; 
+}
 
 #navbar.scrolled {
-    background-color: #fdfdfd; 
-    padding-bottom: 55px;
-  }
+  background-color: #fdfdfd; 
+  padding-bottom: 55px;
+}
 
 #navbar.scrolled a {
-    color: #444444; 
-  }
+  color: #444444; 
+}
 
-  /* The dropdown container */
+/* The dropdown container */
 .dropdown {
   position: relative; 
   display: inline-block; 
 }
-
 
 /* Dropdown button */
 .dropdown .dropbtn {
@@ -408,30 +408,61 @@ window.addEventListener('scroll', function() {
 
 /* Small screen */
 @media screen and (max-width: 915px) {
-  /*navbar white box */
+  /* Navbar white box */
   .nav-links {
     background-color: white;
-    height: 50vh; 
+    height: 70vh !important; /* Adjusted height for small screens */
     padding: 20px 10px; 
     border-radius: 5px; 
   }
-/*navbar links */
- #navbar a {
+
+  /* Navbar links */
+  #navbar a {
     color: #444444;
     padding: 5px;
+    font-size: 14px;
   }
 
-/*navbar link 'jeg tilbyder' */
+  /* Navbar link 'jeg tilbyder' */
   .dropdown .dropbtn {
-  color: #444444;
-  padding-left: 10px;
-}
+    color: #444444;
+    padding-left: 10px;
+  }
 
-/* Show the dropdown content on small screens */
-.dropdown-content.hidden {
+  /* Show the dropdown content on small screens */
+  .dropdown-content.hidden {
     display: none;
   }
+}
 
+/* Medium screen */
+@media screen and (max-width: 1080px) {
+  /* Navbar white box */
+  .nav-links {
+    background-color: white;
+    height: 30vh; /* Adjusted height for medium screens */
+    padding: 20px 10px; 
+    border-radius: 5px; 
+  }
+
+  /* Navbar links */
+  #navbar a {
+    color: #444444;
+    padding: 5px;
+    padding-left: 10px;
+  }
+
+  /* Navbar link 'jeg tilbyder' */
+  .dropdown .dropbtn {
+    color: #444444;
+    padding-left: 20px;
+    font-size: 14px;
+  }
+
+  /* Show the dropdown content on small screens */
+  .dropdown-content.hidden {
+    display: none;
+  }
 }
 
 /* Dropdown content */

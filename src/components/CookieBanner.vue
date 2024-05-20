@@ -50,11 +50,29 @@ export default{
   align-items: center;
   position: fixed;
   top: 0;
-  left: 0;
+  left: -5px;
   width: 100%;
   height: 100%;
   z-index: 999;
   background-color: rgba(0, 0, 0, 0.3); /* semi-transparent background */
 }
+
+/* Small screen */
+@media screen and (max-width: 915px) {
+
+.cookie-banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.3); /* semi-transparent background */
+}
+}
+
 
 </style>
