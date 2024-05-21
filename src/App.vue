@@ -12,13 +12,13 @@
   </div>
   <div class="inline-block lg:hidden">
     <button id="navbarToggle" class="navbar-burger flex items-center p-3">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-10 h-10">
+      <svg id="navbarToggleIcon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-10 h-10">
         <title>Mobile menu</title>
         <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
       </svg>
     </button>
   </div>
-  <div class="w-full block flex-grow space-y-1 lg:flex lg:items-center lg:w-auto nav-links" id="menuItems">
+  <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto hidden" id="menuItems">
     <div class="text-xs pt-5 md:pt-0 lg:flex-grow">
       <ul class="flex flex-col space-y-8 tracking-wider space-x-0 pt-4 mr-2 font-sans text-white dark:text-white text-xs md:space-x-0 md:text-sm md:mr-2 lg:flex-row lg:mr-2 md:pt-5 lg:space-x-16 lg:ml-10 lg:text-xs lg:tracking-widest lg:space-y-0">
         <li>
@@ -225,73 +225,25 @@
 
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-  const navbarToggle = document.getElementById("navbarToggle");
-  const menuItems = document.getElementById("menuItems");
-
-  navbarToggle.addEventListener("click", function() {
-    menuItems.classList.toggle("hidden");
-  });
-});
-
-// Når der scrolles, ændres navbaren til en blå farve. 
-window.addEventListener('scroll', function() {
-    var navbar = document.getElementById('navbar');
-    if (window.scrollY > 0) {
-      navbar.classList.add('scrolled');
-    } else {
-      navbar.classList.remove('scrolled');
-    }
-  });
-
-  document.addEventListener('DOMContentLoaded', function () {
-  const navbarToggle = document.getElementById('navbarToggle');
-  const navLinks = document.querySelector('.nav-links');
-
-  navbarToggle.addEventListener('click', function () {
-    navLinks.classList.toggle('active');
-  });
-});
-
-document.addEventListener("DOMContentLoaded", function() {
-  const navbar = document.getElementById('navbar');
-  const logo = document.getElementById('navbar-logo');
-  const scrolledClass = 'scrolled';
-
-  // Initially set the logo to white
-  logo.src = "../src/assets/PaulasRengøringLogo.png";
-  
-  // Add event listener for scrolling
-  window.addEventListener('scroll', function() {
-    if (window.scrollY > 0) {
-      navbar.classList.add(scrolledClass);
-      // Change logo to blue if it's not already blue
-      if (!logo.src.includes("blå")) {
-        logo.src = "../src/assets/logodesign-paulas-rengøring.png";
-      }
-    } else {
-      navbar.classList.remove(scrolledClass);
-      // Change logo to white if it's not already white
-      if (!logo.src.includes("hvid")) {
-        logo.src = "../src/assets/PaulasRengøringLogo.png";
-      }
-    }
-  });
-});
-
-document.addEventListener("DOMContentLoaded", function() {
+  document.addEventListener("DOMContentLoaded", function() {
   const navbarToggle = document.getElementById("navbarToggle");
   const menuItems = document.getElementById("menuItems");
   const dropdownToggle = document.getElementById("dropdownToggle");
   const dropdownContent = document.getElementById("dropdownContent");
+  const allRouterLinks = document.querySelectorAll(".nav-link");
+  const navbar = document.getElementById('navbar');
+  const logo = document.getElementById('navbar-logo');
+  const scrolledClass = 'scrolled';
 
-  // Function to toggle visibility of both menu items and dropdown content
+  // Function to toggle visibility of menu items
   function toggleMenu() {
     menuItems.classList.toggle("hidden");
-    dropdownContent.classList.toggle("hidden");
   }
 
-  navbarToggle.addEventListener("click", toggleMenu);
+  // Function to toggle visibility of dropdown content
+  function toggleDropdown() {
+    dropdownContent.classList.toggle("hidden");
+  }
 
   // Function to hide the menuItems if the screen width is less than a specific size (e.g., 1024px for lg breakpoint)
   function hideMenu() {
@@ -300,32 +252,29 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   }
 
-  // Add click event listener to each RouterLink to hide the menu
-  const allRouterLinks = document.querySelectorAll(".nav-link");
+  // Initially set the logo to white
+  logo.src = "../src/assets/PaulasRengøringLogo.png";
+  
+  // Add event listener for scrolling
+  function handleScroll() {
+    if (window.scrollY > 0) {
+      navbar.classList.add(scrolledClass);
+      logo.src = "../src/assets/logodesign-paulas-rengøring.png";
+    } else {
+      navbar.classList.remove(scrolledClass);
+      logo.src = "../src/assets/PaulasRengøringLogo.png";
+    }
+  }
+
+  // Add event listeners
+  navbarToggle.addEventListener("click", toggleMenu);
+  dropdownToggle.addEventListener("click", toggleDropdown);
   allRouterLinks.forEach(function(link) {
     link.addEventListener("click", hideMenu);
   });
-
-  // Toggle visibility of dropdown content when clicking on "JEG TILBYDER" button
-  dropdownToggle.addEventListener("click", function() {
-    dropdownContent.classList.toggle("hidden");
-  });
+  window.addEventListener('scroll', handleScroll);
 });
 
-// Change navbar style on scroll
-window.addEventListener('scroll', function() {
-  const navbar = document.getElementById('navbar');
-  const logo = document.getElementById('navbar-logo');
-  const scrolledClass = 'scrolled';
-
-  if (window.scrollY > 0) {
-    navbar.classList.add(scrolledClass);
-    logo.src = "../src/assets/logodesign-paulas-rengøring.png";
-  } else {
-    navbar.classList.remove(scrolledClass);
-    logo.src = "../src/assets/PaulasRengøringLogo.png";
-  }
-});
 
 
 </script>
@@ -385,7 +334,6 @@ window.addEventListener('scroll', function() {
 .dropdown-content {
   display: none;
   position: absolute;
-  top: 100%; 
   left: 0;
   padding-top: 10px;
   min-width: 120px;
@@ -394,22 +342,47 @@ window.addEventListener('scroll', function() {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: white;
-  padding: 3px 0px;
+  color: rgb(255, 255, 255); /* Set text color to black */
+  padding: 4px 0px; /* Adjust padding for better appearance */
   text-decoration: none;
   display: block;
   text-align: left;
 }
+
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
+#menuItems {
+  transition: max-height 0.3s ease-out;
+}
+
+#menuItems.show {
+  display: block;
+}
+
+/* Dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding-top: 10px;
+  min-width: 120px;
+  z-index: 1;
+}
+
+/* Show the dropdown content */
+.dropdown-content.show {
+  display: block;
+}
+
 /* Small screen */
 @media screen and (max-width: 915px) {
   /* Navbar white box */
-  .nav-links {
+  #menuItems {
     background-color: white;
     height: 70vh !important; /* Adjusted height for small screens */
     padding: 20px 10px; 
@@ -417,7 +390,7 @@ window.addEventListener('scroll', function() {
   }
 
   /* Navbar links */
-  #navbar a {
+  #menuItems a {
     color: #444444;
     padding: 5px;
     font-size: 14px;
@@ -434,6 +407,7 @@ window.addEventListener('scroll', function() {
     display: none;
   }
 }
+
 
 /* Medium screen */
 @media screen and (max-width: 1080px) {
@@ -465,20 +439,12 @@ window.addEventListener('scroll', function() {
   }
 }
 
-/* Dropdown content */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  padding-top: 10px;
-  min-width: 120px;
-  z-index: 1;
-}
 
-/* Show the dropdown content */
-.dropdown-content.show {
-  display: block;
+/* Media query to show menuItems on larger screens */
+@media (min-width: 1024px) {
+  #menuItems {
+    display: flex !important;
+  }
 }
 
 </style>
