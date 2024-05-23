@@ -21,14 +21,14 @@
         <div class="font-sans row md:flex lg:flex px-4 justify-start text-sm pt-5 md:justify-center md:space-x-4 lg:px-0 lg:space-x-1 lg:space-y-0 lg:justify-center lg:text-md lg:pt-5">
             <div class="font-sans pb-4 md:px-0 md:pb-4 lg:pb-3">
                 <RouterLink to="privatecleaning"> 
-                    <button class="bg-blue dark:bg-blue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-2 md:px-4 md:py-1 md:px-8 lg:text-md lg:py-3 lg:px-8 rounded-full lg:text-md lg:tracking-wider">
+                    <button class="bg-transparent dark:bg-transparent text-white dark:text-white border-2 border-white font-semibold py-2 px-8 md:py-2 md:px-4 md:py-1 md:px-8 lg:text-md lg:py-3 lg:px-8 rounded-full lg:text-md lg:tracking-wider">
                         Privatrengøring
                     </button>
                 </RouterLink>
             </div>
             <div class="font-sans pb-10 md:px-2 md:pb-7 lg:pb-16">
                 <RouterLink to="commercialcleaning"> 
-                    <button class="bg-blue dark:bg-blue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-1 md:px-4 md:py-2 md:px-8 lg:text-md lg:py-3 lg:px-8 rounded-full lg:text-md lg:tracking-wider">
+                    <button class="bg-transparent dark:bg-transparent text-white dark:text-white border-2 border-white font-semibold py-2 px-8 md:py-1 md:px-4 md:py-2 md:px-8 lg:text-md lg:py-3 lg:px-8 rounded-full lg:text-md lg:tracking-wider">
                         Erhvervsrengøring
                     </button>
                 </RouterLink>
@@ -49,7 +49,7 @@
         <p class="text-black dark:text-black pt-2 text-xl mt-3 font-semibold md:mx-0 md:text-md lg:mx-0 lg:text-lg lg:font-semibold lg:pt-2">Kundetilfredshed</p>
         <p class="text-black dark:text-black text-sm mt-2 md:text-xs md:mx-0 lg:mx-0 lg:text-sm lg:mr-10 lg:pb-0">Din tilfredshed med rengøringen, er af højeste prioritet for mig. Når du som kunde er glad for resultaterne, giver det en uvurderlig følelse af velvære.</p>
         <p class="text-black dark:text-black pt-2 text-xl mt-3 font-semibold md:mx-0 md:text-md lg:mx-0 lg:text-lg lg:font-semibold lg:pt-2">Tæt samarbejde</p>
-        <p class="text-black dark:text-black text-sm mt-2 mb-5 md:text-xs md:mx-0 md:mb-0 lg:mx-0 lg:text-sm lg:mr-10 lg:pb-0">Kommunikationen imellem os er altafgørende, for at der kan dannes et trygt og tæt samarbejde. Jeg pritoterer den tillidsfulde relation.</p>
+        <p class="text-black dark:text-black text-sm mt-2 mb-5 md:text-xs md:mx-0 md:mb-0 lg:mx-0 lg:text-sm lg:mr-10 lg:pb-0">Kommunikationen imellem os er altafgørende, for at der kan dannes et trygt og tæt samarbejde. Jeg prioriterer den tillidsfulde relation.</p>
     </div>
     <div class="md:w-1/2 lg:w-2/5">
         <img src="../assets/Paulas-rengøring-værdisæt.jpg" alt="Kvinde giver kunde håndtryk">
@@ -70,24 +70,12 @@
 <div class="bg-white dark:bg-white light:bg-white px-0 flex flex-col justify justify-center h-full w-full p-8 md:px-0 md:flex-row md:pt-2 lg:flex-row lg:w-full lg:pt-0 lg:pb-5 lg:px-0">
     <div class="relative w-full md:w-full lg:w-full">
         <img src="../assets/Guide-billede.jpg" alt="Kvinde rengør bord" class="w-full h-auto">
-        <RouterLink to="guide"> 
-            <button class="center-button hidden md:inline-block lg:hidden bg-darkbeige rounded-full text-black font-normal py-2 px-8 md:py-2 md:px-8 md:text-white lg:text-md lg:py-2 lg:px-8 lg:font-semibold">
-                Læs mere
-            </button>
-        </RouterLink>
     </div>
     <div class="bg-beige light:bg-beige dark:bg-beige p-6 md:p-0 w-full md:w-full lg:w-full lg:px-12">
-        <p class="text-gray dark:text-gray text-sm pt-5 font-semibold pb-2 md:pt-10 md:mx-5 lg:pt-20 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | GUIDE</p>
+        <p class="text-gray dark:text-gray text-sm pt-1 font-semibold pb-2 md:pt-10 md:mx-5 lg:pt-20 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | GUIDE</p>
         <h2 class="text-black dark:text-black text-3xl font-semibold mt-2 md:text-3xl md:mx-5 lg:mx-0 lg:font-semibold lg:text-4xl lg:pl-5 lg:mr-10 lg:pb-0">Sådan får du mest mulig ud af din rengøringshjælp.</h2>
         <p class="text-black dark:text-black pt-2 text-lg mt-3 font-semibold md:mx-5 md:text-sm lg:text-lg lg:font-semibold lg:pt-2">Går du med overvejelserne om, at ansætte en professionel til at udføre rengøringshjælpen i dit hjem?</p>
-        <p class="text-black dark:text-black pt-2 text-sm mt-3 font-base md:pt-1 md:mx-5 md:font-base md:mx-0 md:text-sm lg:pl-5 lg:mx-0 lg:text-sm lg:font-base lg:pt-2">Jeg har samlet nogle råd til dig i den indledende fase, som sikrer dig at du får mest muligt ud af din rengøringshjælp, og opnår størst mulig tilfredshed. </p>
-        <div class="pb-6 md:px-0 pt-6 md:pt-5 md:pb-0 lg:pl-5 lg:pt-10">
-            <RouterLink to="guide"> 
-                <button class="inline block md:hidden lg:inline-block bg-darkbeige light:bg-darkbeige dark:bg-darkbeige rounded-full text-black dark:text-black font-normal py-2 px-8 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 lg:text-md lg:font-semibold">
-                    Læs mere
-                </button>
-            </RouterLink>
-        </div>
+        <p class="text-black dark:text-black pt-0 pb-2 text-sm mt-2 font-base md:pt-1 md:mx-5 md:font-base md:mx-0 md:text-sm lg:pl-5 lg:mx-0 lg:text-sm lg:font-base lg:pt-2">Jeg har samlet nogle råd til dig i den indledende fase, som sikrer dig at du får mest muligt ud af din rengøringshjælp, og opnår størst mulig tilfredshed. Du kan læser mere om guiden <RouterLink to="guide" class="text-black font-semibold">her.</RouterLink></p>
     </div>
 </div>
 
@@ -141,7 +129,7 @@
 <div class="bg-whitelight:bg-white dark:bg-white flex justify-center">
     <div class="grid grid-cols-1 z-0 pb-10 md:grid-cols-2 md:pt-5 md:space-x-10 lg:grid-cols-2 lg:space-x-12 lg:pb-20">
         <div class="max-w-xs mx-auto mb-10 overflow-hidden shadow-lg bg-white dark:bg-white lg:p-10 lg:pb-0 relative">
-            <img src="../assets/Shine-element.png" class="h-24 lg:h-40 pl-44 mt-56 absolute lg:pl-48 lg:mt-44">
+            <img src="../assets/Shine-element.png" class="h-24 lg:h-40 pl-48 mt-56 absolute lg:pl-48 lg:mt-44">
                 <div class="absolute top-0 left-0 w-full h-32 bg-darkblue dark:bg-darkblue lg:top-3 lg:left-0 lg:w-full lg:h-40"></div>
                     <div class="px-6 py-4 relative z-10">
                         <div class="font-sans pb-10 pt-5 font-bold text-2xl text-white dark:text-white lg:text-3xl lg:pt-0 lg:pb-10">
@@ -188,7 +176,7 @@
                     </div>
                     <div class="font-sans px-6 pt-0 pb-5 lg:text-center">
                         <RouterLink to="privatecleaning"> 
-                            <button class="bg-lightblue dark:bg-lightblue hover:lightblue text-sm text-black dark:text-black font-semibold py-2 px-8 rounded-full lg:text-md">
+                            <button class="bg-lightblue dark:bg-lightblue hover:lightblue text-sm text-black dark:text-black font-semibold py-3 px-10 rounded-full lg:text-md">
                                 Læs mere
                             </button>
                         </RouterLink>
@@ -197,7 +185,7 @@
             </div>
         </div>
         <div class="max-w-xs mx-auto mb-10 overflow-hidden shadow-lg bg-white dark:bg-white lg:p-10 lg:pb-0 relative">
-            <img src="../assets/Shine-element.png" class="h-24 lg:h-40 pl-44 mt-56 absolute lg:pl-48 lg:mt-44">
+            <img src="../assets/Shine-element.png" class="h-24 lg:h-40 pl-48 mt-56 absolute lg:pl-48 lg:mt-44">
                 <div class="absolute top-0 left-0 h-32 w-full bg-darkblue dark:bg-darkblue lg:top-3 lg:left-0 lg:w-full lg:h-40"></div>
                     <div class="px-6 py-4 relative z-10">
                         <div class="font-sans pb-10 pt-5 font-bold text-2xl text-white dark:text-white lg:text-3xl lg:pt-0 lg:pb-10">
@@ -244,7 +232,7 @@
                     </div>
                     <div class="font-sans px-6 pt-0 pb-5 lg:text-center">
                         <RouterLink to="commercialcleaning"> 
-                            <button class="bg-lightblue dark:bg-lightblue hover:lightblue text-sm text-black dark:text-black font-semibold py-2 px-8 rounded-full lg:text-md">
+                            <button class="bg-lightblue dark:bg-lightblue hover:lightblue text-sm text-black dark:text-black font-semibold py-3 px-10 rounded-full lg:text-md">
                                 Læs mere
                             </button>
                         </RouterLink>
@@ -308,7 +296,7 @@
             <h2 class="justify-start pr-24 font-sans text-2xl text-black pt-6 pb-6 font-semibold md:pb-5 md:pt-7 md:font-semibold md:text-left md:px-8 lg:pt-10 lg:pb-0 lg:text-black lg:text-2xl lg:font-semibold lg:pl-5">
                 Kontaktoplysninger 
             </h2>
-            <p class="text-black px-8 text-left lg:text-black lg:text-sm lg:px-5 lg:pt-2"> Ønsker du at kontakte mig pr. telefon, over mail eller facebook er du også meget velkommen til at gøre dette.</p>
+            <p class="text-black px-8 text-left lg:text-black lg:text-sm lg:px-5 lg:pt-2"> Ønsker du at kontakte mig pr. telefon, over mail eller Facebook er du også meget velkommen til at gøre dette.</p>
             <div class="flex justify-start px-8 pt-5 pb-2 lg:px-5 lg:pt-10">
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#444444" class="w-4 h-4">

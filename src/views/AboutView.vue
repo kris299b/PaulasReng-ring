@@ -25,7 +25,7 @@
         <p class="text-black dark:text-black pt-2 text-xl mt-3 font-semibold md:mx-0 md:text-md lg:mx-0 lg:text-lg lg:font-semibold lg:pt-2">Kundetilfredshed</p>
         <p class="text-black dark:text-black text-sm mt-2 md:text-xs md:mx-0 lg:mx-0 lg:text-sm lg:mr-10 lg:pb-0">Din tilfredshed med rengøringen, er af højeste prioritet for mig. Når du som kunde er glad for resultaterne, giver det en uvurderlig følelse af velvære.</p>
         <p class="text-black dark:text-black pt-2 text-xl mt-3 font-semibold md:mx-0 md:text-md lg:mx-0 lg:text-lg lg:font-semibold lg:pt-2">Tæt samarbejde</p>
-        <p class="text-black dark:text-black text-sm mt-2 mb-5 md:text-xs md:mx-0 lg:mx-0 lg:text-sm lg:mr-10 lg:pb-0">Kommunikationen imellem os er af altafgørende, for at der kan dannes et trygt og tæt samarbejde. Jeg pritotere den tillidsfulde relation.</p>
+        <p class="text-black dark:text-black text-sm mt-2 mb-5 md:text-xs md:mx-0 lg:mx-0 lg:text-sm lg:mr-10 lg:pb-0">Kommunikationen imellem os er af altafgørende, for at der kan dannes et trygt og tæt samarbejde. Jeg prioriterer den tillidsfulde relation.</p>
     </div>
     <div class="md:w-1/2 lg:w-2/5">
         <img src="../assets/Paulas-rengøring-værdisæt.jpg" alt="Kvinde giver kunde håndtryk">

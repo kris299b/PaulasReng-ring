@@ -95,6 +95,39 @@
     </div>
 </div>
 
+<!-- Om sektion -->
+<div class="bg-white dark:bg-white light:bg-white flex justify justify-center h-20 pt-4 md:h-24 md:pt-6 lg:pt-5">
+    <h2 class="font-sans text-2xl text-black font-semibold md:font-semibold md:text-3xl md:px-20 md:text-center lg:text-black lg:text-3xl lg:font-semibold lg:text-center">Kunne du tænke dig at danne et samarbejde?</h2>
+</div>
+
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 pt-0 md:p-0 md:flex-row lg:flex-row lg:w-full lg:pt-0 lg:pb-20">
+    <div class="bg-lightgray p-4 pt-0 md:p-6 md:pb-0 md:w-1/2 lg:w-2/5 lg:px-12">
+        <p class="text-gray dark:gray text-xs pt-8 font-semibold pb-2 md:pt-4 lg:pt-10 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | OM MIG</p>
+        <h2 class="text-black dark:text-black text-2xl font-semibold pb-4 md:pb-2 lg:pb-6 lg:text-3xl">Jeg værdsætter tillid og tryghed, i det samarbejde jeg indgår med mine kunder </h2>
+        <p class="text-black dark:text-black text-sm font-semibold md:pb-1 lg:font-semibold lg:text-base">Jeg startede Paulas Rengøring i 2014, da det længe havde været et ønske at gå selvstændig.</p>
+        <p class="text-black dark:text-black text-sm pt-3 md:pt-1 lg:text-base lg:pt-2 lg:text-base">Sidenhen har jeg opbygget en loyal kundekreds i Ringkøbing-Skjern omregn, som jeg værner om og værdsætter. Personligt betyder gensidig tillid, og et trygt samarbejde meget i de kunderelationer jeg indgår i. Jeg tilbyder rengøring for private samt erhverv.</p>
+        <div class="row pt-6 pb-4 md:flex lg:flex md:pt-3 lg:pt-6 lg:pb-0">
+            <div class="py-3 md:pt-5 md:pr-3 lg:pt-0 lg:pr-3">
+                <RouterLink to="privatecleaning"> 
+                    <button class="bg-blue dark:bg-blue hover:bg-darkblue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-1 md:px-3 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
+                        Privatrengøring
+                    </button>
+                </RouterLink> 
+            </div>
+            <div class="md:pt-5 lg:pt-0">
+                <RouterLink to="commercialcleaning"> 
+                    <button class="bg-blue dark:bg-blue hover:bg-darkblue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-1 md:px-3 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
+                        Erhvervsrengøring
+                    </button>
+                </RouterLink>
+            </div>
+        </div>
+    </div>
+    <div class="md:w-1/2 lg:w-2/5">
+        <img src="../assets/Paulasrengøring-om-billede.jpg" alt="Kvinde står med rengøringsprodukt">
+    </div>
+</div>
+
 </main>
 </template>
 
