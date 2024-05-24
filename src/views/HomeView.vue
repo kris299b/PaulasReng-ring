@@ -366,7 +366,7 @@
                 </svg>
                 <div class="font-sans text-darkgray lg:text-darkgray font-bold text-xl mb-2 lg:text-lg lg:text-center lg:pt-2">Kenneth</div>
                 <p class="font-sans text-darkgray text-center text-sm text-base md:pt-2 lg:text-darkgray lg:text-center lg:text-sm lg:pt-2">
-                    ''Grundet en rygskade, måtte jeg få rengøringshjælp på. Jeg må sige, at det er en fornøjelse at samarbejde med Paulas Rengøring hvor kvalieten er i top.''
+                    ''Grundet en rygskade, måtte jeg få rengøringshjælp på. Jeg må sige, at det er en fornøjelse at samarbejde med Paulas Rengøring hvor kvaliteten er i top.''
                 </p>
             </div>
         </div>
@@ -409,7 +409,7 @@
             </div>
             <div class="w-full md:w-full w-4/5 bg-white dark:white shadow-md lg:shadow-md cursor-pointer" data-toggle-content="content2">
                 <div class="flex justify-between items-center px-5 py-4 focus:outline-none focus-visible:ri lg:pl-8">
-                    <span class="lg:font-semibold font-base text-xs text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold ">Kan ydelserne blive skræddersyet efter behov?</span>
+                    <span class="lg:font-semibold font-base text-xs text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold ">Kan ydelserne blive skræddersyet?</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>
@@ -431,7 +431,7 @@
             </div>
             <div class="w-full md:w-full w-4/5 bg-white dark:white shadow-md lg:shadow-md cursor-pointer" data-toggle-content="content4">
                 <div class="flex justify-between items-center px-5 py-4 focus:outline-none focus-visible:ri lg:pl-8">
-                    <span class="font-sans lg:font-semibold font-base text-xs text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold ">Skal jeg være hjemme, når rengøringen kommer?</span>
+                    <span class="font-sans lg:font-semibold font-base text-xs text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold ">Skal jeg være hjemme, under rengøringen?</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>
