@@ -7,7 +7,7 @@
     </div>
     <div class="image-content z-10 pt-28 md:pt-40 lg:pt-48 lg:px-40">
         <div>
-            <p class="font-sans text-white text-left pl-5 dark:text-white px-4 text-sm md:text-lg md:text-center lg:text-lg lg:text-left">
+            <p class="font-sans text-white text-left pl-5 dark:text-white px-4 text-sm md:text-lg md:text-center lg:text-lg lg:text-left lg:tracking-wider">
                 PAULAS RENGØRING | KONTAKT
             </p>
             <h2 class="font-sans text-white dark:text-white text-left font-semibold px-4 text-3xl md:text-5xl md:text-center lg:pb-2 lg:font-semibold lg:text-5xl lg:text-left">Professionel rådgivning med dig i centrum</h2>
@@ -15,30 +15,21 @@
     </div>
 </section>
 
-<div class="bg-white light:bg-white dark:bg-white lg:pt-5">
-    <div>
-        <h2 class="font-sans text-black text-left text-xl px-16 text-center font-semibold dark:text-black pt-10 pb-10 md:text-center lg:text-2xl lg:text-center lg:font-semibold lg:pt-10 lg:pb-10">
-            Du er velkommen til at kontakte mig
-        </h2>
-    </div>
-</div>
-
 <!-- kontaktformular sektion -->
-<section class="relative h-full flex flex-col items-center text-center content-start pt-10 md:flex-col lg:py-12">
+<div class="bg-white dark:bg-white text-black text-center lg:pt-0 lg:pb-5 lg:text-center lg:pt-12">
+    <p class="pt-10 text-3xl font-semibold lg:text-3xl">
+        Har du spørgsmål?
+    </p>
+    <p class="pb-10 font-sans text-sm text-center px-10 pt-3 md:pt-4 md:text-center md:px-10 lg:text-center lg:text-base lg:px-40 lg:pt-5">
+        Du er altid velkommen til at kontakte mig, hvis du har behov for rådgivning eller har tvivlsspørgsmål. 
+    </p>
+</div> 
+
+<section class="relative h-full flex flex-col items-center text-center content-start z-0 pt-10 md:flex-col lg:py-12">
     <div class="absolute top-0 left-0 w-full h-full overflow-hidden">
-        <img class="min-w-full min-h-full absolute object-cover" src="../assets/Kontakt-form-billede.jpg" alt="Kvinde rengør sofabord">
+        <img class="min-w-full min-h-full absolute object-cover" src="../assets/Kontaktform-billede.jpg" alt="Kvinde rengør lamper">
     </div>
-    <div class="image-content text-white dark:text-white z-10 md:pt-10">
-        <p class="text-sm md:mx-5 lg:text-sm lg:font-semibold lg:pt-0 text-white dark:text-white lg:text-center lg:tracking-wider">PAULAS RENGØRING | KONTAKT</p>
-        <h2 class="font-sans text-4xl font-semibold lg:pt-0 text-center md:text-center lg:text-5xl lg:font-semibold lg:text-center">
-            Har du spørgsmål?
-        </h2>
-        <p class="pb-10 font-sans text-sm text-center px-10 pt-3 md:pt-4 md:text-center md:px-10 lg:text-center lg:text-base lg:px-40 lg:pt-5"> 
-            Du er altid velkommen til at kontakte mig, hvis du har behov for rådgivning eller har tvivlsspørgsmål. 
-        </p>
-    </div>
-    
-    <div class="flex justify justify-center flex-col md:flex-col md:w-full md:pl-40 md:pb-20 lg:flex-row lg:space-x-0 lg:pt-5 lg:w-3/4 z-20 lg:pt-24">
+    <div class="flex justify justify-center flex-col md:flex-col md:w-full md:pl-40 md:pb-20 lg:flex-row lg:space-x-0 lg:pt-5 lg:w-3/4 lg:pl-10 z-20 lg:pt-24">
         <div class="bg-white dark:bg-white max-w-lg shadow-sm lg:w-2/3">
             <div class="bg-white dark:bg-white max-w-lg">
                 <h2 class="mb-4 text-2xl tracking-tight font-semibold text-left pt-10 px-5 text-black dark:text-black md:px-5 md:pt-10 md:text-3xl md:text-left lg:text-3xl lg:px-5 lg:pr-10 lg:font-semibold lg:pt-10 lg:text-left">
@@ -76,7 +67,7 @@
             <h2 class="justify-start pr-24 font-sans text-2xl text-black pt-6 pb-6 font-semibold md:pb-5 md:pt-7 md:font-semibold md:text-left md:px-8 lg:pt-10 lg:pb-0 lg:text-black lg:text-2xl lg:font-semibold lg:pl-5">
                 Kontaktoplysninger 
             </h2>
-            <p class="text-black px-8 text-left lg:text-black lg:text-sm lg:px-5 lg:pt-2"> Ønsker du at kontakte mig pr. telefon, over mail eller facebook er du også meget velkommen til at gøre dette.</p>
+            <p class="text-black px-8 text-left lg:text-black lg:text-sm lg:px-5 lg:pt-2"> Ønsker du at kontakte mig pr. telefon, over mail eller Facebook er du også meget velkommen til at gøre dette.</p>
             <div class="flex justify-start px-8 pt-5 pb-2 lg:px-5 lg:pt-10">
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#444444" class="w-4 h-4">
@@ -115,6 +106,7 @@
         </div>
     </div>
 </section>
+
 
 <!-- FAQ -->
 <div class="bg-white light:bg-white dark:bg-white py-4 mx-auto">

@@ -4,31 +4,32 @@
 <section class="relative h-screen flex flex-col pt-20 content-start md:h-[40vh] lg:h-[100vh] lg:pt-20">
     <div class="video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
         <video class="min-w-full min-h-full absolute object-cover" alt="Kvinde gør overflade rent"
-            src="../assets/herovideo.mp4"
+            src="../assets/Herovideo-paulasrengøring.mp4"
             type="video/mp4" autoplay muted loop>
         </video>
+        <div class="overlay absolute top-0 left-0 w-full h-full bg-black dark:bg-black opacity-40"></div>
     </div>
     <div class="video-content z-10 pt-24 md:pt-20 lg:pt-32">
-        <div>
-            <p class="font-sans text-white dark:text-white px-4 text-sm md:text-lg md:text-center lg:text-lg lg:text-center">
+        <div class="lg:px-40">
+            <p class="font-sans text-white dark:text-white px-4 text-sm md:text-lg md:text-center lg:px-0 lg:text-lg lg:text-left lg:tracking-wider">
                 PAULAS RENGØRING | PROFESSIONEL RENGØRING
             </p>
-            <h2 class="font-sans text-white dark:text-white text-left font-semibold px-4 text-5xl md:text-5xl md:text-center lg:px-0 lg:pb-2 lg:font-semibold lg:text-5xl lg:text-center">Rengøring til private og erhverv</h2>
-            <p class="font-sans text-white dark:text-white px-4 pt-2 md:text-md md:px-20 md:text-center lg:text-lg lg:text-center lg:pt-3 lg:px-72">
+            <h2 class="font-sans text-white dark:text-white text-left font-semibold px-4 text-5xl md:text-5xl md:text-center lg:px-0 lg:pb-2 lg:font-semibold lg:text-5xl lg:text-left">Rengøring til private og erhverv</h2>
+            <p class="font-sans text-white dark:text-white px-4 pt-2 md:text-md md:px-20 md:text-center lg:text-lg lg:text-left lg:pt-3 lg:px-0 lg:pr-40">
                 Jeg løser rengøringsopgaver for små og mellemstore virksomheder samt private. Jeg forstår vigtigheden af et rent miljø, og betydningen heraf for dig.
             </p>
         </div>
-        <div class="font-sans row md:flex lg:flex px-4 justify-start text-sm pt-5 md:justify-center md:space-x-4 lg:px-0 lg:space-x-1 lg:space-y-0 lg:justify-center lg:text-md lg:pt-5">
+        <div class="font-sans row md:flex lg:flex px-4 justify-start text-sm pt-5 md:justify-center md:space-x-4 lg:px-0 lg:space-x-1 lg:space-y-0 lg:justify-start lg:px-40 lg:text-md lg:pt-5">
             <div class="font-sans pb-4 md:px-0 md:pb-4 lg:pb-3">
                 <RouterLink to="privatecleaning"> 
-                    <button class="bg-transparent dark:bg-transparent text-white dark:text-white border-2 border-white font-semibold py-2 px-8 md:py-2 md:px-4 md:py-1 md:px-8 lg:text-md lg:py-3 lg:px-8 rounded-full lg:text-md lg:tracking-wider">
+                    <button class="bg-transparent hover:bg-white hover:text-gray dark:bg-transparent text-white dark:text-white border-2 border-white font-semibold py-2 px-8 md:py-2 md:px-4 md:py-1 md:px-8 lg:text-md lg:py-3 lg:px-8 rounded-full lg:text-md lg:tracking-wider">
                         Privatrengøring
                     </button>
                 </RouterLink>
             </div>
             <div class="font-sans pb-10 md:px-2 md:pb-7 lg:pb-16">
                 <RouterLink to="commercialcleaning"> 
-                    <button class="bg-transparent dark:bg-transparent text-white dark:text-white border-2 border-white font-semibold py-2 px-8 md:py-1 md:px-4 md:py-2 md:px-8 lg:text-md lg:py-3 lg:px-8 rounded-full lg:text-md lg:tracking-wider">
+                    <button class="bg-transparent hover:bg-white hover:text-gray dark:bg-transparent text-white dark:text-white border-2 border-white font-semibold py-2 px-8 md:py-1 md:px-4 md:py-2 md:px-8 lg:text-md lg:py-3 lg:px-8 rounded-full lg:text-md lg:tracking-wider">
                         Erhvervsrengøring
                     </button>
                 </RouterLink>
@@ -43,7 +44,7 @@
 <!-- Værdisæt section -->
 <div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:pt-16 md:flex-row lg:flex-row lg:w-full lg:pt-20 lg:pb-16">
     <div class="bg-lightgray p-6 md:p-6 md:w-1/2 lg:w-2/5 lg:px-12">
-        <p class="text-gray dark:text-gray text-xs pt-5 font-semibold pb-2 md:pt-1 lg:pt-10 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | VÆRDISÆT</p>
+        <p class="text-gray dark:text-gray text-xs pt-5 font-semibold pb-2 md:pt-1 lg:pt-10 lg:text-sm lg:tracking-wider">VÆRDISÆT</p>
         <p class="text-black dark:text-black pt-0 text-xl mt-3 font-semibold md:mx-0 md:text-md lg:mx-0 lg:text-lg lg:font-semibold lg:pt-2">Gensidig tillid</p>
         <p class="text-black dark:text-black text-sm mt-2 md:text-xs md:mx-0 lg:mx-0 lg:text-sm lg:mr-10 lg:pb-0">Det er vigtigt for mig, at vi skaber tillid til hinanden fra start, så vi kan indgå det bedste samarbejde med et stærkt fundament.</p>
         <p class="text-black dark:text-black pt-2 text-xl mt-3 font-semibold md:mx-0 md:text-md lg:mx-0 lg:text-lg lg:font-semibold lg:pt-2">Kundetilfredshed</p>
@@ -63,7 +64,7 @@
         Går du i overvejelserne om at få rengøringshjælp ?
     </h2>
     <h2 class="font-sans text-sm text-black pl-5 pr-5 pt-5 font-normal md:px-10 md:pb-6 md:font-normal md:text-center lg:text-black lg:pt-1 lg:pb-10 lg:px-40 lg:text-sm lg:text-center">
-        Har du har en travl hverdag, er du ældre og har behov for ekstra hjælp til at udføre rengøringen, eller vil du blot priotere din tid anderledes, så har jeg samlet nogle gode råd til dig i den indledende fase, som gerne skulle give dig det gode overblik inden valg af rengøringshjælp.
+        Har du har en travl hverdag, er du ældre og har behov for ekstra hjælp til at udføre rengøringen, eller vil du blot prioritere din tid anderledes, så har jeg samlet nogle gode råd til dig i den indledende fase, som gerne skulle give dig det gode overblik inden valg af rengøringshjælp.
     </h2>
 </div>
 
@@ -72,7 +73,7 @@
         <img src="../assets/Guide-billede.jpg" alt="Kvinde rengør bord" class="w-full h-auto">
     </div>
     <div class="bg-beige light:bg-beige dark:bg-beige p-6 md:p-0 w-full md:w-full lg:w-full lg:px-12">
-        <p class="text-gray dark:text-gray text-sm pt-1 font-semibold pb-2 md:pt-10 md:mx-5 lg:pt-20 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | GUIDE</p>
+        <p class="text-gray dark:text-gray text-sm pt-1 font-semibold pb-2 md:pt-10 md:mx-5 lg:pt-20 lg:text-sm lg:tracking-wider">VÆRD AT VIDE</p>
         <h2 class="text-black dark:text-black text-3xl font-semibold mt-2 md:text-3xl md:mx-5 lg:mx-0 lg:font-semibold lg:text-4xl lg:pl-5 lg:mr-10 lg:pb-0">Sådan får du mest mulig ud af din rengøringshjælp.</h2>
         <p class="text-black dark:text-black pt-2 text-lg mt-3 font-semibold md:mx-5 md:text-sm lg:text-lg lg:font-semibold lg:pt-2">Går du med overvejelserne om, at ansætte en professionel til at udføre rengøringshjælpen i dit hjem?</p>
         <p class="text-black dark:text-black pt-0 pb-2 text-sm mt-2 font-base md:pt-1 md:mx-5 md:font-base md:mx-0 md:text-sm lg:pl-5 lg:mx-0 lg:text-sm lg:font-base lg:pt-2">Jeg har samlet nogle råd til dig i den indledende fase, som sikrer dig at du får mest muligt ud af din rengøringshjælp, og opnår størst mulig tilfredshed. Du kan læser mere om guiden <RouterLink to="guide" class="text-black font-semibold">her.</RouterLink></p>
@@ -82,15 +83,15 @@
 
 <!-- Om sektion -->
 <div class="bg-white dark:bg-white light:bg-white flex justify justify-center h-20 pt-4 md:h-24 md:pt-6 lg:pt-10">
-    <h2 class="font-sans text-2xl text-black font-semibold md:font-semibold md:text-3xl md:px-20 md:text-center lg:pb-5 lg:text-black lg:text-3xl lg:font-semibold lg:text-center">Dit Lokale rengøringsfirma</h2>
+    <h2 class="font-sans text-2xl text-black font-semibold md:font-semibold md:text-3xl md:px-20 md:text-center lg:pb-5 lg:text-black lg:text-3xl lg:font-semibold lg:text-center">Dit lokale rengøringsfirma</h2>
 </div>
 
 <div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 pt-0 md:p-0 md:flex-row lg:flex-row lg:w-full lg:pt-3 lg:pb-16">
     <div class="bg-lightgray p-4 pt-0 md:p-6 md:pb-0 md:w-1/2 lg:w-2/5 lg:px-12">
-        <p class="text-gray dark:gray text-xs pt-8 font-semibold pb-2 md:pt-4 lg:pt-10 lg:text-sm lg:tracking-wider">PAULAS RENGØRING | OM MIG</p>
+        <p class="text-gray dark:gray text-xs pt-8 font-semibold pb-2 md:pt-4 lg:pt-10 lg:text-sm lg:tracking-wider">OM MIG</p>
         <h2 class="text-black dark:text-black text-2xl font-semibold pb-4 md:pb-2 lg:pb-6 lg:text-3xl">Jeg værdsætter tillid og tryghed, i det samarbejde jeg indgår med mine kunder </h2>
-        <p class="text-black dark:text-black text-sm font-semibold md:pb-1 lg:font-semibold lg:text-base">Jeg startede Paulas Rengøring i 2014, da det længe havde været et ønske at gå selvstændig.</p>
-        <p class="text-black dark:text-black text-sm pt-3 md:pt-1 lg:text-base lg:pt-2 lg:text-base">Sidenhen har jeg opbygget en loyal kundekreds i Ringkøbing-Skjern omregn, som jeg værner om og værdsætter. Personligt betyder gensidig tillid, og et trygt samarbejde meget i de kunderelationer jeg indgår i. Jeg tilbyder rengøring for private samt erhverv.</p>
+        <p class="text-black dark:text-black text-sm font-semibold md:pb-1 lg:font-semibold lg:text-base">Jeg startede Paulas Rengøring i 2014, da det længe havde været et ønske at blive selvstændig.</p>
+        <p class="text-black dark:text-black text-sm pt-3 md:pt-1 lg:text-base lg:pt-2 lg:text-base">Sidenhen har jeg opbygget en loyal kundekreds i Ringkøbing-Skjern kommune, som jeg værner om og værdsætter. Personligt betyder gensidig tillid, og et trygt samarbejde meget i de kunderelationer jeg indgår i. Jeg tilbyder rengøring for private samt erhverv.</p>
         <div class="row pt-6 pb-4 md:flex lg:flex md:pt-3 lg:pt-6 lg:pb-0">
             <div class="py-3 md:pt-5 md:pr-3 lg:pt-0 lg:pr-3">
                 <RouterLink to="privatecleaning"> 
@@ -129,7 +130,7 @@
 <div class="bg-whitelight:bg-white dark:bg-white flex justify-center">
     <div class="grid grid-cols-1 z-0 pb-10 md:grid-cols-2 md:pt-5 md:space-x-10 lg:grid-cols-2 lg:space-x-12 lg:pb-20">
         <div class="max-w-xs mx-auto mb-10 overflow-hidden shadow-lg bg-white dark:bg-white lg:p-10 lg:pb-0 relative">
-            <img src="../assets/Shine-element.png" class="h-24 lg:h-40 pl-48 mt-56 absolute lg:pl-48 lg:mt-44">
+            <img src="../assets/Shine-element.png" class="h-24 lg:h-44 pl-48 mt-56 absolute lg:pl-48 lg:mt-44">
                 <div class="absolute top-0 left-0 w-full h-32 bg-darkblue dark:bg-darkblue lg:top-3 lg:left-0 lg:w-full lg:h-40"></div>
                     <div class="px-6 py-4 relative z-10">
                         <div class="font-sans pb-10 pt-5 font-bold text-2xl text-white dark:text-white lg:text-3xl lg:pt-0 lg:pb-10">
@@ -148,7 +149,7 @@
                             <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
                             </svg>
                         </div>
-                        <p class="font-sans font-semibold text-xs pt-1 pl-2 lg:text-sm text-black dark:text-black lg:pl-2 lg:font-semibold">
+                        <p class="font-sans font-semibold text-xs pt-1 pl-2 lg:text-sm text-black dark:text-black lg:pt-0 lg:pl-2 lg:font-semibold">
                             HOVEDRENGØRING
                         </p>
                     </div>
@@ -159,7 +160,7 @@
                             <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
                             </svg>
                         </div>
-                        <p class="font-sans font-semibold text-xs pt-1 pl-2 lg:text-sm text-black dark:text-black lg:pl-2 lg:font-semibold">
+                        <p class="font-sans font-semibold text-xs pt-1 pl-2 lg:text-sm text-black dark:text-black lg:pt-0 lg:pl-2 lg:font-semibold">
                             ALM. RENGØRING
                         </p>
                     </div>
@@ -170,13 +171,13 @@
                             <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
                             </svg>
                         </div>
-                        <p class="font-sans font-semibold text-xs pt-1 pl-2 pb-5 lg:text-sm text-black dark:text-black lg:pl-2 lg:font-semibold">
+                        <p class="font-sans font-semibold text-xs pt-1 pl-2 pb-5 lg:text-sm text-black dark:text-black lg:pt-0 lg:pl-2 lg:font-semibold">
                             VINDUESPUDSNING
                         </p>
                     </div>
                     <div class="font-sans px-6 pt-0 pb-5 lg:text-center">
                         <RouterLink to="privatecleaning"> 
-                            <button class="bg-lightblue dark:bg-lightblue hover:lightblue text-sm text-black dark:text-black font-semibold py-3 px-10 rounded-full lg:text-md">
+                            <button class="bg-lightblue dark:bg-lightblue hover:lightblue hover:bg-darkblue hover:text-white text-sm text-black dark:text-black font-semibold py-3 px-10 rounded-full lg:text-md">
                                 Læs mere
                             </button>
                         </RouterLink>
@@ -185,7 +186,7 @@
             </div>
         </div>
         <div class="max-w-xs mx-auto mb-10 overflow-hidden shadow-lg bg-white dark:bg-white lg:p-10 lg:pb-0 relative">
-            <img src="../assets/Shine-element.png" class="h-24 lg:h-40 pl-48 mt-56 absolute lg:pl-48 lg:mt-44">
+            <img src="../assets/Shine-element.png" class="h-24 lg:h-44 pl-48 mt-56 absolute lg:pl-48 lg:mt-44">
                 <div class="absolute top-0 left-0 h-32 w-full bg-darkblue dark:bg-darkblue lg:top-3 lg:left-0 lg:w-full lg:h-40"></div>
                     <div class="px-6 py-4 relative z-10">
                         <div class="font-sans pb-10 pt-5 font-bold text-2xl text-white dark:text-white lg:text-3xl lg:pt-0 lg:pb-10">
@@ -204,7 +205,7 @@
                             <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
                             </svg>
                         </div>
-                        <p class="font-sans font-semibold text-xs pt-1 pl-2 lg:text-sm text-black dark:text-black lg:pl-2 lg:font-semibold">
+                        <p class="font-sans font-semibold text-xs pt-1 pl-2 lg:text-sm text-black dark:text-black lg:pt-0 lg:pl-2 lg:font-semibold">
                             HOVEDRENGØRING
                         </p>
                     </div>
@@ -215,7 +216,7 @@
                             <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
                             </svg>
                         </div>
-                        <p class="font-sans font-semibold text-xs pt-1 pl-2 lg:text-sm text-black dark:text-black lg:pl-2 lg:font-semibold">
+                        <p class="font-sans font-semibold text-xs pt-1 pl-2 lg:text-sm text-black dark:text-black lg:pt-0 lg:pl-2 lg:font-semibold">
                             ALM. RENGØRING
                         </p>
                     </div>
@@ -226,13 +227,13 @@
                             <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
                             </svg>
                         </div>
-                        <p class="font-sans font-semibold text-xs pt-1 pl-2 pb-5 lg:text-sm text-black dark:text-black lg:pl-2 lg:font-semibold">
+                        <p class="font-sans font-semibold text-xs pt-1 pl-2 pb-5 lg:text-sm text-black dark:text-black lg:pt-0 lg:pl-2 lg:font-semibold">
                             VINDUESPUDSNING
                         </p>
                     </div>
                     <div class="font-sans px-6 pt-0 pb-5 lg:text-center">
                         <RouterLink to="commercialcleaning"> 
-                            <button class="bg-lightblue dark:bg-lightblue hover:lightblue text-sm text-black dark:text-black font-semibold py-3 px-10 rounded-full lg:text-md">
+                            <button class="bg-lightblue dark:bg-lightblue hover:lightblue hover:bg-darkblue hover:text-white text-sm text-black dark:text-black font-semibold py-3 px-10 rounded-full lg:text-md">
                                 Læs mere
                             </button>
                         </RouterLink>
@@ -243,22 +244,21 @@
     </div>
 </div>
 
+<div class="bg-white dark:bg-white text-black text-center lg:pt-0 lg:pb-5 lg:text-center">
+    <p class="text-3xl font-semibold lg:text-3xl">
+        Har du spørgsmål?
+    </p>
+    <p class="pb-10 font-sans text-sm text-center px-10 pt-3 md:pt-4 md:text-center md:px-10 lg:text-center lg:text-base lg:px-40 lg:pt-5">
+        Du er altid velkommen til at kontakte mig, hvis du har behov for rådgivning eller har tvivlsspørgsmål. 
+    </p>
+</div>
+
 <!-- kontaktformular sektion -->
 <section class="relative h-full flex flex-col items-center text-center content-start z-0 pt-10 md:flex-col lg:py-12">
     <div class="absolute top-0 left-0 w-full h-full overflow-hidden">
-        <img class="min-w-full min-h-full absolute object-cover" src="../assets/Kontakt-form-billede.jpg" alt="Kvinde rengør sofabord">
+        <img class="min-w-full min-h-full absolute object-cover" src="../assets/Kontaktform-billede.jpg" alt="Kvinde rengør lamper">
     </div>
-    <div class="image-content text-white dark:text-white z-10 md:pt-10">
-        <p class="text-sm md:mx-5 lg:text-sm lg:font-semibold lg:pt-0 text-white dark:text-white lg:text-center lg:tracking-wider">PAULAS RENGØRING | KONTAKT</p>
-        <h2 class="font-sans text-4xl font-semibold lg:pt-0 text-center md:text-center lg:text-5xl lg:font-semibold lg:text-center">
-            Har du spørgsmål?
-        </h2>
-        <p class="pb-10 font-sans text-sm text-center px-10 pt-3 md:pt-4 md:text-center md:px-10 lg:text-center lg:text-base lg:px-40 lg:pt-5"> 
-            Du er altid velkommen til at kontakte mig, hvis du har behov for rådgivning eller har tvivlsspørgsmål. 
-        </p>
-    </div>
-    
-    <div class="flex justify justify-center flex-col md:flex-col md:w-full md:pl-40 md:pb-20 lg:flex-row lg:space-x-0 lg:pt-5 lg:w-3/4 z-20 lg:pt-24">
+    <div class="flex justify justify-center flex-col md:flex-col md:w-full md:pl-40 md:pb-20 lg:flex-row lg:space-x-0 lg:pt-5 lg:w-3/4 lg:pl-10 z-20 lg:pt-24">
         <div class="bg-white dark:bg-white max-w-lg shadow-sm lg:w-2/3">
             <div class="bg-white dark:bg-white max-w-lg">
                 <h2 class="mb-4 text-2xl tracking-tight font-semibold text-left pt-10 px-5 text-black dark:text-black md:px-5 md:pt-10 md:text-3xl md:text-left lg:text-3xl lg:px-5 lg:pr-10 lg:font-semibold lg:pt-10 lg:text-left">
@@ -350,8 +350,8 @@
     <div class="grid grid-cols-1 gap-y-10 md:gap-x-5 md:p-5 md:grid-cols-3 lg:grid-cols-3 lg:gap-20 lg:px-20 lg:pb-10">
         <div class="max-w-xs mx-auto overflow-hidden shadow-lg bg-white dark:bg-white">
             <div class="px-6 py-10 flex flex-col items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="gray" class="w-14 h-14">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gray" class="size-9">
+                    <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z" clip-rule="evenodd" />
                 </svg>
                 <div class="font-sans text-darkgray lg:text-darkgray font-bold text-xl mb-2 lg:text-lg lg:text-center lg:pt-2">Lisbeth</div>
                 <p class="font-sans text-darkgray text-center text-sm text-base md:pt-2 lg:text-darkgray lg:text-center lg:text-sm lg:pt-2">
@@ -361,19 +361,19 @@
         </div>
         <div class="max-w-xs mx-auto overflow-hidden shadow-lg bg-white dark:bg-white">
             <div class="px-6 py-10 flex flex-col items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="gray" class="w-14 h-14">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gray" class="size-9">
+                    <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z" clip-rule="evenodd" />
                 </svg>
                 <div class="font-sans text-darkgray lg:text-darkgray font-bold text-xl mb-2 lg:text-lg lg:text-center lg:pt-2">Kenneth</div>
                 <p class="font-sans text-darkgray text-center text-sm text-base md:pt-2 lg:text-darkgray lg:text-center lg:text-sm lg:pt-2">
-                    ''Grundet en rygskade, måtte jeg få rengøringshjælp på. Jeg må sige, at det er en fornøjelse at samarbejde med Paulas Rengøring hvor kvaliteten er i top.''
+                    ''Grundet en rygskade, måtte jeg skaffe rengøringshjælp. Jeg må sige, at det er en fornøjelse at samarbejde med Paulas Rengøring hvor kvaliteten er i top.''
                 </p>
             </div>
         </div>
         <div class="max-w-xs mx-auto overflow-hidden shadow-lg bg-white dark:bg-white">
             <div class="px-6 py-10 flex flex-col items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="gray" class="w-14 h-14">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gray" class="size-9">
+                    <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z" clip-rule="evenodd" />
                 </svg>
                 <div class="font-sans text-darkgray lg:text-darkgray font-bold text-xl mb-2 lg:text-lg lg:text-center lg:pt-2">Dorthe</div>
                 <p class="font-sans text-darkgray text-center text-sm text-base md:pt-2 lg:text-darkgray lg:text-center lg:text-sm lg:pt-2">
