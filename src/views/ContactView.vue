@@ -3,7 +3,8 @@
 <!-- Hero section -->
 <section class="relative flex flex-col pt-5 h-[50vh] md:h-[40vh] lg:h-[80vh]">
     <div class="heroimage absolute top-0 left-0 w-full h-full overflow-hidden">
-        <img class="min-w-full h-[50vh] md:h-[40vh] lg:h-[80vh] absolute object-cover" src="../assets/prisætning.jpg" alt="Kvinde kigger på computer">
+        <img class="min-w-full h-[50vh] md:h-[40vh] lg:h-[80vh] absolute object-cover" src="../assets/Kontakt-herobillede.jpg" alt="Skrivebord med computer">
+        <div class="overlay absolute top-0 left-0 w-full h-full bg-black dark:bg-black opacity-40"></div>
     </div>
     <div class="image-content z-10 pt-28 md:pt-40 lg:pt-48 lg:px-40">
         <div>
@@ -16,7 +17,7 @@
 </section>
 
 <!-- kontaktformular sektion -->
-<div class="bg-white dark:bg-white text-black text-center lg:pt-0 lg:pb-5 lg:text-center lg:pt-12">
+<div class="bg-white dark:bg-white text-black text-center lg:pt-0 lg:pb-5 lg:text-center lg:pt-4">
     <p class="pt-10 text-3xl font-semibold lg:text-3xl">
         Har du spørgsmål?
     </p>

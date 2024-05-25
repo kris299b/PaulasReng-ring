@@ -130,7 +130,7 @@
                   <ul class="text-xs text-darkgray dark:text-darkgray font-medium lg:text-xs">
                       <li class="mb-4">
                         <RouterLink to="guide">
-                          <a class="hover:font-semibold">Guide</a>
+                          <a class="hover:font-semibold">Værd at vide</a>
                         </RouterLink>
                       </li>
                       <li class="mb-4">
