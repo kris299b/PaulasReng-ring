@@ -43,7 +43,7 @@
 </div>
 
 <!--Box 2-->
-<div class="flex bg-white dark:bg-white light:bg-white flex flex-col justify justify-center w-full pt-20 pb-8 md:flex-row md:justify-end lg:flex-row lg:w-full lg:pb-0 lg:mx-auto lg:justify-start">
+<div class="flex bg-white dark:bg-white light:bg-white flex flex-col justify justify-center w-full pt-20 pb-8 md:flex-row md:justify-end lg:flex-row lg:w-full lg:pb-10 lg:mx-auto lg:justify-start">
     <div class="w-full p-4 md:w-2/4 lg:w-2/4 md:pt-10 md:pl-8 lg:pl-8 lg:pt-16 lg:pr-8 bg-lightgray">
         <h1 class="text-black font-semibold text-2xl pb-2 md:text-2xl lg:text-2xl md:pt-12 lg:pt-0">Udarbejd en arbejdsplan</h1>
         <p class="text-black text-sm font-semibold md:text-base md:pr-5 md:pb-3 md:font-semibold lg:font-semibold">Det vil være fordelagtigt at udarbejde en plan over dine ønsker og behov, som du deler med din rengøringshjælp i den indledende fase.</p>
@@ -98,11 +98,11 @@
 </div>
 
 <!-- Om sektion -->
-<div class="bg-white dark:bg-white light:bg-white flex justify justify-center h-20 pt-4 md:h-24 md:pt-6 lg:pt-5">
-    <h2 class="font-sans text-2xl px-5 text-black font-semibold text-center md:font-semibold md:text-3xl md:px-20 md:text-center lg:text-black lg:text-3xl lg:font-semibold lg:text-center">Kunne du tænke dig at danne et samarbejde med mig?</h2>
+<div class="bg-white dark:bg-white light:bg-white flex justify justify-center h-20 pt-4 md:h-24 md:pt-6 lg:pt-0">
+    <h2 class="font-sans text-2xl px-5 text-black font-semibold text-center md:font-semibold md:text-3xl md:px-20 md:text-center lg:pt-0 lg:text-black lg:text-3xl lg:font-semibold lg:text-center">Kunne du tænke dig at danne et samarbejde med mig?</h2>
 </div>
 
-<div class="bg-white dark:bg-white light:bg-white pt-6 pb-20 flex flex-col justify justify-center h-1/2 w-full p-8 pt-0 md:p-0 md:pt-10 md:pb-20 md:flex-col lg:flex-row lg:w-full lg:pt-3 lg:pb-16">
+<div class="bg-white dark:bg-white light:bg-white pt-6 pb-20 flex flex-col justify justify-center h-1/2 w-full p-8 pt-0 md:p-0 md:pt-10 md:pb-20 md:flex-col lg:flex-row lg:w-full lg:pt-0 lg:pb-20">
     <div class="bg-lightgray p-4 pt-0 md:p-6 md:pb-0 md:w-3/5 lg:w-2/5 lg:px-12">
         <p class="text-gray dark:gray text-sm tracking-wider pt-8 font-semibold pb-1 md:pt-2 lg:pt-10 lg:text-sm lg:tracking-wider">OM MIG</p>
         <h2 class="text-black dark:text-black text-2xl font-semibold pb-4 md:pb-3 lg:pb-6 lg:text-3xl">Jeg værdsætter tillid og tryghed, i det samarbejde jeg indgår med mine kunder </h2>

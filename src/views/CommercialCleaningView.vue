@@ -68,7 +68,7 @@
         <img src="../assets/Erhverv-rengøringsløsninger.jpg" alt="Erhvervslokale">
     </div>
     <div class="bg-lightgray p-4 md:p-6 w-full md:w-3/5 lg:w-1/2 lg:px-10">
-        <p class="text-gray dark:text-gray text-sm tracking-wider md:text-sm font-base pt-5 pb-2 lg:pt-16 lg:text-sm lg:font-semibold lg:tracking-wider">ERHVERVSRENGØRING</p>
+        <p class="text-gray dark:text-gray text-sm tracking-wider md:text-sm font-base pt-5 pb-2 lg:pt-10 lg:text-sm lg:font-semibold lg:tracking-wider">ERHVERVSRENGØRING</p>
         <h2 class="text-black text-2xl font-semibold pb-4 md:text-3xl lg:text-4xl">Tilpasset rengøring</h2>
         <p class="text-black text-base font-semibold md:text-base md:font-semibold lg:font-semibold lg:text-base">Dit lokale rengøringsfirma, som tilbyder skræddersyede løsninger lige efter dine ønsker og behov. </p>
         <p class="text-black text-base font-base pt-3 pb-5 md:text-base md:font-base lg:font-base lg:pt-3 lg:pr-10 lg:text-base">Lad os tage en uforpligtigende snak om det, du har brug for hjælp til, og hvor ofte du har behov for rengøringshjælp. Vi vil i fællesskab sammensætte den bedste løsning for dig. Jeg glæder mig til at høre fra dig. </p>

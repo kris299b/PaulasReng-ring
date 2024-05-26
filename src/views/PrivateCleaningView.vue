@@ -19,7 +19,7 @@
 
 <!-- Tryghed-section -->
 <div class="flex justify justify-center text-center bg-white light:bg-white dark:bg-white">
-    <h2 class="text-2xl px-5 pt-10 font-semibold text-black tracking-wider dark:text-black md:pt-10 md:text-center lg:font-semibold lg:text-3xl lg:text-center lg:pt-12 lg:tracking-wider">Tryghed i vores samarbejde</h2>
+    <h2 class="text-2xl px-5 pt-10 font-semibold text-black dark:text-black md:pt-10 md:text-center lg:font-semibold lg:text-3xl lg:text-center lg:pt-12">Tryghed i vores samarbejde</h2>
 </div>
 
 <div class="bg-white light:white dark:bg-white px-0 flex flex-col justify-center h-full w-full p-8 md:px-0 md:flex-row lg:flex-row lg:w-full lg:pt-10 lg:pb-5 lg:px-0">
