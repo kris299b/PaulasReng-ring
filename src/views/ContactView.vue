@@ -180,7 +180,6 @@
     </div>
 </section>
 
-
 </template>
 
 <style>
@@ -189,6 +188,47 @@
 #mergeRow-gdpr fieldset label {font-weight: normal;}
 #mc-embedded-subscribe-form .mc_fieldset{border:none;min-height: 0px;padding-bottom:0px;}
 #mc-embedded-subscribe {background-color:rgb(21, 21, 21); border-radius: 50%;}
+#mce-FNAME {font-weight: normal}
+#mce-MMERGE3 {font-weight: normal}
+
+
+/* Base styles */
+.relative {
+    position: relative;
+}
+.center-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #c4a484; /* Replace with your actual color */
+    color: #000000;
+    border-radius: 9999px;
+    font-weight: 400;
+    padding: 0.5rem 2rem; /* 8px 32px */
+    display: none; /* Hidden by default */
+}
+.md\:inline-block {
+    display: inline-block;
+}
+.lg\:hidden {
+    display: none;
+}
+
+/* Medium screen */
+@media (min-width: 768px) {
+    .center-button {
+        padding: 0.25rem 1.5rem; /* 4px 24px */
+        display: inline-block; /* Visible on medium screens */
+    }
+}
+@media (min-width: 1024px) {
+    .center-button {
+        font-size: 1rem; /* 16px */
+        padding: 0.5rem 2rem; /* 8px 32px */
+        font-weight: 600;
+    }
+}
 
 </style>
 
@@ -209,4 +249,15 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+
+export default {
+    name: 'Contact',
+    mounted() {
+        this.$nextTick(() => {
+            window.scrollTo(0, 0)
+        });
+    }
+}
+
 </script>

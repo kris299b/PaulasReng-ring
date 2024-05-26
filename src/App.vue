@@ -31,22 +31,22 @@
             <a class="hover:font-semibold">VÆRD AT VIDE</a>
           </RouterLink>
         </li>
-        <div class="dropdown">
+        <li class="dropdown">
           <button id="dropdownToggle" class="dropbtn flex justify-between"> 
             JEG TILBYDER
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 lg:ml-2 lg:mt-0">
               <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
             </svg>
           </button>
-          <div id="dropdownContent" class="dropdown-content hidden">
-            <RouterLink to="privatecleaning" id="privateCleaningLink">
-            <a class="hover:font-semibold">PRIVATRENGØRING</a>
+          <div id="dropdownContent" class="dropdown-content hidden flex flex-col space-y-2">
+            <RouterLink to="/privatecleaning" id="privateCleaningLink">
+              <a class="hover:font-semibold">PRIVATRENGØRING</a>
             </RouterLink>
-            <RouterLink to="commercialcleaning" id="commercialCleaningLink">
+            <RouterLink to="/commercialcleaning" id="commercialCleaningLink">
               <a class="hover:font-semibold">ERHVERSRENGØRING</a>
             </RouterLink>
           </div>
-        </div>
+        </li>
         <li>
           <RouterLink to="/about" class="nav-link">
             <a class="hover:font-semibold">OM FIRMAET</a>
@@ -129,27 +129,27 @@
                   <h2 class="font-sans mb-6 text-xs md:pt-5 font-semibold text-darkgray uppercase dark:text-darkgray lg:pt-0 lg:tracking-wider">information</h2>
                   <ul class="text-xs text-darkgray dark:text-darkgray font-medium lg:text-xs">
                       <li class="mb-4">
-                        <RouterLink to="guide">
+                        <RouterLink to="/guide">
                           <a class="hover:font-semibold">Værd at vide</a>
                         </RouterLink>
                       </li>
                       <li class="mb-4">
-                        <RouterLink to="prices">
+                        <RouterLink to="/prices">
                           <a class="hover:font-semibold">Priser</a>
                         </RouterLink>
                       </li>
                       <li class="mb-4">
-                        <RouterLink to="about">
+                        <RouterLink to="/about">
                           <a class="hover:font-semibold">Om firmaet</a>
                         </RouterLink>
                       </li>
                       <li class="mb-4">
-                        <RouterLink to="privatecleaning">
+                        <RouterLink to="/privatecleaning">
                           <a class="hover:font-semibold">Privatrengøring</a>
                         </RouterLink>
                       </li>
                       <li class="">
-                        <RouterLink to="commercialcleaning">
+                        <RouterLink to="/commercialcleaning">
                           <a class="hover:font-semibold">Erhvervsrengøring</a>
                         </RouterLink>
                       </li>
@@ -160,12 +160,12 @@
                   <ul class="text-xs text-gray-500 dark:text-darkgray font-medium lg:text-xs">
                       <li class="mb-4">
                         <RouterLink to="privacypolicy">
-                          <a href="" class="hover:underline ">Privatlivs politik</a>
+                          <a class="hover:underline ">Privatlivs politik</a>
                         </RouterLink> 
                       </li>
                       <li>
                         <RouterLink to="contact">
-                          <a href="" class="hover:underline">Kontakt</a>
+                          <a class="hover:underline">Kontakt</a>
                         </RouterLink>
                       </li>
                   </ul>
@@ -229,6 +229,7 @@
 <script>
   document.addEventListener("DOMContentLoaded", function() {
   const navbarToggle = document.getElementById("navbarToggle");
+  const navbarToggleIcon = document.getElementById("navbarToggleIcon");
   const menuItems = document.getElementById("menuItems");
   const dropdownToggle = document.getElementById("dropdownToggle");
   const dropdownContent = document.getElementById("dropdownContent");
@@ -252,7 +253,10 @@
     if (window.innerWidth < 1024) {
       menuItems.classList.add("hidden");
     }
+    // Hide dropdown content
+    dropdownContent.classList.add("hidden");
   }
+
 
   // Initially set the logo to white
   logo.src = "../src/assets/PaulasRengøringLogo.png";
@@ -262,9 +266,11 @@
     if (window.scrollY > 0) {
       navbar.classList.add(scrolledClass);
       logo.src = "../src/assets/logodesign-paulas-rengøring.png";
+      navbarToggleIcon.setAttribute("stroke", "blue"); // Change icon color to blue
     } else {
       navbar.classList.remove(scrolledClass);
       logo.src = "../src/assets/PaulasRengøringLogo.png";
+      navbarToggleIcon.setAttribute("stroke", "white"); // Change icon color to white
     }
   }
 
@@ -274,10 +280,36 @@
   allRouterLinks.forEach(function(link) {
     link.addEventListener("click", hideMenu);
   });
+
+  // Close dropdown content when a link inside "JEG TILBYDER" is clicked
+  dropdownContent.addEventListener("click", function(event) {
+    if (event.target.classList.contains("nav-link")) {
+      hideMenu();
+    }
+  });
+
   window.addEventListener('scroll', handleScroll);
 });
 
+//Making the sub pages start from the top
+document.addEventListener("DOMContentLoaded", function() {
+    // Get all footer links
+    const footerLinks = document.querySelectorAll('footer a');
 
+    // Add click event listener to each footer link
+    footerLinks.forEach(link => {
+      link.addEventListener('click', function(event) {
+        // Prevent the default behavior of the link
+        event.preventDefault();
+
+        // Scroll the page to the top
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth' // Optional: Smooth scrolling animation
+        });
+      });
+    });
+  });
 
 </script>
 
@@ -306,6 +338,43 @@
   background-color: #fdfdfd; 
   padding-bottom: 55px;
 }
+
+/* Example of additional styles you might want for scrolled state */
+.navbar.scrolled .navbar-burger svg {
+  stroke: #444444;
+}
+
+/* Add styles for the dropdown content on small screens */
+#dropdownContent {
+  display: none; /* Initially hidden */
+}
+
+#dropdownContent a {
+  color: white;
+  display: block;
+  padding: 5px 10px;
+  text-align: left;
+}
+
+#dropdownContent a:hover {
+  background-color: #2d3748; /* Tailwind's darker shade for hover */
+}
+
+/* Show dropdown content when toggled */
+.dropdown .dropbtn:focus + #dropdownContent,
+.dropdown .dropbtn:active + #dropdownContent {
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  #dropdownContent {
+    position: static;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+  }
+}
+
 
 #navbar.scrolled a {
   color: #444444; 

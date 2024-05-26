@@ -524,7 +524,7 @@ export default {
 }
 
 // FAQ 
-    const toggleContent = (id) => {
+const toggleContent = (id) => {
     const content = document.getElementById(id);
     content.classList.toggle("hidden");
 };
@@ -538,5 +538,6 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
 
 </script>

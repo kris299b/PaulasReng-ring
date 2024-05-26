@@ -61,7 +61,7 @@
         <img src="../assets/Oprydning-billede.jpg" alt="Legetøj flyder">
     </div>
     
-    <div class="w-full p-4 md:w-2/4 md:pt-0 md:pl-8 lg:w-2/4 lg:pl-8 lg:pt-16 lg:pr-8 bg-lightgray">
+    <div class="w-full p-4 md:w-2/4 md:pt-0 md:pl-8 lg:w-2/4 lg:pl-8 lg:pt-10 lg:pr-8 bg-lightgray">
         <h1 class="text-black font-semibold text-2xl pb-2 md:text-2xl lg:text-2xl md:pt-12 lg:pt-0">Med eller uden oprydning?</h1>
         <p class="text-black text-sm font-semibold md:text-base md:pr-5 md:pb-3 md:font-semibold lg:font-semibold">Det er en god idé, at klarlægge om oprydningen er noget du selv vil stå for, eller om du ønsker at det er noget rengøringshjælpen tager sig af.</p>
         <p class="text-black text-sm pt-2 md:text-base pb-2 md:pr-5 lg:pt-2 lg:text-base">Om du ønsker selv at stå for oprydningen inden, eller ønsker at få oprydning med i din rengøringshjælp, så kan begge muligheder lade sig gøre og vil aftales nærmere under det indledende møde.</p>

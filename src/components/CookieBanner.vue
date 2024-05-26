@@ -1,13 +1,7 @@
 <template>
      <div class="cookie-banner-container fixed inset-0 flex items-center justify-center z-40 lg:pt-10">
         <div class="cookie-banner rounded lg:w-2/3">
-            <div class="flex pt-5 px-5 md:px-10 lg:pt-6 lg:px-10">
-                <div class="lg:pt-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0,0,256,256"
-                    style="fill:#000000;">
-                    <g fill="#cdd1dc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2c-5.514,0 -10,4.486 -10,10c0,5.514 4.486,10 10,10c5.514,0 10,-4.486 10,-10c0,-1.126 -0.19602,-2.2058 -0.54102,-3.2168l-1.61914,1.61914c0.105,0.516 0.16016,1.05066 0.16016,1.59766c0,4.411 -3.589,8 -8,8c-4.411,0 -8,-3.589 -8,-8c0,-4.411 3.589,-8 8,-8c1.633,0 3.15192,0.49389 4.41992,1.33789l1.43164,-1.43164c-1.648,-1.194 -3.66656,-1.90625 -5.85156,-1.90625zM21.29297,3.29297l-10.29297,10.29297l-3.29297,-3.29297l-1.41406,1.41406l4.70703,4.70703l11.70703,-11.70703z"></path></g></g>
-                    </svg>
-                </div>
+            <div class="flex pt-5 px-5 md:px-10 lg:pt-6 lg:px-7">
                 <h1 class="text-darkblue font-bold px-2 pb-2 text-lg lg:text-2xl lg:px-3">Denne hjemmeside bruger cookies</h1>
             </div>
                 <p class="text-black px-5 pt-2 text-sm md:px-10 lg:font-semibold lg:text-sm lg:px-10 lg:pt-5">Vi benytter cookies til at indsamle statistik, og analysere trafikken på hjemmesiden.</p>
@@ -67,6 +61,22 @@ export default{
   position: fixed;
   top: 0;
   left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.3); /* semi-transparent background */
+}
+}
+
+/* Medium screen */
+@media screen and (max-width: 1080px) {
+    .cookie-banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: -16px;
   width: 100%;
   height: 100%;
   z-index: 999;
