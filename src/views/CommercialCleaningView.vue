@@ -12,7 +12,7 @@
                     PAULAS RENGØRING | ERHVERVSRENGØRING
                 </p>
                 <h2 class="font-sans text-white dark:text-white text-left font-semibold px-4 text-4xl md:text-5xl md:text-center lg:pb-2 lg:font-semibold lg:text-5xl lg:text-left">Professionel rengøring til erhverv</h2>
-                <p class="font-sans text-white dark:text-white text-sm pt-2 text-left pb-4 px-4 md:font-normal md:text-center md:text-lg lg:pb-2 lg:text-left lg:font-normal lg:text-lg">Jeg løser rengøringsopgaver for små og mellemstore virksomheder, og institutioner.</p>
+                <p class="font-sans text-white dark:text-white text-base pt-2 text-left pb-4 px-4 md:font-normal md:text-center md:text-lg lg:pb-2 lg:text-left lg:font-normal lg:text-lg">Jeg løser rengøringsopgaver for små og mellemstore virksomheder, og institutioner.</p>
             </div>
         </div>
     </section>
@@ -23,7 +23,7 @@
     <h2 class="text-2xl px-5 pt-10 pb-2 font-semibold text-black dark:text-black md:text-center lg:font-semibold lg:text-3xl lg:text-center lg:pt-6 lg:pb-4">Tryghed i vores samarbejde</h2>
 </div>
 
-<div class="bg-white light:white dark:bg-white px-0 flex flex-col justify-center h-full w-full p-8 md:px-0 md:flex-col md:pt-0 lg:flex-row lg:w-full lg:pt-2 lg:pb-5 lg:px-0">
+<div class="bg-white light:white dark:bg-white px-0 flex flex-col justify-center h-full w-full p-8 md:items-center md:px-0 md:flex-col md:pt-0 lg:flex-row lg:w-full lg:pt-2 lg:pb-5 lg:px-0">
     <div class="bg-lightgray light:lightgray dark:lightgray p-6 md:p-0 w-full md:w-3/5 lg:w-full lg:px-12">
         <p class="text-darkgray dark:text-darkgray text-sm tracking-wider pt-5 font-semibold pb-2 md:pt-10 md:pb-0 md:pl-5 lg:pt-12 lg:pl-0 lg:text-sm lg:font-semibold lg:tracking-wider">TRYGHED I SAMARBEJDET</p>
         <h2 class="text-black dark:text-black font-semibold text-3xl mt-2 md:text-3xl md:mx-5 lg:mx-0 lg:font-semibold lg:text-4xl lg:mr-10 lg:pb-0">Det er vigtigt for mig, at du er tryg i vores samarbejde.</h2>
@@ -63,7 +63,7 @@
     </p>
 </div>
 
-<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:flex-col md:justify-center lg:flex-row lg:pt-10 lg:w-full lg:pb-10">
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:items-center md:flex-col md:justify-center lg:flex-row lg:pt-10 lg:w-full lg:pb-10">
     <div class="w-full md:w-3/5 lg:w-1/2">
         <img src="../assets/Erhverv-rengøringsløsninger.jpg" alt="Erhvervslokale">
     </div>

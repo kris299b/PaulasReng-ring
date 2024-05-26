@@ -63,7 +63,7 @@
     </p>
 </div>
 
-<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center pb-16 h-1/2 w-full p-8 md:flex-col md:justify-center lg:flex-row lg:w-full lg:pt-5 lg:pb-20">
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center pb-16 h-1/2 w-full p-8 md:items-center md:flex-col md:justify-center lg:flex-row lg:w-full lg:pt-5 lg:pb-20">
     <div class="w-full md:w-3/5 lg:w-1/2">
         <img src="../assets/Privatrengøring-rengøringsløsninger.jpg" alt="Hund sidder i sofa">
     </div>

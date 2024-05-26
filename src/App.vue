@@ -38,13 +38,9 @@
               <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
             </svg>
           </button>
-          <div id="dropdownContent" class="dropdown-content hidden flex flex-col space-y-2">
-            <RouterLink to="/privatecleaning" id="privateCleaningLink">
-              <a class="hover:font-semibold">PRIVATRENGØRING</a>
-            </RouterLink>
-            <RouterLink to="/commercialcleaning" id="commercialCleaningLink">
-              <a class="hover:font-semibold">ERHVERSRENGØRING</a>
-            </RouterLink>
+          <div id="dropdownMenu" class="dropdown-content hidden absolute mt-1 lg:py-1 z-10">
+            <RouterLink to="/privatecleaning" class="block px-4 py-2 text-sm text-white">PRIVATRENGØRING</RouterLink>
+            <RouterLink to="/commercialcleaning" class="block px-4 py-2 text-sm text-white">ERHVERVSRENGØRING</RouterLink>
           </div>
         </li>
         <li>
@@ -129,29 +125,19 @@
                   <h2 class="font-sans mb-6 text-xs md:pt-5 font-semibold text-darkgray uppercase dark:text-darkgray lg:pt-0 lg:tracking-wider">information</h2>
                   <ul class="text-xs text-darkgray dark:text-darkgray font-medium lg:text-xs">
                       <li class="mb-4">
-                        <RouterLink to="/guide">
-                          <a class="hover:font-semibold">Værd at vide</a>
-                        </RouterLink>
+                        <RouterLink to="/guide">Værd at vide</RouterLink>
                       </li>
                       <li class="mb-4">
-                        <RouterLink to="/prices">
-                          <a class="hover:font-semibold">Priser</a>
-                        </RouterLink>
+                        <RouterLink to="/prices">Priser</RouterLink>
                       </li>
                       <li class="mb-4">
-                        <RouterLink to="/about">
-                          <a class="hover:font-semibold">Om firmaet</a>
-                        </RouterLink>
+                        <RouterLink to="/about">Om firmaet</RouterLink>
                       </li>
                       <li class="mb-4">
-                        <RouterLink to="/privatecleaning">
-                          <a class="hover:font-semibold">Privatrengøring</a>
-                        </RouterLink>
+                        <RouterLink to="/privatecleaning">Privatrengøring</RouterLink>
                       </li>
                       <li class="">
-                        <RouterLink to="/commercialcleaning">
-                          <a class="hover:font-semibold">Erhvervsrengøring</a>
-                        </RouterLink>
+                        <RouterLink to="/commercialcleaning">Erhvervsrengøring</RouterLink>
                       </li>
                   </ul>
               </div>
@@ -164,7 +150,7 @@
                         </RouterLink> 
                       </li>
                       <li>
-                        <RouterLink to="contact">
+                        <RouterLink to="contact">Kontakt
                           <a class="hover:underline">Kontakt</a>
                         </RouterLink>
                       </li>
@@ -227,12 +213,12 @@
 
 
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
   const navbarToggle = document.getElementById("navbarToggle");
   const navbarToggleIcon = document.getElementById("navbarToggleIcon");
   const menuItems = document.getElementById("menuItems");
   const dropdownToggle = document.getElementById("dropdownToggle");
-  const dropdownContent = document.getElementById("dropdownContent");
+  const dropdownContent = document.getElementById("dropdownMenu");
   const allRouterLinks = document.querySelectorAll(".nav-link");
   const navbar = document.getElementById('navbar');
   const logo = document.getElementById('navbar-logo');
@@ -240,7 +226,7 @@
 
   // Function to toggle visibility of menu items
   function toggleMenu() {
-    menuItems.classList.toggle("hidden");
+    menuItems.classList.toggle("show"); // Toggle the 'show' class instead of 'hidden'
   }
 
   // Function to toggle visibility of dropdown content
@@ -250,17 +236,16 @@
 
   // Function to hide the menuItems if the screen width is less than a specific size (e.g., 1024px for lg breakpoint)
   function hideMenu() {
-    if (window.innerWidth < 1024) {
+    if (window.innerWidth < 768) {
       menuItems.classList.add("hidden");
     }
     // Hide dropdown content
     dropdownContent.classList.add("hidden");
   }
 
-
   // Initially set the logo to white
   logo.src = "../src/assets/PaulasRengøringLogo.png";
-  
+
   // Add event listener for scrolling
   function handleScroll() {
     if (window.scrollY > 0) {
@@ -281,39 +266,51 @@
     link.addEventListener("click", hideMenu);
   });
 
-  // Close dropdown content when a link inside "JEG TILBYDER" is clicked
-  dropdownContent.addEventListener("click", function(event) {
-    if (event.target.classList.contains("nav-link")) {
-      hideMenu();
-    }
-  });
-
+  // Handle scroll event
   window.addEventListener('scroll', handleScroll);
-});
 
-//Making the sub pages start from the top
-document.addEventListener("DOMContentLoaded", function() {
-    // Get all footer links
-    const footerLinks = document.querySelectorAll('footer a');
+  // Making the sub pages start from the top
+  // Get all footer links
+  const footerLinks = document.querySelectorAll('footer a');
 
-    // Add click event listener to each footer link
-    footerLinks.forEach(link => {
-      link.addEventListener('click', function(event) {
-        // Prevent the default behavior of the link
-        event.preventDefault();
+  // Add click event listener to each footer link
+  footerLinks.forEach(link => {
+    link.addEventListener('click', function(event) {
+      // Prevent the default behavior of the link
+      event.preventDefault();
 
-        // Scroll the page to the top
-        window.scrollTo({
-          top: 0,
-          behavior: 'smooth' // Optional: Smooth scrolling animation
-        });
+      // Scroll the page to the top
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth' // Optional: Smooth scrolling animation
       });
     });
   });
+  
+  // Close dropdown when clicking outside of it
+  document.addEventListener("click", function(event) {
+    if (!event.target.closest(".dropdown")) {
+      dropdownContent.classList.add("hidden");
+    }
+  });
+});
 
 </script>
 
 <style>
+/* Add these styles to your CSS file */
+.navbar.scrolled {
+  background-color: white;
+}
+
+.navbar.scrolled .nav-link a {
+  color: black;
+}
+
+.navbar.scrolled #navbar-logo {
+  color: #748ab2;
+}
+
 /* Base styles */
 #navbar.scrolled img {
   color: #748ab2;
@@ -349,13 +346,6 @@ document.addEventListener("DOMContentLoaded", function() {
   display: none; /* Initially hidden */
 }
 
-#dropdownContent a {
-  color: white;
-  display: block;
-  padding: 5px 10px;
-  text-align: left;
-}
-
 #dropdownContent a:hover {
   background-color: #2d3748; /* Tailwind's darker shade for hover */
 }
@@ -365,16 +355,6 @@ document.addEventListener("DOMContentLoaded", function() {
 .dropdown .dropbtn:active + #dropdownContent {
   display: block;
 }
-
-@media (max-width: 1024px) {
-  #dropdownContent {
-    position: static;
-    background-color: transparent;
-    border: none;
-    box-shadow: none;
-  }
-}
-
 
 #navbar.scrolled a {
   color: #444444; 
@@ -401,25 +381,15 @@ document.addEventListener("DOMContentLoaded", function() {
   color: #444444;
 }
 
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  left: 0;
-  padding-top: 10px;
-  min-width: 120px;
-  z-index: 1;
-}
-
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: rgb(255, 255, 255); /* Set text color to black */
+  font-size: 12px;
+  color: white; /* Set text color to black */
   padding: 4px 0px; /* Adjust padding for better appearance */
   text-decoration: none;
   display: block;
   text-align: left;
 }
-
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -450,12 +420,41 @@ document.addEventListener("DOMContentLoaded", function() {
   display: block;
 }
 
+/* Show the dropdown content when toggled */
+.dropdown .dropbtn:focus + #dropdownMenu,
+.dropdown .dropbtn:active + #dropdownMenu {
+  display: block;
+}
+
+/* Hide menu items by default */
+.hidden {
+  display: none !important;
+}
+
+
+
+
 /* Small screen */
-@media screen and (max-width: 915px) {
+@media screen and (max-width: 768px) {
+  /* Ensure the hamburger menu icon container is always visible */
+  .inline-block.lg\:hidden {
+    display: block !important;
+  }
+
+  /* Hide menu items by default */
+  #menuItems {
+    display: none !important;
+  }
+
+  /* Show the menu items when the hamburger menu icon is clicked */
+  #menuItems.show {
+    display: block !important;
+  }
+
   /* Navbar white box */
   #menuItems {
     background-color: white;
-    height: 70vh !important; /* Adjusted height for small screens */
+    height: 70vh; /* Adjusted height for small screens */
     padding: 20px 10px; 
     border-radius: 5px; 
   }
@@ -515,6 +514,15 @@ document.addEventListener("DOMContentLoaded", function() {
 @media (min-width: 1024px) {
   #menuItems {
     display: flex !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  #dropdownContent {
+    position: static;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
   }
 }
 

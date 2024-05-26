@@ -17,7 +17,7 @@
 </section>
 
 <!-- Pris sektion -->
-<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 pt-10 md:pt-20 md:pb-10 md:flex-col lg:flex-row lg:w-full lg:pt-24 lg:pb-20">
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 pt-10 md:items-center md:pt-20 md:pb-10 md:flex-col lg:flex-row lg:w-full lg:pt-24 lg:pb-20">
     <div class="md:w-3/5 lg:w-2/5">
         <img src="../assets/Rengøring-pris-billede.jpg" alt="Kvinde rengør sofabord">
     </div>
@@ -47,7 +47,7 @@
     <h2 class="font-sans text-2xl text-black font-semibold pt-3 md:pb-0 md:font-semibold md:text-3xl md:px-20 md:text-center lg:text-black lg:text-3xl lg:font-semibold lg:text-center">Dit lokale rengøringsfirma</h2>
 </div>
 
-<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full pb-20 p-8 pt-12 md:p-0 md:pt-10 md:pb-20 md:flex-col lg:flex-row lg:w-full lg:pt-0 lg:pb-20">
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full pb-20 p-8 pt-12 md:items-center md:p-0 md:pt-10 md:pb-20 md:flex-col lg:flex-row lg:w-full lg:pt-0 lg:pb-20">
     <div class="bg-lightgray p-4 pt-0 md:p-6 md:pb-0 md:w-3/5 lg:w-2/5 lg:px-12">
         <p class="text-gray dark:gray tracking-wider text-sm pt-8 font-semibold pb-2 md:pt-4 lg:pt-10 lg:text-sm lg:tracking-wider">OM MIG</p>
         <h2 class="text-black dark:text-black text-2xl font-semibold pb-4 md:pb-3 lg:pb-6 lg:text-3xl">Jeg værdsætter tillid og tryghed, i det samarbejde jeg indgår med mine kunder </h2>
