@@ -164,7 +164,9 @@
                         </RouterLink> 
                       </li>
                       <li>
+                        <RouterLink to="contact">
                           <a href="" class="hover:underline">Kontakt</a>
+                        </RouterLink>
                       </li>
                   </ul>
               </div>

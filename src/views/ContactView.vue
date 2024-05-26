@@ -21,8 +21,8 @@
     <p class="pt-10 text-3xl font-semibold lg:text-3xl">
         Har du spørgsmål?
     </p>
-    <p class="pb-10 font-sans text-sm text-center px-10 pt-3 md:pt-4 md:text-center md:px-10 lg:text-center lg:text-base lg:px-40 lg:pt-5">
-        Du er altid velkommen til at kontakte mig, hvis du har behov for rådgivning eller har tvivlsspørgsmål. 
+    <p class="pb-10 font-sans text-base text-center px-10 pt-3 md:pt-4 md:text-center md:px-10 lg:text-center lg:text-base lg:px-40 lg:pt-5">
+        Du er altid velkommen til at kontakte mig via kontaktformularen eller ringe direkte, hvis du har behov for rådgivning eller har tvivlsspørgsmål. Jeg står klar til at hjælpe dig, med det du har brug for. 
     </p>
 </div> 
 
@@ -36,7 +36,7 @@
                 <h2 class="mb-4 text-2xl tracking-tight font-semibold text-left pt-10 px-5 text-black dark:text-black md:px-5 md:pt-10 md:text-3xl md:text-left lg:text-3xl lg:px-5 lg:pr-10 lg:font-semibold lg:pt-10 lg:text-left">
                     Kontaktforumlar
                 </h2>
-                <p class="mb-8 text-sm text-left px-5 font-light text-black dark:text-black md:px-5 md:text-sm md:text-left lg:mb-16 lg:mb-4 lg:px-5 lg:font-normal lg:text-sm lg:text-left">
+                <p class="mb-8 text-base text-left px-5 font-light text-black dark:text-black md:px-5 md:text-sm md:text-left lg:mb-16 lg:mb-4 lg:px-5 lg:font-normal lg:text-sm lg:text-left">
                     Udfyld venligst formularen herunder, så kontakter jeg dig hurtigst muligt.
                 </p>
                 <!--Mailchimp Contactform-->
@@ -65,7 +65,7 @@
             </div>
         </div>
         <div class="h-67 bg-lighgray light:bg-lightgray dark:bg-lightgray md:w-1/2 md:h-72 lg:h-96 lg:w-1/3 lg:justify-start lg:text-left">
-            <h2 class="justify-start pr-24 font-sans text-2xl text-black pt-6 pb-6 font-semibold md:pb-5 md:pt-7 md:font-semibold md:text-left md:px-8 lg:pt-10 lg:pb-0 lg:text-black lg:text-2xl lg:font-semibold lg:pl-5">
+            <h2 class="justify-start pr-24 font-sans text-2xl text-black pt-6 pb-3 font-semibold md:pb-5 md:pt-7 md:font-semibold md:text-left md:px-8 lg:pt-10 lg:pb-0 lg:text-black lg:text-2xl lg:font-semibold lg:pl-5">
                 Kontaktoplysninger 
             </h2>
             <p class="text-black px-8 text-left lg:text-black lg:text-sm lg:px-5 lg:pt-2"> Ønsker du at kontakte mig pr. telefon, over mail eller Facebook er du også meget velkommen til at gøre dette.</p>
@@ -123,64 +123,62 @@
         <div class="space-y-4 w-full md:w-full lg:w-4/5 lg:px-40">
             <div class="w-full md:w-full w-4/5 bg-white dark:white shadow-md lg:shadow-md cursor-pointer" data-toggle-content="content1">
                 <div class="flex justify-between items-center px-5 py-4 focus:outline-none focus-visible:ri lg:pl-8">
-                    <span class="font-sans lg:font-semibold font-base text-xs text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold ">Hvor meget koster det at få gjort rent?</span>
+                    <span class="font-sans font-semibold font-base text-sm text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold ">Hvor meget koster det at få gjort rent?</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>
                 </div>
-                <div id="content1" class="font-sans hidden px-6 py-6 pt-0 ml-4 text-black dark:text-black lg:text-sm lg:mt-1">
-                    Jeg kører en fast timepris på 280 kr. ekskl. moms.
+                <div id="content1" class="font-sans hidden text-sm px-1 py-6 pt-0 ml-4 text-black dark:text-black lg:px-4 lg:text-sm lg:mt-1">
+                    Jeg kører en fast timepris på alm. rengøring og hovedrengøring som er inklusiv vinduespudsning. Timeprisen for alm. rengøring er 280 kr. ekskl. moms og timeprisen for hovedrengøring er 330 kr. ekskl. moms.
                 </div>
             </div>
             <div class="w-full md:w-full w-4/5 bg-white dark:white shadow-md lg:shadow-md cursor-pointer" data-toggle-content="content2">
                 <div class="flex justify-between items-center px-5 py-4 focus:outline-none focus-visible:ri lg:pl-8">
-                    <span class="lg:font-semibold font-base text-xs text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold ">Kan ydelserne blive skræddersyet efter behov?</span>
+                    <span class="font-base font-semibold text-sm text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold ">Kan ydelserne blive skræddersyet?</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>
                 </div>
-                <div id="content2" class="font-sans hidden px-6 py-6 pt-0 ml-4 text-black dark:text-black lg:text-sm lg:mt-1">
+                <div id="content2" class="font-sans hidden text-sm px-1 py-6 pt-0 ml-4 text-black dark:text-black lg:px-4 lg:text-sm lg:mt-1">
                     Det er dine behov og dine ønsker der er i højsædet. Ydelserne kan derfor sagtens blive skræddersyet, så de passer til din behov og ønsker, og dette vil vi sammen kunne lægge en plan for.
                 </div>
             </div>
             <div class="w-full md:w-full w-4/5 bg-white dark:white shadow-md lg:shadow-md cursor-pointer" data-toggle-content="content3">
                 <div class="flex justify-between items-center px-5 py-4 focus:outline-none focus-visible:ri lg:pl-8">
-                    <span class="lg:font-semibold font-base text-xs text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold ">Hvor ofte bør jeg få gjort rent?</span>
+                    <span class="font-base font-semibold text-sm text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold ">Hvor ofte bør jeg få gjort rent?</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>
                 </div>
-                <div id="content3" class="font-sans hidden px-6 py-6 pt-0 ml-4 text-black dark:text-black lg:text-sm lg:mt-1">
+                <div id="content3" class="font-sans hidden text-sm px-1 pr-5 py-6 pt-0 ml-4 text-black dark:text-black lg:px-4 lg:text-sm lg:mt-1">
                     Dette er helt og holdent op til dig. Nogle vælger at få rengøringshjælp 1 gang om ugen, mens andre kun føler et behov for at få rengøringshjælp 1 gang om måneden. Rengøringshjælpen skal passe ind i din hverdag og til dit budget, og det er derfor noget vi vil tage en snak om under det indledende møde. 
                 </div>
             </div>
             <div class="w-full md:w-full w-4/5 bg-white dark:white shadow-md lg:shadow-md cursor-pointer" data-toggle-content="content4">
                 <div class="flex justify-between items-center px-5 py-4 focus:outline-none focus-visible:ri lg:pl-8">
-                    <span class="font-sans lg:font-semibold font-base text-xs text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold ">Skal jeg være hjemme, når rengøringen kommer?</span>
+                    <span class="font-sans font-semibold font-base text-sm text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold ">Skal jeg være hjemme, under rengøringen?</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>
                 </div>
-                <div id="content4" class="font-sans hidden px-6 py-6 pt-0 ml-4 text-black dark:text-black lg:text-sm lg:mt-1">
+                <div id="content4" class="font-sans hidden text-sm px-1 pr-5 py-6 pt-0 ml-4 text-black dark:text-black lg:px-4 lg:text-sm lg:mt-1">
                     Det er helt op til dig, om du ønsker at være hjemme mens rengøringsopgaverne bliver udført, og er noget som enhver rengøringshjælp skal respektere. Det handler om, hvad der gør dig tryg, og hvad du har det bedst med. 
                 </div>
             </div>
             <div class="w-full md:w-full w-4/5 bg-white dark:white shadow-md lg:shadow-md cursor-pointer" data-toggle-content="content5">
                 <div class="flex justify-between items-center px-5 py-4 focus:outline-none focus-visible:ri lg:pl-8">
-                    <span class="font-sans lg:font-semibold font-base text-xs text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold ">Hvor kan jeg komme i kontakt med Paula?</span>
+                    <span class="font-sans font-semibold font-base text-sm text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold ">Hvor kan jeg komme i kontakt med Paula?</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>
                 </div>
-                <div id="content5" class="font-sans hidden px-6 py-6 pt-0 ml-4 text-black dark:text-black lg:text-sm lg:mt-1">
+                <div id="content5" class="font-sans hidden text-sm px-1 pr-2 py-6 pt-0 ml-4 text-black dark:text-black lg:px-4 lg:text-sm lg:mt-1">
                     Du kan komme i kontakt med Paula pr. telefon og mail, eller du kan udfylde kontaktformularen, som findes på Kontakt-siden.
                 </div>
             </div>
         </div>
     </div>
 </section>
-
-
 
 
 </template>
@@ -190,8 +188,25 @@
 #mergeRow-gdpr {margin-top: 20px;}
 #mergeRow-gdpr fieldset label {font-weight: normal;}
 #mc-embedded-subscribe-form .mc_fieldset{border:none;min-height: 0px;padding-bottom:0px;}
-#mc-embedded-subscribe {background-color:rgb(110, 118, 167); border-radius: 50%;}
+#mc-embedded-subscribe {background-color:rgb(21, 21, 21); border-radius: 50%;}
+
 </style>
 
-<script setup>
+<script>
+
+// FAQ 
+const toggleContent = (id) => {
+    const content = document.getElementById(id);
+    content.classList.toggle("hidden");
+};
+
+document.addEventListener("DOMContentLoaded", function() {
+    const elements = document.querySelectorAll("[data-toggle-content]");
+    elements.forEach(function(element) {
+        element.addEventListener("click", function() {
+            const targetId = this.getAttribute("data-toggle-content");
+            toggleContent(targetId);
+        });
+    });
+});
 </script>

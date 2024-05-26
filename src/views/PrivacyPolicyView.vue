@@ -1,18 +1,18 @@
 <template>
-    <section class="relative flex flex-col pt-5 lg:pt-0 h-[50vh] md:h-[40vh] lg:h-[30vh]">
-        <div class="bg-blue dark:bg-blue lg:h-[30vh]"></div>
+    <section class="relative flex flex-col lg:pt-0 h-[20vh] md:h-[16vh] lg:h-[30vh]">
+        <div class="bg-blue dark:bg-blue h-[20vh] md:h-[16vh] lg:h-[30vh]"></div>
     </section>
     <div class="bg-white light:bg-white dark:bg-white lg:pt-10">
         <div class="text-black text-2xl md:text-4xl lg:text-4xl pt-10 px-5 lg:pt-10 lg:pb-10 lg:text-left lg:px-28">
             <h1 class="lg:font-semibold">Cookie- og priatlivspolitik</h1>
         </div>
-        <div class="text-darkgray text-lg px-5 pt-5 lg:text-lg lg:px-28">
+        <div class="text-darkgray text-lg px-5 pt-5 md:pt-10 lg:text-lg lg:px-28">
             <p class="font-bold">Introduktion</p>
         </div>
         <div class="text-darkgray text-sm px-5 lg:text-md lg:px-28 lg:pt-1 lg:pb-5">
             <p>Når du besøger vores website indsamles der oplysninger om dig, som bruges til at tilpasse og forbedre vores indhold. Hvis du ikke ønsker, at der indsamles oplysninger, bør du slå dine cookies fra og undlade videre brug af websitet. Nedenfor har vi uddybet, hvilke informationer der indsamles, deres formål og hvilke parter, der har adgang til dem.</p>
         </div>
-        <div class="text-darkgray text-lg px-5 pt-5 lg:text-lg lg:px-28">
+        <div class="text-darkgray text-lg px-5 pt-5 md:pt-5 lg:text-lg lg:px-28">
             <p class="font-bold">Cookies</p>
         </div>
         <div class="text-darkgray text-sm px-5 lg:text-md lg:px-28 lg:pt-1 lg:pb-2">
@@ -45,10 +45,10 @@
                 </p>
             </div>
         </div>
-        <div class="text-darkgray text-lg pt-5 px-5 lg:text-lg lg:pt-4 lg:px-28">
+        <div class="text-darkgray text-lg pt-10 px-5 md:pt-10 lg:text-lg lg:pt-4 lg:px-28">
             <p class="font-bold">Personoplysninger</p>
         </div>
-        <div class="text-darkgray text-lg pt-3 px-5 lg:text-lg lg:px-28 lg:pt-5 lg:pb-2">
+        <div class="text-darkgray text-lg pt-5 px-5 md:pt-5 lg:text-lg lg:px-28 lg:pt-5 lg:pb-2">
             <p class="font-bold">Generelt</p>
         </div>
         <div class="text-darkgray text-sm pt-2 px-5 lg:text-md lg:px-28 lg:pt-1 lg:pb-2">
