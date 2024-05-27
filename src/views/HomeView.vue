@@ -347,7 +347,7 @@
 </div>
 
 <div class="bg-white light:bg-white dark:bg-white">
-    <div class="grid grid-cols-1 gap-y-10 md:gap-x-5 md:p-5 md:grid-cols-3 lg:grid-cols-3 lg:gap-20 lg:px-20 lg:pb-10">
+    <div class="grid grid-cols-1 gap-y-10 md:gap-x-5 md:p-5 md:grid-cols-3 lg:grid-cols-3 lg:gap-20 lg:px-20 lg:pb-20">
         <div class="max-w-xs mx-auto overflow-hidden shadow-lg bg-white dark:bg-white">
             <div class="px-6 py-10 flex flex-col items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gray" class="size-9">
