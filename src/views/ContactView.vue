@@ -6,7 +6,7 @@
         <img class="min-w-full h-[50vh] md:h-[40vh] lg:h-[80vh] absolute object-cover" src="../assets/Kontakt-herobillede.jpg" alt="Skrivebord med computer">
         <div class="overlay absolute top-0 left-0 w-full h-full bg-black dark:bg-black opacity-40"></div>
     </div>
-    <div class="image-content z-10 pt-28 px-10 md:pt-40 lg:pt-48 lg:px-40">
+    <div class="image-content z-10 pt-40 px-1 md:pt-40 lg:pt-48 lg:px-40">
         <div>
             <p class="font-sans text-white text-left pl-5 dark:text-white px-4 text-sm md:text-lg md:text-left lg:text-lg lg:text-left lg:tracking-wider">
                 PAULAS RENGØRING | KONTAKT
@@ -33,7 +33,7 @@
     <div class="flex justify justify-center flex-col pt-20 md:flex-col md:w-full md:pl-40 md:pb-20 lg:flex-row lg:space-x-0 lg:pt-5 lg:w-3/4 lg:pl-10 z-20 lg:pt-24">
         <div class="bg-white dark:bg-white max-w-lg shadow-sm lg:w-2/3">
             <div class="bg-white dark:bg-white max-w-lg">
-                <h2 class="mb-4 text-2xl tracking-tight font-semibold text-left pt-2 px-5 text-black dark:text-black md:px-5 md:pt-10 md:text-3xl md:text-left lg:text-3xl lg:px-5 lg:pr-10 lg:font-semibold lg:pt-10 lg:text-left">
+                <h2 class="mb-4 text-2xl tracking-tight font-semibold text-left pt-5 px-5 text-black dark:text-black md:px-5 md:pt-10 md:text-3xl md:text-left lg:text-3xl lg:px-5 lg:pr-10 lg:font-semibold lg:pt-10 lg:text-left">
                     Kontaktforumlar
                 </h2>
                 <p class="mb-8 text-base text-left px-5 font-light text-black dark:text-black md:px-5 md:text-sm md:text-left lg:mb-16 lg:mb-4 lg:px-5 lg:font-normal lg:text-sm lg:text-left">
@@ -65,7 +65,7 @@
             </div>
         </div>
         <div class="h-67 bg-lighgray light:bg-lightgray dark:bg-lightgray md:w-1/2 md:h-72 lg:h-96 lg:w-1/3 lg:justify-start lg:text-left">
-            <h2 class="justify-start pr-24 font-sans text-2xl text-black pt-6 pb-3 font-semibold md:pb-5 md:pt-7 md:font-semibold md:text-left md:px-8 lg:pt-10 lg:pb-0 lg:text-black lg:text-2xl lg:font-semibold lg:pl-5">
+            <h2 class="justify-start pr-40 font-sans text-2xl text-black pt-6 pb-3 font-semibold md:pb-5 md:pt-7 md:font-semibold md:text-left md:px-8 lg:pt-10 lg:pb-0 lg:text-black lg:text-2xl lg:font-semibold lg:pl-5">
                 Kontaktoplysninger 
             </h2>
             <p class="text-black px-8 text-left lg:text-black lg:text-sm lg:px-5 lg:pt-2"> Ønsker du at kontakte mig pr. telefon, over mail eller Facebook er du også meget velkommen til at gøre dette.</p>

@@ -5,7 +5,7 @@
         <img class="min-w-full h-[50vh] md:h-[40vh] lg:h-[80vh] absolute object-cover" src="../assets/Herobillede-om.jpg" alt="kvinde støvsuger">
         <div class="overlay absolute top-0 left-0 w-full h-full bg-black dark:bg-black opacity-40"></div>
     </div>
-    <div class="image-content z-10 pt-28 px-10 md:pt-40 lg:pt-48 lg:px-40">
+    <div class="image-content z-10 pt-40 px-1 md:pt-40 lg:pt-48 lg:px-40">
         <div>
             <p class="font-sans text-white text-left pl-5 dark:text-white px-4 text-sm md:text-lg md:text-left lg:text-lg lg:text-left lg:tracking-wider">
                 PAULAS RENGØRING | OM FIRMAET
@@ -42,7 +42,7 @@
 
 <div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:items-center md:flex-col lg:pt-2 lg:flex-row lg:w-full">
     <div class="md:w-3/5 lg:w-1/2">
-        <img src="../assets/PaulasRengøring-om-billedet.jpg" alt="Kvinde går i gang med køkkenrengøring">
+        <img src="../assets/PaulasRengøring-erfaring-billede.jpg" alt="Kvinde går i gang med køkkenrengøring">
     </div>
 
     <div class="bg-lightgray p-4 md:p-6 md:w-3/5 lg:w-1/2 lg:px-10">
@@ -70,7 +70,7 @@
     <h2 class="font-sans text-2xl text-black font-semibold md:pb-0 md:font-semibold md:text-3xl md:px-20 md:text-center lg:pt-5 lg:pb-5 lg:text-black lg:text-3xl lg:font-semibold lg:text-center">Dit lokale rengøringsfirma</h2>
 </div>
 
-<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 pt-0 md:items-center md:p-0 md:pb-16 md:flex-col lg:flex-row lg:w-full lg:pt-3 lg:pb-20">
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 pb-20 pt-0 md:items-center md:p-0 md:pb-16 md:flex-col lg:flex-row lg:w-full lg:pt-3 lg:pb-28">
     <div class="bg-lightgray p-4 pt-0 md:p-6 md:pb-0 md:w-3/5 lg:w-2/5 lg:px-12">
         <p class="text-gray dark:gray text-sm tracking-wider pt-8 font-semibold pb-1 md:pt-2 lg:pt-10 lg:text-sm lg:tracking-wider">OM MIG</p>
         <h2 class="text-black dark:text-black text-2xl font-semibold pb-4 md:pb-3 lg:pb-6 lg:text-3xl">Jeg værdsætter tillid og tryghed, i det samarbejde jeg indgår med mine kunder </h2>

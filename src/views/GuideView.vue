@@ -6,7 +6,7 @@
         <img class="min-w-full h-[50vh] md:h-[40vh] lg:h-[80vh] absolute object-cover" src="../assets/Guide-hero.jpg" alt="Kvinde rengør overflade i køkken">
         <div class="overlay absolute top-0 left-0 w-full h-full bg-black dark:bg-black opacity-40"></div>
     </div>
-    <div class="image-content z-10 pt-28 md:pt-40 md:px-10 lg:pt-48 lg:px-40">
+    <div class="image-content z-10 pt-40 md:pt-40 md:px-10 lg:pt-48 lg:px-40">
         <div>
             <p class="font-sans text-white text-left pl-5 dark:text-white px-4 text-sm md:text-lg md:text-left lg:text-lg lg:text-left lg:tracking-wider">
                 PAULAS RENGØRING | VÆRD AT VIDE
@@ -99,25 +99,27 @@
 
 <!-- Om sektion -->
 <div class="bg-white dark:bg-white light:bg-white flex justify justify-center h-20 pt-4 md:h-24 md:pt-6 lg:pt-0">
-    <h2 class="font-sans text-2xl px-5 text-black font-semibold text-center md:font-semibold md:text-3xl md:px-20 md:text-center lg:pt-0 lg:text-black lg:text-3xl lg:font-semibold lg:text-center">Kunne du tænke dig at danne et samarbejde med mig?</h2>
+    <h2 class="font-sans text-2xl px-5 text-black font-semibold text-center md:font-semibold md:text-3xl md:px-20 md:text-center lg:pb-0 lg:pt-0 lg:text-black lg:text-3xl lg:font-semibold lg:text-center">Kunne du tænke dig at danne et samarbejde med mig?</h2>
 </div>
 
-<div class="bg-white dark:bg-white light:bg-white pt-6 pb-20 flex flex-col justify justify-center w-full p-8 pt-0 md:items-center md:p-0 md:pt-10 md:pb-20 md:flex-col lg:flex-row lg:w-full lg:pb-20">
-    <div class="bg-lightgray p-4 pt-0 md:p-6 md:pb-0 md:w-3/5 lg:w-2/3 lg:px-12">
-        <p class="text-gray dark:gray text-sm tracking-wider pt-8 font-semibold pb-1 md:pt-2 lg:text-sm lg:pt-12 lg:tracking-wider">OM MIG</p>
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 pt-8 pb-20 md:items-center md:p-0 md:flex-col lg:flex-row lg:w-full lg:pt-0 lg:pb-28">
+    <div class="bg-lightgray p-4 pt-0 md:p-6 md:pb-0 md:w-3/5 lg:w-2/5 lg:px-12">
+        <p class="text-gray dark:gray text-sm tracking-wider pt-8 font-semibold pb-1 md:pt-2 lg:pt-10 lg:text-sm lg:tracking-wider">OM MIG</p>
         <h2 class="text-black dark:text-black text-2xl font-semibold pb-4 md:pb-3 lg:pb-6 lg:text-3xl">Jeg værdsætter tillid og tryghed, i det samarbejde jeg indgår med mine kunder </h2>
         <p class="text-black dark:text-black text-base font-semibold md:pb-2 lg:font-semibold lg:text-base">Jeg startede Paulas Rengøring i 2014, da det længe havde været et ønske at blive selvstændig.</p>
         <p class="text-black dark:text-black text-base pt-3 md:pt-1 lg:text-base lg:pt-2 lg:text-base">Sidenhen har jeg opbygget en loyal kundekreds i Ringkøbing-Skjern kommune, som jeg værner om og værdsætter. Personligt betyder gensidig tillid, og et trygt samarbejde meget i de kunderelationer jeg indgår i. Jeg tilbyder rengøring for private samt erhverv.</p>
-        <div class="row pt-2 pb-4 md:flex lg:flex md:pt-3 lg:pt-8 lg:pb-10">
-            <div class="py-6 md:pt-5 md:pr-3 lg:pt-0 lg:pr-3">
-                <RouterLink to="privatecleaning"> 
-                    <button class="bg-blue dark:bg-blue hover:bg-darkblue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-2 md:px-3 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
-                        Privatrengøring
-                    </button>
+        <div class="row pt-6 pb-4 md:flex lg:flex md:pt-3 lg:pt-6 lg:pb-0">
+            <div class="py-3 md:pt-5 md:pr-3 lg:pt-0 lg:pr-3">
+                <RouterLink to="/privatecleaning">
+                    <a href="#top"> 
+                        <button class="bg-blue dark:bg-blue hover:bg-darkblue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-2 md:px-3 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
+                            Privatrengøring
+                        </button>
+                    </a>
                 </RouterLink> 
             </div>
-            <div class="md:pt-5 md:pb-5 lg:pt-0">
-                <RouterLink to="commercialcleaning"> 
+            <div class="md:pt-5 md:pb-5 lg:pt-0 lg:pb-14">
+                <RouterLink to="/commercialcleaning"> 
                     <button class="bg-blue dark:bg-blue hover:bg-darkblue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-2 md:px-3 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
                         Erhvervsrengøring
                     </button>
@@ -125,10 +127,11 @@
             </div>
         </div>
     </div>
-    <div class="md:w-3/5 lg:w-1/3">
+    <div class="md:w-3/5 lg:w-2/5">
         <img src="../assets/Paulasrengøring-om-billede.jpg" alt="Kvinde står med rengøringsprodukt">
     </div>
 </div>
+
 
 </main>
 </template>
