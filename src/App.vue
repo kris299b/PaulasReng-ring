@@ -5,7 +5,8 @@
   <div class="flex items-center flex-shrink-0 text-white mr-6">
     <div class="flex items-center lg:pt-3">
       <RouterLink to="/"> 
-        <img id="navbar-logo" src="@/assets/PaulasRengøringLogo.png" class="logo-white h-20 md:h-20 lg:h-20 lg:ml-3" alt="PaulasRengøring Logo">
+        <img id="navbar-logo" src="../src/assets/Hvidlogo.svg" class="logo-white h-20 md:h-20 lg:h-20 lg:ml-3" alt="Hvid Logo"/>
+        <!-- <img id="navbar-logo" src="../src/assets/PaulasRengøringLogo.png" class="logo-white h-20 md:h-20 lg:h-20 lg:ml-3" alt="PaulasRengøring hvid Logo"/> -->
       </RouterLink>
       <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
     </div>
@@ -117,9 +118,7 @@
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
             <a class="flex items-center">  
-              <RouterLink to="/"> 
-                <img src="@/assets/logodesign-paulas-rengøring.png" class="h-20 md:h-20 lg:h-20 lg:ml-3" alt="PaulasRengøring blå Logo">
-              </RouterLink>
+              <RouterLink to="/"> <img src="../src/assets/logodesign-paulas-rengøring.png" class="h-20 md:h-20 lg:h-20 lg:ml-3" alt="" /></RouterLink>
               <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
             </a>
           </div>
