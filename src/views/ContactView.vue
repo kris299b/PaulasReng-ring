@@ -181,24 +181,27 @@
 </section>
 </template>
 
+
+
 <script>
 // JavaScript for FAQ section
-document.addEventListener("DOMContentLoaded", function() {
-    const questionElements = document.querySelectorAll("[data-toggle-content]");
-    
-    questionElements.forEach(function(questionElement) {
-        questionElement.addEventListener("click", function() {
-            const targetId = this.getAttribute("data-toggle-content");
-            const contentElement = document.getElementById(targetId);
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('[data-toggle-content]').forEach(item => {
+        item.addEventListener('click', function(event) {
+            const contentId = this.getAttribute('data-toggle-content');
+            const content = document.getElementById(contentId);
+            content.classList.toggle('hidden');
 
             // Toggle the visibility of the content element
             if (contentElement) {
-                contentElement.classList.toggle("hidden");
+            contentElement.classList.toggle("hidden");
             }
         });
     });
 });
 </script>
+
+
 
 <style>
 #mc-embedded-subscribe-form input[type=checkbox]{display: inline; width: auto;margin-right: 10px;}
