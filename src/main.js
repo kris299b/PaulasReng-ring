@@ -45,3 +45,5 @@ const app = createApp(App)
 app.use(posthogPlugin)
 app.use(router)
 app.mount('#app')
+
+

@@ -22,14 +22,10 @@
     <div class="text-xs pt-5 md:pt-0 lg:flex-grow">
       <ul class="flex flex-col space-y-8 tracking-wider space-x-0 pt-4 mr-2 font-sans text-white dark:text-white text-xs md:space-x-0 md:text-sm md:mr-2 lg:flex-row lg:mr-2 md:pt-5 lg:space-x-16 lg:ml-10 lg:text-xs lg:tracking-widest lg:space-y-0">
         <li>
-          <RouterLink to="/" class="nav-link">
-            <a class="hover:font-semibold">HJEM</a>
-          </RouterLink>
+          <RouterLink to="/" class="nav-link hover:font-semibold">HJEM</RouterLink>
         </li>
         <li>
-          <RouterLink to="/guide" class="nav-link">
-            <a class="hover:font-semibold">VÆRD AT VIDE</a>
-          </RouterLink>
+          <RouterLink to="/guide" class="nav-link hover:font-semibold">VÆRD AT VIDE</RouterLink>
         </li>
         <li class="dropdown">
           <button id="dropdownToggle" class="dropbtn flex justify-between"> 
@@ -39,24 +35,22 @@
             </svg>
           </button>
           <div id="dropdownMenu" class="dropdown-content hidden absolute mt-1 lg:py-1 z-10">
-            <RouterLink to="/privatecleaning" class="block px-4 py-2 text-sm text-white">PRIVATRENGØRING</RouterLink>
-            <RouterLink to="/commercialcleaning" class="block px-4 py-2 text-sm text-white">ERHVERVSRENGØRING</RouterLink>
+            <li>
+              <RouterLink to="/privatecleaning" class="block px-4 py-2 text-sm text-white">PRIVATRENGØRING</RouterLink>
+            </li>
+            <li>
+              <RouterLink to="/commercialcleaning" class="block px-4 py-2 text-sm text-white">ERHVERVSRENGØRING</RouterLink>
+            </li>
           </div>
         </li>
         <li>
-          <RouterLink to="/about" class="nav-link">
-            <a class="hover:font-semibold">OM FIRMAET</a>
-          </RouterLink>
+          <RouterLink to="/about" class="nav-link hover:font-semibold">OM FIRMAET</RouterLink>
         </li>
         <li>
-          <RouterLink to="/prices" class="nav-link">
-            <a class="hover:font-semibold">PRISER</a>
-          </RouterLink>
+          <RouterLink to="/prices" class="nav-link hover:font-semibold">PRISER</RouterLink>
         </li>
         <li>
-          <RouterLink to="/contact" class="nav-link">
-            <a class="hover:font-semibold">KONTAKT</a>
-          </RouterLink>
+          <RouterLink to="/contact" class="nav-link hover:font-semibold">KONTAKT</RouterLink>
         </li>
       </ul>
     </div>
@@ -219,7 +213,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const menuItems = document.getElementById("menuItems");
   const dropdownToggle = document.getElementById("dropdownToggle");
   const dropdownContent = document.getElementById("dropdownMenu");
-  const allRouterLinks = document.querySelectorAll(".nav-link");
+  const allRouterLinks = document.querySelectorAll("nav ul li a"); // Target router links directly
   const navbar = document.getElementById('navbar');
   const logo = document.getElementById('navbar-logo');
   const scrolledClass = 'scrolled';
@@ -503,11 +497,36 @@ document.addEventListener("DOMContentLoaded", function() {
     font-size: 14px;
   }
 
+    /* Navbar white box */
+    #menuItems {
+    background-color: white;
+    height: 70vh; /* Adjusted height for small screens */
+    padding: 20px 10px; 
+    border-radius: 5px; 
+  }
+
   /* Show the dropdown content on small screens */
   .dropdown-content.hidden {
     display: none;
   }
+
+    /* Ensure the hamburger menu icon container is always visible */
+    .inline-block.lg\:hidden {
+    display: block !important;
+  }
+
+  /* Hide menu items by default */
+  #menuItems {
+    display: none !important;
+  }
+
+  /* Show the menu items when the hamburger menu icon is clicked */
+  #menuItems.show {
+    display: block !important;
+  }
 }
+
+
 
 
 /* Media query to show menuItems on larger screens */
