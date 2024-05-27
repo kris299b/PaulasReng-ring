@@ -123,7 +123,7 @@
         <div class="space-y-4 w-full md:w-full lg:w-4/5 lg:px-40">
             <div class="w-full md:w-full w-4/5 bg-white dark:white shadow-md lg:shadow-md cursor-pointer" data-toggle-content="content1">
                 <div class="flex justify-between items-center px-5 py-4 focus:outline-none focus-visible:ri lg:pl-8">
-                    <span class="font-sans font-semibold font-base text-sm text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold ">Hvor meget koster det at få gjort rent?</span>
+                    <span class="font-sans font-semibold font-base text-sm text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold" data-toggle-content="question1">Hvor meget koster det at få gjort rent?</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>
@@ -134,7 +134,7 @@
             </div>
             <div class="w-full md:w-full w-4/5 bg-white dark:white shadow-md lg:shadow-md cursor-pointer" data-toggle-content="content2">
                 <div class="flex justify-between items-center px-5 py-4 focus:outline-none focus-visible:ri lg:pl-8">
-                    <span class="font-base font-semibold text-sm text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold ">Kan ydelserne blive skræddersyet?</span>
+                    <span class="font-base font-semibold text-sm text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold" data-toggle-content="question2">Kan ydelserne blive skræddersyet?</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>
@@ -145,7 +145,7 @@
             </div>
             <div class="w-full md:w-full w-4/5 bg-white dark:white shadow-md lg:shadow-md cursor-pointer" data-toggle-content="content3">
                 <div class="flex justify-between items-center px-5 py-4 focus:outline-none focus-visible:ri lg:pl-8">
-                    <span class="font-base font-semibold text-sm text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold ">Hvor ofte bør jeg få gjort rent?</span>
+                    <span class="font-base font-semibold text-sm text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold" data-toggle-content="question3">Hvor ofte bør jeg få gjort rent?</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>
@@ -156,7 +156,7 @@
             </div>
             <div class="w-full md:w-full w-4/5 bg-white dark:white shadow-md lg:shadow-md cursor-pointer" data-toggle-content="content4">
                 <div class="flex justify-between items-center px-5 py-4 focus:outline-none focus-visible:ri lg:pl-8">
-                    <span class="font-sans font-semibold font-base text-sm text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold ">Skal jeg være hjemme, under rengøringen?</span>
+                    <span class="font-sans font-semibold font-base text-sm text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold" data-toggle-content="question4">Skal jeg være hjemme, under rengøringen?</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>
@@ -167,7 +167,7 @@
             </div>
             <div class="w-full md:w-full w-4/5 bg-white dark:white shadow-md lg:shadow-md cursor-pointer" data-toggle-content="content5">
                 <div class="flex justify-between items-center px-5 py-4 focus:outline-none focus-visible:ri lg:pl-8">
-                    <span class="font-sans font-semibold font-base text-sm text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold ">Hvor kan jeg komme i kontakt med Paula?</span>
+                    <span class="font-sans font-semibold font-base text-sm text-black dark:text-black md:text-lg md:font-semibold lg:text-semibold lg:text-sm lg:font-semibold" data-toggle-content="question5">Hvor kan jeg komme i kontakt med Paula?</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>
@@ -179,8 +179,26 @@
         </div>
     </div>
 </section>
-
 </template>
+
+<script>
+// JavaScript for FAQ section
+document.addEventListener("DOMContentLoaded", function() {
+    const questionElements = document.querySelectorAll("[data-toggle-content]");
+    
+    questionElements.forEach(function(questionElement) {
+        questionElement.addEventListener("click", function() {
+            const targetId = this.getAttribute("data-toggle-content");
+            const contentElement = document.getElementById(targetId);
+
+            // Toggle the visibility of the content element
+            if (contentElement) {
+                contentElement.classList.toggle("hidden");
+            }
+        });
+    });
+});
+</script>
 
 <style>
 #mc-embedded-subscribe-form input[type=checkbox]{display: inline; width: auto;margin-right: 10px;}
@@ -193,6 +211,10 @@
 
 
 /* Base styles */
+.hidden {
+    display: none;
+}
+
 .relative {
     position: relative;
 }
@@ -231,33 +253,3 @@
 }
 
 </style>
-
-<script>
-
-// FAQ 
-const toggleContent = (id) => {
-    const content = document.getElementById(id);
-    content.classList.toggle("hidden");
-};
-
-document.addEventListener("DOMContentLoaded", function() {
-    const elements = document.querySelectorAll("[data-toggle-content]");
-    elements.forEach(function(element) {
-        element.addEventListener("click", function() {
-            const targetId = this.getAttribute("data-toggle-content");
-            toggleContent(targetId);
-        });
-    });
-});
-
-
-export default {
-    name: 'Contact',
-    mounted() {
-        this.$nextTick(() => {
-            window.scrollTo(0, 0)
-        });
-    }
-}
-
-</script>
