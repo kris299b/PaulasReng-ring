@@ -5,8 +5,7 @@
   <div class="flex items-center flex-shrink-0 text-white mr-6">
     <div class="flex items-center lg:pt-3">
       <RouterLink to="/"> 
-        <img id="navbar-logo" src="../src/assets/Hvidlogo.svg" class="logo-white h-20 md:h-20 lg:h-20 lg:ml-3" alt="Hvid Logo"/>
-        <!-- <img id="navbar-logo" src="../src/assets/PaulasRengøringLogo.png" class="logo-white h-20 md:h-20 lg:h-20 lg:ml-3" alt="PaulasRengøring hvid Logo"/> -->
+        <img id="navbar-logo" src="../src/assets/PaulasRengøringLogo.png" class="logo-white h-20 md:h-20 lg:h-20 lg:ml-3" alt="Hvid Logo"/> 
       </RouterLink>
       <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
     </div>
