@@ -12,7 +12,7 @@
     <div class="video-content z-10 pt-24 md:pt-20 md:px-6 lg:pt-32">
         <div class="px-4 lg:px-40">
             <p class="font-sans text-white dark:text-white text-sm md:text-lg md:text-left lg:px-0 lg:text-lg lg:text-left lg:tracking-wider">
-                PAULAS RENGØRING | PROFESSIONEL
+                PAULAS RENGØRING | PROFESSIONEL RENGØRING
             </p>
             <h2 class="font-sans text-white dark:text-white text-left font-semibold text-5xl md:text-5xl md:text-left lg:px-0 lg:pb-2 lg:font-semibold lg:text-5xl lg:text-left">Rengøring til private og erhverv</h2>
             <p class="font-sans text-white dark:text-white pt-2 text-lg md:text-md md:text-left lg:text-lg lg:text-left lg:pt-3 lg:px-0 lg:pr-40">
