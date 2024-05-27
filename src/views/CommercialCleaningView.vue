@@ -20,16 +20,16 @@
 
 <!-- Tryghed-section -->
 <div class="bg-white light:bg-white dark:bg-white px-4 md:pt-2 md:pb-5">
-    <h2 class="text-2xl px-5 pt-10 pb-2 font-semibold text-black dark:text-black md:text-center lg:font-semibold lg:text-3xl lg:text-center lg:pt-6 lg:pb-4">Tryghed i vores samarbejde</h2>
+    <h2 class="text-2xl px-5 pt-10 pb-2 font-semibold text-black dark:text-black md:text-center lg:font-semibold lg:text-3xl lg:text-center lg:pt-10 lg:pb-4">Tryghed i vores samarbejde</h2>
 </div>
 
-<div class="bg-white light:white dark:bg-white px-0 flex flex-col justify-center h-full w-full p-8 md:items-center md:px-0 md:flex-col md:pt-0 lg:flex-row lg:w-full lg:pt-2 lg:pb-5 lg:px-0">
-    <div class="bg-lightgray light:lightgray dark:lightgray p-6 md:p-0 w-full md:w-3/5 lg:w-full lg:px-12">
-        <p class="text-darkgray dark:text-darkgray text-sm tracking-wider pt-5 font-semibold pb-2 md:pt-10 md:pb-0 md:pl-5 lg:pt-12 lg:pl-0 lg:text-sm lg:font-semibold lg:tracking-wider">TRYGHED I SAMARBEJDET</p>
+<div class="bg-white light:white dark:bg-white px-0 flex flex-col justify-center h-full w-full p-8 md:items-center md:px-0 md:flex-col md:pt-0 lg:flex-row lg:w-full lg:pt-0 lg:pb-5 lg:px-0">
+    <div class="bg-lightgray light:lightgray dark:lightgray p-6 md:p-0 w-full md:w-3/5 lg:w-full lg:px-12 lg:pt-14 lg:pb-14">
+        <p class="text-darkgray dark:text-darkgray text-sm tracking-wider pt-5 font-semibold pb-2 md:pt-10 md:pb-0 md:pl-5 lg:pt-0 lg:pl-0 lg:text-sm lg:font-semibold lg:tracking-wider">TRYGHED I SAMARBEJDET</p>
         <h2 class="text-black dark:text-black font-semibold text-3xl mt-2 md:text-3xl md:mx-5 lg:mx-0 lg:font-semibold lg:text-4xl lg:mr-10 lg:pb-0">Det er vigtigt for mig, at du er tryg i vores samarbejde.</h2>
         <p class="text-black dark:text-black pt-2 text-lg mt-3 font-semibold md:pt-1 md:mx-5 md:text-base lg:mx-0 lg:text-lg lg:font-semibold lg:pt-2">Hos Paulas Rengøring får du professionel rengøring, hvor du som kunde kan føle dig tryg.</p>
         <p class="text-black dark:text-black pt-2 text-lg mt-3 text-base md:pt-0 md:pb-10 md:mx-5 md:text-base lg:mx-0 lg:pb-0 lg:text-lg lg:text-base lg:pt-2">Vores samarbejde vil være bygget op på gensidig tillid og respekt, hvor dine behov og ønsker altid er i centrum.</p>
-        <div class="inline-block pt-8 pb-4 md:hidden lg:inline-block inset-0 flex lg:pt-10 lg:justify-start">
+        <div class="inline-block pt-8 pb-4 md:hidden lg:inline-block inset-0 flex lg:pt-8 lg:justify-start">
             <RouterLink to="contact"> 
                 <button class="flex hover:bg-transparent bg-blue light:bg-blue dark:bg-blue font-normal lg:font-normal py-2 px-6 rounded-full lg:mr-6 lg:py-2 lg:px-6">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="white" class="w-6 h-6 lg:w-5 lg:h-5">
@@ -68,7 +68,7 @@
         <img src="../assets/Erhverv-rengøringsløsninger.jpg" alt="Erhvervslokale">
     </div>
     <div class="bg-lightgray p-4 md:p-6 w-full md:w-3/5 lg:w-1/2 lg:px-10">
-        <p class="text-gray dark:text-gray text-sm tracking-wider md:text-sm font-base pt-5 pb-2 lg:pt-10 lg:text-sm lg:font-semibold lg:tracking-wider">ERHVERVSRENGØRING</p>
+        <p class="text-gray dark:text-gray text-sm tracking-wider md:text-sm font-base pt-5 pb-2 lg:pt-8 lg:text-sm lg:font-semibold lg:tracking-wider">ERHVERVSRENGØRING</p>
         <h2 class="text-black text-2xl font-semibold pb-4 md:text-3xl lg:text-4xl">Tilpasset rengøring</h2>
         <p class="text-black text-base font-semibold md:text-base md:font-semibold lg:font-semibold lg:text-base">Dit lokale rengøringsfirma, som tilbyder skræddersyede løsninger lige efter dine ønsker og behov. </p>
         <p class="text-black text-base font-base pt-3 pb-5 md:text-base md:font-base lg:font-base lg:pt-3 lg:pr-10 lg:text-base">Lad os tage en uforpligtigende snak om det, du har brug for hjælp til, og hvor ofte du har behov for rengøringshjælp. Vi vil i fællesskab sammensætte den bedste løsning for dig. Jeg glæder mig til at høre fra dig. </p>
@@ -104,7 +104,7 @@
                     <path d="M0 0h24v24H0z" fill="none"/>
                 </svg>
             </div>
-            <p class="font-sans font-semibold text-xs pl-2 pb-10 md:pb-0 lg:text-xs text-black dark:text-black md:text-xs lg:pl-2 lg:pb-10 lg:font-semibold lg:tracking-widest">
+            <p class="font-sans font-semibold text-xs pl-2 pb-10 md:pb-0 lg:text-xs text-black dark:text-black md:text-xs lg:pl-2 lg:pb-12 lg:font-semibold lg:tracking-widest">
                 PAULASRENGORING@GMAIL.COM
             </p>
         </div>

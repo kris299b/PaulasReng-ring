@@ -9,17 +9,17 @@
         </video>
         <div class="overlay absolute top-0 left-0 w-full h-full bg-black dark:bg-black opacity-40"></div>
     </div>
-    <div class="video-content z-10 pt-24 md:pt-20 lg:pt-32">
-        <div class="lg:px-40">
-            <p id="paulas_rengøring font-sans text-white dark:text-white px-4 text-sm md:text-lg md:text-center lg:px-0 lg:text-lg lg:text-left lg:tracking-wider">
+    <div class="video-content z-10 pt-24 md:pt-20 md:px-6 lg:pt-32">
+        <div class="px-4 lg:px-40">
+            <p class="font-sans text-white dark:text-white text-sm md:text-lg md:text-left lg:px-0 lg:text-lg lg:text-left lg:tracking-wider">
                 PAULAS RENGØRING | PROFESSIONEL
             </p>
-            <h2 class="font-sans text-white dark:text-white text-left font-semibold px-4 text-5xl md:text-5xl md:text-center lg:px-0 lg:pb-2 lg:font-semibold lg:text-5xl lg:text-left">Rengøring til private og erhverv</h2>
-            <p class="font-sans text-white dark:text-white px-4 pt-2 text-lg md:text-md md:px-20 md:text-center lg:text-lg lg:text-left lg:pt-3 lg:px-0 lg:pr-40">
+            <h2 class="font-sans text-white dark:text-white text-left font-semibold text-5xl md:text-5xl md:text-left lg:px-0 lg:pb-2 lg:font-semibold lg:text-5xl lg:text-left">Rengøring til private og erhverv</h2>
+            <p class="font-sans text-white dark:text-white pt-2 text-lg md:text-md md:text-left lg:text-lg lg:text-left lg:pt-3 lg:px-0 lg:pr-40">
                 Jeg løser rengøringsopgaver for små og mellemstore virksomheder samt private. Jeg forstår vigtigheden af et rent miljø, og betydningen heraf for dig.
             </p>
         </div>
-        <div class="font-sans row md:flex lg:flex px-4 justify-start text-sm pt-5 md:justify-center md:space-x-4 lg:px-0 lg:space-x-1 lg:space-y-0 lg:justify-start lg:px-40 lg:text-md lg:pt-5">
+        <div class="font-sans row md:flex lg:flex px-4 justify-start text-sm pt-5 md:space-x-4 lg:px-0 lg:space-x-1 lg:space-y-0 lg:justify-start lg:px-40 lg:text-md lg:pt-5">
             <div class="font-sans pb-4 md:px-0 md:pb-4 lg:pb-3">
                 <RouterLink to="privatecleaning"> 
                     <button class="bg-transparent hover:bg-white hover:text-gray dark:bg-transparent text-white dark:text-white border-2 border-white font-semibold py-2 px-8 md:py-2 md:px-4 md:py-1 md:px-8 lg:text-md lg:py-3 lg:px-8 rounded-full lg:text-md lg:tracking-wider">
@@ -42,15 +42,15 @@
 
 
 <!-- Værdisæt section -->
-<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 md:items-center md:pt-16 md:flex-col lg:flex-row lg:w-full lg:pt-20 lg:pb-16">
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center w-full p-8 md:items-center md:pt-16 md:flex-col lg:flex-row lg:w-full lg:pt-20 lg:pb-16">
     <div class="bg-lightgray p-6 md:p-6 md:w-3/5 lg:w-2/5 lg:px-12">
-        <p class="text-gray dark:text-gray tracking-wider text-sm pt-5 font-semibold pb-2 md:pt-1 lg:pt-1 lg:text-sm lg:tracking-wider">VÆRDISÆT</p>
-        <p class="text-black dark:text-black pt-0 text-xl mt-3 font-semibold md:mx-0 md:text-md lg:mx-0 lg:text-lg lg:font-semibold lg:pt-2">Gensidig tillid</p>
+        <p class="text-gray dark:text-gray tracking-wider text-sm pt-5 font-semibold pb-2 md:pt-1 lg:pt-0 lg:text-sm lg:tracking-wider lg:pt-1">VÆRDISÆT</p>
+        <p class="text-black dark:text-black pt-0 text-xl mt-3 font-semibold md:mx-0 md:text-md lg:mx-0 lg:text-lg lg:font-semibold lg:pt-1.5">Gensidig tillid</p>
         <p class="text-black dark:text-black text-base mt-2 md:text-sm md:mx-0 lg:mx-0 lg:text-base lg:mr-10 lg:pb-0">Det er vigtigt for mig, at vi skaber tillid til hinanden fra start, så vi kan indgå det bedste samarbejde med et stærkt fundament.</p>
         <p class="text-black dark:text-black pt-2 text-xl mt-3 font-semibold md:mx-0 md:text-md lg:mx-0 lg:text-lg lg:font-semibold lg:pt-2">Kundetilfredshed</p>
         <p class="text-black dark:text-black text-base mt-2 md:text-sm md:mx-0 lg:mx-0 lg:text-base lg:mr-10 lg:pb-0">Din tilfredshed med rengøringen, er af højeste prioritet for mig. Når du som kunde er glad for resultaterne, giver det en uvurderlig følelse af velvære.</p>
         <p class="text-black dark:text-black pt-2 text-xl mt-3 font-semibold md:mx-0 md:text-md lg:mx-0 lg:text-lg lg:font-semibold lg:pt-2">Tæt samarbejde</p>
-        <p class="text-black dark:text-black text-base mt-2 mb-5 md:text-sm md:mx-0 md:mb-0 lg:mx-0 lg:text-base lg:mr-10 lg:pb-0">Kommunikationen imellem os er altafgørende, for at der kan dannes et trygt og tæt samarbejde. Jeg prioriterer den tillidsfulde relation.</p>
+        <p class="text-black dark:text-black text-base mt-2 mb-5 md:text-sm md:mx-0 md:mb-0 lg:mx-0 lg:text-base lg:mr-10 lg:pb-3">Kommunikationen imellem os er altafgørende, for at der kan dannes et trygt og tæt samarbejde. Jeg prioriterer den tillidsfulde relation.</p>
     </div>
     <div class="md:w-3/5 lg:w-2/5">
         <img src="../assets/Paulas-rengøring-værdisæt.jpg" alt="Kvinde giver kunde håndtryk">
@@ -63,7 +63,7 @@
     <h2 class="font-sans text-2xl text-black pl-5 pr-10 pt-5 font-semibold md:pb-0 md:font-semibold md:text-3xl md:px-20 md:text-center lg:pt-0 lg:pb-5 lg:text-black lg:text-3xl lg:font-semibold lg:text-center">
         Går du i overvejelserne om at få rengøringshjælp ?
     </h2>
-    <h2 class="font-sans text-base text-black pl-5 pr-5 pt-5 font-normal md:px-10 md:pb-6 md:text-base md:font-normal md:text-center lg:text-black lg:pt-1 lg:pb-10 lg:px-40 lg:text-base lg:text-center">
+    <h2 class="font-sans text-base text-black pl-5 pr-5 pt-5 font-normal md:px-16 md:pb-6 md:text-base md:font-normal md:text-center lg:text-black lg:pt-1 lg:pb-10 lg:px-40 lg:text-base lg:text-center">
         Har du har en travl hverdag, er du ældre og har behov for ekstra hjælp til at udføre rengøringen, eller vil du blot prioritere din tid anderledes, så har jeg samlet nogle gode råd til dig i den indledende fase, som gerne skulle give dig det gode overblik inden valg af rengøringshjælp.
     </h2>
 </div>
