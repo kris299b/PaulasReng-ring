@@ -235,13 +235,12 @@ document.addEventListener("DOMContentLoaded", function() {
     dropdownContent.classList.toggle("hidden");
   }
 
-  // Function to hide the menuItems if the screen width is less than a specific size (e.g., 1024px for lg breakpoint)
-  function hideMenu() {
-    if (window.innerWidth < 768) {
-      menuItems.classList.add("hidden");
-    }
-    // Hide dropdown content
-    dropdownContent.classList.add("hidden");
+  // Function to hide the menu and reset the hamburger icon
+  function hideMenuAndResetIcon() {
+    console.log('Hiding menu and resetting icon'); // Debugging log
+    menuItems.classList.remove("show"); // Hide the menu
+    dropdownContent.classList.add("hidden"); // Hide the dropdown content
+    navbarToggleIcon.setAttribute("stroke", "white"); // Reset icon color if needed
   }
 
   // Initially set the logo to white
@@ -263,8 +262,13 @@ document.addEventListener("DOMContentLoaded", function() {
   // Add event listeners
   navbarToggle.addEventListener("click", toggleMenu);
   dropdownToggle.addEventListener("click", toggleDropdown);
+
+  // Add click event listener to each RouterLink to hide menu and reset icon
   allRouterLinks.forEach(function(link) {
-    link.addEventListener("click", hideMenu);
+    link.addEventListener("click", function() {
+      console.log('RouterLink clicked: hiding menu'); // Debugging log
+      hideMenuAndResetIcon();
+    });
   });
 
   // Handle scroll event
@@ -287,16 +291,17 @@ document.addEventListener("DOMContentLoaded", function() {
       });
     });
   });
-  
+
   // Close dropdown when clicking outside of it
   document.addEventListener("click", function(event) {
-    if (!event.target.closest(".dropdown")) {
+    if (!event.target.closest(".dropdown") && !event.target.closest("#dropdownToggle")) {
       dropdownContent.classList.add("hidden");
     }
   });
 });
 
 </script>
+
 
 <style>
 /* Add these styles to your CSS file */
@@ -411,8 +416,22 @@ document.addEventListener("DOMContentLoaded", function() {
 
 /* Hide menu items by default */
 .hidden {
-  display: none !important;
+  display: none;
 }
+
+.show {
+  display: block;
+}
+
+/* Ensure the dropdown content is hidden by default */
+.dropdown-content {
+  display: none;
+}
+
+.dropdown-content.show {
+  display: block;
+}
+
 
 
 
