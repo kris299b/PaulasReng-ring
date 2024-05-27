@@ -27,7 +27,7 @@
         <li>
           <RouterLink to="/guide" class="nav-link hover:font-semibold">VÆRD AT VIDE</RouterLink>
         </li>
-        <li class="dropdown">
+        <li class="dropdown lg:block">
           <button id="dropdownToggle" class="dropbtn flex justify-between"> 
             JEG TILBYDER
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 lg:ml-2 lg:mt-0">
@@ -42,6 +42,13 @@
               <RouterLink to="/commercialcleaning" class="block px-4 py-2 text-sm text-white">ERHVERVSRENGØRING</RouterLink>
             </li>
           </div>
+        </li>
+        <!-- Small screen links -->
+        <li class="inline-block lg:hidden">
+          <RouterLink to="/privatecleaning" class="nav-link hover:font-semibold">PRIVATRENGØRING</RouterLink>
+        </li>
+        <li class="inline-block lg:hidden">
+          <RouterLink to="/commercialcleaning" class="nav-link hover:font-semibold">ERHVERVSRENGØRING</RouterLink>
         </li>
         <li>
           <RouterLink to="/about" class="nav-link hover:font-semibold">OM FIRMAET</RouterLink>
@@ -301,15 +308,6 @@ document.addEventListener("DOMContentLoaded", function() {
   color: black;
 }
 
-.navbar.scrolled #navbar-logo {
-  color: #748ab2;
-}
-
-/* Base styles */
-#navbar.scrolled img {
-  color: #748ab2;
-}
-
 .hidden {
   display: none !important;
 }
@@ -340,10 +338,6 @@ document.addEventListener("DOMContentLoaded", function() {
   display: none; /* Initially hidden */
 }
 
-#dropdownContent a:hover {
-  background-color: #2d3748; /* Tailwind's darker shade for hover */
-}
-
 /* Show dropdown content when toggled */
 .dropdown .dropbtn:focus + #dropdownContent,
 .dropdown .dropbtn:active + #dropdownContent {
@@ -360,7 +354,7 @@ document.addEventListener("DOMContentLoaded", function() {
   display: inline-block; 
 }
 
-/* Dropdown button */
+/* Dropdown jeg tilbyder */
 .dropdown .dropbtn {
   font-size: 12px;
   border: none;
@@ -409,11 +403,6 @@ document.addEventListener("DOMContentLoaded", function() {
   z-index: 1;
 }
 
-/* Show the dropdown content */
-.dropdown-content.show {
-  display: block;
-}
-
 /* Show the dropdown content when toggled */
 .dropdown .dropbtn:focus + #dropdownMenu,
 .dropdown .dropbtn:active + #dropdownMenu {
@@ -424,7 +413,6 @@ document.addEventListener("DOMContentLoaded", function() {
 .hidden {
   display: none !important;
 }
-
 
 
 
@@ -460,73 +448,10 @@ document.addEventListener("DOMContentLoaded", function() {
     font-size: 14px;
   }
 
-  /* Navbar link 'jeg tilbyder' */
-  .dropdown .dropbtn {
-    color: #444444;
-    padding-left: 10px;
-  }
-
-  /* Show the dropdown content on small screens */
-  .dropdown-content.hidden {
-    display: none;
+  .dropdown {
+    display: none; /* Hides the dropdown on small screens */
   }
 }
-
-
-/* Medium screen */
-@media screen and (max-width: 1080px) {
-  /* Navbar white box */
-  .nav-links {
-    background-color: white;
-    height: 30vh; /* Adjusted height for medium screens */
-    padding: 20px 10px; 
-    border-radius: 5px; 
-  }
-
-  /* Navbar links */
-  #navbar a {
-    color: #444444;
-    padding: 5px;
-    padding-left: 10px;
-  }
-
-  /* Navbar link 'jeg tilbyder' */
-  .dropdown .dropbtn {
-    color: #444444;
-    padding-left: 20px;
-    font-size: 14px;
-  }
-
-    /* Navbar white box */
-    #menuItems {
-    background-color: white;
-    height: 70vh; /* Adjusted height for small screens */
-    padding: 20px 10px; 
-    border-radius: 5px; 
-  }
-
-  /* Show the dropdown content on small screens */
-  .dropdown-content.hidden {
-    display: none;
-  }
-
-    /* Ensure the hamburger menu icon container is always visible */
-    .inline-block.lg\:hidden {
-    display: block !important;
-  }
-
-  /* Hide menu items by default */
-  #menuItems {
-    display: none !important;
-  }
-
-  /* Show the menu items when the hamburger menu icon is clicked */
-  #menuItems.show {
-    display: block !important;
-  }
-}
-
-
 
 
 /* Media query to show menuItems on larger screens */
@@ -542,6 +467,35 @@ document.addEventListener("DOMContentLoaded", function() {
     background-color: transparent;
     border: none;
     box-shadow: none;
+  }
+
+   /* Ensure the hamburger menu icon container is always visible */
+   .inline-block.lg\:hidden {
+    display: block !important;
+  }
+
+    /* Show the menu items when the hamburger menu icon is clicked */
+    #menuItems.show {
+    display: block !important;
+  }
+
+   /* Navbar white box */
+   #menuItems {
+    background-color: white;
+    height: 70vh; /* Adjusted height for small screens */
+    padding: 20px 10px; 
+    border-radius: 5px; 
+  }
+
+   /* Navbar links */
+   #menuItems a {
+    color: #444444;
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  .dropdown {
+    display: none; /* Hides the dropdown on small screens */
   }
 }
 

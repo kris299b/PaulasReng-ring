@@ -100,7 +100,7 @@
                     </button>
                 </RouterLink> 
             </div>
-            <div class="md:pt-5 md:pb-5 lg:pt-0">
+            <div class="md:pt-5 md:pb-5 lg:pt-0 lg:pb-14">
                 <RouterLink to="commercialcleaning"> 
                     <button class="bg-blue dark:bg-blue hover:bg-darkblue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-2 md:px-3 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
                         Erhvervsrengøring
@@ -128,7 +128,7 @@
 </div>
 
 <div class="bg-whitelight:bg-white dark:bg-white flex justify-center">
-    <div class="grid grid-cols-1 z-0 pb-10 md:grid-cols-2 md:pt-5 md:space-x-10 lg:grid-cols-2 lg:space-x-12 lg:pb-20">
+    <div class="grid grid-cols-1 z-0 pb-10 md:grid-cols-2 md:pt-5 md:space-x-10 lg:grid-cols-2 lg:space-x-12 lg:pb-12">
         <div class="max-w-xs mx-auto mb-10 overflow-hidden shadow-lg bg-white dark:bg-white lg:p-10 lg:pb-0 relative">
             <img src="../assets/Shine-element.png" class="h-30 lg:h-44 pl-48 mt-56 absolute lg:pl-48 lg:mt-44">
                 <div class="absolute top-0 left-0 w-full h-32 bg-darkblue dark:bg-darkblue lg:top-3 lg:left-0 lg:w-full lg:h-40"></div>
