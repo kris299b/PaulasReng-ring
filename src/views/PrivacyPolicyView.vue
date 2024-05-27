@@ -79,7 +79,7 @@
             <p>Websitet ejes og publiceres af:</p>
         </div>
         <div class="text-darkgray text-sm px-5 pb-20 lg:text-md lg:px-28 lg:pt-1 lg:pb-20">
-            <p>Paulas Rengøring</p>
+            <p class="font-semibold">Paulas Rengøring</p>
         </div>
     </div>
 </template>

@@ -145,10 +145,8 @@
               <div>
                   <h2 class="font-sans mt-5 mb-6 text-xs font-semibold text-black uppercase dark:text-black lg:mt-0 lg:tracking-wider">Nyttige links</h2>
                   <ul class="text-xs text-gray-500 dark:text-darkgray font-medium lg:text-xs">
-                      <li class="mb-4">
-                        <RouterLink to="privacypolicy">
-                          <a class="hover:underline ">Privatlivs politik</a>
-                        </RouterLink> 
+                      <li class="mb-4 hover:underline">
+                        <RouterLink to="/privacypolicy">Privatlivs politik</RouterLink> 
                       </li>
                       <li>
                         <RouterLink to="contact">Kontakt
