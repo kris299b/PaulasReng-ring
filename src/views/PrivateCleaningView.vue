@@ -6,12 +6,12 @@
         <img id="top" class="min-w-full h-[50vh] md:h-[40vh] lg:h-[80vh] absolute object-cover" src="../assets/Privat-rengøring-hero.jpg" alt="Privat rengøring af hjem">
         <div class="overlay absolute top-0 left-0 w-full h-full bg-black dark:bg-black opacity-40"></div>
     </div>
-    <div class="image-content z-10 pt-28 md:pt-40 lg:pt-48 lg:px-40">
+    <div class="image-content z-10 pt-28 md:pt-40 md:px-10 lg:pt-48 lg:px-40">
         <div>
-            <p class="font-sans text-white text-left pl-5 dark:text-white px-4 text-sm md:text-lg md:text-center lg:text-lg lg:text-left lg:tracking-wider">
+            <p class="font-sans text-white text-left pl-5 dark:text-white px-4 text-sm md:text-lg md:text-left lg:text-lg lg:text-left lg:tracking-wider">
                 PAULAS RENGØRING | PRIVATRENGØRING
             </p>
-            <h2 class="font-sans text-white dark:text-white text-left font-semibold px-4 text-4xl md:text-5xl md:text-center lg:pb-2 lg:font-semibold lg:text-5xl lg:text-left">Privat rengøringshjælp for dig i dit hjem</h2>
+            <h2 class="font-sans text-white dark:text-white text-left font-semibold px-4 text-4xl md:text-5xl md:text-left lg:pb-2 lg:font-semibold lg:text-5xl lg:text-left">Privat rengøringshjælp for dig i dit hjem</h2>
         </div>
     </div>
 </section>
@@ -34,7 +34,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="black" class="w-6 h-6 lg:w-5 lg:h-5">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
                     </svg>
-                    <p class="text-xs text-black pt-1 pl-2 light:text-black dark:text-black lg:text-sm lg:pt-0 lg:pl-2 lg:tracking-wider">Lad os tage en uforpligtende snak</p>
+                    <p class="text-xs text-black font-semibold pt-1 pl-2 light:text-black dark:text-black lg:text-sm lg:pt-0 lg:pl-2 lg:tracking-wider">Lad os tage en uforpligtende snak</p>
                 </button>
             </RouterLink>
         </div>
@@ -126,7 +126,7 @@
 </div>
 
 <!-- Forløbet -->
-<div class="bg-white dark:bg-white text-black dark-text-black px-10 md:pb-4 pt-5 lg:pt-10 lg:text-center">
+<div class="bg-white dark:bg-white text-black dark-text-black px-8 md:pb-4 pt-5 lg:pt-10 lg:text-center">
     <h2 class="text-black text-3xl text-center font-semibold pb-4 pt-10 md:text-center md:pt-8 md:text-3xl lg:text-4xl lg:pr-10">Sådan foregår forløbet hos mig</h2>
     <p class="text-black text-base text-center font-semibold pb-5 md:text-sm md:text-center md:font-semibold lg:font-semibold lg:text-base lg:px-20">Når du bestiller rengøringshjælp hos mig, starter vi ud med en indledende samtale pr. telefon, og dernæst et formøde hvor vi sammen vil lægge en plan for den rengøringshjælpen.</p>
 </div>
