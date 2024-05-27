@@ -295,7 +295,7 @@
             </div>
         </div>
         <div class="h-67 bg-lighgray light:bg-lightgray dark:bg-lightgray md:w-1/2 md:h-72 lg:h-96 lg:w-1/3 lg:justify-start lg:text-left">
-            <h2 class="justify-start pr-40 font-sans text-2xl text-black pt-6 pb-3 font-semibold md:pb-5 md:pt-7 md:font-semibold md:text-left md:px-8 lg:pt-10 lg:pb-0 lg:text-black lg:text-2xl lg:font-semibold lg:pl-5">
+            <h2 class="justify-center font-sans text-2xl text-black pt-6 pb-3 font-semibold md:pb-5 md:pt-7 md:font-semibold md:text-left md:px-8 lg:pt-10 lg:pb-0 lg:text-black lg:text-2xl lg:font-semibold lg:pl-5">
                 Kontaktoplysninger 
             </h2>
             <p class="text-black px-8 text-left lg:text-black lg:text-sm lg:px-5 lg:pt-2"> Ønsker du at kontakte mig pr. telefon, over mail eller Facebook er du også meget velkommen til at gøre dette.</p>

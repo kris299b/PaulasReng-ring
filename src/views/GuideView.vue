@@ -6,7 +6,7 @@
         <img class="min-w-full h-[50vh] md:h-[40vh] lg:h-[80vh] absolute object-cover" src="../assets/Guide-hero.jpg" alt="Kvinde rengør overflade i køkken">
         <div class="overlay absolute top-0 left-0 w-full h-full bg-black dark:bg-black opacity-40"></div>
     </div>
-    <div class="image-content z-10 pt-40 md:pt-40 md:px-10 lg:pt-48 lg:px-40">
+    <div class="image-content z-10 pt-32 md:pt-40 md:px-10 lg:pt-48 lg:px-40">
         <div>
             <p class="font-sans text-white text-left pl-5 dark:text-white px-4 text-sm md:text-lg md:text-left lg:text-lg lg:text-left lg:tracking-wider">
                 PAULAS RENGØRING | VÆRD AT VIDE
