@@ -11,7 +11,7 @@
     </div>
     <div class="video-content z-10 pt-24 md:pt-20 lg:pt-32">
         <div class="lg:px-40">
-            <p class="font-sans text-white dark:text-white px-4 text-sm md:text-lg md:text-center lg:px-0 lg:text-lg lg:text-left lg:tracking-wider">
+            <p id="paulas_rengøring font-sans text-white dark:text-white px-4 text-sm md:text-lg md:text-center lg:px-0 lg:text-lg lg:text-left lg:tracking-wider">
                 PAULAS RENGØRING | PROFESSIONEL
             </p>
             <h2 class="font-sans text-white dark:text-white text-left font-semibold px-4 text-5xl md:text-5xl md:text-center lg:px-0 lg:pb-2 lg:font-semibold lg:text-5xl lg:text-left">Rengøring til private og erhverv</h2>
@@ -94,14 +94,16 @@
         <p class="text-black dark:text-black text-base pt-3 md:pt-1 lg:text-base lg:pt-2 lg:text-base">Sidenhen har jeg opbygget en loyal kundekreds i Ringkøbing-Skjern kommune, som jeg værner om og værdsætter. Personligt betyder gensidig tillid, og et trygt samarbejde meget i de kunderelationer jeg indgår i. Jeg tilbyder rengøring for private samt erhverv.</p>
         <div class="row pt-6 pb-4 md:flex lg:flex md:pt-3 lg:pt-6 lg:pb-0">
             <div class="py-3 md:pt-5 md:pr-3 lg:pt-0 lg:pr-3">
-                <RouterLink to="privatecleaning"> 
-                    <button class="bg-blue dark:bg-blue hover:bg-darkblue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-2 md:px-3 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
-                        Privatrengøring
-                    </button>
+                <RouterLink to="/privatecleaning">
+                    <a href="#top"> 
+                        <button class="bg-blue dark:bg-blue hover:bg-darkblue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-2 md:px-3 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
+                            Privatrengøring
+                        </button>
+                    </a>
                 </RouterLink> 
             </div>
             <div class="md:pt-5 md:pb-5 lg:pt-0 lg:pb-14">
-                <RouterLink to="commercialcleaning"> 
+                <RouterLink to="/commercialcleaning"> 
                     <button class="bg-blue dark:bg-blue hover:bg-darkblue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-2 md:px-3 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
                         Erhvervsrengøring
                     </button>
@@ -176,7 +178,7 @@
                         </p>
                     </div>
                     <div class="font-sans px-6 pt-0 pb-5 lg:text-center">
-                        <RouterLink to="privatecleaning"> 
+                        <RouterLink to="/privatecleaning"> 
                             <button class="bg-lightblue dark:bg-lightblue hover:lightblue hover:bg-darkblue hover:text-white text-base text-black dark:text-black font-semibold py-3 px-10 rounded-full lg:text-sm">
                                 Læs mere
                             </button>
@@ -232,7 +234,7 @@
                         </p>
                     </div>
                     <div class="font-sans px-6 pt-0 pb-5 lg:text-center">
-                        <RouterLink to="commercialcleaning"> 
+                        <RouterLink to="/commercialcleaning"> 
                             <button class="bg-lightblue dark:bg-lightblue hover:lightblue hover:bg-darkblue hover:text-white text-base text-black dark:text-black font-semibold py-3 px-10 rounded-full lg:text-sm">
                                 Læs mere
                             </button>

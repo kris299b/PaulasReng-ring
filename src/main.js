@@ -26,8 +26,12 @@ const router = createRouter({
         { path: '/privacypolicy', component: PrivacyPolicyView },
     ],
     scrollBehavior(to, from, savedPosition) {
-        return { x: 0, y: 0 }
-    }
+        if (to.hash) {
+          return { el: to.hash, behavior: 'smooth' };
+        } else {
+          return { left: 0, top: 0, behavior: 'smooth' };
+        }
+      },
 });
 
 router.beforeEach((to, from, next) => {
