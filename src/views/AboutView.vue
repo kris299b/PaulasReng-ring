@@ -5,12 +5,12 @@
         <img class="min-w-full h-[50vh] md:h-[40vh] lg:h-[80vh] absolute object-cover" src="../assets/Herobillede-om.jpg" alt="kvinde støvsuger">
         <div class="overlay absolute top-0 left-0 w-full h-full bg-black dark:bg-black opacity-40"></div>
     </div>
-    <div class="image-content z-10 pt-28 md:pt-40 lg:pt-48 lg:px-40">
+    <div class="image-content z-10 pt-28 px-10 md:pt-40 lg:pt-48 lg:px-40">
         <div>
-            <p class="font-sans text-white text-left pl-5 dark:text-white px-4 text-sm md:text-lg md:text-center lg:text-lg lg:text-left lg:tracking-wider">
+            <p class="font-sans text-white text-left pl-5 dark:text-white px-4 text-sm md:text-lg md:text-left lg:text-lg lg:text-left lg:tracking-wider">
                 PAULAS RENGØRING | OM FIRMAET
             </p>
-            <h2 class="font-sans text-white dark:text-white text-left font-semibold px-4 text-4xl md:text-5xl md:text-center lg:pb-2 lg:font-semibold lg:text-5xl lg:text-left">Dit Lokale rengøringsfirma</h2>
+            <h2 class="font-sans text-white dark:text-white text-left font-semibold px-4 text-4xl md:text-5xl md:text-left lg:pb-2 lg:font-semibold lg:text-5xl lg:text-left">Dit Lokale rengøringsfirma</h2>
         </div>
     </div>
 </section>
@@ -57,7 +57,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="white" class="w-6 h-6 lg:w-5 lg:h-5">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
                     </svg>
-                    <p class="text-xs text-white pt-1 pl-2 light:text-black dark:text-white lg:text-sm lg:pt-0 lg:pl-2 lg:tracking-wider">Lad os tage en uforpligtende snak</p>
+                    <p class="text-xs text-white font-semibold pt-1 pl-2 light:text-black dark:text-white lg:text-sm lg:pt-0 lg:pl-2 lg:tracking-wider">Lad os tage en uforpligtende snak</p>
                 </button>
             </RouterLink>
         </div>
@@ -70,14 +70,14 @@
     <h2 class="font-sans text-2xl text-black font-semibold md:pb-0 md:font-semibold md:text-3xl md:px-20 md:text-center lg:pt-5 lg:pb-5 lg:text-black lg:text-3xl lg:font-semibold lg:text-center">Dit lokale rengøringsfirma</h2>
 </div>
 
-<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 pt-0 md:items-center md:p-0 md:flex-col lg:flex-row lg:w-full lg:pt-3 lg:pb-20">
+<div class="bg-white dark:bg-white light:bg-white flex flex-col justify justify-center h-1/2 w-full p-8 pt-0 md:items-center md:p-0 md:pb-16 md:flex-col lg:flex-row lg:w-full lg:pt-3 lg:pb-20">
     <div class="bg-lightgray p-4 pt-0 md:p-6 md:pb-0 md:w-3/5 lg:w-2/5 lg:px-12">
         <p class="text-gray dark:gray text-sm tracking-wider pt-8 font-semibold pb-1 md:pt-2 lg:pt-10 lg:text-sm lg:tracking-wider">OM MIG</p>
         <h2 class="text-black dark:text-black text-2xl font-semibold pb-4 md:pb-3 lg:pb-6 lg:text-3xl">Jeg værdsætter tillid og tryghed, i det samarbejde jeg indgår med mine kunder </h2>
         <p class="text-black dark:text-black text-base font-semibold md:pb-2 lg:font-semibold lg:text-base">Jeg startede Paulas Rengøring i 2014, da det længe havde været et ønske at blive selvstændig.</p>
         <p class="text-black dark:text-black text-base pt-3 md:pt-1 lg:text-base lg:pt-2 lg:text-base">Sidenhen har jeg opbygget en loyal kundekreds i Ringkøbing-Skjern kommune, som jeg værner om og værdsætter. Personligt betyder gensidig tillid, og et trygt samarbejde meget i de kunderelationer jeg indgår i. Jeg tilbyder rengøring for private samt erhverv.</p>
-        <div class="row pt-6 pb-4 md:flex lg:flex md:pt-3 lg:pt-6 lg:pb-0">
-            <div class="py-3 md:pt-5 md:pr-3 lg:pt-0 lg:pr-3">
+        <div class="row pb-4 md:flex lg:flex md:pt-3 lg:pt-6 lg:pb-0">
+            <div class="py-6 md:pt-5 md:pr-3 lg:pt-0 lg:pr-3">
                 <RouterLink to="/privatecleaning">
                     <a href="#top"> 
                         <button class="bg-blue dark:bg-blue hover:bg-darkblue text-lightgray dark:text-lightgray font-semibold py-2 px-8 md:py-2 md:px-3 md:py-1 md:px-6 lg:text-md lg:py-2 lg:px-8 rounded-full lg:text-md">
