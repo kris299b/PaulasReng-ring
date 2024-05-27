@@ -1,6 +1,7 @@
 <template>
 
 <!--Hero-section-->
+<main>
 <section class="relative flex flex-col pt-5 h-[50vh] md:h-[40vh] lg:h-[80vh]">
     <div class="heroimage absolute top-0 left-0 w-full h-full overflow-hidden">
         <img class="min-w-full h-[50vh] md:h-[40vh] lg:h-[80vh] absolute object-cover" src="../assets/Guide-hero.jpg" alt="Kvinde rengør overflade i køkken">
@@ -20,7 +21,6 @@
 
 
 <!--Overvejelses-section-->
-<main>
 <div class="flex flex-col justify-center p-4 pt-20 h-72 md:p-10 md:h-60 lg:h-60 bg-white dark:bg-white light:bg-white lg:p-16 lg:pt-20">
     <h1 class="text-black ml-4 mr-4 pb-2 font-semibold text-2xl md:ml-8 md:mr-8 md:text-2xl md:pt-8 md:pb-2 md:text-2xl md:text-center lg:text-center lg:text-3xl">Overvejelser inden du træffer valg om rengøringshjælp</h1>
     <p class="text-black text-sm ml-4 mr-4 md:ml-8 md:mr-8 md:pb-10 md:text-base md:text-center lg:text-base lg:text-center lg:pt-3 lg:pb-0">Du går måske med overvejelserne om, at få hjælp til rengøringen af dit hjem. Du ved, at det vil give dig den ro og det overskud i hverdagen, som du mangler. Du vil derfor gerne ansætte en kyndig person til denne opgave, men hvordan får du mest ud af din rengøringshjælp? Jeg har samlet nogle råd til dig i den indledende fase, som sikre dig at du får mest mulig ud af din rengøringshjælp, og bliver mest mulig tilfreds.</p>
@@ -131,15 +131,11 @@
         <img src="../assets/Paulasrengøring-om-billede.jpg" alt="Kvinde står med rengøringsprodukt">
     </div>
 </div>
-
-
 </main>
 </template>
 
-<style>
-
-</style>
-
 <script setup>
-
 </script>
+
+<style>
+</style>

@@ -1,6 +1,7 @@
 <template>
 
-    <!-- Hero section -->
+<!-- Hero section -->
+<main>
     <section class="relative flex flex-col pt-5 h-[50vh] md:h-[40vh] lg:h-[80vh]">
         <div class="heroimage absolute top-0 left-0 w-full h-full overflow-hidden">
             <img class="min-w-full h-[50vh] md:h-[40vh] lg:h-[80vh] absolute object-cover" src="../assets/erhverv-billede-hero.jpg" alt="Rengøring for erhverv">
@@ -171,16 +172,16 @@
     </div>
 </div>
     
-    <!-- Kundeanmeldelser -->
-    <div class="bg-white light:bg-white dark:bg-white md:pt-8 lg:pt-0">
-        <div>
-            <h2 class="font-sans text-black text-2xl font-semibold dark:text-black pt-12 pb-10 text-center md:pt-8 lg:text-3xl lg:text-center lg:font-semibold lg:pt-0 lg:pb-12">
-                Det siger mine kunder 
-            </h2>
-        </div>
+<!-- Kundeanmeldelser -->
+<div class="bg-white light:bg-white dark:bg-white md:pt-8 lg:pt-0">
+    <div>
+        <h2 class="font-sans text-black text-2xl font-semibold dark:text-black pt-12 pb-10 text-center md:pt-8 lg:text-3xl lg:text-center lg:font-semibold lg:pt-0 lg:pb-12">
+            Det siger mine kunder 
+        </h2>
     </div>
+</div>
     
-    <div class="bg-white light:bg-white pb-20 dark:bg-white md:pb-20 lg:pb-20">
+<div class="bg-white light:bg-white pb-20 dark:bg-white md:pb-20 lg:pb-20">
     <div class="grid grid-cols-1 gap-y-10 md:px-5 md:gap-x-5 md:grid-cols-3 lg:grid-cols-3 lg:gap-20 lg:px-20 lg:pb-10">
         <div class="max-w-xs mx-auto overflow-hidden shadow-lg bg-white dark:bg-white">
             <div class="px-6 py-10 flex flex-col items-center">
@@ -216,17 +217,15 @@
             </div>
         </div>
     </div>
-    </div>
+</div>
+</main>
+</template>
+
+<script setup> 
+</script>
+
+<style>
+</style>
     
-    
-    </template>
-    
-    <style>
-    
-    </style>
-    
-    <script setup>
-    
-    </script>
     
     

@@ -1,6 +1,7 @@
 <template>
     
 <!-- Hero section -->
+<main>
 <section class="relative flex flex-col pt-5 h-[50vh] md:h-[40vh] lg:h-[80vh]">
     <div class="heroimage absolute top-0 left-0 w-full h-full overflow-hidden">
         <img class="min-w-full h-[50vh] md:h-[40vh] lg:h-[80vh] absolute object-cover" src="../assets/Kontakt-herobillede.jpg" alt="Skrivebord med computer">
@@ -179,6 +180,7 @@
         </div>
     </div>
 </section>
+</main>
 </template>
 
 
@@ -254,5 +256,4 @@ document.addEventListener('DOMContentLoaded', function() {
         font-weight: 600;
     }
 }
-
 </style>

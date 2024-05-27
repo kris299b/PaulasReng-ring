@@ -1,6 +1,7 @@
 <template>
 
 <!-- Hero section -->
+<main>
 <section class="relative flex flex-col pt-5 h-[50vh] md:h-[40vh] lg:h-[80vh]">
     <div class="heroimage absolute top-0 left-0 w-full h-full overflow-hidden">
         <img class="min-w-full h-[50vh] md:h-[40vh] lg:h-[80vh] absolute object-cover" src="../assets/Prisbillede-hero.jpg" alt="Kvinde rengør krukke med plante">
@@ -76,16 +77,11 @@
         <img src="../assets/Paulasrengøring-om-billede.jpg" alt="Kvinde står med rengøringsprodukt">
     </div>
 </div>
-
-
-
-    
+</main>
 </template>
 
-<style>
-
-</style>
-
-<script>
-
+<script setup>
 </script>
+
+<style>
+</style>

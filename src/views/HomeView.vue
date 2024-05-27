@@ -1,6 +1,7 @@
 <template>
 
 <!-- Hero section -->
+<main>
 <section class="relative h-screen flex flex-col pt-20 content-start md:h-[40vh] lg:h-[100vh] lg:pt-20">
     <div class="video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
         <video class="min-w-full min-h-full absolute object-cover" alt="Kvinde gør overflade rent"
@@ -385,7 +386,24 @@
         </div>
     </div>
 </div>
+</main>
 </template>
+
+<script>
+import CookieBanner from '../components/CookieBanner.vue'
+
+export default {
+  name: 'App',
+  components: {
+    CookieBanner
+  },
+  data: function() {
+    return {
+        showBanner: !(this.$posthog.has_opted_in_capturing() || this.$posthog.has_opted_out_capturing())
+    }
+  }
+}
+</script>
 
 <style>
 #mc-embedded-subscribe-form input[type=checkbox]{display: inline; width: auto;margin-right: 10px;}
@@ -434,22 +452,4 @@
         font-weight: 600;
     }
 }
-
 </style>
-
-
-<script>
-import CookieBanner from '../components/CookieBanner.vue'
-
-export default {
-  name: 'App',
-  components: {
-    CookieBanner
-  },
-  data: function() {
-    return {
-        showBanner: !(this.$posthog.has_opted_in_capturing() || this.$posthog.has_opted_out_capturing())
-    }
-  }
-}
-</script>
